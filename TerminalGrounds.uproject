@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.4",
+  "Category": "Games",
+  "Description": "Terminal Grounds UE5 Project",
+  "Plugins": [
+    {"Name": "GameplayAbilities", "Enabled": true},
+    {"Name": "GameplayTasks", "Enabled": true},
+    {"Name": "GameplayTags", "Enabled": true}
+  ],
+  "Modules": [
+    {"Name": "TGCore", "Type": "Runtime"},
+    {"Name": "TGNet", "Type": "Runtime"},
+    {"Name": "TGCombat", "Type": "Runtime"},
+    {"Name": "TGLoot", "Type": "Runtime"},
+    {"Name": "TGWorld", "Type": "Runtime"},
+    {"Name": "TGAI", "Type": "Runtime"},
+    {"Name": "TGMissions", "Type": "Runtime"},
+    {"Name": "TGBase", "Type": "Runtime"},
+    {"Name": "TGVehicles", "Type": "Runtime"},
+    {"Name": "TGUI", "Type": "Runtime"},
+    {"Name": "TGServer", "Type": "Runtime"}
+  ]
+}
