@@ -1,10 +1,10 @@
 # Terminal Grounds
 
-A fresh workspace for building a terminal-first application or toolkit. This repo is intentionally minimal so you can choose the tech stack (Python, Node.js, Rust, etc.) and grow from here.
+Terminal Grounds is an Unreal Engine 5.4 project: a session-based salvage/extraction game set after the Shattered Accord. Explore contested POIs, complete contracts, and extract what you can—alone or with a crew—while factions clash over technology from Human, Hybrid, and Alien origins.
 
 ## Status
 
-Work in progress. Initial workspace scaffolding committed.
+Work in progress. Active development across gameplay, art, and backend.
 
 ## Getting started
 
@@ -72,6 +72,42 @@ Open a PR. Small, focused changes are preferred.
   - Content/TG/ConceptArt/Biomes/
 
 Screenshot TODO: Insert overview images for each map family.
+
+## Story, World, and Narrative Overview
+
+### Elevator pitch
+
+- You’re a contract operative navigating the ruins of the Shattered Accord—where mega-factions, civic militias, archivists, and scavenger guilds compete to control remnants of dangerous technology. Every operation is a risk: get in, secure objectives, extract alive.
+
+### Setting snapshot
+
+- The Shattered Accord: A failed global compact fractured civil order into faction-ruled enclaves and ungoverned wastes.
+- Residual Threats: Experimental systems (“Harvesters” and other anomalous tech) destabilize regions, forcing evacuations and creating lucrative but deadly salvage zones.
+- Contested POIs: Power plants, archive vaults, convoy graveyards, and research nodes linked by precarious logistics and evac corridors.
+
+### Core fantasy and pillars
+
+- Salvage under pressure: Tight resource windows, extraction tension, and meaningful choices about what to carry out.
+- Faction identity: Seven major factions with distinct visuals, values, and contracts; reputation affects access and risk.
+- Technology tiers: Human → Hybrid → Alien with escalating capability and operational risk.
+- Persistent consequence: What you recover, lose, or broadcast changes your opportunities and reputation.
+
+### Core game loop (session)
+
+1) Briefing: Accept a contract and review intel (rumors, barks, posters) tied to the target POI.
+2) Insertion: Select loadout and approach—quiet infiltration or armored push.
+3) Objectives: Recover attachments, data, or artifacts; opportunistically salvage high-value finds.
+4) Extraction: Reach an evac corridor or call for pickup; prepare for ambush or environmental spikes.
+5) After-action: Resolve outcomes—faction standing, unlocks, repairs, and new rumors/briefings.
+
+### Narrative systems and content sources
+
+- Briefings and Rumors: Drive objectives and world feel (Data/Tables/Briefings.csv, Rumors.csv).
+- Barks and Posters: Environmental storytelling and faction tone (Data/Tables/Barks.csv, Posters.csv; Content/TG/Decals/Posters).
+- Faction Flavor and Lore Bibles: Canon and tonal guardrails (docs/Lore/*, docs/Art/*).
+- POIs: Named locations with micro-stories and encounter seeds (Data/Tables/POIs.csv, Content/TG/Maps/POI/).
+
+See docs/Lore/LORE_BIBLE.md and docs/Lore/Lore_Backbone.md for the deep-dive, plus docs/Art/ART_BIBLE.md for visual/narrative cohesion.
 
 ## Phase 4: Visual Identity & World Implementation
 
