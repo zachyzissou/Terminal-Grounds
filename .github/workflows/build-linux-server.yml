@@ -6,8 +6,25 @@ on:
     branches: [main]
   workflow_dispatch: {}
 jobs:
+  docs-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run docs gate
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 - <<'PY'
+          import sys, subprocess
+          from pathlib import Path
+          p = Path('Tools/docs_gate.py')
+          if not p.exists():
+              print('Docs gate script missing at Tools/docs_gate.py')
+              sys.exit(1)
+          subprocess.check_call([sys.executable, str(p)])
+          PY
   build:
     runs-on: [self-hosted, ue5]
+    needs: [docs-gate]
     steps:
       - uses: actions/checkout@v4
       - name: Generate Project Files
