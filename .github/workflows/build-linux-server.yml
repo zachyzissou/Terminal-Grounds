@@ -1,0 +1,46 @@
+name: Build Linux Server
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: [self-hosted, ue5]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Project Files
+        run: |
+          ./Engine/Build/BatchFiles/RunUAT.sh BuildGraph -target=MakeProjectFiles -script=Engine/Build/InstalledEngineBuild.xml
+      - name: Build Client and Server
+        run: |
+          # Cook and build LinuxServer
+          ./Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
+            -project=$(pwd)/TerminalGrounds.uproject \
+            -noP4 -server -serverplatform=Linux \
+            -cook -allmaps -stage -pak -archive \
+            -archivedirectory=$(pwd)/Artifacts/LinuxServer
+          # Cook and build Client
+          ./Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
+            -project=$(pwd)/TerminalGrounds.uproject \
+            -noP4 -client -clientplatform=Linux \
+            -cook -allmaps -stage -pak -archive \
+            -archivedirectory=$(pwd)/Artifacts/LinuxClient
+      - name: Run Gauntlet Smoke Tests
+        run: |
+          # Placeholder for Gauntlet tests
+          echo "Gauntlet smoke tests: join/fire/hitreg/extract/vehicle/mission"
+          # ./Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
+          #   -project=$(pwd)/TerminalGrounds.uproject \
+          #   -gauntlet -platform=Linux
+      - name: Collect Performance Metrics
+        run: |
+          # Placeholder for performance metrics collection
+          echo "Collecting frame ms, draw calls, Niagara counts"
+          # Performance gate implementation TBD
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: TerminalGrounds-Linux-Builds
+          path: |
+            Artifacts/LinuxServer/**
+            Artifacts/LinuxClient/**
