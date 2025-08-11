@@ -310,3 +310,11 @@ Terminal Grounds UI prioritizes **tactical clarity**, **diegetic integration**, 
 - **Accessibility Testing**: Validate with accessibility tools and users
 - **Performance Testing**: Measure UI rendering performance impact
 - **Localization Testing**: Verify layout with translated text
+
+## UE asset path index (UI)
+
+- HUD Widgets: `Content/TG/UI/HUD/`
+- Menus: `Content/TG/UI/Menus/`
+- Icons: `Content/TG/UI/Icons/`
+- Fonts: `Content/TG/UI/Fonts/`
+- Materials: `Content/TG/UI/Materials/`

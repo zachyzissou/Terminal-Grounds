@@ -344,3 +344,12 @@ Each asset requires:
 - **Technical Spec**: Polygon count, texture resolution, memory usage
 - **Implementation Notes**: Special shaders, effects, or performance considerations
 - **Quality Screenshots**: In-engine renders at multiple quality levels
+
+## UE asset path index (Art)
+
+- Materials (Human): `Content/TG/Materials/Human/`
+- Materials (Hybrid): `Content/TG/Materials/Hybrid/`
+- Materials (Alien): `Content/TG/Materials/Alien/`
+- LookDev maps: `Content/TG/Maps/LookDev/`
+- Environment: `Content/TG/Environment/`
+- Concept Art: `Content/TG/ConceptArt/`
