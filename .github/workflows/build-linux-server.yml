@@ -31,14 +31,10 @@ jobs:
         run: |
           # Placeholder for Gauntlet tests
           echo "Gauntlet smoke tests: join/fire/hitreg/extract/vehicle/mission"
-          # ./Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
-          #   -project=$(pwd)/TerminalGrounds.uproject \
-          #   -gauntlet -platform=Linux
       - name: Collect Performance Metrics
         run: |
           # Placeholder for performance metrics collection
           echo "Collecting frame ms, draw calls, Niagara counts"
-          # Performance gate implementation TBD
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
