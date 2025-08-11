@@ -30,3 +30,16 @@ Open a PR. Small, focused changes are preferred.
 ## License
 
 TBD by the repository owner.
+
+---
+
+## UE5 Project (Vertical Slice)
+
+This repository now hosts the Unreal Engine 5 project for the Terminal Grounds vertical slice.
+
+- Engine: UE 5.4+
+- Project: `TerminalGrounds.uproject`
+- Modules: TGCore, TGNet, TGCombat, TGLoot, TGWorld, TGAI, TGMissions, TGBase, TGVehicles, TGUI, TGServer
+- Plugins: TGAttachments, TGModKit (project plugins)
+
+See DESIGN_OVERVIEW.md, PROGRESS.md, HOWTO-BUILD.md, and HOWTO-HOST.md for details.

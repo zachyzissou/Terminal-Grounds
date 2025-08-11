@@ -36,3 +36,24 @@ Thumbs.db
 
 # Misc
 *.swp
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.ipch
+*.xcodeproj
+*.xcworkspace
+*.xcuserdatad/
+Build/**/Linux/*
+Build/**/Windows/*
+Build/**/Mac/*
+Content/**/Developers/**
