@@ -2,6 +2,8 @@
 
 Terminal Grounds is an Unreal Engine 5.4 project: a session-based salvage/extraction game set after the Shattered Accord. Explore contested POIs, complete contracts, and extract what you can—alone or with a crew—while factions clash over technology from Human, Hybrid, and Alien origins.
 
+"The siren on the evac corridor cuts through rust-wind. You shoulder a crate of Harvester cells; your radio crackles—Wardens closing the lane. Two turns to reach the rally point. You either drop the weight, or drop the dream of leaving this zone alive."
+
 ## Status
 
 Work in progress. Active development across gameplay, art, and backend.
@@ -81,8 +83,9 @@ Screenshot TODO: Insert overview images for each map family.
 
 ### Setting snapshot
 
-- The Shattered Accord: A failed global compact fractured civil order into faction-ruled enclaves and ungoverned wastes.
-- Residual Threats: Experimental systems (“Harvesters” and other anomalous tech) destabilize regions, forcing evacuations and creating lucrative but deadly salvage zones.
+- Year 2161: Six months after the collapse of the Global Reconstruction Accord. City-cores are fortified; the in-betweens are IEZs and wastelands.
+- The Shattered Accord: A failed compact fractured civil order into faction enclaves and ungoverned wastes.
+- Residual threats: Harvester wrecks, EMP cascades, drone swarms, and anomalies make—and unmake—the front lines.
 - Contested POIs: Power plants, archive vaults, convoy graveyards, and research nodes linked by precarious logistics and evac corridors.
 
 ### Core fantasy and pillars
@@ -108,6 +111,27 @@ Screenshot TODO: Insert overview images for each map family.
 - POIs: Named locations with micro-stories and encounter seeds (Data/Tables/POIs.csv, Content/TG/Maps/POI/).
 
 See docs/Lore/LORE_BIBLE.md and docs/Lore/Lore_Backbone.md for the deep-dive, plus docs/Art/ART_BIBLE.md for visual/narrative cohesion.
+
+### Factions at a glance
+
+- Directorate — Order from Chaos. Disciplined, reliable Human-tier kit; Sky Bastion and IEZ north.
+- Vultures Union — From Scrap, Strength. Salvage cartel with hybrid jury-rig; Crimson Docks and convoy ops.
+- Free 77 — Contract Complete. Mission-focused merc confederacy; mobile contracts and mixed tech.
+- Corporate Combine — Through Technology, Tomorrow. Prototype-heavy research faction in Tech Wastes.
+- Nomad Clans — The Road Endures. Armored convoys and logistics networks; trade routes are lifelines.
+- Vaulted Archivists — Knowledge Preserves. Alien-tech research and EMP/stealth systems; the Black Vault.
+- Civic Wardens — We Stand Together. Civilian safe zones, fortifications, and evacuation corridors.
+
+### Signature events
+
+- Meteor Salvage: New orbital debris creates scramble operations with high-value wrecks.
+- Drone Swarm: Malfunctioning alien systems spill drones across territories—dangerous but profitable.
+- Convoy War: Major supply convoys collide at crossroads, escalating into vehicle battles.
+- Tech Vault Siege: Multi-faction pushes against fortified caches of Harvester tech; days-long sieges.
+
+### Tone
+
+Grounded military desperation + scavenger economy + cosmic dread. Cyberpunk is seasoning, not the meal.
 
 ## Phase 4: Visual Identity & World Implementation
 
