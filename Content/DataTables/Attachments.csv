@@ -1,4 +1,4 @@
-Id,Slot,Tier,RecoilMul,ADS_ms_Add,MoveSpeedMul,Vel_Add,HeatMul,ChargeTimeDelta,IRVisibility,ConceptRef,AllowedFamilies
+Id,Slot,Tier,RecoilMul,ADS_ms_Add,MoveSpeedMul,Vel_Add,HeatMul,ChargeTimeDelta,VisibilityIR,ConceptRef,AllowedFamilies
 compensator_m1,MUZZLE,Human,0.85,20,0.99,-30,1.0,0,0.9,Concepts/Weapons/comp_m1.png,"AR;SMG"
 barrel_long,BARREL,Human,0.9,25,0.98,120,1.0,0,1.0,Concepts/Weapons/barrel_long.png,"AR;DMR"
 optic_red,OPTIC,Human,1.0,10,1.0,0,1.0,0,1.0,Concepts/Weapons/optic_red.png,"AR;SMG;DMR"
