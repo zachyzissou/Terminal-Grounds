@@ -1,0 +1,25 @@
+Id,Region,Text,Credibility
+rumor_iez_001,IEZ,"Salvager swears he saw lights moving inside a Monolith wreck. Lights in patterns, like they were trying to communicate.",0.3
+rumor_iez_002,IEZ,"Someone's been buying up all the EMP shielding in the outer districts. Word is they're planning to go deep into the cascade zone.",0.7
+rumor_tech_001,TechWastes,"Automated factory in Sector 9 started producing components nobody's seen before. Combine's trying to keep it quiet.",0.6
+rumor_tech_002,TechWastes,"Three different scavenger teams have disappeared near the old processing plant. Something's hunting in there.",0.5
+rumor_vault_001,BlackVault,"The Archivists aren't the original owners of the Black Vault. They just found it first after the cascade.",0.4
+rumor_vault_002,BlackVault,"Signal emanating from the vault's depths matches pre-cascade radio astronomy data. It's older than the Harvesters.",0.2
+rumor_docks_001,CrimsonDocks,"Vultures Union found intact Harvester power cores, but they're not selling. Building something big down at the docks.",0.8
+rumor_docks_002,CrimsonDocks,"Ship captain claims he saw the ocean glowing green near the deeper wharves. Says it hurt to look at.",0.3
+rumor_metro_001,Metro,"Tunnel collapse in Section C wasn't an accident. Wardens are covering up something they found down there.",0.5
+rumor_metro_002,Metro,"New graffiti appearing overnight in sealed tunnels. Same symbols found at Harvester sites.",0.4
+rumor_bastion_001,SkyBastion,"Directorate's been stockpiling medical supplies and radiation meds. Planning something dangerous.",0.6
+rumor_bastion_002,SkyBastion,"Guard heard command discussing 'Project Lighthouse' - something about signals to space.",0.3
+rumor_general_001,General,"Pre-cascade governments knew the Harvesters were coming. All the evacuation routes were planned in advance.",0.2
+rumor_general_002,General,"Hybrid technology isn't reverse-engineered. Harvesters designed it specifically for humans to find.",0.1
+rumor_general_003,General,"There's a thirteenth faction operating in the shadows. No one knows their agenda.",0.3
+rumor_general_004,General,"The cascade event wasn't an accident. Someone triggered it deliberately.",0.2
+rumor_personal_001,General,"Augmented mercs from the early days are starting to lose their minds. The alien tech is eating their brains.",0.7
+rumor_personal_002,General,"Trader found a working Harvester communication device. Started receiving messages in dead languages.",0.2
+rumor_economy_001,General,"Black market lottery for Alien tech is rigged. Archivists keep the good stuff for themselves.",0.8
+rumor_economy_002,General,"Someone's been counterfeiting credit chips with Harvester technology. Economy could collapse.",0.4
+rumor_conflict_001,General,"Free 77 took a contract to eliminate faction leaders. Nobody knows who's paying.",0.3
+rumor_conflict_002,General,"Major convoy war coming. All the big players are positioning forces.",0.9
+rumor_technology_001,General,"New Hybrid weapons are showing up with safeguards nobody programmed. They're learning.",0.4
+rumor_technology_002,General,"Combine found a way to synthesize Harvester alloys. They're going to corner the market.",0.5

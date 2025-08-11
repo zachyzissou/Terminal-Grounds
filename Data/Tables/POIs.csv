@@ -1,0 +1,14 @@
+Id,Type,OwnerFaction,HasIntel,ResourceBias,Tags,ConceptRef
+refinery_a,Industrial,Directorate,true,Fuel,industrial:true,Concepts/POIs/refinery_a.png
+salvage_yard,VehYard,Vultures,false,Metal,vehicle_spawn:true,Concepts/POIs/salvage_yard.png
+metro_maint_a,Dungeon,Neutral,true,Electronics,underground:true,Concepts/POIs/metro_maint_a.png
+meteor_site,Salvage,Neutral,true,AlienOre,"hazard:radiation;event:meteor",Concepts/POIs/meteor_site.png
+sky_bastion_pad,Landing,Directorate,true,Military:0.8;Fuel:0.2,Strategic;Landing,Concepts/POIs/sky_bastion_pad.png
+vault_blast_door,Vault,Archivists,true,Alien:0.7;Hybrid:0.3,Sealed;Dangerous,Concepts/POIs/vault_blast_door.png
+crimson_docks_drydock,Industrial,Vultures,false,Vehicle:0.6;Parts:0.4,Coastal;Repair,Concepts/POIs/drydock.png
+tech_wastes_excavator,Mining,Combine,true,Hybrid:0.5;Human:0.3;Rare:0.2,Automated;Industrial,Concepts/POIs/excavator.png
+drone_hive_core,Hive,Archivists,true,AI:0.6;Alien:0.4,Automated;Defended,Concepts/POIs/drone_hive.png
+metro_blackline,Transport,Wardens,false,Civilian:0.8;Medical:0.2,Underground;Safe,Concepts/POIs/metro_blackline.png
+drone_hive,Facility,Neutral,false,Electronics,"spawn:drone;event:swarm",Concepts/POIs/drone_hive.png
+vault_perimeter,Stronghold,Archivists,true,Energy,"event:techvault;shielded:true",Concepts/POIs/vault_perimeter.png
+combine_pad,Helipad,Combine,true,Fuel,"spawn:helo;guarded:true",Concepts/POIs/combine_pad.png

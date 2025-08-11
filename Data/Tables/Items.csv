@@ -1,0 +1,12 @@
+Id,Type,Tier,Stack,Weight,EffectRef,ConceptRef
+scrap_metal,Resource,Civilian,100,0.2,,Concepts/Items/scrap_metal.png
+chem_pack,Resource,Service,50,0.3,,Concepts/Items/chem_pack.png
+plate_armor,Armor,MilSpec,3,2.5,,Concepts/Items/plate_armor.png
+augment_reflex,Augment,Prototype,1,0.3,GE_ReflexSplice,Concepts/Gear/augment_reflex.png
+augment_ocular,Augment,Prototype,1,0.2,GE_OcularSuite,Concepts/Gear/augment_ocular.png
+augment_subdermal,Augment,Prototype,1,0.8,GE_SubdermalPlating,Concepts/Gear/augment_subdermal.png
+augment_neural,Augment,Prototype,1,0.4,GE_NeuralSlicer,Concepts/Gear/augment_neural.png
+artifact_alien_cell,Artifact,Alien,5,0.6,GE_AlienCellRisk,Concepts/Artifacts/alien_cell.png
+fuel_canister,Resource,Industrial,20,1.2,,Concepts/Items/fuel_canister.png
+electronics,Resource,TechSalvage,10,0.4,,Concepts/Items/electronics.png
+alien_alloy,Resource,Alien,5,0.8,,Concepts/Items/alien_alloy.png

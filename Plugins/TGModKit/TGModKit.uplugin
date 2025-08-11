@@ -1,12 +1,3 @@
-{
-  "FileVersion": 3,
-  "Version": 1,
-  "VersionName": "0.1.0",
-  "FriendlyName": "TG Mod Kit",
-  "Description": "Hot-load content packs for Terminal Grounds.",
-  "Category": "Tools",
-  "EnabledByDefault": false,
-  "Modules": [
-    { "Name": "TGModKit", "Type": "Editor", "LoadingPhase": "Default" }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1ea37f36390e0f9912781bafd7359ba79b9539b01b3e9069a097d973aa77d05
+size 306
