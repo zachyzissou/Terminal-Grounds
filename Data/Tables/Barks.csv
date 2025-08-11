@@ -1,1 +1,22 @@
 Id,Faction,Context,Text,Weight
+contact_directorate_001,Directorate,Combat,"Hold position! We maintain discipline when others run!",1.0
+contact_directorate_002,Directorate,Victory,"Order restored. Secure the perimeter and count our losses.",1.0
+contact_directorate_003,Directorate,Retreat,"Fall back to secondary positions! Maintain formation!",0.8
+contact_vultures_001,Vultures,Salvage,"Look at all this beautiful scrap! My eyes are tearing up.",1.2
+contact_vultures_002,Vultures,Combat,"Jury-rigged doesn't mean junk! Fire everything!",1.0
+contact_vultures_003,Vultures,Trading,"One person's wreck is another's fortune, friend.",1.0
+contact_free77_001,Free77,Contract,"Contract parameters updated. Adjusting tactics accordingly.",1.0
+contact_free77_002,Free77,Combat,"Professional service means professional results.",1.0
+contact_free77_003,Free77,Payment,"Payment confirmed. Contract complete.",0.8
+contact_combine_001,Combine,Technology,"These readings are impossible... and beautiful.",1.0
+contact_combine_002,Combine,Combat,"Superior technology will prevail over primitive tactics!",1.0
+contact_combine_003,Combine,Research,"Every sample brings us closer to understanding their true purpose.",1.2
+contact_nomads_001,Nomads,Convoy,"The road endures, even when we don't.",1.0
+contact_nomads_002,Nomads,Trading,"Hauling cargo across the wastes since the cascade. What do you need?",1.0
+contact_nomads_003,Nomads,Combat,"You picked the wrong convoy to mess with!",1.0
+contact_archivists_001,Archivists,Knowledge,"The Harvesters left us a library. We're still learning to read.",1.2
+contact_archivists_002,Archivists,Technology,"EMP charged and ready. They won't see us coming.",1.0
+contact_archivists_003,Archivists,Research,"Every artifact tells a story. This one speaks of war.",1.0
+contact_wardens_001,Wardens,Protection,"Civilians under our protection. Stand down or face consequences.",1.2
+contact_wardens_002,Wardens,Community,"We stand together, or we fall apart.",1.0
+contact_wardens_003,Wardens,Mediation,"There's enough salvage for everyone if we're smart about it.",0.8

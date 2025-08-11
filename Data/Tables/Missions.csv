@@ -5,3 +5,7 @@ sabotage_power_a,Sabotage,"refinery_a",900,900,"power_nodes>=1","DroneSwarm",Con
 escort_prototype,Escort,"road_net;checkpoint;helipad",1200,1200,"needs_vehicle:true;faction_owner:any","ConvoyWar",Concepts/Missions/escort_proto.png
 sabotage_grid,Sabotage,"power_sub;metro_maint;factory",900,900,"power_nodes>=2","DroneSwarm",Concepts/Missions/sabotage_grid.png
 artifact_recovery,Recovery,"tech_wastes;vault_perimeter;meteor_site",1500,1500,"alien_cache:true","TechVault",Concepts/Missions/artifact_recovery.png
+twin_convoys,Convoy,Highway_A7;Highway_B3,1500,3000,Vehicle:double;Count:4-8,ConvoyWar:extreme,Concepts/Missions/twin_convoys.png
+silent_vault,Stealth,vault_blast_door,1800,4800,Stealth:required;Count:1-3,TechVault:medium,Concepts/Missions/silent_vault.png
+grid_blackout,Sabotage,refinery_a;tech_wastes_excavator,900,2100,EMP:required;Count:2-4,GridFailure:high,Concepts/Missions/grid_blackout.png
+artifact_spoof,Theft,archive_bunker_12,2200,3600,Intel:required;Count:2-3,None:none,Concepts/Missions/artifact_spoof.png
