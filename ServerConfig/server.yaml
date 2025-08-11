@@ -1,0 +1,15 @@
+server:
+  name: "IEZ Test Shard"
+  maxPlayers: 16
+  pvp: false
+  vehicles: true
+  raidWindow: "18:00-22:00"
+  wipeCadenceDays: 14
+  eventWeights:
+    convoy: 1.0
+    blacksite: 0.6
+    offensive: 0.8
+    emiStorm: 0.5
+  extraction:
+    timerSec: 25
+    insuranceEnabled: true

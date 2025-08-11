@@ -7,5 +7,6 @@ Requirements: Unreal Engine 5.4+, Visual Studio 2022 (Windows) or Xcode (macOS),
 3) To build Server: build the `TerminalGroundsServer` target (Linux recommended for hosting).
 
 Notes:
+
 - If using Linux Server from Windows, build with a machine/runner that has UE for Linux installed.
 - See HOWTO-HOST.md for Docker runtime.
