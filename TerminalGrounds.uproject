@@ -1,26 +1,3 @@
-{
-  "FileVersion": 3,
-  "EngineAssociation": "5.4",
-  "Category": "Games",
-  "Description": "Terminal Grounds UE5 Project",
-  "Plugins": [
-    {"Name": "GameplayAbilities", "Enabled": true},
-    {"Name": "GameplayTasks", "Enabled": true},
-    {"Name": "GameplayTags", "Enabled": true},
-    {"Name": "TGAttachments", "Enabled": true},
-    {"Name": "TGModKit", "Enabled": true}
-  ],
-  "Modules": [
-    {"Name": "TGCore", "Type": "Runtime"},
-    {"Name": "TGNet", "Type": "Runtime"},
-    {"Name": "TGCombat", "Type": "Runtime"},
-    {"Name": "TGLoot", "Type": "Runtime"},
-    {"Name": "TGWorld", "Type": "Runtime"},
-    {"Name": "TGAI", "Type": "Runtime"},
-    {"Name": "TGMissions", "Type": "Runtime"},
-    {"Name": "TGBase", "Type": "Runtime"},
-    {"Name": "TGVehicles", "Type": "Runtime"},
-    {"Name": "TGUI", "Type": "Runtime"},
-    {"Name": "TGServer", "Type": "Runtime"}
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de47f4c5fc5a79d5980be14a3663818951028102c274df82fd98fa2c8b19c7c8
+size 882

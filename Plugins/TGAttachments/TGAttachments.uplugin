@@ -1,12 +1,3 @@
-{
-  "FileVersion": 3,
-  "Version": 1,
-  "VersionName": "0.1.0",
-  "FriendlyName": "TG Attachments",
-  "Description": "Data-driven weapon attachment system.",
-  "Category": "Gameplay",
-  "EnabledByDefault": false,
-  "Modules": [
-    { "Name": "TGAttachments", "Type": "Runtime", "LoadingPhase": "Default" }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6aeab1b57ac9338c248dfd728fbb8d6af7d364703e393ba5ff2ba8146620051f
+size 312
