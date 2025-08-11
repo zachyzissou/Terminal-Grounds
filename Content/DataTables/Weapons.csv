@@ -1,4 +1,4 @@
-Id,Tier,Family,Name,BaseDamage,FireRate,RPM,MaxRange,Hitscan,ProjectileSpeed,RecoilX,RecoilY,MagSize,ADS_ms,Reload_ms,PenClass,HeatCap,HeatPerShot,EMPVulnerability,WeaponConceptRef,FactionBias
+Id,Tier,Family,Name,BaseDamage,FireRate,RPM,MaxRange,Hitscan,ProjectileSpeed,RecoilX,RecoilY,MagSize,ADS_ms,Reload_ms,PenClass,HeatCap,HeatPerShot,EMPVulnerability,ConceptRef,FactionBias
 ar_mk1,Human,AR,"MK1 Service AR",28,0.09,666,18000,true,0,0.18,0.32,30,220,240,2,0,0,0,Concepts/Weapons/ar_mk1.png,Directorate
 ar_mk2,Human,AR,"MK2 Service AR",28,0.09,666,18000,true,0,0.18,0.32,30,220,240,2,0,0,0,Concepts/Weapons/ar_mk2.png,Directorate
 smg_v9,Human,SMG,"Kestrel SMG",22,0.07,857,10000,true,0,0.14,0.26,40,190,210,1,0,0,0,Concepts/Weapons/kestrel_smg.png,Free77
