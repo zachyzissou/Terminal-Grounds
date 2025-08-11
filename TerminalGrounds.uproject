@@ -6,7 +6,9 @@
   "Plugins": [
     {"Name": "GameplayAbilities", "Enabled": true},
     {"Name": "GameplayTasks", "Enabled": true},
-    {"Name": "GameplayTags", "Enabled": true}
+    {"Name": "GameplayTags", "Enabled": true},
+    {"Name": "TGAttachments", "Enabled": true},
+    {"Name": "TGModKit", "Enabled": true}
   ],
   "Modules": [
     {"Name": "TGCore", "Type": "Runtime"},
