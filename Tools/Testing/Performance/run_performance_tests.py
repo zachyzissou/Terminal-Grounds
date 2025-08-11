@@ -221,17 +221,25 @@ class PerformanceTestRunner:
             'latency_ms': latency_ms
         }
     
-    def simulate_shot(self, weapon_tier):
-        """Simulate a shot with perfect aim"""
-        # This would integrate with the actual weapon system
-        # Placeholder that simulates different tier behaviors
-        if weapon_tier == 'Human':
-            return {'hit': True, 'damage': 42}
-        elif weapon_tier == 'Hybrid':
-            return {'hit': True, 'damage': 55}  # Higher damage but heat buildup
-        elif weapon_tier == 'Alien':
-            return {'hit': True, 'damage': 78}  # Highest damage but rare
-            
+    def simulate_shot(self, weapon_tier, latency_ms):
+        """Simulate a shot with perfect aim, factoring in latency and weapon tier"""
+        # Simulate base hit probability by weapon tier
+        base_hit_prob = {
+            'Human': 0.98,
+            'Hybrid': 0.96,
+            'Alien': 0.94
+        }.get(weapon_tier, 0.95)
+        # Simulate latency effect: for every 60ms over 0, reduce hit chance by 1%
+        latency_penalty = max(0, (latency_ms // 60) * 0.01)
+        hit_prob = max(0.0, base_hit_prob - latency_penalty)
+        hit = random.random() < hit_prob
+        # Assign damage as before
+        damage_by_tier = {
+            'Human': 42,
+            'Hybrid': 55,
+            'Alien': 78
+        }
+        return {'hit': hit, 'damage': damage_by_tier.get(weapon_tier, 0)}
     def set_network_simulation(self, latency_ms, packet_loss_percent):
         """Configure network simulation parameters"""
         # This would use UE5's network simulation commands
