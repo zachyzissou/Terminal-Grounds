@@ -84,17 +84,53 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 - **Wear Characteristics**: Predictable weathering, contact wear, corrosion
 - **Detail Elements**: Rivets, welds, threaded fasteners, data plates
 
+#### PBR Specifications
+- **Albedo Range**: 0.1 - 0.7 (darker military finishes to bright markings)
+- **Metallic Values**: 
+  - Steel: 1.0 (pure metallic)
+  - Aluminum: 1.0 (pure metallic)  
+  - Polymer: 0.0 (non-metallic)
+- **Roughness Range**: 0.2 - 0.8
+  - New equipment: 0.2 - 0.4
+  - Field wear: 0.4 - 0.6
+  - Heavy weathering: 0.6 - 0.8
+- **Normal Intensity**: 0.5 - 1.0 (moderate to high surface detail)
+
 ### Hybrid Technology Materials
 - **Base Materials**: Alien alloys, energy-conducting ceramics, adaptive polymers
 - **Surface Treatments**: Energy etching, thermal conditioning, field hardening
 - **Wear Characteristics**: Heat stress patterns, energy burn marks, material fatigue
 - **Detail Elements**: Energy conduits, heat exchangers, field generators
 
+#### PBR Specifications
+- **Albedo Range**: 0.05 - 0.9 (dark alien metals to bright energy conduits)
+- **Metallic Values**:
+  - Alien Alloys: 0.8 - 1.0 (mostly metallic with some exotic properties)
+  - Energy Ceramics: 0.1 - 0.3 (semi-metallic with energy properties)
+  - Adaptive Polymers: 0.0 - 0.2 (non-metallic with special properties)
+- **Roughness Range**: 0.1 - 0.9
+  - Smooth alien surfaces: 0.1 - 0.3
+  - Energy-etched surfaces: 0.3 - 0.6
+  - Heat-damaged areas: 0.6 - 0.9
+- **Normal Intensity**: 0.3 - 1.5 (subtle alien surfaces to heavy energy damage)
+- **Emissive Range**: 0.0 - 2.0 (inactive to high-energy systems)
+
 ### Alien Technology Materials
 - **Base Materials**: Metamaterial composites, energy-matter constructs, living metal
 - **Surface Treatments**: Quantum surface states, phase-locked structures
 - **Wear Characteristics**: Reality distortions, phase shifts, temporal wear
 - **Detail Elements**: Impossible joints, flowing surfaces, self-repair systems
+
+#### PBR Specifications
+- **Albedo Range**: 0.0 - 1.0 (complete absorption to perfect reflection)
+- **Metallic Values**: 0.0 - 1.0 (variable based on quantum state)
+- **Roughness Range**: 0.0 - 1.0 (perfect smoothness to chaotic surfaces)
+- **Normal Intensity**: 0.0 - 2.0 (flat impossible surfaces to reality distortions)
+- **Emissive Range**: 0.0 - 5.0 (dormant to reality-bending energy levels)
+- **Special Properties**:
+  - Phase Variation: Time-based material property changes
+  - Reality Distortion: Non-standard PBR behavior
+  - Quantum Fluctuation: Random property variation
 
 ## Lighting Bible
 
@@ -219,3 +255,92 @@ Each faction requires scalable vector graphics for:
 - **Resolution**: Scalable from 16px to 2048px
 - **Color Variants**: Full color, monochrome, faction-tinted versions
 - **Usage Rights**: Faction customization, player identification, UI integration
+
+## Example Renders and References
+
+### Biome Reference Renders
+Each biome requires example renders demonstrating:
+
+#### IEZ Alpha District
+- **Lighting**: Overcast industrial atmosphere with steam and smoke
+- **Color Grading**: Desaturated with cool blue shadows and warm highlights
+- **Materials**: Rusted steel, concrete, industrial polymer components
+- **Atmosphere**: Heavy industrial fog, particulate matter, steam vents
+- **Asset Path**: `Content/TG/ConceptArt/Biomes/IEZ_Alpha_Reference.png`
+
+#### IEZ Beta District  
+- **Lighting**: Emergency lighting with sparking electrical systems
+- **Color Grading**: High contrast with red emergency lighting
+- **Materials**: Damaged infrastructure, exposed wiring, hazard markings
+- **Atmosphere**: Electrical arcing, smoke, emergency strobe effects
+- **Asset Path**: `Content/TG/ConceptArt/Biomes/IEZ_Beta_Reference.png`
+
+#### Tech Wastes Gamma Band
+- **Lighting**: Alien energy glow mixed with harsh sunlight
+- **Color Grading**: Purple/cyan alien energy contrasted with orange desert
+- **Materials**: Alien technology mixed with scavenged human equipment
+- **Atmosphere**: Energy distortion, heat shimmer, electromagnetic effects
+- **Asset Path**: `Content/TG/ConceptArt/Biomes/TechWastes_Gamma_Reference.png`
+
+#### Sky Bastion
+- **Lighting**: High altitude clear atmosphere with sharp shadows
+- **Color Grading**: Bright, clear visibility with blue sky influence
+- **Materials**: Corporate high-tech surfaces, clean metals, glass
+- **Atmosphere**: Thin air effects, wind, high-altitude clarity
+- **Asset Path**: `Content/TG/ConceptArt/Biomes/SkyBastion_Reference.png`
+
+#### Black Vault
+- **Lighting**: Artificial illumination with deep shadows
+- **Color Grading**: High contrast underground lighting
+- **Materials**: Military bunker construction, reinforced concrete, steel
+- **Atmosphere**: Underground humidity, artificial ventilation, echo
+- **Asset Path**: `Content/TG/ConceptArt/Biomes/BlackVault_Reference.png`
+
+### Technology Tier Demonstrations
+
+#### Human Technology Showcase
+- **Example Assets**: M4A1 rifle, Kevlar armor, radio equipment
+- **Material Properties**: Matte military finishes, appropriate wear patterns
+- **Lighting**: Standard military equipment photography lighting
+- **Asset Path**: `Content/TG/ConceptArt/TechTiers/Human_Showcase.png`
+
+#### Hybrid Technology Showcase
+- **Example Assets**: Coil rifle, energy armor, alien-enhanced equipment
+- **Material Properties**: Energy glow, heat stress, alien integration
+- **Lighting**: Mixed standard and energy lighting effects
+- **Asset Path**: `Content/TG/ConceptArt/TechTiers/Hybrid_Showcase.png`
+
+#### Alien Technology Showcase
+- **Example Assets**: Phase rifle, reality-bending armor, impossible geometry
+- **Material Properties**: Quantum effects, reality distortion, living materials
+- **Lighting**: Impossible lighting with reality-bending effects
+- **Asset Path**: `Content/TG/ConceptArt/TechTiers/Alien_Showcase.png`
+
+## Implementation Guidelines
+
+### Asset Creation Pipeline
+1. **Concept Art**: Create detailed concept sheet with multiple views
+2. **Material Breakdown**: Document PBR parameters and surface properties
+3. **3D Modeling**: Create base mesh with proper UV layout
+4. **Texture Creation**: Albedo, normal, roughness, metallic maps
+5. **Material Setup**: UE5 material with faction parameterization
+6. **Quality Validation**: Test across all quality settings and platforms
+
+### Performance Requirements
+- **Triangle Count**: LOD0 < 5000 tris, LOD1 < 2500 tris, LOD2 < 1000 tris
+- **Texture Memory**: Combined textures < 16MB per asset at highest quality
+- **Draw Calls**: Minimize through texture atlasing and material instancing
+- **Shader Complexity**: Maintain 90 FPS on target hardware
+
+### Quality Assurance
+- **Visual Consistency**: All assets match established art direction
+- **Technical Compliance**: Proper UV layout, normal map baking, LOD generation
+- **Performance Validation**: Frame rate testing on minimum spec hardware
+- **Faction Accuracy**: Correct color application and wear patterns
+
+### Documentation Requirements
+Each asset requires:
+- **Concept Sheet**: Original design with material callouts
+- **Technical Spec**: Polygon count, texture resolution, memory usage
+- **Implementation Notes**: Special shaders, effects, or performance considerations
+- **Quality Screenshots**: In-engine renders at multiple quality levels
