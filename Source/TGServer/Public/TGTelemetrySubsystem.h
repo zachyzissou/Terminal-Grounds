@@ -166,7 +166,8 @@ protected:
     TArray<float> FrameRateHistory;
     TArray<float> LatencyHistory;
     
-    static constexpr int32 MaxHistorySize = 1000;
+    UPROPERTY(Config, EditAnywhere, BlueprintReadWrite, Category = "Performance")
+    int32 MaxHistorySize = 1000;
 
 private:
     void ProcessPerformanceData();
