@@ -6,6 +6,7 @@ on:
 jobs:
   build:
     runs-on: [self-hosted, ue5]
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - name: Generate Project Files
