@@ -94,18 +94,93 @@ class PerformanceTestRunner:
         return performance_data
     
     def collect_metrics(self):
-        """Collect current performance metrics"""
-        # This would integrate with UE5's stat system
-        # Placeholder implementation
+        """Collect current performance metrics by parsing the latest log file."""
+        # Attempt to find the latest log file in the server's directory
+        log_dir = self.server_path.parent / "Saved" / "Logs"
+        if not log_dir.exists():
+            return {}
+        log_files = sorted(log_dir.glob("*.log"), key=os.path.getmtime, reverse=True)
+        if not log_files:
+            return {}
+        log_file = log_files[0]
+
+        # Patterns to extract metrics
+        fps_pattern = re.compile(r"StatFPS\s*:\s*([\d.]+)")
+        mem_pattern = re.compile(r"StatMemory\s*:\s*([\d.]+)\s*MB")
+        draw_pattern = re.compile(r"StatRHI\s*DrawCalls\s*=\s*(\d+)")
+        ping_pattern = re.compile(r"Ping\s*=\s*(\d+)")
+        packet_loss_pattern = re.compile(r"PacketLoss\s*=\s*([\d.]+)")
+        bandwidth_in_pattern = re.compile(r"BandwidthIn\s*=\s*(\d+)")
+        bandwidth_out_pattern = re.compile(r"BandwidthOut\s*=\s*(\d+)")
+
+        # Initialize with None
+        fps = memory_mb = draw_calls = ping = packet_loss = bandwidth_in = bandwidth_out = None
+
+        # Read the log file backwards for efficiency (get latest stats)
+        try:
+            with open(log_file, "r", encoding="utf-8", errors="ignore") as f:
+                lines = f.readlines()[-500:]  # Only check last 500 lines for performance
+                for line in reversed(lines):
+                    if fps is None:
+                        m = fps_pattern.search(line)
+                        if m:
+                            fps = float(m.group(1))
+                    if memory_mb is None:
+                        m = mem_pattern.search(line)
+                        if m:
+                            memory_mb = float(m.group(1))
+                    if draw_calls is None:
+                        m = draw_pattern.search(line)
+                        if m:
+                            draw_calls = int(m.group(1))
+                    if ping is None:
+                        m = ping_pattern.search(line)
+                        if m:
+                            ping = int(m.group(1))
+                    if packet_loss is None:
+                        m = packet_loss_pattern.search(line)
+                        if m:
+                            packet_loss = float(m.group(1))
+                    if bandwidth_in is None:
+                        m = bandwidth_in_pattern.search(line)
+                        if m:
+                            bandwidth_in = int(m.group(1))
+                    if bandwidth_out is None:
+                        m = bandwidth_out_pattern.search(line)
+                        if m:
+                            bandwidth_out = int(m.group(1))
+                    # Break early if all found
+                    if all(x is not None for x in [fps, memory_mb, draw_calls, ping, packet_loss, bandwidth_in, bandwidth_out]):
+                        break
+        except Exception as e:
+            # If log file can't be read, return empty dict
+            return {}
+
+        # Fallbacks if not found
+        if fps is None:
+            fps = 0.0
+        if memory_mb is None:
+            memory_mb = 0.0
+        if draw_calls is None:
+            draw_calls = 0
+        if ping is None:
+            ping = 0
+        if packet_loss is None:
+            packet_loss = 0.0
+        if bandwidth_in is None:
+            bandwidth_in = 0
+        if bandwidth_out is None:
+            bandwidth_out = 0
+
         return {
-            'fps': 90.0,  # Would read from stat FPS
-            'memory_mb': 2048,  # Would read from stat Memory
-            'draw_calls': 1500,  # Would read from stat RHI
+            'fps': fps,
+            'memory_mb': memory_mb,
+            'draw_calls': draw_calls,
             'network': {
-                'ping': 50,
-                'packet_loss': 0.1,
-                'bandwidth_in': 128,
-                'bandwidth_out': 64
+                'ping': ping,
+                'packet_loss': packet_loss,
+                'bandwidth_in': bandwidth_in,
+                'bandwidth_out': bandwidth_out
             }
         }
     
