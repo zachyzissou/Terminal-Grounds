@@ -1,0 +1,4 @@
+Id,Family,BaseDamage,FireRate,RPM,MaxRange,Hitscan,ProjectileSpeed,RecoilX,RecoilY,MagSize,ADS_ms,Reload_ms,PenClass
+ar_mk1,AR,28,0.09,666,18000,true,0,0.18,0.32,30,220,240,2
+smg_v9,SMG,22,0.07,857,10000,true,0,0.14,0.26,40,190,210,1
+dmr_mk2,DMR,52,0.25,240,35000,false,72000,0.22,0.42,20,260,260,3

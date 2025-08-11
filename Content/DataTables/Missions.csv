@@ -1,0 +1,4 @@
+Id,ContractType,AllowedPOIs,BaseReward,TimeLimit
+recon_scan_a,Recon,"refinery_a;salvage_yard",500,900
+recovery_crate_a,Recovery,"refinery_a;metro_maint_a",800,1200
+sabotage_power_a,Sabotage,"refinery_a",900,900

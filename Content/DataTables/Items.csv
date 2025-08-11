@@ -1,0 +1,4 @@
+Id,Type,Tier,Stack,Weight
+scrap_metal,Resource,Civilian,100,0.2
+chem_pack,Resource,Service,50,0.3
+plate_armor,Armor,MilSpec,3,2.5

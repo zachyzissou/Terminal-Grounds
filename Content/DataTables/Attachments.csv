@@ -1,0 +1,4 @@
+Id,Slot,RecoilMul,ADS_ms_Add,MoveSpeedMul,Vel_Add,VisibilityIR
+muzzle_comp,SUPPRESSOR,0.85,20,0.99,-30,0.9
+barrel_long,BARREL,0.9,25,0.98,120,1.0
+optic_red,OPTIC,1.0,10,1.0,0,1.0

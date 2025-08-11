@@ -1,0 +1,4 @@
+Id,Type,OwnerFaction,HasIntel,ResourceBias
+refinery_a,Industrial,Directorate,true,Fuel
+salvage_yard,VehYard,Vultures,false,Metal
+metro_maint_a,Dungeon,Neutral,true,Electronics
