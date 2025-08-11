@@ -1,4 +1,8 @@
-Id,Type,OwnerFaction,HasIntel,ResourceBias
-refinery_a,Industrial,Directorate,true,Fuel
-salvage_yard,VehYard,Vultures,false,Metal
-metro_maint_a,Dungeon,Neutral,true,Electronics
+Id,Type,OwnerFaction,HasIntel,ResourceBias,Tags,ConceptRef
+refinery_a,Industrial,Directorate,true,Fuel,industrial:true,Concepts/POIs/refinery_a.png
+salvage_yard,VehYard,Vultures,false,Metal,vehicle_spawn:true,Concepts/POIs/salvage_yard.png
+metro_maint_a,Dungeon,Neutral,true,Electronics,underground:true,Concepts/POIs/metro_maint_a.png
+meteor_site,Salvage,Neutral,true,AlienOre,"hazard:radiation;event:meteor",Concepts/POIs/meteor_site.png
+drone_hive,Facility,Neutral,false,Electronics,"spawn:drone;event:swarm",Concepts/POIs/drone_hive.png
+vault_perimeter,Stronghold,Archivists,true,Energy,"event:techvault;shielded:true",Concepts/POIs/vault_perimeter.png
+combine_pad,Helipad,Combine,true,Fuel,"spawn:helo;guarded:true",Concepts/POIs/combine_pad.png

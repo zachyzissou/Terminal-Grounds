@@ -1,4 +1,9 @@
-Id,Family,BaseDamage,FireRate,RPM,MaxRange,Hitscan,ProjectileSpeed,RecoilX,RecoilY,MagSize,ADS_ms,Reload_ms,PenClass
-ar_mk1,AR,28,0.09,666,18000,true,0,0.18,0.32,30,220,240,2
-smg_v9,SMG,22,0.07,857,10000,true,0,0.14,0.26,40,190,210,1
-dmr_mk2,DMR,52,0.25,240,35000,false,72000,0.22,0.42,20,260,260,3
+Id,Tier,Family,Name,BaseDamage,FireRate,RPM,MaxRange,Hitscan,ProjectileSpeed,RecoilX,RecoilY,MagSize,ADS_ms,Reload_ms,PenClass,HeatCap,HeatPerShot,EMPVulnerability,ConceptRef,FactionBias
+ar_mk1,Human,AR,"MK1 Service AR",28,0.09,666,18000,true,0,0.18,0.32,30,220,240,2,0,0,0,Concepts/Weapons/ar_mk1.png,Directorate
+ar_mk2,Human,AR,"MK2 Service AR",28,0.09,666,18000,true,0,0.18,0.32,30,220,240,2,0,0,0,Concepts/Weapons/ar_mk2.png,Directorate
+smg_v9,Human,SMG,"Kestrel SMG",22,0.07,857,10000,true,0,0.14,0.26,40,190,210,1,0,0,0,Concepts/Weapons/kestrel_smg.png,Free77
+dmr_mk2,Human,DMR,"MK2 Designated Marksman",52,0.25,240,35000,false,72000,0.22,0.42,20,260,260,3,0,0,0,Concepts/Weapons/dmr_mk2.png,Free77
+prr_rail_h1,Hybrid,DMR,"Plasma Rail H1",70,0.30,200,40000,false,90000,0.26,0.48,10,320,290,4,100,12,1,Concepts/Weapons/prr_h1.png,Combine
+ion_sg_h1,Hybrid,Shotgun,"ION Scatter H1",18,0.20,300,8000,false,24000,0.30,0.50,6,210,330,1,120,20,1,Concepts/Weapons/ion_sg_h1.png,Archivists
+disruptor_lance_a1,Alien,Energy,"Disruptor Lance A1",120,0.60,100,50000,false,150000,0.00,0.00,5,300,600,5,160,25,2,Concepts/Weapons/disruptor_a1.png,Archivists
+graviton_proj_a1,Alien,Energy,"Graviton Projector A1",10,0.08,750,20000,false,0,0.05,0.05,40,240,260,2,140,8,2,Concepts/Weapons/graviton_a1.png,Neutral
