@@ -240,10 +240,26 @@ class PerformanceTestRunner:
             'Alien': 78
         }
         return {'hit': hit, 'damage': damage_by_tier.get(weapon_tier, 0)}
-    def set_network_simulation(self, latency_ms, packet_loss_percent):
-        """Configure network simulation parameters"""
-        # This would use UE5's network simulation commands
-        pass
+    def set_network_simulation(self, latency_ms, packet_loss_percent, interface='lo'):
+        """Configure network simulation parameters using 'tc' on Linux."""
+        import sys
+        if sys.platform != "linux":
+            print("Network simulation is only supported on Linux with 'tc'. Skipping simulation.")
+            return
+        # Remove any existing qdisc rules
+        subprocess.run(['sudo', 'tc', 'qdisc', 'del', 'dev', interface, 'root'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        # Add new qdisc rule for latency and packet loss
+        netem_cmd = [
+            'sudo', 'tc', 'qdisc', 'add', 'dev', interface, 'root', 'netem',
+            f'delay', f'{latency_ms}ms'
+        ]
+        if packet_loss_percent > 0.0:
+            netem_cmd += ['loss', f'{packet_loss_percent}%']
+        try:
+            subprocess.run(netem_cmd, check=True)
+            print(f"Set network simulation: {latency_ms}ms latency, {packet_loss_percent}% packet loss on {interface}")
+        except subprocess.CalledProcessError as e:
+            print(f"Failed to set network simulation: {e}")
     
     def run_vehicle_torture_test(self):
         """Test vehicle systems under extreme conditions"""
