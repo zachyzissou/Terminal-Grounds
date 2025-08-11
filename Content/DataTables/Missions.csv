@@ -1,4 +1,7 @@
-Id,ContractType,AllowedPOIs,BaseReward,TimeLimit
-recon_scan_a,Recon,"refinery_a;salvage_yard",500,900
-recovery_crate_a,Recovery,"refinery_a;metro_maint_a",800,1200
-sabotage_power_a,Sabotage,"refinery_a",900,900
+Id,ContractType,AllowedPOIs,BaseReward,TimeLimit,SpawnRules,EventSynergy,ConceptRef
+recon_scan_a,Recon,"refinery_a;salvage_yard",500,900,"faction_owner:any","Any",Concepts/Missions/recon_scan.png
+recovery_crate_a,Recovery,"refinery_a;metro_maint_a",800,1200,"crate_spawn:true","Any",Concepts/Missions/recovery_crate.png
+sabotage_power_a,Sabotage,"refinery_a",900,900,"power_nodes>=1","DroneSwarm",Concepts/Missions/sabotage_power.png
+escort_prototype,Escort,"road_net;checkpoint;helipad",1200,1200,"needs_vehicle:true;faction_owner:any","ConvoyWar",Concepts/Missions/escort_proto.png
+sabotage_grid,Sabotage,"power_sub;metro_maint;factory",900,900,"power_nodes>=2","DroneSwarm",Concepts/Missions/sabotage_grid.png
+artifact_recovery,Recovery,"tech_wastes;vault_perimeter;meteor_site",1500,1500,"alien_cache:true","TechVault",Concepts/Missions/artifact_recovery.png

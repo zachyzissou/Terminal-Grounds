@@ -1,4 +1,6 @@
-Id,Slot,RecoilMul,ADS_ms_Add,MoveSpeedMul,Vel_Add,VisibilityIR
-muzzle_comp,SUPPRESSOR,0.85,20,0.99,-30,0.9
-barrel_long,BARREL,0.9,25,0.98,120,1.0
-optic_red,OPTIC,1.0,10,1.0,0,1.0
+Id,Slot,Tier,RecoilMul,ADS_ms_Add,MoveSpeedMul,Vel_Add,HeatMul,ChargeTimeDelta,IRVisibility,ConceptRef,AllowedFamilies
+compensator_m1,MUZZLE,Human,0.85,20,0.99,-30,1.0,0,0.9,Concepts/Weapons/comp_m1.png,"AR;SMG"
+barrel_long,BARREL,Human,0.9,25,0.98,120,1.0,0,1.0,Concepts/Weapons/barrel_long.png,"AR;DMR"
+optic_red,OPTIC,Human,1.0,10,1.0,0,1.0,0,1.0,Concepts/Weapons/optic_red.png,"AR;SMG;DMR"
+coil_stabilizer_h1,BARREL,Hybrid,0.90,25,0.98,120,0.9,-10,1.0,Concepts/Weapons/coil_stab_h1.png,"DMR;LMG"
+beam_focus_a1,OPTIC,Alien,1.00,30,1.00,0,1.1,-20,0.8,Concepts/Weapons/beam_focus_a1.png,"Energy"

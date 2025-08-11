@@ -1,4 +1,8 @@
-Id,Discipline,Aggression,TechLevel,LootTierBias,Notes
-Directorate,0.85,0.55,0.8,0.7,"Disciplined, logistics, patrols"
-Vultures,0.6,0.7,0.7,0.8,"Mobility, drones, salvage"
-Free77,0.7,0.65,0.75,0.75,"Adaptive mercs"
+Id,Discipline,Aggression,TechLevel,LootTierBias,VehicleAffinity,EventPreference,PaletteHex,EmblemRef,Notes
+Directorate,0.85,0.55,0.80,Human:0.7|Hybrid:0.25|Alien:0.05,Ground:0.6|Air:0.2|Drone:0.2,ConvoyWar:0.7,#161A1D-#2E4053,Concepts/Factions/directorate_emblem.png,"Rationed but reliable"
+Vultures,0.60,0.70,0.70,Human:0.5|Hybrid:0.4|Alien:0.1,Ground:0.7|Air:0.1|Drone:0.2,Meteor:0.8,#7F8C8D-#D35400,Concepts/Factions/vultures_emblem.png,"Salvage-first"
+Free77,0.70,0.65,0.75,Human:0.6|Hybrid:0.35|Alien:0.05,Ground:0.5|Air:0.3|Drone:0.2,Any:0.5,#34495E-#BDC3C7,Concepts/Factions/free77_emblem.png,"Contractors"
+Combine,0.90,0.60,0.90,Human:0.4|Hybrid:0.45|Alien:0.15,Air:0.4|Drone:0.3|Ground:0.3,TechVault:0.8,#0C0F12-#00C2FF,Concepts/Factions/combine_emblem.png,"Corporate PMC"
+Nomads,0.55,0.80,0.65,Human:0.7|Hybrid:0.25|Alien:0.05,Ground:0.8|Air:0.1|Drone:0.1,ConvoyWar:0.9,#6E2C00-#AF601A,Concepts/Factions/nomads_emblem.png,"Convoy culture"
+Archivists,0.75,0.50,0.95,Human:0.3|Hybrid:0.5|Alien:0.2,Drone:0.5|Ground:0.3|Air:0.2,DroneSwarm:0.9,#2C3E50-#8E44AD,Concepts/Factions/archivists_emblem.png,"EMP/Stealth"
+Wardens,0.80,0.45,0.70,Human:0.65|Hybrid:0.3|Alien:0.05,Ground:0.7|Drone:0.2|Air:0.1,SiegeDefense:0.8,#145A32-#27AE60,Concepts/Factions/wardens_emblem.png,"Civic defense"
