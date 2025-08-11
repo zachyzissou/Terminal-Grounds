@@ -12,7 +12,7 @@ Ports: 7777/udp (game), 27015/udp (query). Edit docker-compose.yml to map as nee
 
 - Persist saves/configs by mounting volumes to `/srv/tg/Saved/` and mapping `server.yaml` as needed.
 - Use environment variables via `docker-compose.yml` to pass session name, max players, etc., if desired.
- 
+
 ### Example docker-compose.yml
 
 services:
@@ -27,4 +27,3 @@ services:
       environment:
          - TG_SESSION=Playtest
          - TG_MAXPLAYERS=8
- 

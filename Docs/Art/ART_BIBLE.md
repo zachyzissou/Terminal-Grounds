@@ -6,7 +6,7 @@
 Terminal Grounds blends military realism with sci-fi extraction gameplay. The visual style emphasizes:
 
 - **Grounded Realism**: Authentic military equipment and industrial environments
-- **Sci-Fi Accents**: Alien technology as distinct visual elements without overwhelming the core aesthetic  
+- **Sci-Fi Accents**: Alien technology as distinct visual elements without overwhelming the core aesthetic
 - **Post-Apocalyptic Grit**: Weathered, salvaged, jury-rigged equipment showing signs of the cascade event
 - **Faction Identity**: Clear visual distinction between the seven major factions
 
@@ -19,7 +19,7 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 
 ### Energy Signature Palette
 - **Human Tech**: #4A90E2 (electric blue), #7ED321 (status green)
-- **Hybrid Tech**: #BD10E0 (plasma purple), #F5A623 (heat orange)  
+- **Hybrid Tech**: #BD10E0 (plasma purple), #F5A623 (heat orange)
 - **Alien Tech**: #50E3C2 (quantum cyan), #B8E986 (phase green)
 
 ### Faction-Specific Palettes
@@ -29,7 +29,7 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 - **Secondary**: Steel blue (#4682B4), tactical black (#2F2F2F)
 - **Palette Hex Values**: #001F3F, #36454F, #FFFFFF, #4682B4
 
-#### Vultures Union  
+#### Vultures Union
 - **Primary**: Rust red (#B22222), scrap metal gray (#696969), yellow warning stripes (#FFD700)
 - **Secondary**: Oil black (#0F0F0F), copper (#B87333)
 - **Palette Hex Values**: #B22222, #696969, #FFD700, #B87333
@@ -44,13 +44,13 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 - **Secondary**: Lab white (#F8F8FF), warning orange (#FF8C00)
 - **Palette Hex Values**: #4169E1, #C0C0C0, #9370DB, #FF8C00
 
-#### Nomad Clans  
+#### Nomad Clans
 - **Primary**: Road-worn brown (#8B4513), convoy orange (#FF8C00), dust tan (#D2B48C)
 - **Secondary**: Engine black (#1C1C1C), fuel blue (#4682B4)
 - **Palette Hex Values**: #8B4513, #FF8C00, #D2B48C, #4682B4
 
 #### Vaulted Archivists
-- **Primary**: Archive green (#228B22), knowledge gold (#DAA520), mystery purple (#4B0082)  
+- **Primary**: Archive green (#228B22), knowledge gold (#DAA520), mystery purple (#4B0082)
 - **Secondary**: Ancient brass (#B5651D), energy cyan (#008B8B)
 - **Palette Hex Values**: #228B22, #DAA520, #4B0082, #008B8B
 
@@ -86,9 +86,9 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 
 #### PBR Specifications
 - **Albedo Range**: 0.1 - 0.7 (darker military finishes to bright markings)
-- **Metallic Values**: 
+- **Metallic Values**:
   - Steel: 1.0 (pure metallic)
-  - Aluminum: 1.0 (pure metallic)  
+  - Aluminum: 1.0 (pure metallic)
   - Polymer: 0.0 (non-metallic)
 - **Roughness Range**: 0.2 - 0.8
   - New equipment: 0.2 - 0.4
@@ -213,7 +213,7 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 - Oil stains, dirt accumulation, water damage, general grime, rust streaks
 - Scratch patterns, paint chips, wear edges, scuff marks, abrasion zones
 
-#### Battle Damage (10 pieces)  
+#### Battle Damage (10 pieces)
 - Bullet impacts, explosion scorch, shrapnel damage, energy burns, plasma scars
 - Acid corrosion, EMP burns, phase damage, gravitational stress, temporal wear
 
@@ -236,7 +236,7 @@ Terminal Grounds blends military realism with sci-fi extraction gameplay. The vi
 
 ### Weather LUTs
 - **Clear**: Standard color balance, full saturation
-- **Overcast**: Reduced contrast, cooler color temperature  
+- **Overcast**: Reduced contrast, cooler color temperature
 - **Storm**: High contrast, dramatic shadows, cool highlights
 - **Dust**: Warm color shift, reduced visibility, amber tinting
 - **Rain**: Enhanced reflections, cooler tones, increased contrast
@@ -268,7 +268,7 @@ Each biome requires example renders demonstrating:
 - **Atmosphere**: Heavy industrial fog, particulate matter, steam vents
 - **Asset Path**: `Content/TG/ConceptArt/Biomes/IEZ_Alpha_Reference.png`
 
-#### IEZ Beta District  
+#### IEZ Beta District
 - **Lighting**: Emergency lighting with sparking electrical systems
 - **Color Grading**: High contrast with red emergency lighting
 - **Materials**: Damaged infrastructure, exposed wiring, hazard markings
