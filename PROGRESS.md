@@ -12,6 +12,7 @@ Tracking shipped work and stubs for the vertical slice.
 - [x] CI workflow for LinuxServer build
 
 Next:
+
 - [ ] Minimal gameplay: weapon actor skeleton, inventory component stub
 - [ ] Networking: rewind buffer interface and tick storage
 - [ ] Smoketest map + TGTestBot placeholder
