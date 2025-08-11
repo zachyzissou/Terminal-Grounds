@@ -7,3 +7,4 @@
    - docker compose up -d
 
 Ports: 7777/udp (game), 27015/udp (query). Edit docker-compose.yml to map as needed.
+ 
