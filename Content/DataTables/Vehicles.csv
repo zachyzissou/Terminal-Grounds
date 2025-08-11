@@ -1,6 +1,6 @@
 Id,Class,Seats,TurretSlots,FuelCapacity,FuelRate,TopSpeed,ArmorClass,CargoSlots,RepairType,ConceptRef,FactionBias
 light_technical,Technical,3,1,60,0.15,110,2,2,FieldKit,Concepts/Vehicles/light_technical.png,Any
-apc_8x8,APC,8,2,140,0.25,90,4,6,FieldKit,Concepts/Vehicles/apc_8x8.png,Nomads|Directorate
+apc_8x8,APC,8,2,140,0.25,90,4,6,FieldKit,Concepts/Vehicles/apc_8x8.png,Nomads;Directorate
 scout_helo,Helicopter,2,1,100,0.35,210,2,2,Hangar,Concepts/Vehicles/scout_helo.png,Combine
 logi_truck,Truck,3,0,160,0.22,100,2,8,FieldKit,Concepts/Vehicles/logi_truck.png,Any
 uav_recon,Drone,0,0,20,0.05,60,1,0,Workbench,Concepts/Vehicles/uav_recon.png,Any
