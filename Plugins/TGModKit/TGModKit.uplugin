@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "TG Mod Kit",
+  "Description": "Hot-load content packs for Terminal Grounds.",
+  "Category": "Tools",
+  "EnabledByDefault": false,
+  "Modules": [
+    { "Name": "TGModKit", "Type": "Editor", "LoadingPhase": "Default" }
+  ]
+}

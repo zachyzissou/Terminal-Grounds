@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "TG Attachments",
+  "Description": "Data-driven weapon attachment system.",
+  "Category": "Gameplay",
+  "EnabledByDefault": false,
+  "Modules": [
+    { "Name": "TGAttachments", "Type": "Runtime", "LoadingPhase": "Default" }
+  ]
+}
