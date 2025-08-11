@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-RUN apt-get update && apt-get install -y libicu70 libpulse0 libx11-6 libnss3 libssl3 && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y libicu70 libnss3 libpulse0 libssl3 libx11-6 && rm -rf /var/lib/apt/lists/*
 WORKDIR /srv/tg
 COPY ./Build/LinuxServer/ /srv/tg/
 COPY ./ServerConfig/server.yaml /srv/tg/server.yaml

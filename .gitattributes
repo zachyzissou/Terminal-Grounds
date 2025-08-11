@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+# Treat Unreal binary assets as binary
+*.uasset binary
+*.umap binary
+*.ubulk binary
+*.uexp binary
+*.udic binary
+
+# Common binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.fbx binary
