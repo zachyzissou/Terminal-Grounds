@@ -28,6 +28,161 @@ Terminal Grounds audio creates an immersive battlefield soundscape that prioriti
 #### Tail Layers
 - **Distance Reflection**: Environmental echo based on terrain and structures
 - **Atmospheric Absorption**: High-frequency rolloff over distance
+- **Wind Interaction**: Sound distortion based on weather conditions
+- **Doppler Effects**: Frequency shift for moving projectiles and vehicles
+
+### Technology Tier Audio Design
+
+#### Human Technology Audio
+- **Ballistic Signature**: Classic gunpowder combustion with brass ejection
+- **Mechanical Precision**: Clean, reliable mechanical sounds
+- **Recoil Impulse**: Sharp, snappy recoil with metal-on-metal contact
+- **Reload Choreography**: Tactical reload sounds with magazine manipulation
+- **Malfunction Audio**: Distinct jam, misfire, and failure sounds
+
+#### Hybrid Technology Audio
+- **Energy Charging**: Capacitor whine building to discharge
+- **Plasma Discharge**: Electrical snap with sustained energy hum
+- **Heat Buildup**: Progressive thermal stress sounds and cooling fans
+- **Overload Warning**: Ascending tone pitch indicating imminent shutdown
+- **Cooldown Cycle**: Steam venting and thermal regulation sounds
+
+#### Alien Technology Audio
+- **Quantum Resonance**: Harmonic frequencies not found in terrestrial technology
+- **Reality Distortion**: Impossible sound combinations suggesting space-time manipulation
+- **Gravitational Hum**: Low-frequency oscillations affecting inner ear
+- **Phase Shifting**: Audio that appears to originate from multiple locations
+- **Temporal Echo**: Sounds that appear before their visual source
+
+## Environmental Audio Systems
+
+### Atmospheric Soundscapes
+
+#### Industrial Zone Audio
+- **Ambient Machinery**: Distant factory hums, conveyor systems, hydraulic cycles
+- **Steam Venting**: Pressurized releases from industrial processes
+- **Metal Stress**: Structural creaking and expansion sounds
+- **Electrical Hum**: Power grid harmonics and transformer noise
+- **Radio Chatter**: Distant communications from other operations
+
+#### Tech Wastes Audio
+- **Electromagnetic Interference**: Electronic feedback and static bursts
+- **Scavenging Activity**: Distant metal cutting, drilling, and sorting
+- **Wind Interaction**: Air moving through twisted metal structures
+- **Radiation Effects**: Geiger counter ticks and electromagnetic pulse sounds
+- **Settlement Activity**: Distant human activity in makeshift communities
+
+#### Vault Complex Audio
+- **Security Systems**: Automated scanning, locking mechanisms, alert tones
+- **Life Support**: Air circulation, filtration systems, environmental control
+- **Data Processing**: Server farms, cooling systems, hard drive activity
+- **Emergency Protocols**: Klaxons, evacuation announcements, system warnings
+- **Containment Breach**: Depressurization, seal failure, containment alarms
+
+### Combat Audio Environment
+
+#### Ballistic Audio
+- **Supersonic Cracks**: Projectiles breaking sound barrier overhead
+- **Impact Differentiation**: Material-specific hit sounds (metal, concrete, flesh)
+- **Ricochet Patterns**: Realistic deflection sounds with proper Doppler effects
+- **Penetration Audio**: Armor piercing with material spalling effects
+- **Suppressed Fire**: Subsonic ammunition with mechanical action emphasis
+
+#### Explosive Audio
+- **Blast Wave**: Initial pressure wave with realistic propagation delay
+- **Fragmentation**: High-velocity debris impacts on various surfaces
+- **Secondary Explosions**: Fuel, ammunition, and vehicle component detonations
+- **Structural Collapse**: Building materials failing under explosive force
+- **Debris Settling**: Post-explosion material impacts and dust settling
+
+## Vehicle Audio Systems
+
+### Ground Vehicles
+
+#### APC Audio Profile
+- **Diesel Engine**: Heavy-duty military engine with characteristic rumble
+- **Track System**: Metal track links on road wheels and drive sprockets
+- **Turret Traverse**: Hydraulic motor whine with mechanical gear engagement
+- **Armor Impact**: Heavy kinetic strikes with internal reverberation
+- **Crew Compartment**: Internal communication and equipment operation
+
+#### Scout Helicopter
+- **Rotor System**: Main rotor chop with tail rotor buzz
+- **Engine Whine**: Turboshaft engine spool-up and operational frequencies
+- **Transmission**: Gearbox harmonics transmitted through airframe
+- **Autorotation**: Emergency descent with rotor freewheeling
+- **Ground Effect**: Rotor wash interaction with terrain and obstacles
+
+#### Logistics Truck
+- **Heavy Diesel**: Commercial engine under load with turbocharger whistle
+- **Suspension**: Leaf spring articulation and shock absorber compression
+- **Cargo Interaction**: Load shifting, strap tension, pallet movement
+- **Tire Contact**: Road surface interaction with different tread patterns
+- **Air Brake System**: Compressor cycling and brake application/release
+
+### Aerial Drones
+
+#### Recon Drone Audio
+- **Propeller Whine**: High-frequency multi-rotor operation
+- **Motor Controllers**: Electronic speed controller harmonics
+- **Wind Interaction**: Airframe buffeting and prop wash effects
+- **Camera Gimbal**: Servo motor movement for target tracking
+- **Radio Link**: Data transmission static and signal strength variation
+
+## Communication Systems
+
+### Faction Radio Protocols
+
+#### Directorate Communications
+- **Military Precision**: Crisp, clear radio protocols with minimal static
+- **Encryption Effects**: Secure communication processing artifacts
+- **Command Structure**: Formal military hierarchy in communication style
+- **Emergency Codes**: Specific alert tones and priority override systems
+- **Signal Quality**: High-fidelity equipment with minimal interference
+
+#### Vultures Union Comms
+- **Jury-Rigged Equipment**: Improvised radio systems with characteristic distortion
+- **Frequency Hopping**: Rapid channel switching to avoid interference
+- **Background Noise**: Workshop activity and machinery in communication background
+- **Colorful Language**: Less formal protocol with technical slang
+- **Signal Degradation**: Lower quality equipment with occasional dropouts
+
+#### Free 77 Networks
+- **Professional Grade**: Commercial-quality communication equipment
+- **Data Overlay**: Digital information transmitted alongside voice
+- **Tactical Coordination**: Efficient, business-like communication protocols
+- **Encryption Strength**: High-security signal processing
+- **Multi-Channel**: Simultaneous communication streams
+
+## Performance Mixing Standards
+
+### Dynamic Range Management
+- **Combat Mix**: -20 LUFS integrated loudness for gameplay sections
+- **Menu Mix**: -16 LUFS integrated loudness for interface elements
+- **Dialogue Priority**: Voice communication always audible above environmental audio
+- **Weapon Hierarchy**: Close weapons at full level, distant weapons attenuated
+- **Environmental Scaling**: Ambient levels adjust based on combat intensity
+
+### Frequency Management
+- **Weapon Clarity**: 2-6 kHz range reserved for weapon impact identification
+- **Voice Intelligibility**: 1-4 kHz protected for communication systems
+- **Environmental Foundation**: Sub-200 Hz for ambient atmosphere
+- **Alert Frequencies**: 800-1200 Hz for warning and notification sounds
+- **Spatial Separation**: Binaural audio processing for positional accuracy
+
+### Audio Bus Architecture
+- **Master Bus**: Final mix output with master limiter and loudness control
+- **Voice Bus**: All communication, dialogue, and radio transmissions
+- **SFX Bus**: Weapon fire, impacts, equipment, and environmental effects
+- **Music Bus**: Soundtrack, stingers, and musical elements (minimal in gameplay)
+- **UI Bus**: Interface sounds, menu navigation, and system notifications
+
+### Accessibility Features
+- **Subtitle Scaling**: Text size adjustment for hearing-impaired players
+- **Visual Sound Indicators**: Screen-based representation of audio cues
+- **Frequency Separation**: Enhanced frequency spacing for hearing aid compatibility
+- **Haptic Feedback**: Controller vibration synchronized with audio events
+- **Audio Description**: Optional narrative description of visual elements
 - **Doppler Effects**: Frequency shift for moving sources and listeners
 - **Environmental Filtering**: Material-based acoustic absorption (concrete, vegetation, metal)
 - **Weather Interaction**: Wind, rain, and atmospheric pressure effects on sound propagation

@@ -1,0 +1,2 @@
+Id,Tier,Family,Name,BaseDamage,FireRate,RPM,MaxRange,Hitscan,ProjectileSpeed,RecoilX,RecoilY,MagSize,ADS_ms,Reload_ms,PenClass,HeatCap,HeatPerShot,EMPVulnerability,WeaponConceptRef,FactionBias
+CustomWeaponPack_TacticalAR,Human,AR,Tactical AR,42,3.5,600,300,1,850,0.8,1.2,30,350,2200,2,0,0,0.0,Content/Concepts/CustomAR_Concept.png,Directorate:0.7;Free77:0.8

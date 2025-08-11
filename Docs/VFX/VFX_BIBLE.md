@@ -28,6 +28,106 @@ Terminal Grounds VFX serves three core purposes:
 #### Ballistic Tracers
 - **Visibility Rules**: Every 5th round visible tracer for automatic weapons
 - **Color Coding**: Green for NATO standard, red for enemy factions
+- **Tracer Lifetime**: 0.8-1.2 seconds depending on range
+- **Velocity Inheritance**: Full projectile velocity with drag simulation
+- **Night Vision Compatibility**: Enhanced visibility with NVG systems
+
+### Hybrid Technology VFX
+
+#### Plasma/Ion Effects
+- **Core System**: Energized particle streams with electromagnetic disturbance
+- **Plasma Core**: Bright blue-white center with energy ripple effects
+- **Heat Distortion**: Thermal shimmer trails following projectile path
+- **Electromagnetic Pulse**: Brief screen distortion on near misses
+- **Overload Warning**: Red heat buildup effects on weapon before overload
+- **Cooldown Venting**: Steam and energy discharge effects during cooldown
+
+#### Energy Impact Effects
+- **Material Interaction**: Plasma burns through armor, energy scorch marks
+- **Chain Lightning**: Electrical arcing between metal objects
+- **EMP Burst**: Temporary HUD flicker and electronic interference
+- **Heat Signature**: Thermal bloom visible on IR systems
+- **Residual Energy**: Glowing impact sites that fade over 3-5 seconds
+
+### Alien Technology VFX
+
+#### Graviton/Phase Effects
+- **Gravity Distortion**: Visible space warping around projectiles
+- **Phase Shift**: Projectiles that flicker between dimensions
+- **Reality Tears**: Brief dimensional rifts with otherworldly colors
+- **Gravitational Lensing**: Light bending around high-energy weapons
+- **Quantum Instability**: Unpredictable particle behavior and visual anomalies
+
+#### Alien Impact Effects
+- **Matter Displacement**: Targets appear to fold or warp on impact
+- **Dimensional Scarring**: Temporary reality distortions at impact sites
+- **Exotic Resonance**: Harmonic visual effects that affect nearby technology
+- **Probability Flux**: Visual uncertainty in projectile trajectories
+- **Temporal Echo**: Brief after-images suggesting time distortion
+
+## Environmental VFX Systems
+
+### Weather & Atmospheric Effects
+
+#### Rust Storms
+- **Particle Density**: 10,000-50,000 particles for visibility occlusion
+- **Wind Patterns**: Directional gusts with debris interaction
+- **Corrosion Effects**: Progressive equipment degradation visualization
+- **Lightning Integration**: Electrical discharge through metallic particles
+- **Visibility Impact**: Dynamic fog density affecting combat ranges
+
+#### Electromagnetic Interference (EMI)
+- **Screen Distortion**: HUD flicker and static overlay effects
+- **Electrical Arcing**: Lightning between metal structures and vehicles
+- **Communication Disruption**: Audio static and broken transmission effects
+- **Equipment Malfunction**: Sparking electronics and system failures
+- **Aurora Effects**: Ionospheric disturbance creating colored sky phenomena
+
+#### Reactor Plumes
+- **Heat Shimmer**: Thermal distortion columns rising from reactor sites
+- **Radiation Visualization**: Geiger counter-style particle effects
+- **Cooling Steam**: Massive vapor clouds with realistic condensation
+- **Emergency Venting**: Pressurized gas releases with safety lighting
+- **Containment Breach**: Catastrophic failure effects with shockwave propagation
+
+### Combat Environment VFX
+
+#### Vehicle Exhaust & Damage
+- **Diesel Smoke**: Realistic combustion byproducts from military vehicles
+- **Hydraulic Leaks**: Pressurized fluid spray from damaged systems
+- **Engine Fire**: Progressive damage states with flame intensity scaling
+- **Armor Spalling**: Metal fragments from penetrating hits
+- **Crew Compartment**: Smoke and sparks from internal systems damage
+
+#### Destruction Effects
+- **Building Collapse**: Debris physics with dust cloud generation
+- **Explosive Fragmentation**: Realistic shrapnel patterns and ricochets
+- **Secondary Explosions**: Fuel and ammunition cookoff effects
+- **Structural Failure**: Progressive damage with material stress visualization
+- **Debris Settling**: Realistic particle physics for post-destruction cleanup
+
+## Performance Guidelines
+
+### LOD System Implementation
+- **Distance Scaling**: Effect complexity reduces linearly with range
+- **Particle Count Limits**: 
+  - Close (0-50m): Full detail, no particle limit
+  - Medium (50-150m): 75% particles, reduced simulation steps
+  - Far (150m+): 25% particles, billboard-only effects
+- **Update Frequency**: Near effects at 60Hz, distant at 30Hz
+
+### Scalability Presets
+- **Ultra**: All effects enabled, maximum particle counts
+- **High**: 85% particle density, full shader effects
+- **Medium**: 65% particles, simplified shaders
+- **Low**: 40% particles, minimal effects only
+- **Performance**: Essential effects only, maximum optimization
+
+### Memory Management
+- **Texture Atlasing**: All effect textures combined into 2048x2048 atlases
+- **Particle Pooling**: Reuse effect instances to minimize allocation
+- **Culling System**: Frustum and occlusion culling for all particle systems
+- **Streaming**: Large effects loaded on-demand for specific scenarios
 - **Trajectory**: Slightly visible trail with appropriate ballistic drop
 - **Distance Falloff**: Fade over range, invisible beyond weapon max range
 

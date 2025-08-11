@@ -1,0 +1,39 @@
+{
+  "modInfo": {
+    "name": "Custom Weapon Pack",
+    "version": "1.0.0",
+    "author": "ModAuthor",
+    "description": "Adds custom Human-tier assault rifle with unique attachments",
+    "gameVersion": "3.0.0",
+    "dependencies": [],
+    "tags": ["weapon", "human", "assault-rifle"]
+  },
+  "contentManifest": {
+    "dataFiles": [
+      "Data/Weapons.csv",
+      "Data/Attachments.csv"
+    ],
+    "assetFiles": [
+      "Content/Meshes/CustomAR_Mesh.uasset",
+      "Content/Textures/CustomAR_Diffuse.uasset",
+      "Content/Textures/CustomAR_Normal.uasset",
+      "Content/Textures/CustomAR_Material.uasset",
+      "Content/Audio/CustomAR_Fire.uasset",
+      "Content/Audio/CustomAR_Reload.uasset"
+    ],
+    "conceptArt": [
+      "Content/Concepts/CustomAR_Concept.png"
+    ]
+  },
+  "hotloadConfig": {
+    "enabled": true,
+    "watchFiles": ["Data/*.csv"],
+    "reloadDelay": 1.0
+  },
+  "validation": {
+    "enforceNamespace": true,
+    "namespace": "CustomWeaponPack",
+    "maxAssetSize": 134217728,
+    "allowedFileTypes": [".csv", ".uasset", ".png", ".jpg", ".wav"]
+  }
+}
