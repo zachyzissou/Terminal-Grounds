@@ -1,11 +1,11 @@
 name: Build Linux Server
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch: {}
 jobs:
   build:
-    runs-on: [ self-hosted, ue5 ]
+    runs-on: [self-hosted, ue5]
     steps:
       - uses: actions/checkout@v4
       - name: Generate Project Files
