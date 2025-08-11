@@ -11,9 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate Project Files
+        shell: bash
         run: |
           ./Engine/Build/BatchFiles/RunUAT.sh BuildGraph -target=MakeProjectFiles -script=Engine/Build/InstalledEngineBuild.xml
       - name: Build Client and Server
+        shell: bash
         run: |
           # Cook and build LinuxServer
           ./Engine/Build/BatchFiles/RunUAT.sh BuildCookRun \
@@ -28,10 +30,12 @@ jobs:
             -cook -allmaps -stage -pak -archive \
             -archivedirectory=$(pwd)/Artifacts/LinuxClient
       - name: Run Gauntlet Smoke Tests
+        shell: bash
         run: |
           # Placeholder for Gauntlet tests
           echo "Gauntlet smoke tests: join/fire/hitreg/extract/vehicle/mission"
       - name: Collect Performance Metrics
+        shell: bash
         run: |
           # Placeholder for performance metrics collection
           echo "Collecting frame ms, draw calls, Niagara counts"
