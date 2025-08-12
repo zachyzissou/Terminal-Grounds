@@ -110,7 +110,7 @@ Terminal Grounds VFX serves three core purposes:
 
 ### LOD System Implementation
 - **Distance Scaling**: Effect complexity reduces linearly with range
-- **Particle Count Limits**: 
+- **Particle Count Limits**:
   - Close (0-50m): Full detail, no particle limit
   - Medium (50-150m): 75% particles, reduced simulation steps
   - Far (150m+): 25% particles, billboard-only effects
@@ -251,7 +251,7 @@ Terminal Grounds VFX serves three core purposes:
 - Real-time lighting on all particle systems
 - 4K texture resolution for effect assets
 
-#### High Preset  
+#### High Preset
 - 75% particle density, reduced draw distance
 - Primary effects at full quality, secondary effects simplified
 - Mixed real-time and baked lighting

@@ -1,10 +1,28 @@
 name: Docs Gate & Manifest
 on:
   pull_request:
-    paths: ["Docs/**","README.md","Design/**","World/**","Tech/**","Tools/**","Content/TG/**"]
+    paths:
+      [
+        "Docs/**",
+        "README.md",
+        "Design/**",
+        "World/**",
+        "Tech/**",
+        "Tools/**",
+        "Content/TG/**",
+      ]
   push:
     branches: ["**"]
-    paths: ["Docs/**","README.md","Design/**","World/**","Tech/**","Tools/**","Content/TG/**"]
+    paths:
+      [
+        "Docs/**",
+        "README.md",
+        "Design/**",
+        "World/**",
+        "Tech/**",
+        "Tools/**",
+        "Content/TG/**",
+      ]
 jobs:
   validate-and-build:
     runs-on: ubuntu-latest
