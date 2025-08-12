@@ -10,7 +10,7 @@ from datetime import date
 import unreal
 
 ROOT = unreal.SystemLibrary.get_project_directory()
-DOCS = os.path.normpath(os.path.join(ROOT, "../docs"))
+DOCS = os.path.normpath(os.path.join(ROOT, "../Docs"))
 VFX_BIBLE = os.path.join(DOCS, "VFX/VFX_BIBLE.md")
 LOG = os.path.join(DOCS, "Phase4_Implementation_Log.md")
 

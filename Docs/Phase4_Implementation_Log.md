@@ -52,3 +52,5 @@ Date: 2025-08-11
 [2025-08-11] Created: UI icons -> 8 SVGs in Tools/ArtGen/icons/svg and PNGs in Content/TG/Icons
 
 [2025-08-11] Created: Palette + StyleTiles for 7 factions under Docs/Concepts
+
+[2025-08-11] Created placeholder look-dev renders in Docs/Concepts/Renders (6 images)

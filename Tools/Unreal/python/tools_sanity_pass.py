@@ -8,7 +8,7 @@ from datetime import date
 import unreal
 
 ROOT = unreal.SystemLibrary.get_project_directory()
-DOCS_DIR = os.path.normpath(os.path.join(ROOT, "../docs"))
+DOCS_DIR = os.path.normpath(os.path.join(ROOT, "../Docs"))
 TECH_DIR = os.path.join(DOCS_DIR, "Tech")
 os.makedirs(TECH_DIR, exist_ok=True)
 SANITY_MD = os.path.join(TECH_DIR, "UE56_SANITY.md")
