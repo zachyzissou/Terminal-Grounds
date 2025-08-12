@@ -1,7 +1,167 @@
 {
-  "date": "2025-08-11",
-  "count": 6,
+  "date": "2025-08-12",
+  "count": 45,
   "entries": [
+    {
+      "path": "Content/TG/Decals/Factions/CivicWardens_2K.png",
+      "bytes": 32865,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Factions/CorporateCombine_2K.png",
+      "bytes": 30638,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Factions/Directorate_2K.png",
+      "bytes": 28832,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Factions/Free77_2K.png",
+      "bytes": 26891,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Factions/NomadClans_2K.png",
+      "bytes": 31504,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Factions/VaultedArchivists_2K.png",
+      "bytes": 32826,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Factions/VulturesUnion_2K.png",
+      "bytes": 31357,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/CivicWardens_Evac_Corridor.png",
+      "bytes": 76392,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/CorporateCombine_Lab_Safety.png",
+      "bytes": 86611,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/Directorate_Maintain_Formation.png",
+      "bytes": 74968,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/Free77_Volunteer_Recruitment.png",
+      "bytes": 73218,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/Neutral_Grid_Safety.png",
+      "bytes": 80410,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/Neutral_Report_Hybrid_Instability.png",
+      "bytes": 84075,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/NomadClans_Convoy_Discipline.png",
+      "bytes": 85207,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/VaultedArchivists_Archive_Integrity.png",
+      "bytes": 83009,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Decals/Posters/VulturesUnion_Salvage_Credit.png",
+      "bytes": 82969,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/damage_ballistic_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/damage_ballistic_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/damage_ion_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/damage_ion_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/extract_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/extract_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/map_ping_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/map_ping_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/rarity_common_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/rarity_common_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/rarity_legendary_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/rarity_legendary_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/status_charge_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/status_charge_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/status_heat_128.png",
+      "bytes": 396,
+      "ext": ".png"
+    },
+    {
+      "path": "Content/TG/Icons/status_heat_64.png",
+      "bytes": 201,
+      "ext": ".png"
+    },
     {
       "path": "Content/TG/Maps/IEZ/IEZ_District_Alpha.umap",
       "bytes": 936,
@@ -31,6 +191,41 @@
       "path": "Content/TG/Maps/TechWastes/TechWastes_Band_Gamma.umap",
       "bytes": 834,
       "ext": ".umap"
+    },
+    {
+      "path": "Tools/ArtGen/svg/CivicWardens.svg",
+      "bytes": 305,
+      "ext": ".svg"
+    },
+    {
+      "path": "Tools/ArtGen/svg/CorporateCombine.svg",
+      "bytes": 312,
+      "ext": ".svg"
+    },
+    {
+      "path": "Tools/ArtGen/svg/Directorate.svg",
+      "bytes": 1553,
+      "ext": ".svg"
+    },
+    {
+      "path": "Tools/ArtGen/svg/Free77.svg",
+      "bytes": 199,
+      "ext": ".svg"
+    },
+    {
+      "path": "Tools/ArtGen/svg/NomadClans.svg",
+      "bytes": 277,
+      "ext": ".svg"
+    },
+    {
+      "path": "Tools/ArtGen/svg/VaultedArchivists.svg",
+      "bytes": 375,
+      "ext": ".svg"
+    },
+    {
+      "path": "Tools/ArtGen/svg/VulturesUnion.svg",
+      "bytes": 271,
+      "ext": ".svg"
     }
   ]
 }

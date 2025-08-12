@@ -1,0 +1,2165 @@
+{
+  "audit_date": "2025-08-12T07:37:44.604964",
+  "total_assets_scanned": 113,
+  "flagged_for_replacement": 0,
+  "summary_by_category": {
+    "concept_art": {
+      "total": 40,
+      "flagged": 0,
+      "percentage_flagged": 0.0
+    },
+    "faction_logo": {
+      "total": 0,
+      "flagged": 0,
+      "percentage_flagged": 0
+    },
+    "poster_decal": {
+      "total": 25,
+      "flagged": 0,
+      "percentage_flagged": 0.0
+    },
+    "ui_icon": {
+      "total": 16,
+      "flagged": 0,
+      "percentage_flagged": 0.0
+    },
+    "texture": {
+      "total": 0,
+      "flagged": 0,
+      "percentage_flagged": 0
+    },
+    "weapon_concept": {
+      "total": 24,
+      "flagged": 0,
+      "percentage_flagged": 0.0
+    },
+    "vehicle_concept": {
+      "total": 8,
+      "flagged": 0,
+      "percentage_flagged": 0.0
+    },
+    "biome_concept": {
+      "total": 0,
+      "flagged": 0,
+      "percentage_flagged": 0
+    },
+    "character_concept": {
+      "total": 0,
+      "flagged": 0,
+      "percentage_flagged": 0
+    },
+    "unknown": {
+      "total": 0,
+      "flagged": 0,
+      "percentage_flagged": 0
+    }
+  },
+  "summary_by_priority": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "summary_by_faction": {
+    "Directorate": {
+      "total": 5,
+      "flagged": 0
+    },
+    "VulturesUnion": {
+      "total": 5,
+      "flagged": 0
+    },
+    "Free77": {
+      "total": 5,
+      "flagged": 0
+    },
+    "CorporateCombine": {
+      "total": 5,
+      "flagged": 0
+    },
+    "NomadClans": {
+      "total": 5,
+      "flagged": 0
+    },
+    "VaultedArchivists": {
+      "total": 5,
+      "flagged": 0
+    },
+    "CivicWardens": {
+      "total": 5,
+      "flagged": 0
+    }
+  },
+  "flagged_assets": [],
+  "all_assets": [
+    {
+      "filepath": "Content/TG/Decals/Posters/CorporateCombine_Lab_Safety.png",
+      "filename": "CorporateCombine_Lab_Safety.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 86611,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CorporateCombine",
+        "category:poster_decal"
+      ],
+      "faction": "CorporateCombine",
+      "last_modified": "2025-08-12T07:24:49.221652",
+      "content_hash": "835624f6a870690c26b457280018e47929806e15aff5a8f93786f0cdfda8539a",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/Neutral_Grid_Safety.png",
+      "filename": "Neutral_Grid_Safety.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 80410,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:poster_decal"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.891666",
+      "content_hash": "bffecab3ecca787c7a18cc4ae492f3211a0c0e366769868723d2adbf83e696c1",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/NomadClans_Convoy_Discipline.png",
+      "filename": "NomadClans_Convoy_Discipline.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 85207,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:NomadClans",
+        "category:poster_decal"
+      ],
+      "faction": "NomadClans",
+      "last_modified": "2025-08-12T07:24:50.057659",
+      "content_hash": "17eef606547f2da3d2820ad8c8011b03e7cd2969328cc900114ecb3a20a205f1",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/Free77_Volunteer_Recruitment.png",
+      "filename": "Free77_Volunteer_Recruitment.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 73218,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Free77",
+        "category:poster_decal"
+      ],
+      "faction": "Free77",
+      "last_modified": "2025-08-12T07:24:50.687665",
+      "content_hash": "44ccb080797b9a87fe27f8807099de0b9d151f7558005df426467ac3693098eb",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/Directorate_Maintain_Formation.png",
+      "filename": "Directorate_Maintain_Formation.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 74968,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Directorate",
+        "category:poster_decal"
+      ],
+      "faction": "Directorate",
+      "last_modified": "2025-08-12T07:24:50.990667",
+      "content_hash": "28d3a2c583928736213b1a2baf1d4a140be889ffec11505f2aba92f94e6c55f5",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/CivicWardens_Evac_Corridor.png",
+      "filename": "CivicWardens_Evac_Corridor.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 76392,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CivicWardens",
+        "category:poster_decal"
+      ],
+      "faction": "CivicWardens",
+      "last_modified": "2025-08-12T07:24:50.080659",
+      "content_hash": "f207f7476ea52da968bd1438fd6d5e7cd90b402ea7de11486aeff08c629d52c4",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/VulturesUnion_Salvage_Credit.png",
+      "filename": "VulturesUnion_Salvage_Credit.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 82969,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VulturesUnion",
+        "category:poster_decal"
+      ],
+      "faction": "VulturesUnion",
+      "last_modified": "2025-08-12T07:24:50.197660",
+      "content_hash": "9251d87a449645f906981fc889ddca8c502aa335c345d54719228284b346635e",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/VaultedArchivists_Archive_Integrity.png",
+      "filename": "VaultedArchivists_Archive_Integrity.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 83009,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VaultedArchivists",
+        "category:poster_decal"
+      ],
+      "faction": "VaultedArchivists",
+      "last_modified": "2025-08-12T07:24:50.126660",
+      "content_hash": "d9f392f0c4486795332b2d537195fe5387029532b89e9b320af48f66e345dbc7",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Posters/Neutral_Report_Hybrid_Instability.png",
+      "filename": "Neutral_Report_Hybrid_Instability.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 84075,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:poster_decal"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.462663",
+      "content_hash": "ba84293b4a77fe7701f35b1c62d7cae9fffe7f665e86d2b84f24ed3ad98353a5",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/Free77_2K.png",
+      "filename": "Free77_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 26891,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Free77",
+        "category:poster_decal"
+      ],
+      "faction": "Free77",
+      "last_modified": "2025-08-12T07:24:52.754682",
+      "content_hash": "a7dc2d6ac0b9c608e1a36782eecb7da9b592328ffd0f97fb4c5e51204a0c06da",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/VulturesUnion_2K.png",
+      "filename": "VulturesUnion_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 31357,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VulturesUnion",
+        "category:poster_decal"
+      ],
+      "faction": "VulturesUnion",
+      "last_modified": "2025-08-12T07:24:52.040676",
+      "content_hash": "f72e604e213ad461f5ee98e13fbb1e2a2e52d5455549a790136e5646915d53ca",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/VaultedArchivists_2K.png",
+      "filename": "VaultedArchivists_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 32826,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VaultedArchivists",
+        "category:poster_decal"
+      ],
+      "faction": "VaultedArchivists",
+      "last_modified": "2025-08-12T07:24:51.225669",
+      "content_hash": "e719460cd5cfc3e5559e1c76357b8ae913e689cc9535c6cf3b5161315051e8da",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/NomadClans_2K.png",
+      "filename": "NomadClans_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 31504,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:NomadClans",
+        "category:poster_decal"
+      ],
+      "faction": "NomadClans",
+      "last_modified": "2025-08-12T07:24:51.151668",
+      "content_hash": "f0f08632912112cf24acb3af7a16776911a54eeaa6ca8b5081f70b7f833b1f0e",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/CorporateCombine_2K.png",
+      "filename": "CorporateCombine_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 30638,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CorporateCombine",
+        "category:poster_decal"
+      ],
+      "faction": "CorporateCombine",
+      "last_modified": "2025-08-12T07:24:51.399670",
+      "content_hash": "91d5326ca717224a28a0a5f99aa20370f5ca9058adef14596f137eff65bd9b65",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/Directorate_2K.png",
+      "filename": "Directorate_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 28832,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Directorate",
+        "category:poster_decal"
+      ],
+      "faction": "Directorate",
+      "last_modified": "2025-08-12T07:24:51.980675",
+      "content_hash": "1370a25fe27982f21410418004f6df91cd82d6025b4c563eb7e59b187989d5aa",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Decals/Factions/CivicWardens_2K.png",
+      "filename": "CivicWardens_2K.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 32865,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CivicWardens",
+        "category:poster_decal"
+      ],
+      "faction": "CivicWardens",
+      "last_modified": "2025-08-12T07:24:50.981667",
+      "content_hash": "09601142f4f4c0e142e221dd5750017fe2c2d81580d0eea158be07e58990b8de",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/rarity_legendary_128.png",
+      "filename": "rarity_legendary_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.578757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/map_ping_128.png",
+      "filename": "map_ping_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.578757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/rarity_common_128.png",
+      "filename": "rarity_common_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.578757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/map_ping_64.png",
+      "filename": "map_ping_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.623757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/status_heat_128.png",
+      "filename": "status_heat_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.579757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/damage_ion_64.png",
+      "filename": "damage_ion_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.622757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/rarity_common_64.png",
+      "filename": "rarity_common_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.623757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/damage_ballistic_128.png",
+      "filename": "damage_ballistic_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.577757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/status_charge_64.png",
+      "filename": "status_charge_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.624757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/extract_64.png",
+      "filename": "extract_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.623757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/rarity_legendary_64.png",
+      "filename": "rarity_legendary_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.623757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/status_charge_128.png",
+      "filename": "status_charge_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.578757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/damage_ion_128.png",
+      "filename": "damage_ion_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.577757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/status_heat_64.png",
+      "filename": "status_heat_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.624757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/extract_128.png",
+      "filename": "extract_128.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 396,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.578757",
+      "content_hash": "605d7d05a2326870f43aebebd803fe86dfd22009fcf15b6211dda5ec70a36198",
+      "notes": []
+    },
+    {
+      "filepath": "Content/TG/Icons/damage_ballistic_64.png",
+      "filename": "damage_ballistic_64.png",
+      "category": "ui_icon",
+      "priority": "low",
+      "size_bytes": 201,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:ui_icon"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:01.622757",
+      "content_hash": "4f7508c395baaf08fcda0a543028aac67f87ea9661a85323af1e1244e2f3884c",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/CorporateCombine_Lab_Safety.png",
+      "filename": "CorporateCombine_Lab_Safety.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 86611,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CorporateCombine",
+        "category:poster_decal"
+      ],
+      "faction": "CorporateCombine",
+      "last_modified": "2025-08-12T07:24:49.222652",
+      "content_hash": "835624f6a870690c26b457280018e47929806e15aff5a8f93786f0cdfda8539a",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/Neutral_Grid_Safety.png",
+      "filename": "Neutral_Grid_Safety.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 80410,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:poster_decal"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.892666",
+      "content_hash": "bffecab3ecca787c7a18cc4ae492f3211a0c0e366769868723d2adbf83e696c1",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/NomadClans_Convoy_Discipline.png",
+      "filename": "NomadClans_Convoy_Discipline.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 85207,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:NomadClans",
+        "category:poster_decal"
+      ],
+      "faction": "NomadClans",
+      "last_modified": "2025-08-12T07:24:50.057659",
+      "content_hash": "17eef606547f2da3d2820ad8c8011b03e7cd2969328cc900114ecb3a20a205f1",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/Free77_Volunteer_Recruitment.png",
+      "filename": "Free77_Volunteer_Recruitment.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 73218,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Free77",
+        "category:poster_decal"
+      ],
+      "faction": "Free77",
+      "last_modified": "2025-08-12T07:24:50.688665",
+      "content_hash": "44ccb080797b9a87fe27f8807099de0b9d151f7558005df426467ac3693098eb",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/Directorate_Maintain_Formation.png",
+      "filename": "Directorate_Maintain_Formation.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 74968,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Directorate",
+        "category:poster_decal"
+      ],
+      "faction": "Directorate",
+      "last_modified": "2025-08-12T07:24:50.991667",
+      "content_hash": "28d3a2c583928736213b1a2baf1d4a140be889ffec11505f2aba92f94e6c55f5",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/CivicWardens_Evac_Corridor.png",
+      "filename": "CivicWardens_Evac_Corridor.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 76392,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CivicWardens",
+        "category:poster_decal"
+      ],
+      "faction": "CivicWardens",
+      "last_modified": "2025-08-12T07:24:50.082659",
+      "content_hash": "f207f7476ea52da968bd1438fd6d5e7cd90b402ea7de11486aeff08c629d52c4",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/VulturesUnion_Salvage_Credit.png",
+      "filename": "VulturesUnion_Salvage_Credit.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 82969,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VulturesUnion",
+        "category:poster_decal"
+      ],
+      "faction": "VulturesUnion",
+      "last_modified": "2025-08-12T07:24:50.198660",
+      "content_hash": "9251d87a449645f906981fc889ddca8c502aa335c345d54719228284b346635e",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/VaultedArchivists_Archive_Integrity.png",
+      "filename": "VaultedArchivists_Archive_Integrity.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 83009,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VaultedArchivists",
+        "category:poster_decal"
+      ],
+      "faction": "VaultedArchivists",
+      "last_modified": "2025-08-12T07:24:50.127660",
+      "content_hash": "d9f392f0c4486795332b2d537195fe5387029532b89e9b320af48f66e345dbc7",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Posters/Neutral_Report_Hybrid_Instability.png",
+      "filename": "Neutral_Report_Hybrid_Instability.png",
+      "category": "poster_decal",
+      "priority": "low",
+      "size_bytes": 84075,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:poster_decal"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.463663",
+      "content_hash": "ba84293b4a77fe7701f35b1c62d7cae9fffe7f665e86d2b84f24ed3ad98353a5",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/vault_blast_door.png",
+      "filename": "vault_blast_door.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3762,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.257736",
+      "content_hash": "bca5828bd21557f3f1ccddded3cd32ab5a6f6175d5889ef06fd7413a829efa31",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/tech_excavator.png",
+      "filename": "tech_excavator.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3812,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.257736",
+      "content_hash": "413c3205fa1be89d3e7d1f454ad9642512b46b739ebc2459756bef191f9ce654",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/crimson_docks.png",
+      "filename": "crimson_docks.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3853,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.196735",
+      "content_hash": "9a4c71daead537709029d9135322960986f340ed0ca15c2d7d7f8c905afaeaca",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/salvage_yard.png",
+      "filename": "salvage_yard.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3786,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.273736",
+      "content_hash": "fbf763ead1906d493d47760bd9980d17de91a13b3c1025fc8d43a238cdef3f37",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/sky_bastion_pad.png",
+      "filename": "sky_bastion_pad.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4049,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.293727",
+      "content_hash": "952611cecaa0c51f29192923925633cc9b81c98c188719df21c3c48d2fb40daa",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/drone_hive.png",
+      "filename": "drone_hive.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3467,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:00.109744",
+      "content_hash": "e31364e04f42b1b363a1ca17bbcb82ae5315b12d848dd641597598c9e1f9a1fe",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/metro_blackline.png",
+      "filename": "metro_blackline.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3954,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.560729",
+      "content_hash": "c3b1699b0cd804d3af2383f24a59f5bb40bfac0a95f69443b6671b74f8a77c5a",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/POIs/refinery_alpha.png",
+      "filename": "refinery_alpha.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3880,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.236736",
+      "content_hash": "629f3f7c6d99047146c564cae2d1e85c701c836e8567d83c634f3a323d01275a",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/TechWastes_Night.png",
+      "filename": "TechWastes_Night.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 29344,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:51.398670",
+      "content_hash": "da9747fb0a2e854af85fef0b49d23d548d2aa5ee90050555f1341a7ed19e2605",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/IEZ_Day.png",
+      "filename": "IEZ_Day.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 26130,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:52.283678",
+      "content_hash": "8e080941fd5930b10826d552333d4b67fcbfe2b28baaa54d6f7f7624b1cbcb74",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/BlackVault_Day.png",
+      "filename": "BlackVault_Day.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 28528,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:52.041676",
+      "content_hash": "308c406b9246a71b1d5cd9520c145585c7f86e0fffc7ec003975522d3abe85f1",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/IEZ_Night.png",
+      "filename": "IEZ_Night.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 25956,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:52.422679",
+      "content_hash": "fb2d9a9b2b7e921d00464152c1953ab172d3847a66783a0c5a3d48237dfd1664",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/Hero.png",
+      "filename": "Hero.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 31838,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:51.187669",
+      "content_hash": "5c0141cf65eeb92caad5635934adcb88a483ee60155b1f0cd925e9fee6be4326",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/TechWastes_Day.png",
+      "filename": "TechWastes_Day.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 29321,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:52.845682",
+      "content_hash": "eda87e8a8fe8b7d7955795b31cfd07715e085720ff66ca9bae87cbbd17150bd4",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/BlackVault_mood.png",
+      "filename": "BlackVault_mood.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 19765,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:52.473679",
+      "content_hash": "6de6b997b0d5a68b4593ae6858bbad33fd6203affde1c742172ed2fa3c8ff8af",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/SkyBastion_Day.png",
+      "filename": "SkyBastion_Day.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 29583,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:53.632689",
+      "content_hash": "3956595c7f3a268338c325da144cadc09b5e92e456bd176430f13a2b97e9e90c",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/IEZ_palette.png",
+      "filename": "IEZ_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 40889,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.659664",
+      "content_hash": "8b64365cb8020fa43bf7986bacf9caaf23af28dd0246f20a5bfd925c4fd4dcd9",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/SkyBastion_Night.png",
+      "filename": "SkyBastion_Night.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 30361,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:51.333670",
+      "content_hash": "7c68c0e0935edc6c2ad3c4f7aca11c7808501f80d1356690a17da60ef267be36",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/BlackVault_Night.png",
+      "filename": "BlackVault_Night.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 28778,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:51.587672",
+      "content_hash": "d0c9a5ba82dc2fa053f4409dada4811a8cb50ee9324f440b740e584cc3bdf31e",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/Hero_Wastes.png",
+      "filename": "Hero_Wastes.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 86272,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.536663",
+      "content_hash": "5180ca3fd984d3be7c9b4e189cf53a4f6e713edd3ba270c05264e2787cad0a17",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/Hero_IEZ.png",
+      "filename": "Hero_IEZ.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 84263,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:49.957658",
+      "content_hash": "5e7756ae9644537d6272d107b34809eaa5885dcd7fecfb45eed01848da933731",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/SkyBastion_storm.png",
+      "filename": "SkyBastion_storm.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 21670,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:52.889683",
+      "content_hash": "f24562397318eacff41adee86fc45c814303cacca229ec2451042021cd124981",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Renders/Wastes_palette.png",
+      "filename": "Wastes_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 44307,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:50.771665",
+      "content_hash": "8fe1825a20b845b4cc337b2fc9f2924e3c7b8b127304389a1dde5df4c13c0b73",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/phase_bow_a2.png",
+      "filename": "phase_bow_a2.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4562,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:55.208702",
+      "content_hash": "3e01c059e9540305a8c09b5d4d6b51e4e8105edceb1ce892583dc9755a940c0e",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/watchman_dmr.png",
+      "filename": "watchman_dmr.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4314,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:56.558713",
+      "content_hash": "ec5d4cc765d7171db8cc46bc7142987b34d3e9f8f91f06a2591f51fd9d5121d2",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/reaper_ar_h1.png",
+      "filename": "reaper_ar_h1.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4283,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:56.777714",
+      "content_hash": "f9bfd522794559b636a95d027c8483689bf10379f2d5f9cc1d8f4ce8c5c7a1fa",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/blackline_mk3.png",
+      "filename": "blackline_mk3.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4285,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.763722",
+      "content_hash": "8fd884103701c108a6875335d6905026f5ec85f9932c12b5b541bd995fa040a3",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/void_rifle_a3.png",
+      "filename": "void_rifle_a3.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4471,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.616697",
+      "content_hash": "451767599010ef7a76a0657e9e1123afdb7f1ae7a0b43c1796c0f3b58603b961",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/neutron_cannon_a2.png",
+      "filename": "neutron_cannon_a2.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4621,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.118693",
+      "content_hash": "80f20a3081523f3fcec0e25e8532fd2ed8454bc26e3b9380b4757cf7953cbe23",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/graviton_projector_a1.png",
+      "filename": "graviton_projector_a1.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4795,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.335695",
+      "content_hash": "570d2922f2d31281c84b4700fbca52401e53cfcc94e104f281d263616acc23a0",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/kestrel_smg.png",
+      "filename": "kestrel_smg.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4190,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.193718",
+      "content_hash": "1501c956f00f74b59e42399a0d3a2631875ba6e92f7e7031672bb5686511bf26",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/disruptor_lance_a1.png",
+      "filename": "disruptor_lance_a1.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4728,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.040692",
+      "content_hash": "c3d135c32d7c7fc4d4ea4b119b80a37b5e37b521f61284bac0d73f7f9dad211d",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/cyclops_lmg.png",
+      "filename": "cyclops_lmg.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4265,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:56.857715",
+      "content_hash": "607f49daf14e5341e8cef35cb77c06a5219f1d9b445dc7581e4f7a05137d6afd",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/storm_smg_h2.png",
+      "filename": "storm_smg_h2.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4526,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.773698",
+      "content_hash": "12882bec80945222949756209f60d1c8d5d475f561c976088e201656bded5de5",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/riot_10_shotgun.png",
+      "filename": "riot_10_shotgun.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4258,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.697722",
+      "content_hash": "6df5045846f5af77b9f106d718cf99355dcf574d8e9e4c4a916df1c411a66c83",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/hunter_dmr.png",
+      "filename": "hunter_dmr.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 3875,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.308736",
+      "content_hash": "2ea114a1900f4e67245eabf71d0731721ecaab143b0b4b581d23bfd05ed4a7bf",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/mk2_service_ar.png",
+      "filename": "mk2_service_ar.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4501,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:56.533712",
+      "content_hash": "520b1823d1cf8be11179bae43a92ccb3692b6cb8cd3a7ca19643d02afde0ef0b",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/ion_scatter_h1.png",
+      "filename": "ion_scatter_h1.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4469,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:56.340711",
+      "content_hash": "0e1073833542cbd349bb1ede012f09231e17a79379e73299d22e2685c8382c19",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/grav_harrow_a1.png",
+      "filename": "grav_harrow_a1.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4418,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:55.062701",
+      "content_hash": "bba6dbbfd9b79c0b08b59338fcc083ec1b79e12bc1c81ddec6035b5ed74f5d72",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/ion_pike_h2.png",
+      "filename": "ion_pike_h2.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4171,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.853723",
+      "content_hash": "0587d5aea6dac83059a97434a570c837e9b8d75e13b17db1de2e2add594a16de",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/mk1_service_ar.png",
+      "filename": "mk1_service_ar.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4409,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:55.415703",
+      "content_hash": "2c604d70a97b8693f3ed63490d779517ced8c4baeb713412fa9dea5260a7e341",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/mk2_dmr.png",
+      "filename": "mk2_dmr.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 3834,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:25:00.867750",
+      "content_hash": "5f8cb091bb3cec587aeb65c9df53a419d2b056946c4d2ebc684bdaa988752cf2",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/plasma_rail_h1.png",
+      "filename": "plasma_rail_h1.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4189,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.658722",
+      "content_hash": "d41d95845bc9088e697fb06288618585e61c8e94cde415cf69779d842425f7a7",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/longstrike_h3.png",
+      "filename": "longstrike_h3.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4525,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.580697",
+      "content_hash": "99d026c42aebff66badfe359abcc5110ecb2bf26c34eac91c63360888cae874b",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/echo_lance_a2.png",
+      "filename": "echo_lance_a2.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4414,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:55.208702",
+      "content_hash": "5be5442f81728f10e8c0250147afa420d37ef0b163a53fb1f266a38076a2a247",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/maul_h2.png",
+      "filename": "maul_h2.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4011,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.462729",
+      "content_hash": "8031a80d5ab5a812235e1639ce92b13badd3993859a6ff655e27aa3573cb9e41",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Weapons/enforcer_lmg.png",
+      "filename": "enforcer_lmg.png",
+      "category": "weapon_concept",
+      "priority": "low",
+      "size_bytes": 4124,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:weapon_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.741722",
+      "content_hash": "df4f56ed0f1c4ec51dd6f2f7131541f2636c4e7089fd35ef7158841d1d7f159a",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/harvester_craft.png",
+      "filename": "harvester_craft.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 4030,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.592730",
+      "content_hash": "583e3774b8691c52d62503ea79ff58890658066ff8aa71809f25b82e3b8d2d00",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/battle_walker.png",
+      "filename": "battle_walker.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 4115,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.442728",
+      "content_hash": "e38c7d69d33104d72501b62afa9bf550b38b1feef95019a20370c092a2f74d29",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/cargo_truck.png",
+      "filename": "cargo_truck.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 3889,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.722731",
+      "content_hash": "3a55a8dab1da2dd827ce782188675388cd503d277f0ec9bbd86f09e68a760c64",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/stalker_apc.png",
+      "filename": "stalker_apc.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 3964,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.598730",
+      "content_hash": "1fa17d83ed434797e852b4ea1bdf37cbfdd0eb2d8947328c2d9f35633eb3e871",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/grav_sled_a1.png",
+      "filename": "grav_sled_a1.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 4216,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:56.470712",
+      "content_hash": "63c593eacf228080b83d9fae0b53279e800d7cdf9bfa2379d631122bf941f821",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/plasma_bike_h1.png",
+      "filename": "plasma_bike_h1.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 4071,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.683730",
+      "content_hash": "77dcbc6637ef2a3a48be47e3193213880e8184786501abccea6aa109d47500a0",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/recon_helo.png",
+      "filename": "recon_helo.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 3579,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:59.606739",
+      "content_hash": "697f006120c29c419595fbbee204bb62693b79b908e4e6550a71b62d360e9354",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Vehicles/scout_drone.png",
+      "filename": "scout_drone.png",
+      "category": "vehicle_concept",
+      "priority": "low",
+      "size_bytes": 3862,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:vehicle_concept"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:58.990733",
+      "content_hash": "194c3e260cb545e08b7a88fe27a5a8422089d15f0c557d3ccca35737e7ba4ef6",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/Directorate_palette.png",
+      "filename": "Directorate_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3721,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Directorate",
+        "category:concept_art"
+      ],
+      "faction": "Directorate",
+      "last_modified": "2025-08-12T07:25:00.168744",
+      "content_hash": "31b9fd7f0cb2e2c2692be3e26a8f6e78845511baf33081b992c0197db70b3fd9",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/Free77_palette.png",
+      "filename": "Free77_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4361,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Free77",
+        "category:concept_art"
+      ],
+      "faction": "Free77",
+      "last_modified": "2025-08-12T07:24:55.865707",
+      "content_hash": "c833bc856f7e1d8d12df24b883c6e02b47058d33ef53780d54004b720cc7fecb",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/CorporateCombine_palette.png",
+      "filename": "CorporateCombine_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4021,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CorporateCombine",
+        "category:concept_art"
+      ],
+      "faction": "CorporateCombine",
+      "last_modified": "2025-08-12T07:24:58.272727",
+      "content_hash": "5d6ba48ea149b645994ce18cc8221ed1c73a441866c5e0493444c4198182cb2b",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/VulturesUnion_palette.png",
+      "filename": "VulturesUnion_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3210,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VulturesUnion",
+        "category:concept_art"
+      ],
+      "faction": "VulturesUnion",
+      "last_modified": "2025-08-12T07:24:59.837741",
+      "content_hash": "1c2b4409a99ac2bc44dc3943a5a16e9d2e5ed0bc100bdcbc121a0a3f448294d3",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/NomadClans_palette.png",
+      "filename": "NomadClans_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4168,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:NomadClans",
+        "category:concept_art"
+      ],
+      "faction": "NomadClans",
+      "last_modified": "2025-08-12T07:24:57.832723",
+      "content_hash": "21e2693502376ecbfbf195b2489f9f5e8cecefc210423cf4f41451a837542176",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/CivicWardens_palette.png",
+      "filename": "CivicWardens_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 3165,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CivicWardens",
+        "category:concept_art"
+      ],
+      "faction": "CivicWardens",
+      "last_modified": "2025-08-12T07:25:00.331746",
+      "content_hash": "fbd7c05c2961c3bde7904056271c640a198e6ec6b106d99272eced689b965cd6",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Palettes/VaultedArchivists_palette.png",
+      "filename": "VaultedArchivists_palette.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4384,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VaultedArchivists",
+        "category:concept_art"
+      ],
+      "faction": "VaultedArchivists",
+      "last_modified": "2025-08-12T07:24:55.828707",
+      "content_hash": "e34b845d2b0b40e57708c7aac15737e7ac0c95460da800f60d786dc9a3bff56c",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Gear/heavy_frame.png",
+      "filename": "heavy_frame.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4456,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:55.377703",
+      "content_hash": "6c531eae80aced7633e0640acd072969382ae029906710abd0acdfb817413afd",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Gear/light_frame.png",
+      "filename": "light_frame.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4157,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:57.949724",
+      "content_hash": "c3dd589eb801507158510fdc67898d7fda82ad04bb6d01784c7f9b6b84eec997",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/Gear/assault_frame.png",
+      "filename": "assault_frame.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 4723,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "category:concept_art"
+      ],
+      "faction": null,
+      "last_modified": "2025-08-12T07:24:54.911699",
+      "content_hash": "ad081fd3f767be0f1168f0ca16efd732c5f837a899e1e55e2a223b2eb581b44e",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/NomadClans_styletile.png",
+      "filename": "NomadClans_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 7691,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:NomadClans",
+        "category:concept_art"
+      ],
+      "faction": "NomadClans",
+      "last_modified": "2025-08-12T07:24:53.676689",
+      "content_hash": "860eb0398c0d38c96f88a8b6e3e0d388b505eba0a043d0a3f02f0047e052cd21",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/CivicWardens_styletile.png",
+      "filename": "CivicWardens_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 7776,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CivicWardens",
+        "category:concept_art"
+      ],
+      "faction": "CivicWardens",
+      "last_modified": "2025-08-12T07:24:52.977683",
+      "content_hash": "2d6ff5c90e8c30e7d872eeca1a2dde7d76d53e20b6ea55154b092601cadb487f",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/CorporateCombine_styletile.png",
+      "filename": "CorporateCombine_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 7782,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:CorporateCombine",
+        "category:concept_art"
+      ],
+      "faction": "CorporateCombine",
+      "last_modified": "2025-08-12T07:24:52.828682",
+      "content_hash": "e37e96d721ccd120754a6c3b2112bcab8eed01f2726c55293d83620a08cdd8d0",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/VulturesUnion_styletile.png",
+      "filename": "VulturesUnion_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 7603,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VulturesUnion",
+        "category:concept_art"
+      ],
+      "faction": "VulturesUnion",
+      "last_modified": "2025-08-12T07:24:54.015692",
+      "content_hash": "2db642763ebcc80962c17ff3f13eea0b437a65d896184a1a301fb7a627e789fd",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/Directorate_styletile.png",
+      "filename": "Directorate_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 7530,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Directorate",
+        "category:concept_art"
+      ],
+      "faction": "Directorate",
+      "last_modified": "2025-08-12T07:24:54.511696",
+      "content_hash": "bb30c98cfd23ac85d790648603333f79dff5de7a37c86429c4757136c89c7a7b",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/Free77_styletile.png",
+      "filename": "Free77_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 7088,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:Free77",
+        "category:concept_art"
+      ],
+      "faction": "Free77",
+      "last_modified": "2025-08-12T07:24:54.172693",
+      "content_hash": "90eb5481973ae4787319ac3af15c7f028f31513e5f51ec099eb9ecb3d0706413",
+      "notes": []
+    },
+    {
+      "filepath": "Docs/Concepts/StyleTiles/VaultedArchivists_styletile.png",
+      "filename": "VaultedArchivists_styletile.png",
+      "category": "concept_art",
+      "priority": "low",
+      "size_bytes": 8053,
+      "resolution": null,
+      "is_placeholder": false,
+      "has_watermark": false,
+      "placeholder_score": 0.0,
+      "tags": [
+        "faction:VaultedArchivists",
+        "category:concept_art"
+      ],
+      "faction": "VaultedArchivists",
+      "last_modified": "2025-08-12T07:24:52.754682",
+      "content_hash": "37f841fd24380cb7fa71594d1a096fefa74003411fd32e3f97fe0dcc0fd2fa17",
+      "notes": []
+    }
+  ]
+}
