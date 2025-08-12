@@ -60,3 +60,5 @@ Date: 2025-08-11
 [2025-08-11] Tools: Added Unreal Python scripts (sanity pass, niagara baselines, multi-biome lookdev) under Tools/Unreal/python/
 
 [2025-08-11] Tools: Added placeholder render generator (Tools/gen_placeholder_renders.py) and refreshed Docs/Concepts/ASSET_MANIFEST.json
+
+[2025-08-12] Asset manifest updated: /home/runner/work/Terminal-Grounds/Terminal-Grounds/Docs/Tech/asset_manifest.json (45 items)
