@@ -30,3 +30,5 @@ Date: 2025-08-11
 - Append-only expansions to HOWTO-BUILD/HOWTO-HOST for platform specifics and Docker/compose notes.
 - Add UE asset path tables to relevant art/UI docs where helpful.
 - Open PR: "Phase 4 — Documentation Delta Pass (No Overwrites)" once classification and minimal expansions land.
+
+[2025-08-11] Asset manifest updated: C:\Users\Zachg\Terminal-Grounds\Docs\Tech\asset_manifest.json (6 items)
