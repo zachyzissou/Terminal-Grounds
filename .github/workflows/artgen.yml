@@ -1,0 +1,23 @@
+name: ArtGen (optional)
+on:
+  workflow_dispatch:
+jobs:
+  artgen:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python -m pip install --upgrade pip pillow cairosvg
+      - run: python Tools/ArtGen/tools_make_faction_emblems.py
+      - run: python Tools/ArtGen/tools_make_posters.py
+      - run: python Tools/ArtGen/tools_make_icons.py
+      - run: python Tools/ArtGen/tools_make_swatches.py
+      - name: Commit ArtGen outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Content/TG Docs/Concepts Tools/ArtGen/icons/svg Tools/ArtGen/svg || true
+          git commit -m "ci(artgen): update generated assets" || echo "No changes"
+          git push

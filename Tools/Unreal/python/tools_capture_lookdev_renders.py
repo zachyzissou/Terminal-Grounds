@@ -8,8 +8,9 @@ import unreal  # noqa: F401
 
 ROOT = unreal.SystemLibrary.get_project_directory()
 LOG = os.path.normpath(os.path.join(ROOT, "../Docs/Phase4_Implementation_Log.md"))
+# Default single-level capture; other multi-biome captures handled by tools_build_lookdev_levels
 LEVEL_PATH = "/Game/TG/LookDev/L_TG_LookDev"
-OUT_DIR = os.path.normpath(os.path.join(ROOT, "../Docs/Art/LookDevRenders"))
+OUT_DIR = os.path.normpath(os.path.join(ROOT, "../Docs/Concepts/Renders"))
 
 
 def append_log(msg: str):

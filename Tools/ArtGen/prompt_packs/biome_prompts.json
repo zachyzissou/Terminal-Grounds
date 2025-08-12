@@ -1,0 +1,10 @@
+[
+  {"name":"IEZ_Day","prompt":"Industrial Exclusion Zone day look dev wall, rusted steel, concrete, decals, steam, fog, UHD, cinematic, moody"},
+  {"name":"IEZ_Night","prompt":"IEZ night, sodium lamps, smoke, rain streaks, reflective puddles, caution tape, UHD"},
+  {"name":"TechWastes_Day","prompt":"Tech wastes with alien energy shards, harsh sun, sand, blue-purple energy glow"},
+  {"name":"TechWastes_Night","prompt":"Tech wastes night, aurora EMI, lightning, dust, long exposure look"},
+  {"name":"SkyBastion_Day","prompt":"Corporate bastion day, glass and metal, blue sky, sharp shadows, cleanliness vs grime"},
+  {"name":"SkyBastion_Night","prompt":"Sky bastion night, neon accents, cool lights, reflections"},
+  {"name":"BlackVault_Day","prompt":"Underground vault, concrete, steel, work lights, haze"},
+  {"name":"BlackVault_Night","prompt":"Black vault emergency lights, deep shadows, volumetrics"}
+]
