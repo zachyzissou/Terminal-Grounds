@@ -16,6 +16,10 @@ req=[("Docs/Art/ART_BIBLE.md",r"Content/TG/"),("Docs/VFX/VFX_BIBLE.md",r"\bNS_TG
 for path,rx in req:
   if os.path.isfile(path) and not re.search(rx,open(path,"r",encoding="utf-8",errors="ignore").read()):
     fails.append((path,0,f"Missing required reference: {rx}"))
+if os.environ.get("REQUIRE_RENDERS","false").lower() in ("1","true","yes"):
+  rend=list(glob.glob("Docs/Concepts/Renders/**/*.*",recursive=True))
+  if len([p for p in rend if os.path.isfile(p)])<1:
+    fails.append(("Docs/Concepts/Renders",0,"Missing required look-dev renders (REQUIRE_RENDERS)"))
 if fails:
   print("❌ Docs Gate failures:"); [print(f" - {p}:{i} :: {t}") for p,i,t in fails]
   os.makedirs("Docs",exist_ok=True); json.dump({"failures":fails},open("Docs/.docs_gate_report.json","w"),indent=2)
