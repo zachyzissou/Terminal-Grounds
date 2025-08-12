@@ -1,0 +1,47 @@
+name: Docs Gate & Manifest
+on:
+  pull_request:
+    paths: ["Docs/**","README.md","Design/**","World/**","Tech/**","Tools/**","Content/TG/**"]
+  push:
+    branches: ["**"]
+    paths: ["Docs/**","README.md","Design/**","World/**","Tech/**","Tools/**","Content/TG/**"]
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python -m pip install --upgrade pip pillow cairosvg
+      - name: Docs Gate
+        id: gate
+        run: python Tools/validate_docs_assets.py || echo "DOCS_GATE_FAILED=1" >> $GITHUB_ENV
+      - name: Build Asset Manifest
+        run: python Tools/build_asset_manifest.py
+      - name: Upload manifest
+        uses: actions/upload-artifact@v4
+        with: { name: asset-manifest, path: Docs/Concepts/ASSET_MANIFEST.json }
+      - name: Summary
+        run: |
+          echo "## Docs Gate & Manifest" >> $GITHUB_STEP_SUMMARY
+          if [ -f Docs/.docs_gate_report.json ]; then
+            echo "**Docs Gate failures:**" >> $GITHUB_STEP_SUMMARY
+            cat Docs/.docs_gate_report.json >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Docs Gate: ✅ Passed" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "**Manifest preview:**" >> $GITHUB_STEP_SUMMARY
+          head -n 80 Docs/Concepts/ASSET_MANIFEST.json >> $GITHUB_STEP_SUMMARY
+      - name: Commit manifest (push only)
+        if: ${{ github.event_name == 'push' && github.ref != 'refs/heads/main' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Docs/Concepts/ASSET_MANIFEST.json Docs/Concepts/ASSET_MANIFEST.md || true
+          git commit -m "ci: update asset manifest" || echo "No changes"
+          git push
+      - name: Fail on gate
+        if: env.DOCS_GATE_FAILED == '1'
+        run: exit 1
