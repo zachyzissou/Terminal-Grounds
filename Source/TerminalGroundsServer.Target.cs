@@ -7,7 +7,7 @@ public class TerminalGroundsServerTarget : TargetRules
     {
         Type = TargetType.Server;
         DefaultBuildSettings = BuildSettingsVersion.V5;
-        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
         bUsesSteam = false;
         bUseLoggingInShipping = true;
         ExtraModuleNames.AddRange(new string[] {

@@ -1,12 +1,12 @@
 {
   "engine": [
     "GameplayAbilities",
-    "GameplayTags",
+  "GameplayTags",
     "Niagara",
     "MovieRenderPipeline",
     "PythonScriptPlugin",
     "EditorScriptingUtilities",
-    "WorldPartitionEditor",
+  "WorldPartitionEditor",
     "Water",
     "ControlRig",
     "Fab"

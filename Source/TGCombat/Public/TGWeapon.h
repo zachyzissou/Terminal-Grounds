@@ -6,33 +6,33 @@
 class UTGWeaponInstance;
 
 USTRUCT()
-struct FTGShotParams
-{
-	GENERATED_BODY()
-	UPROPERTY() FVector_NetQuantize10 Origin = FVector::ZeroVector;
-	UPROPERTY() FVector_NetQuantizeNormal Direction = FVector::ForwardVector;
-	UPROPERTY() float Timestamp = 0.f; // client time for lag compensation
+struct FTGShotParams {
+  GENERATED_BODY()
+  UPROPERTY() FVector_NetQuantize10 Origin = FVector::ZeroVector;
+  UPROPERTY() FVector_NetQuantizeNormal Direction = FVector::ForwardVector;
+  UPROPERTY() float Timestamp = 0.f; // client time for lag compensation
 };
 
 UCLASS()
-class TGCOMBAT_API ATGWeapon : public AActor
-{
-	GENERATED_BODY()
+class TGCOMBAT_API ATGWeapon : public AActor {
+  GENERATED_BODY()
 public:
-	ATGWeapon();
+  ATGWeapon();
 
-	UFUNCTION(BlueprintCallable) void StartFire();
-	UFUNCTION(BlueprintCallable) void StopFire();
-	UFUNCTION(BlueprintCallable) void Reload();
+  UFUNCTION(BlueprintCallable) void StartFire();
+  UFUNCTION(BlueprintCallable) void StopFire();
+  UFUNCTION(BlueprintCallable) void Reload();
 
 protected:
-	UPROPERTY(ReplicatedUsing=OnRep_WeaponData) TObjectPtr<UTGWeaponInstance> WeaponData;
-	FTimerHandle FireTimer;
+  UPROPERTY(ReplicatedUsing = OnRep_WeaponData)
+  TObjectPtr<UTGWeaponInstance> WeaponData;
+  FTimerHandle FireTimer;
 
-	UFUNCTION() void OnRep_WeaponData();
+  UFUNCTION() void OnRep_WeaponData();
 
-	UFUNCTION(Server, Reliable) void ServerFire(const FTGShotParams& Params);
-	void HandleFireTick();
+  UFUNCTION(Server, Reliable) void ServerFire(const FTGShotParams &Params);
+  void HandleFireTick();
 
-	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out) const override;
+  virtual void GetLifetimeReplicatedProps(
+      TArray<FLifetimeProperty> &OutLifetimeProps) const override;
 };

@@ -25,7 +25,7 @@ log="Docs/Phase4_Implementation_Log.md"
 if os.path.isfile(log):
   uepaths=sorted(set(re.findall(r"(/Game/TG/[^\s)]+)", open(log,encoding="utf-8",errors="ignore").read())))
 manifest={
- "generated_at":datetime.datetime.utcnow().isoformat()+"Z",
+ "generated_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),
  "counts":{"emblems":len(emblems),"posters":len(posters),"icons":len(icons),"palettes":len(palettes),"renders":len(renders),"style_tiles":len(style_tiles),"ue_paths_logged":len(uepaths)},
  "files":{"emblems":emblems,"posters":posters,"icons":icons,"palettes":palettes,"renders":renders,"style_tiles":style_tiles},
  "ue_paths":uepaths,"hash":h(emblems+posters+icons+palettes+renders+style_tiles)

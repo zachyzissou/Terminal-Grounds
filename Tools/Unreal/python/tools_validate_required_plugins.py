@@ -14,6 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 REQ = json.loads((ROOT / "Tools/Unreal/required_plugins.json").read_text())
+OPTIONAL_ENGINE = set()
 
 # Attempt to infer engine root if running in-editor
 UE_ROOT = None
@@ -34,14 +35,28 @@ if UE_ROOT is None:
 ENGINE_PLUGINS = UE_ROOT / "Engine/Plugins"
 PROJECT_PLUGINS = ROOT / "Plugins"
 
+SEARCH_PARENTS = [
+    ".", "Runtime", "Editor", "FX", "Experimental", "Developer",
+    # Common special buckets
+    "MovieScene", "Animation", "Marketplace"
+]
+
 missing_engine = []
 for name in REQ["engine"]:
-    # Search two common locations: Runtime/ and Editor/ and FX/
-    found = any((ENGINE_PLUGINS / sub / name).with_suffix(".uplugin").exists() for sub in ["Runtime", "Editor", "FX", "."]) or \
-            any((ENGINE_PLUGINS / sub / name / f"{name}.uplugin").exists() for sub in ["Runtime", "Editor", "FX", "."]) or \
-            any((ENGINE_PLUGINS / sub / name).exists() for sub in ["Runtime", "Editor", "FX", "."]) or \
-            any((ENGINE_PLUGINS / sub / name / f"{name}.uplugin").exists() for sub in ["Experimental", "Developer"]) or \
-            (ENGINE_PLUGINS / name / f"{name}.uplugin").exists()
+    found = False
+    for parent in SEARCH_PARENTS:
+        base = ENGINE_PLUGINS / parent / name
+        if base.with_suffix(".uplugin").exists() or (base / f"{name}.uplugin").exists() or base.exists():
+            found = True
+            break
+    # Also check one more level deep for some Marketplace layouts
+    if not found:
+        for parent in SEARCH_PARENTS:
+            parent_dir = ENGINE_PLUGINS / parent
+            candidate = parent_dir / name / f"{name}.uplugin"
+            if candidate.exists():
+                found = True
+                break
     if not found:
         missing_engine.append(name)
 
@@ -57,16 +72,23 @@ print("Project Plugins root:", PROJECT_PLUGINS)
 print()
 print("Required engine plugins:")
 for n in REQ["engine"]:
-    print(" -", n, "(MISSING)" if n in missing_engine else "OK")
+    status = "(MISSING)" if n in missing_engine else "OK"
+    if n in OPTIONAL_ENGINE and n in missing_engine:
+        status = "(MISSING - optional)"
+    print(" -", n, status)
 print()
 print("Required project plugins:")
 for n in REQ["project"]:
     print(" -", n, "(MISSING)" if n in missing_project else "OK")
 
-if missing_engine or missing_project:
+hard_missing = [n for n in missing_engine if n not in OPTIONAL_ENGINE]
+if hard_missing or missing_project:
     print("\nNext steps:")
-    if missing_engine:
-        print(" - Install/verify these in your UE 5.6 instance via Epic Launcher:", ", ".join(missing_engine))
+    if hard_missing:
+        print(" - Install/verify these in your UE 5.6 instance via Epic Launcher:", ", ".join(hard_missing))
+    soft_missing = [n for n in missing_engine if n in OPTIONAL_ENGINE]
+    if soft_missing:
+        print(" - Optional (but recommended) engine plugins missing:", ", ".join(soft_missing))
     if missing_project:
         print(" - Add these under the repo's Plugins/ folder:", ", ".join(missing_project))
     sys.exit(1)
