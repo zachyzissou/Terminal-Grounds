@@ -304,3 +304,27 @@ Terminal Grounds VFX serves three core purposes:
 - **Performance Scaling**: Audio and visual quality scale together in performance presets
 
 This VFX bible provides the foundation for all visual effects development in Terminal Grounds Phase 3, ensuring consistency, performance, and gameplay clarity across all effect systems.
+
+## Baseline Systems (auto)
+
+- /Game/TG/VFX/NS_TG_Muzzle_S
+- /Game/TG/VFX/NS_TG_Muzzle_M
+- /Game/TG/VFX/NS_TG_Muzzle_LMG
+- /Game/TG/VFX/NS_TG_Impact_Concrete
+- /Game/TG/VFX/NS_TG_Impact_Metal
+- /Game/TG/VFX/NS_TG_Impact_Dirt
+- /Game/TG/VFX/NS_TG_Impact_Glass
+- /Game/TG/VFX/NS_TG_Brass
+- /Game/TG/VFX/NS_TG_HeatShimmer
+- /Game/TG/VFX/NS_TG_CoilCharge
+- /Game/TG/VFX/NS_TG_PlasmaBolt
+- /Game/TG/VFX/NS_TG_OverheatVent
+- /Game/TG/VFX/NS_TG_EMPArc
+- /Game/TG/VFX/NS_TG_BeamRibbon
+- /Game/TG/VFX/NS_TG_GravWell
+- /Game/TG/VFX/NS_TG_VoidBlade
+- /Game/TG/VFX/NS_TG_RustStorm
+- /Game/TG/VFX/NS_TG_Ashfall
+- /Game/TG/VFX/NS_TG_EMI_Lightning
+- /Game/TG/VFX/NS_TG_ReactorPlume
+- /Game/TG/VFX/NS_TG_APC_Dust
