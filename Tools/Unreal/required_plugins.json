@@ -1,0 +1,18 @@
+{
+  "engine": [
+    "GameplayAbilities",
+    "GameplayTags",
+    "Niagara",
+    "MovieRenderPipeline",
+    "PythonScriptPlugin",
+    "EditorScriptingUtilities",
+    "WorldPartitionEditor",
+    "Water",
+    "ControlRig",
+    "Fab"
+  ],
+  "project": [
+    "TGAttachments",
+    "TGModKit"
+  ]
+}
