@@ -101,7 +101,7 @@ def main():
     ]
     with open(SANITY_MD, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
-    append_log(f"UE5.6 Sanity Pass -> docs/Tech/UE56_SANITY.md")
+        append_log("UE5.6 Sanity Pass -> Docs/Tech/UE56_SANITY.md")
     unreal.SystemLibrary.print_string(None, "Sanity pass complete", text_color=unreal.LinearColor.GREEN)
 
 

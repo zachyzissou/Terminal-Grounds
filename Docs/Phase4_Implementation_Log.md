@@ -54,3 +54,9 @@ Date: 2025-08-11
 [2025-08-11] Created: Palette + StyleTiles for 7 factions under Docs/Concepts
 
 [2025-08-11] Created placeholder look-dev renders in Docs/Concepts/Renders (6 images)
+
+[2025-08-11] CI: Added Docs Gate + Asset Manifest workflow (.github/workflows/docs-gate.yml)
+
+[2025-08-11] Tools: Added Unreal Python scripts (sanity pass, niagara baselines, multi-biome lookdev) under Tools/Unreal/python/
+
+[2025-08-11] Tools: Added placeholder render generator (Tools/gen_placeholder_renders.py) and refreshed Docs/Concepts/ASSET_MANIFEST.json

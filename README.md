@@ -106,9 +106,7 @@ Terminal Grounds is a high-fidelity first-person shooter where disciplined gunpl
 
 <!-- ===== HERO IMAGES (auto-show once renders exist) ===== -->
 <p align="center">
-  <img src="Docs/Art/LookDevRenders/Hero_IEZ.png" alt="IEZ Districts — look dev" width="45%"/>
-  <img src="Docs/Art/LookDevRenders/Hero_Wastes.png" alt="Tech Wastes — look dev" width="45%"/>
-
+  <img src="Docs/Concepts/Renders/Hero.png" alt="Hero — Visual Kickstart" width="90%"/>
 </p>
 
 ### Why this game?
@@ -170,12 +168,12 @@ Influences (vibes, not clones): Call of Duty, Battlefield, Escape from Tarkov, F
 
 <!-- ===== BIOME LOOK-DEV STRIP ===== -->
 <p align="center">
-  <img src="Docs/Art/LookDevRenders/IEZ_palette.png" alt="IEZ palette" width="45%"/>
-  <img src="Docs/Art/LookDevRenders/Wastes_palette.png" alt="Tech Wastes palette" width="45%"/>
+  <img src="Docs/Concepts/Renders/IEZ_Day.png" alt="IEZ Day" width="45%"/>
+  <img src="Docs/Concepts/Renders/IEZ_Night.png" alt="IEZ Night" width="45%"/>
 </p>
 <p align="center">
-  <img src="Docs/Art/LookDevRenders/SkyBastion_storm.png" alt="Sky Bastion storm" width="45%"/>
-  <img src="Docs/Art/LookDevRenders/BlackVault_mood.png" alt="Black Vault mood" width="45%"/>
+  <img src="Docs/Concepts/Renders/SkyBastion_Day.png" alt="Sky Bastion Day" width="45%"/>
+  <img src="Docs/Concepts/Renders/BlackVault_Night.png" alt="Black Vault Night" width="45%"/>
 </p>
 
 ## How it plays (the loop)
