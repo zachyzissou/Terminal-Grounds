@@ -14,7 +14,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 REQ = json.loads((ROOT / "Tools/Unreal/required_plugins.json").read_text())
-OPTIONAL_ENGINE = set()
+OPTIONAL_ENGINE = {"WorldPartitionEditor"}
+
+SPECIAL_ENGINE_MODULES = {
+    # Not a plugin in stock UE installs; validate by binary presence
+    "GameplayTags": ["UnrealEditor-GameplayTags.dll", "UnrealEditor-GameplayTags.pdb"],
+}
 
 # Attempt to infer engine root if running in-editor
 UE_ROOT = None
@@ -56,6 +61,17 @@ for name in REQ["engine"]:
             candidate = parent_dir / name / f"{name}.uplugin"
             if candidate.exists():
                 found = True
+                break
+    # Fallback: treat known engine modules as present if their binaries exist
+    if not found and name in SPECIAL_ENGINE_MODULES:
+        bin_root = UE_ROOT / "Engine/Binaries"
+        for sub in ("Win64", "WinGDK", "Linux", "Mac"):
+            b = bin_root / sub
+            for dll in SPECIAL_ENGINE_MODULES[name]:
+                if (b / dll).exists():
+                    found = True
+                    break
+            if found:
                 break
     if not found:
         missing_engine.append(name)
