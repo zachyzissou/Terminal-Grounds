@@ -1,0 +1,17 @@
+{
+  "filename": "HQ_Metro_Maintenance_Corridor_Clean_SciFi_832x468_s18_cfg4.6_00001_.png",
+  "location": "Metro_Maintenance_Corridor",
+  "style": "Clean_SciFi",
+  "width": 832,
+  "height": 468,
+  "steps": 18,
+  "cfg": 4.6,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "seed": 94887,
+  "profile": "baseline",
+  "vram_safe": false,
+  "vram_1080": false,
+  "positive": "Terminal Grounds underground metro maintenance corridor, single-point perspective, wet concrete, machined metal, conduit trays, hazard striping, industrial fixtures; panel seams, rivets, bolts, inspection hatches; grime streaks, chipped paint; sharp focus, crisp edges, professional game art",
+  "negative": "text, watermark, soft focus, gaussian blur, bloom, haze, veil, bokeh, underexposed, crushed blacks"
+}

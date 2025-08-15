@@ -16,5 +16,7 @@
     "*.Build.cs": "csharp",
     "*.Target.cs": "csharp"
   },
-  "ue.engineRoot": "C:/Program Files/Epic Games/UE_5.6"
+  "ue.engineRoot": "C:/Program Files/Epic Games/UE_5.6",
+  "editor.experimentalGpuAcceleration": "on",
+  "terminal.integrated.enableImages": true
 }

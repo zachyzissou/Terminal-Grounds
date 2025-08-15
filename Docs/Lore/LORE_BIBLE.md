@@ -1,223 +1,298 @@
-# Terminal Grounds Lore Bible
-
-## Timeline
-
-### The Shattered Accord (2159-2161)
-
-The collapse of the Global Reconstruction Accord marked the end of unified human governance. What began as disagreements over Harvester wreck salvage rights escalated into the War of Broken Chains. Three major corporations—Vector Dynamics, Helix Industries, and Sigma Collective—fractured the alliance when they discovered the first intact Harvester wreck sites contained technology beyond human understanding.
-
-The final breaking point came in 2161 when the IEZ (Interdiction Exclusion Zone) incident occurred: a massive EMP cascade from an excavated Monolith-class wreck disabled all electronics within a 200-kilometer radius for six weeks. In the chaos that followed, military units went rogue, corporate PMCs seized territory, and civilian populations organized into armed militias. The Accord officially dissolved on December 15, 2161.
-
-### Post-Accord Era (2161-Present)
-
-The year is now 2161, six months after the Shattered Accord. The arms race drives every faction's decision—whoever controls the most advanced Harvester technology will dominate the new world order. The IEZ remains a contested zone where all factions converge to extract alien artifacts, leading to constant skirmishes and shifting alliances.
-
-## Harvester Wreck Classifications
-
-### Skimmer Class
-**Size**: 50-100 meters  
-**Tech Level**: Basic alien materials, simple energy systems  
-**Salvage Value**: Entry-level hybrid components, basic power cells  
-**Hazards**: Mild radiation, occasional energy discharges  
-
-Skimmers appear to have been reconnaissance or light transport vessels. Their wrecks are the most common and safest to salvage, making them ideal for new extraction teams. Most Human-tier equipment incorporates salvaged Skimmer components.
-
-### Harrower Class
-**Size**: 200-500 meters  
-**Tech Level**: Advanced energy weapons, sophisticated AI cores  
-**Salvage Value**: High-grade hybrid technology, weapon systems  
-**Hazards**: Severe EMP fields, structural instability, automated defenses  
-
-Harrower wrecks suggest these were military vessels. Their salvage yields the components needed for Hybrid-tier weapons and equipment. However, many Harrower sites feature active defense systems that react violently to intruders.
-
-### Monolith Class
-**Size**: 1-5 kilometers  
-**Tech Level**: Incomprehensible alien technology  
-**Salvage Value**: Alien-tier artifacts, reality-bending technology  
-**Hazards**: Gravitational anomalies, temporal distortions, psychological effects  
-
-Only three confirmed Monolith sites exist. The IEZ incident originated from one. These massive vessels defy understanding—their technology appears to manipulate fundamental forces. Alien-tier equipment sourced from Monoliths is unpredictable but devastatingly powerful.
-
-## Regions
-
-### IEZ (Interdiction Exclusion Zone)
-The epicenter of the great cascade event. A 200-kilometer radius of twisted metal, strange energies, and valuable salvage. The zone's center remains uninhabitable due to ongoing temporal anomalies, but its outer districts offer rich pickings for brave extraction teams. Multiple faction bases ring the IEZ's perimeter.
-
-### Metro Maintenance A
-Underground tunnel networks beneath the former capital city. The metro system became a refuge during the cascade event, and now serves as neutral territory where factions trade information and equipment. The Civic Wardens maintain order here through a complex system of tolls and safe passage agreements.
-
-### Tech Wastes
-Industrial zones where pre-war manufacturing complexes were abandoned after the cascade. Automated factories still operate sporadically, producing components when they can scavenge enough power. The Corporate Combine and Vaulted Archivists compete heavily for control of these sites.
-
-### Sky Bastion
-A former military installation built into a mountain peak, now serving as the Directorate's primary stronghold. Its position offers commanding views of the IEZ and Tech Wastes. The Bastion's landing pads see regular helicopter traffic as the Directorate coordinates extraction operations.
-
-### Black Vault
-A heavily fortified underground complex of unknown origin. Some believe it predates the Harvesters' arrival. The Vaulted Archivists claim ownership, but their control is disputed. Strange signals emanate from its depths, and those who venture too deep often return... changed.
-
-### Crimson Docks
-Coastal industrial port where massive cargo haulers once shipped materials worldwide. Now the Vultures Union's primary base, where salvage is sorted, traded, and retrofitted. The red-stained concrete piers tell stories of countless turf wars over valuable wreck sites.
-
-## Factions
-
-### Directorate
-**Philosophy**: Order through military discipline  
-**Territory**: Sky Bastion, IEZ northern districts  
-**Tech Focus**: Reliable Human-tier equipment, combined arms tactics  
-
-Former military officers who maintained unit cohesion after the Accord's collapse. They view themselves as the legitimate government-in-exile and work to restore order through disciplined action. Their equipment is well-maintained but conservative—they prefer proven technology over risky Hybrid experiments.
-
-### Vultures Union
-**Philosophy**: Survival through salvage  
-**Territory**: Crimson Docks, mobile convoy operations  
-**Tech Focus**: Hybrid scavenging, jury-rigged solutions  
-
-Formed from industrial workers and scrap dealers who survived the cascade by adapting quickly. They're master scavengers who can coax functionality from the most damaged Harvester components. Their motto: "One person's wreck is another's fortune."
-
-### Free 77
-**Philosophy**: Independence through mercenary pragmatism  
-**Territory**: Mobile operations, temporary contracts  
-**Tech Focus**: Balanced human/hybrid loadouts, mission-specific gear  
-
-Named after Highway 77, the evacuation route where fleeing civilians first organized into armed bands. Now professional contractors who sell their services to the highest bidder. They pride themselves on completing any contract, regardless of client faction.
-
-### Corporate Combine
-**Philosophy**: Progress through technological supremacy  
-**Territory**: Tech Wastes, research installations  
-**Tech Focus**: Cutting-edge Hybrid technology, experimental systems  
-
-A merger of Vector Dynamics, Helix Industries, and Sigma Collective's surviving assets. They pursue aggressive research into Harvester technology, believing that mastering alien science is humanity's only path to recovery. Their equipment is powerful but unstable.
-
-### Nomad Clans
-**Philosophy**: Freedom through mobility  
-**Territory**: Mobile convoy cities, trade routes  
-**Tech Focus**: Vehicle modifications, logistics systems  
-
-Descended from truckers, travelers, and mobile communities who refused to settle after the cascade. They maintain the roads and trade routes that allow other factions to function. Their massive convoy-cities are armed fortresses that can relocate when threatened.
-
-### Vaulted Archivists
-**Philosophy**: Knowledge through preservation  
-**Territory**: Black Vault, hidden research sites  
-**Tech Focus**: Alien technology study, EMP/stealth systems  
-
-Formed from scientists, librarians, and academics who sought to preserve human knowledge during the collapse. They believe understanding the Harvesters' purpose is key to humanity's survival. Their technology often seems mystical to outsiders—EMP weapons, cloaking devices, and stranger things.
-
-### Civic Wardens
-**Philosophy**: Community through mutual protection  
-**Territory**: Metro Maintenance A, civilian settlements  
-**Tech Focus**: Defensive systems, community infrastructure  
-
-Organized from emergency responders, local militias, and community leaders who focused on protecting civilians during the chaos. They're the closest thing to a peacekeeping force, mediating disputes and maintaining safe zones where non-combatants can shelter.
-
-## Technology Tiers
-
-### Human Technology
-**Characteristics**: Reliable, well-understood, repairable  
-**Examples**: Conventional firearms, vehicles, basic electronics  
-**Advantages**: Consistent performance, easy maintenance, available ammunition  
-**Drawbacks**: Limited effectiveness against advanced threats  
-
-Represents the pinnacle of pre-cascade human engineering. These weapons and systems have proven designs and can be maintained with scavenged parts. Most factions rely on Human-tier equipment as their backbone.
-
-### Hybrid Technology
-**Characteristics**: Unstable power/heat/EMP risk, powerful when functioning  
-**Examples**: Plasma weapons, energy shields, advanced targeting systems  
-**Advantages**: Superior firepower, unique capabilities  
-**Drawbacks**: Overheating, power failures, EMP vulnerability, complex maintenance  
-
-Created by reverse-engineering Skimmer and Harrower components into human-compatible systems. These weapons offer significant advantages but require careful management of heat buildup and power consumption. Hybrid systems can fail catastrophically if pushed beyond safe limits.
-
-### Alien Technology
-**Characteristics**: Rare, unpredictable, reality-defying capabilities  
-**Examples**: Graviton manipulators, phase weapons, temporal disruptors  
-**Advantages**: Devastating power, unique effects that ignore conventional defenses  
-**Drawbacks**: Unpredictable behavior, no repair possible, psychological stress on users  
-
-Pure Harvester technology that has been minimally modified for human use. These devices operate on principles beyond current human understanding. They're impossibly powerful but may malfunction in ways that defy physics. Extended use can cause psychological effects in operators.
-
-## Augmentation Systems
-
-### Reflex Splice
-**Installation Site**: Spinal column neural junction  
-**Effect**: Reduces reaction time by 40-60%  
-**Risks**: Chronic pain, nervous system cascade failure  
-**Compatibility**: Cannot be used with Neural Slicer  
-
-Harvester bio-neural interfaces spliced into human nerve clusters. Users report time seeming to slow during combat, allowing for superhuman reflexes. However, the constant overstimulation of nervous system pathways leads to chronic pain and eventual system burnout.
-
-### Ocular Suite
-**Installation Site**: Retinal and optic nerve replacement  
-**Effect**: Enhanced vision, targeting assistance, threat identification  
-**Risks**: Migraines, visual hallucinations, depth perception issues  
-**Compatibility**: Synergizes with Neural Slicer for enhanced targeting  
-
-Hybrid optical systems that replace human eyes with sophisticated sensor arrays. Provides thermal vision, range-finding, and target marking capabilities. Users often report seeing things that aren't there as the system struggles to interpret alien sensor data.
-
-### Subdermal Plating
-**Installation Site**: Beneath skin across torso and limbs  
-**Effect**: Improved damage resistance, integrated equipment mounting  
-**Risks**: Tissue rejection, mobility reduction, chronic inflammation  
-**Compatibility**: Universal, but adds weight that affects other systems  
-
-Thin sheets of salvaged Harvester hull material implanted under the skin. Provides moderate protection against impacts and energy weapons while offering mounting points for additional equipment. The foreign material often triggers immune responses.
-
-### Neural Slicer
-**Installation Site**: Frontal cortex modification  
-**Effect**: Enhanced tactical awareness, equipment interface capabilities  
-**Risks**: Personality changes, memory loss, reality dissociation  
-**Compatibility**: Cannot be used with Reflex Splice  
-
-The most dangerous augmentation, involving direct integration of Harvester neural processors with human brain tissue. Users gain dramatically enhanced situational awareness and can interface directly with compatible equipment. However, the alien neural patterns often conflict with human consciousness, leading to personality fragmentation.
-
-## Economy and Trade
-
-### Primary Currency
-**Credits**: Digital currency backed by verified salvage reserves  
-**Barter**: Direct equipment and material trading  
-**Labor Hours**: Skilled work as payment for goods and services  
-
-### Valuable Resources
-- **Harvester Alloys**: Essential for Hybrid equipment manufacturing  
-- **Power Cells**: Energy storage for advanced systems  
-- **Neural Processors**: Core components for AI and augmentation systems  
-- **Medical Supplies**: Critical for treating augmentation complications  
-- **Ammunition**: Always in demand across all factions  
-- **Fuel**: Vehicle operations and power generation  
-
-### Black Market
-The Vaulted Archivists operate the most sophisticated black market, offering lottery systems for rare Hybrid and Alien components. These lotteries are often the only way to acquire the most advanced technology, as the Archivists hoard the most valuable finds for research purposes.
-
-## Propaganda and Cultural Elements
-
-### Common Phrases
-- "Salvage before the storm" - Get what you can while it's safe  
-- "EMP'd and forgotten" - Abandoned or broken beyond repair  
-- "Cascading down" - Situation getting worse rapidly  
-- "Harvester blessed" - Extremely lucky (often ironic)  
-- "Pre-cascade thinking" - Outdated or naive worldview  
-
-### Faction Mottos
-- **Directorate**: "Order from Chaos"  
-- **Vultures Union**: "From Scrap, Strength"  
-- **Free 77**: "Contract Complete"  
-- **Corporate Combine**: "Through Technology, Tomorrow"  
-- **Nomad Clans**: "The Road Endures"  
-- **Vaulted Archivists**: "Knowledge Preserves"  
-- **Civic Wardens**: "We Stand Together"  
-
-### Cultural Tensions
-The post-cascade world struggles with questions of identity and purpose. Traditional human values conflict with the pragmatic necessity of using Harvester technology. Religious movements have emerged around both rejecting alien technology entirely and embracing it as divine gift. The psychological stress of living with technology that defies understanding has created new forms of mental illness that pre-cascade medicine struggles to address.
-
-### Signature Events
-
-#### Meteor Salvage
-Harvester debris occasionally falls from orbit, creating new salvage opportunities. These events trigger massive faction scrambles as teams race to claim the valuable wreckage before rivals arrive.
-
-#### Drone Swarm  
-Malfunctioning Harvester automated systems sometimes activate, sending swarms of alien drones across territories. While dangerous, destroyed drones yield valuable AI cores and targeting systems.
-
-#### Convoy War
-When major faction supply convoys meet at crossroads, the resulting standoffs can escalate into pitched battles involving dozens of vehicles and hundreds of combatants.
-
-#### Tech Vault Siege
-Periodic attempts by multiple factions to breach heavily defended facilities containing major Harvester technology caches. These sieges can last for days and reshape regional power balances.
+# Terminal Grounds Lore Bible (Canon)
+
+Version: 1.0.0
+
+Owners: Narrative (Primary), Design, Art
+
+Last Updated: 2025-08-13
+
+Scope: Canonical worldbuilding for Terminal Grounds across all disciplines.
+
+Change Policy: Canon edits require “lore-change” PR label, narrative approval, and a changelog entry. Summaries must link here; duplication prohibited.
+
+Index
+
+- Themes & Tone (#themes)
+- Canon Rules (#canon-rules)
+- Timeline (#timeline)
+- Cosmology & Harvesters (#cosmology)
+- World & Regions (#world)
+- Factions (#factions)
+- Characters (#characters)
+- Technology & Augments (#technology)
+- Points of Interest (#pois)
+- Culture & Language (#culture)
+- Law, Conflict, Economy (#society)
+- Glossary & Style Guide (#glossary)
+- Cross-Discipline Notes (#cross-discipline)
+- Changelog (#changelog)
+
+## Themes & Tone {#themes}
+
+Pillars
+
+- Grounded military desperation: logistics, lines of supply, worn kit, triage choices.
+- Salvage economy: scarcity breeds ingenuity; everything is modular, repurposed, re-soldered.
+- Cosmic dread: alien tech functions but defies understanding; it changes people who use it.
+
+No-go list
+
+- Full cyberpunk replacement society (we are military/scavenger first, cyber as seasoning).
+- Full alien presence (Harvesters are absent; their relics are the antagonist).
+- Deus ex machina tech: alien devices must have costs, constraints, and failure modes.
+
+## Canon Rules {#canon-rules}
+
+- What is canon: this Lore Bible and any section it explicitly links as canon.
+- What isn’t: summaries, art/style docs, marketing blurbs, and tool prompts (unless linked here).
+- IDs: Stable IDs across docs, tools, and UE assets. Prefixes:
+	- Factions FCT_*, Regions REG_*, POIs POI_*, Events EVT_*, Characters CHR_*, Tech TEC_*
+- Retcons: Must include a changelog entry and a migration note for affected IDs.
+
+## Timeline {#timeline}
+
+- EVT_FIRST_CONTACT (2147–2149): Non-responsive alien craft observed in deep orbit. “Harvesters” enter inner system, leaving Lagrange artifacts and seeding micro-probes planet-wide. No direct contact.
+- EVT_RECONSTRUCTION_ACCORD (2139–2159): After cascading climate/war disasters, the Global Reconstruction Accord unifies logistics and standards. The Accord is brittle but effective.
+- EVT_WRECK_DISCOVERY (2156): First intact Skimmer-class wreck recovered off the Azores shelf. Power cells trigger localized EMP; early hybrids emerge.
+- EVT_SALVAGE_ACTS (2158): Competing corporate charters (Vector Dynamics, Helix Industries, Sigma Collective) secure exclusive salvage zones. Black markets emerge around “blue ash” (Harvester alloy microdust).
+- EVT_SHATTERED_ACCORD (2159–2161): Salvage disputes escalate into the War of Broken Chains. Accord fractures under corporate PMCs and rogue military formations.
+- EVT_IEZ_CASCADE (2161-06): Monolith-class excavation triggers a six-week EMP cascade over a 200 km radius; clocks desync, drones go feral, city cores black out. The Interdiction Exclusion Zone (IEZ) is declared.
+- Present Day (2161-12): Six months after the cascade. Factions encircle the IEZ. Whoever masters the wrecks decides the world’s next order.
+
+## Cosmology & Harvesters {#cosmology}
+
+- The Harvesters: Automated extractors. Purpose unknown. Wreck typology suggests reconnaissance (Skimmer), combat/logistics (Harrower), and deep infrastructure (Monolith).
+- Linguistic artifacts: Emissions show prime harmonics and non-integer frequency lattices. Archivists’ “Cant” borrows terms from these patterns.
+- Wreck Classification:
+	- TEC_SKIMMER: 50–100m; basic energy systems, survey arrays; reliable hybridization source.
+	- TEC_HARROWER: 200–500m; weaponized arrays, defensive drones; unstable but powerful yields.
+	- TEC_MONOLITH: 1–5km; field manipulators (gravity, time-phase); catastrophic side effects.
+- Field effects:
+	- EMP lattices (Harrower): Decay in minutes but leave sensor ghosts for days.
+	- Temporal jitter (Monolith): Misaligned oscillator drift, subjective time distortions in proximity.
+	- Psychotropic resonance: Long exposure correlates with derealization, intrusive patterning.
+
+## World & Regions {#world}
+
+- REG_IEZ — Interdiction Exclusion Zone
+	- The 200 km radius “dead-sky” where Monolith-caused cascade originated. Outer bands are salvageable; inner core remains jitter-locked. Terrain: tilted ferrocrete, melted rails, monolithic shadows.
+	- Hazards: rolling EMP microbursts, phase shears, drone reactivation events.
+	- Logistics: convoy cords and shielded relays, “breadcrumb” Faraday shelters.
+- REG_TECH_WASTES — De-industrial belts
+	- Semi-autonomous factories stutter to life with scavenged power. Corporate Combine and Archivists contest control.
+- REG_METRO_A — Metro Maintenance A
+	- Subterranean neutral ground enforced by Wardens’ tolls and truce rules.
+- REG_CRIMSON_DOCKS — Salvage port
+	- Vultures Union hub. The red-stained quays are both market and battleground.
+- REG_SKY_BASTION — Directorate mountain stronghold
+	- A high-altitude fortress with reinforced hangars and long-range comms arrays.
+- REG_BLACK_VAULT — Subterranean complex of unknown origin
+	- Claimed by Archivists; rumored pre-Harvester. Emits intermittent prime harmonics.
+
+## Factions {#factions}
+
+- FCT_DIR — Directorate
+	- Philosophy: Order through discipline; legitimacy by continuity of command.
+	- Territory: Sky Bastion, IEZ northern districts.
+	- Tech Focus: Human-tier reliability; rigorously vetted hybrids.
+	- Structure: Field Legions, Logistics Corps, Signals Authority.
+	- Slogans: “Order from Chaos.”
+	- Signature: Standardized kit, clean stenciling, disciplined comms.
+- FCT_VUL — Vultures Union
+	- Philosophy: Survival through salvage; markets as mediation.
+	- Territory: Crimson Docks; roving scavenger flotillas.
+	- Tech Focus: Jury-rigged hybrids; drone tethering.
+	- Slogans: “From Scrap, Strength.”
+	- Signature: Panel-patched armor, visible welds, colored tarps.
+- FCT_F77 — Free 77
+	- Philosophy: Contract pragmatism; competence as currency.
+	- Territory: Itinerant; agency offices in neutral nodes.
+	- Tech Focus: Balanced loadouts tailored to contracts.
+	- Slogans: “Contract Complete.”
+	- Signature: Mixed camo, modular kit, invoice tags on crates.
+- FCT_CCB — Corporate Combine
+	- Philosophy: Progress by supremacy of technology.
+	- Territory: Tech Wastes, R&D pads, secured corridors.
+	- Tech Focus: Prototype hybrids, dangerous edge cases.
+	- Slogans: “Through Technology, Tomorrow.”
+	- Signature: Polished composites, neon diagnostics, NDA stamps.
+- FCT_NOM — Nomad Clans
+	- Philosophy: Freedom through mobility; roads as lifelines.
+	- Territory: Convoy-cities; seasonal routes.
+	- Tech Focus: Vehicle mods; logistics systems; quick-deploy fortifications.
+	- Slogans: “The Road Endures.”
+- FCT_VAR — Vaulted Archivists
+	- Philosophy: Knowledge as salvation; reality is a system to be studied.
+	- Territory: Black Vault, hidden labs.
+	- Tech Focus: EMP, stealth, sensor manipulation; pure artifact studies.
+	- Slogans: “Knowledge Preserves.”
+- FCT_CWD — Civic Wardens
+	- Philosophy: Mutual aid through defense of civilians.
+	- Territory: Metro Maintenance A; safe nodes; settlement belts.
+	- Tech Focus: Hardening, shields, counter-drone networks.
+	- Slogans: “We Stand Together.”
+
+### Event-Only/Secret Aggressors
+
+- FCT_BSK — Black Sky Charter
+	- Modus: Off-books aerospace cell with legacy targeting stacks. Visible only during Skyfall. Laser-designation teams, decoy beacons, area denial.
+- FCT_NCH — Null Choir
+	- Modus: Archivist splinter; silent-cant ops; EMP/shadow kit; appears during Harmonic Windows and in Phase Pockets.
+- FCT_MSN — Monolith Sentinels
+	- Modus: Autonomous Harvester constructs; guard harmonics, punish energy spikes.
+
+## Characters {#characters}
+
+- CHR_ADELE_VARGAS (FCT_DIR) — Marshal of the Northern Districts
+	- Background: Kept a corps intact through the Accord collapse by rationing reputation as carefully as munitions.
+	- Motivation: Restore a chain of command the world can trust.
+	- Conflict: Needs hybrid superiority she distrusts; leans on Archivist intel she resents.
+- CHR_RIN_OKAFOR (FCT_VUL) — Union Broker of Crimson Docks
+	- Background: Scrap dealer turned market architect; built arbitration rituals that keep the Docks from burning daily.
+	- Motivation: Make salvage law stronger than faction law.
+	- Conflict: Convoy raids keep the docks fed—but destabilize treaties.
+- CHR_JAX_KORDER (FCT_F77) — Contract Captain
+	- Background: Former signals NCO; now runs a debt-free, high-competence crew.
+	- Motivation: Keep his crew alive and solvent; “no unwinnable contracts.”
+	- Conflict: A mysterious client insists on Monolith artifacts with no paper trail.
+- CHR_ELI_ZHOU (FCT_CCB) — Combine Program Director
+	- Background: Skimmer-core prodigy; negotiates power as well as prototypes.
+	- Motivation: Publish a breakthrough and secure Combine’s mandate.
+	- Conflict: Suppresses a safety report on temporal jitter to hit a demo window.
+- CHR_SABLE_KHAN (FCT_NOM) — Road Mother of the Ashway
+	- Background: Third-generation convoy leader; carries the codex of routes.
+	- Motivation: Keep the road sovereign; barter safety for the clans.
+	- Conflict: IEZ detours add fatal risk; Wardens’ tolls creep upward.
+- CHR_DOCTOR_IVEY (FCT_VAR) — Vault Lexicographer
+	- Background: Compiles a grammar of Harvester harmonics.
+	- Motivation: Understand the Monolith before the Monolith understands us.
+	- Conflict: Quietly addicted to psychotropic resonance.
+- CHR_LUPE_SANTOS (FCT_CWD) — Warden Captain
+	- Background: Former firefighter; turned district guardian.
+	- Motivation: Keep the tunnels safe and the truce sacred.
+	- Conflict: Choose between guarding med caravans and escorting refugee trains.
+
+## Technology & Augments {#technology}
+
+Tiers
+
+- TEC_HUMAN — Reliable, maintainable, well-documented. Countered by armor and alien shields.
+- TEC_HYBRID — Powerful but heat/EMP/overdraw risks; requires cooldown disciplines and power budget planning.
+- TEC_ALIEN — Rare, reality-bending effects; no repair; user psych cost.
+
+Representative Systems
+
+- Exergy Cells (hybrid power): Thermal derating curve; unsafe above 83°C junction.
+- Coil-Plasma Rails: Muzzle bloom betrays position; ferrous debris ingestion risk.
+- Phase Shields: Block high-velocity projectiles; leak to low-speed penetrators.
+- Drone Tethers: Vulnerable to harmonic spiking; Wardens deploy “Chimes” (acoustic de-sync towers).
+
+Augmentation Suite
+
+- AUG_REFLEX_SPLICE — Reaction boost; nervous system cascade risk; incompatible with Neural Slicer.
+- AUG_OCULAR_SUITE — Multi-spectrum targeting; hallucination side-effect.
+- AUG_SUBDERMAL_PLATE — +DR; mobility reduction, chronic inflammation.
+- AUG_NEURAL_SLICER — Tactical awareness, direct equipment interfacing; personality drift; blackout events.
+
+Countermeasures
+
+- EMP curtains (Wardens) vs hybrid drones.
+- Faraday routing in vehicles (Nomads) vs phase bleed.
+- Cooling lattice overlays (Combine) vs coil overrun.
+
+## Points of Interest {#pois}
+
+- POI_SKY_BASTION — Directorate High Fortress
+	- Function: Command, long-range comms, artillery oversight.
+	- Hooks: Sabotage uplink arrays; negotiate med-flight passage; intercept a Combine demo.
+- POI_CRIMSON_DOCKS — Union Market Quays
+	- Function: Salvage exchange, arbitration, refit yards.
+	- Hooks: A rigged auction; drone hive under slipway twelve.
+- POI_METRO_A — Warden Toll Tunnels
+	- Function: Neutral passage, smuggling, truce.
+	- Hooks: Escort a convoy; dismantle a black-ICE relay.
+- POI_BLACK_VAULT — Archivist Depths
+	- Function: Artifact study, containment.
+	- Hooks: Rescue a lexicographer; silence a harmonic beacon.
+- POI_IEZ_OUTER_RING — Salvage Fields
+	- Function: Hybrid component harvest.
+	- Hooks: Meteor salvage scramble; phase shear collapse; convoy standoff.
+
+### IEZ Structure and Hardcore Play
+
+- Rings: Outer (H1), Median (H2), Core (H3). Hazard and loot scale by ring.
+- Phase Pockets: Temporary high-intensity zones that inherit base ring difficulty with event modifiers.
+- Hardcore flags: H1/H2/H3 define AI comps, damage multipliers, respawn/extraction rules. H3 is one-life, extraction only at contested pads.
+
+## Culture & Language {#culture}
+
+Naming conventions
+
+- Directorate: rank + surname; unit numerals (e.g., “Marshal Vargas, 3rd Signals”).
+- Union: callsigns from trade (e.g., “Sawtooth,” “Blue Ash”).
+- Combine: project-first (e.g., “PD-71 Zhou, Program Hyacinth”).
+- Nomads: route lineage (e.g., “Sable Khan of the Ashway”).
+- Wardens: post/location call (e.g., “Captain Santos, Gate 5”).
+
+Idioms
+
+- “Salvage before the storm” (act before the EMP cycle)
+- “EMP’d and forgotten” (ruined beyond repair)
+- “Harvester blessed” (luck, often ironic)
+- “Pre-cascade thinking” (naïve)
+
+Observances
+
+- The Quiet Watch (Wardens): hour of radio silence for lost responders.
+- Blue Ash Day (Union): alloy dust festival after the first big sale.
+- Accordnight (Directorate): remembrance of fallen command.
+
+## Law, Conflict, Economy {#society}
+
+Law
+
+- Docks Arbitration: Three-marker ritual; markers forfeited for breaking truce.
+- Warden Tolls: flat rate plus tonnage; medical convoys discounted.
+
+Economy
+
+- Currencies: Credits (backed by verified salvage), barter, labor hours.
+- Value Chain: Wreck → Strip → Grade → Refit → Certify → Auction.
+
+Conflict Patterns
+
+- Convoy Wars: Clans vs raiders; F77 hired by either side.
+- Drone Swarms: Triggered by harmonic spikes; yield AI cores.
+- Tech Vault Sieges: Multi-faction escalations; change map control.
+
+## Glossary & Style Guide {#glossary}
+
+- Interdiction Exclusion Zone (IEZ): Canon term. Not “Industrial Exclusion Zone.”
+- Hybrid: human frames + alien components; never “mutant tech.”
+- Harvester: automated alien system; never “visitors” or “angels.”
+
+Style
+
+- Tense: present for current play context, past for history.
+- Units: metric; include local equivalents if spoken in-universe.
+- Capitalization: Faction names capitalized; tech tiers capitalized.
+
+## Cross-Discipline Notes {#cross-discipline}
+
+- Art: Use faction signatures and palettes; link to Art/Factions guides. Don’t restate lore; reference this file.
+- Design: Encounters reflect constraints (cooldown, EMP risk). POI hooks should map to mission types.
+- Tools: Sidecars must include lore_id and workflow_hash; UE assets should carry lore tags.
+
+### Signature Events {#events}
+
+- EVT_SKYFALL_BARRAGE — Orbital debris strikes guided by dormant Harrower beacons; bombardments open salvage but draw predators. Black Sky Charter operatives mark targets; kinetic rods follow.
+- EVT_HARMONIC_WINDOW — Monolith harmonic bloom opens Phase Pockets; stealth/EMP conditions favor Null Choir and awaken Monolith Sentinels.
+- EVT_BLACKOUT_STORM — Rolling EMP microbursts collapse comms; Warden tolls suspend; drones desync and go feral.
+- EVT_CONVOY_REDLINE — Trade routes go “hot”; Nomad long-hauls lock routes; mercenaries converge on LZs.
+- EVT_VAULT_SIREN — Black Vault emits high-order primes; Archivists lock sectors; Combine pushes a demo; Directorate declares a no-fly.
+
+---
+
+## Changelog {#changelog}
+
+- 1.0.0: Canonized timeline (2161, +6 months), standardized IEZ naming, set Sky Bastion to Directorate fortress, expanded factions (including event-only), characters, tech tiers, POIs, IEZ hardcore structure, culture, economy, glossary, and events.

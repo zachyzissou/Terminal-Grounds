@@ -1,0 +1,13 @@
+{
+  "output_dir": "Tools/ArtGen/inputs/downloads",
+  "files": [
+    {
+      "name": "ui_icon_damage_ballistic_1024.png",
+      "url": ""
+    },
+    {
+      "name": "ui_icon_rarity_common_1024.png",
+      "url": ""
+    }
+  ]
+}

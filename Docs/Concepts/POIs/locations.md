@@ -1,13 +1,17 @@
 # POI Concept Documentation
 
-## Meteor Site
+Note: Canon lore one-liners live in docs/Lore/POIs_Flavor.md. This file focuses on palettes, silhouettes, and layout. Use stable lore IDs.
+
+## POI_METEOR_SITE — Meteor Site
+
 - **Type**: Salvage Location
-- **Lore**: Recent asteroid impact site with alien debris and valuable materials
+- **Lore**: See docs/Lore/POIs_Flavor.md#meteor-site
 - **Materials**: Crystalline alien debris, scorched earth, radiation warning signs
 - **Palette**: #8E44AD (Purple Crystals), #E74C3C (Warning Red), #34495E (Scorched Ground)
 - **Layout**: Crater center with debris field, radiation hazard zones, salvage points
 - **Silhouette**:
-```
+
+```text
        ☢️ RADIATION HAZARD ☢️
          ╭─────────────╮
        ╱                 ╲
@@ -19,14 +23,17 @@
      Dimensions: 100m radius
 ```
 
-## Drone Hive
-- **Type**: Hostile Facility  
-- **Lore**: Abandoned data center overrun by rogue AI drones
+
+## POI_DRONE_HIVE — Drone Hive
+
+- **Type**: Hostile Facility
+- **Lore**: See docs/Lore/POIs_Flavor.md#drone-hive
 - **Materials**: Concrete structure, broken glass, drone launch tubes
 - **Palette**: #2C3E50 (Dark Gray), #E74C3C (Red Warning Lights), #F39C12 (Orange Sparks)
 - **Layout**: Central server building with drone launch bays, patrol routes
 - **Silhouette**:
-```
+
+```text
     ╔═══════════════════╗
     ║ 🚁 DRONE HIVE 🚁  ║
     ║ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ║
@@ -38,14 +45,16 @@
     Dimensions: 50m x 30m
 ```
 
-## Vault Perimeter
+## POI_VAULT_PERIMETER — Vault Perimeter
+
 - **Type**: Archivist Stronghold
-- **Lore**: Heavily defended entrance to alien technology vault
+- **Lore**: See docs/Lore/POIs_Flavor.md#vault-perimeter
 - **Materials**: Alien-human hybrid architecture, energy shields, sensor arrays
 - **Palette**: #8E44AD (Purple Energy), #2C3E50 (Dark Metal), #00C2FF (Shield Blue)
 - **Layout**: Checkpoint structure with shield generators, guard towers
 - **Silhouette**:
-```
+
+```text
     ⚡ ENERGY SHIELDS ACTIVE ⚡
     ╔═══════════════════════╗
     ║ ░░░ VAULT PERIMETER ░░░║
@@ -56,14 +65,16 @@
     Dimensions: 40m x 20m
 ```
 
-## Combine Forward Pad
+## POI_COMBINE_FORWARD_PAD — Combine Forward Pad
+
 - **Type**: Corporate Helipad
-- **Lore**: Corporate military helicopter landing facility
+- **Lore**: See docs/Lore/POIs_Flavor.md#combine-forward-pad
 - **Materials**: Polished concrete, corporate logos, high-tech equipment
 - **Palette**: #00C2FF (Corporate Blue), #ECF0F1 (White), #2C3E50 (Dark Accents)
 - **Layout**: Landing pad with fuel depot, guard stations, corporate branding
 - **Silhouette**:
-```
+
+```text
     🚁 CORPORATE AIRSPACE 🚁
     ╔═══════════════════════╗
     ║      COMBINE™         ║

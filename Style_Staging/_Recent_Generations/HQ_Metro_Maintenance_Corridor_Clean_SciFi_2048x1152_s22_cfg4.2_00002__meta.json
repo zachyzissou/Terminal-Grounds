@@ -1,0 +1,17 @@
+{
+  "filename": "HQ_Metro_Maintenance_Corridor_Clean_SciFi_2048x1152_s22_cfg4.2_00002_.png",
+  "location": "Metro_Maintenance_Corridor",
+  "style": "Clean_SciFi",
+  "width": 2048,
+  "height": 1152,
+  "steps": 22,
+  "cfg": 4.2,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "seed": 94887,
+  "profile": "clarity",
+  "vram_safe": true,
+  "vram_1080": false,
+  "positive": "Terminal Grounds Metro_Maintenance_Corridor, underground metro maintenance corridor, single-point perspective, leading lines, vanishing point, wet concrete, machined metal, cable trays, hazard striping, industrial fixtures, practical illumination, subtle wear, atmospheric depth, clean sci-fi industrial, machined surfaces, anodized metals, structured lighting, precise geometry, restrained color palette, subtle wear, professional game art, sharp focus, crisp edges, high micro-contrast, fine surface detail, balanced exposure, visible midtone detail, clear shadow detail, neutral grade, professional game art",
+  "negative": "grunge overload, whimsical, fantasy ornaments, cartoonish, heavy grime, text, watermark, soft focus, gaussian blur, bokeh, shallow depth of field, motion blur, heavy bloom, washed out, low-contrast, haze, foggy veil, text, watermark, underexposed, crushed blacks, heavy vignette, banding, text, watermark"
+}

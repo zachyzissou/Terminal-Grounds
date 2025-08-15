@@ -1,0 +1,15 @@
+{
+  "concepts": [
+    {
+      "name": "Metro_Maintenance_Corridor",
+      "prompt": "underground metro corridor, single-point perspective, leading lines, vanishing point, industrial lighting fixtures, wet concrete, low haze, atmospheric depth, sharp focus",
+      "style": "Clean_SciFi"
+    },
+    {
+      "name": "IEZ_Facility_Interior",
+      "prompt": "abandoned industrial facility interior, readable shadows, hazard stripes, cinematic rim light, atmospheric depth, sharp focus",
+      "style": "Gritty_Realism"
+    }
+  ],
+  "seeds": [94887, 94890]
+}

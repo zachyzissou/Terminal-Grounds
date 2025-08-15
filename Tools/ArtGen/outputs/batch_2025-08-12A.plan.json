@@ -1,0 +1,55 @@
+{
+  "batch": "2025-08-12A",
+  "model": "flux-1-schnell",
+  "defaults": {"steps": 6, "width": 1024, "height": 1024},
+  "items": [
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/damage_ballistic_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph: ballistic damage, stylized bullet impact with shards, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark, low contrast, gradient banding"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/damage_ion_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph: ion/energy damage, sharp lightning arc with charged nodes, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark, low contrast, gradient banding"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/status_heat_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph: heat status, rising heat waves over core, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark, low contrast, gradient banding"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/status_charge_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph: charge status, battery cell with angled bolt, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark, low contrast, gradient banding"
+    },
+    {
+      "category": "concept-poi",
+      "target": "Docs/Concepts/POIs/crimson_docks_2048.png",
+      "prompt": "Terminal Grounds concept art: The Crimson Docks — rusted cargo cranes over blood-red industrial water, fog, sodium-lit catwalks, gritty post-industrial sci-fi, painterly, moody lighting, 2048x2048",
+      "negative": "text, logo, watermark, characters, UI, low detail, extra limbs"
+    },
+    {
+      "category": "concept-poi",
+      "target": "Docs/Concepts/POIs/drone_hive_2048.png",
+      "prompt": "Terminal Grounds concept art: Drone Hive — cavernous maintenance hall with suspended hex hives, repair arms, cool cyan worklights, dystopian utilitarian sci-fi, painterly, atmospheric depth, 2048x2048",
+      "negative": "text, logo, watermark, UI, low detail"
+    },
+    {
+      "category": "concept-poi",
+      "target": "Docs/Concepts/POIs/metro_blackline_2048.png",
+      "prompt": "Terminal Grounds concept art: Metro Blackline — subterranean maglev corridor, black ceramic rails, hazard stripes, wet concrete sheen, noir lighting, cinematic composition, 2048x2048",
+      "negative": "text, logo, watermark, characters, UI"
+    },
+    {
+      "category": "concept-poi",
+      "target": "Docs/Concepts/POIs/refinery_alpha_2048.png",
+      "prompt": "Terminal Grounds concept art: Refinery Alpha — stacked cracking towers, orange flare stacks in drizzle, catwalks and pipes, gritty industrial sci-fi, painterly realism, 2048x2048",
+      "negative": "text, logo, watermark, characters, UI"
+    }
+  ]
+}

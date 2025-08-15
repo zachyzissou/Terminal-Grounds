@@ -1,0 +1,534 @@
+# Terminal Grounds - Vertical Slice Asset Generation Recipe
+# ComfyUI generation parameters for all asset categories
+
+batches:
+  # ========== FACTION EMBLEMS ==========
+  - category: emblem
+    faction: DIR
+    prompt: "Minimalist military vector emblem, Directorate faction, chevron and gridline motifs, stark geometric design, command numerals, single base color with accent, negative space design, decal-ready, ultra-sharp edges, no gradients, monochrome palette #161A1D #2E4053 #9FB2C9, military stencil aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10001
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_dir"
+    import_ue: true
+
+  - category: emblem
+    faction: VLT
+    prompt: "Minimalist military vector emblem, Vultures Union, salvage and hazard warning motifs, industrial stencil design, angular sharp edges, single base color with accent, negative space, decal-ready, ultra-sharp, no gradients, palette #7F8C8D #D35400 #F0C27B, weathered metal aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10101
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_vlt"
+    import_ue: true
+
+  - category: emblem
+    faction: F77
+    prompt: "Minimalist military vector emblem, Free 77 contractors, contract seal and numeral 77 motifs, mercenary badge design, clean stencil work, single base with accent color, negative space, decal-ready, ultra-sharp, no gradients, palette #34495E #BDC3C7 #95A5A6, tactical contractor aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10201
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_f77"
+    import_ue: true
+
+  - category: emblem
+    faction: CCB
+    prompt: "Minimalist military vector emblem, Corporate Combine, hexagonal shield and ceramic plate motifs, corporate security design, geometric precision, single base with accent, negative space, decal-ready, ultra-sharp, no gradients, palette #0C0F12 #00C2FF #C0F3FF, high-tech corporate aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges, neon"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10301
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_ccb"
+    import_ue: true
+
+  - category: emblem
+    faction: NMD
+    prompt: "Minimalist military vector emblem, Nomad Clans, vehicle axle and tribal banner motifs, road warrior design, rugged geometric shapes, single base with accent, negative space, decal-ready, ultra-sharp, no gradients, palette #6E2C00 #AF601A #EAC086, desert convoy aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10401
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_nmd"
+    import_ue: true
+
+  - category: emblem
+    faction: VAC
+    prompt: "Minimalist military vector emblem, Vaulted Archivists, eye over coil symbol, knowledge keeper design, mystical geometric pattern, single base with violet accent, negative space, decal-ready, ultra-sharp, no gradients, palette #2C3E50 #8E44AD #BBA1E1, arcane archive aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10501
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_vac"
+    import_ue: true
+
+  - category: emblem
+    faction: CWD
+    prompt: "Minimalist military vector emblem, Civic Wardens, mesh fence and sandbag barricade motifs, civil defense design, protective geometric shapes, single base with green accent, negative space, decal-ready, ultra-sharp, no gradients, palette #145A32 #27AE60 #A9DFBF, urban militia aesthetic"
+    negative: "complex, gradient, 3D effects, photorealistic, soft edges"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 10601
+    sampler: "dpmpp_2m"
+    out_dir: "Content/TG/Decals/Factions"
+    name_base: "emblem_cwd"
+    import_ue: true
+
+  # ========== PROPAGANDA POSTERS ==========
+  - category: poster
+    faction: DIR
+    prompt: "A2 military propaganda poster, HOLD THE GRID text, Directorate authority, brutalist design, bold sans-serif typography, limited color palette #161A1D #2E4053 #9FB2C9, weathered paper texture, field wear and tear, torn edges, water stains, military stencil overlay, stark geometric composition"
+    negative: "modern, digital, clean, pristine, copyright, watermark, neon"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20001
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_dir"
+    import_ue: true
+
+  - category: poster
+    faction: VLT
+    prompt: "A2 war propaganda poster, SALVAGE FEEDS THE WAR text, Vultures Union, industrial salvage aesthetic, bold stencil typography, limited palette #7F8C8D #D35400 #F0C27B, weathered and rust-stained paper, field damage, oil smudges, hazard stripes border, scrap metal collage elements"
+    negative: "modern, digital, clean, pristine, copyright, watermark, neon"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20101
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_vlt"
+    import_ue: true
+
+  - category: poster
+    faction: F77
+    prompt: "A2 mercenary recruitment poster, TIME IS MONEY EXTRACT text, Free 77 contractors, tactical military design, stencil block letters, limited palette #34495E #BDC3C7 #95A5A6, weathered document paper, coffee stains, folded creases, contract stamp overlays"
+    negative: "modern, digital, clean, pristine, copyright, watermark, neon"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20201
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_f77"
+    import_ue: true
+
+  - category: poster  
+    faction: CCB
+    prompt: "A2 corporate safety poster, PUBLIC SAFETY NOTICE text, Corporate Combine, clean corporate design, modern sans-serif typography, limited palette #0C0F12 #00C2FF #C0F3FF, slightly worn laminated finish, minor scratches, corporate seal watermark, hexagonal frame elements"
+    negative: "grunge, heavily damaged, copyright text, watermark, neon excess"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20301
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_ccb"
+    import_ue: true
+
+  - category: poster
+    faction: NMD
+    prompt: "A2 nomad convoy poster, THE ROAD PROVIDES text, Nomad Clans, desert road warrior aesthetic, hand-painted lettering style, limited palette #6E2C00 #AF601A #EAC086, sun-bleached paper, sand damage, tire track marks, tribal pattern borders"
+    negative: "modern, digital, clean, pristine, copyright, watermark, neon"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20401
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_nmd"
+    import_ue: true
+
+  - category: poster
+    faction: VAC
+    prompt: "A2 archival warning poster, SILENCE THE COIL text, Vaulted Archivists, mystical geometric design, ancient serif typography, limited palette #2C3E50 #8E44AD #BBA1E1, aged parchment texture, arcane symbols, wax seal marks, purple ink stains"
+    negative: "modern, digital, clean, pristine, copyright, watermark, neon"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20501
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_vac"
+    import_ue: true
+
+  - category: poster
+    faction: CWD
+    prompt: "A2 civil defense poster, SHELTER THEN ORDER text, Civic Wardens, urban militia design, bold condensed typography, limited palette #145A32 #27AE60 #A9DFBF, weathered concrete texture, spray paint overlay, sandbag pattern border"
+    negative: "modern, digital, clean, pristine, copyright, watermark, neon"
+    width: 2048
+    height: 3072
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 36
+    cfg: 8.0
+    seed: 20601
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Posters"
+    name_base: "poster_cwd"
+    import_ue: true
+
+  # ========== BIOME KEYFRAMES ==========
+  - category: keyframe
+    biome: IEZ_Districts
+    prompt: "Post-disaster urban environment concept art, IEZ Districts, destroyed infrastructure, collapsed overpasses, makeshift fortifications, salvage camps, industrial debris, harsh midday lighting, dusty atmosphere, muted earth tones, photorealistic environmental painting, wide establishing shot"
+    negative: "neon, cyberpunk, futuristic, clean city, intact buildings"
+    width: 2048
+    height: 1152
+    count: 4
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 30001
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Renders"
+    name_base: "keyframe_iez"
+
+  - category: keyframe
+    biome: Tech_Wastes
+    prompt: "Electronic graveyard environment concept, Tech Wastes, mountains of discarded technology, toxic pools, scrap metal terrain, salvager settlements, harsh industrial lighting, smog atmosphere, rust and corrosion, photorealistic environmental art, wide establishing shot"
+    negative: "neon, cyberpunk, pristine technology, vegetation"
+    width: 2048
+    height: 1152
+    count: 4
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 30101
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Renders"
+    name_base: "keyframe_tech_wastes"
+
+  - category: keyframe
+    biome: Sky_Bastion
+    prompt: "Elevated platform city concept, Sky Bastion, massive support pillars, suspended walkways, vertical slums, industrial cables, dramatic height perspective, foggy lower atmosphere, stark lighting contrast, photorealistic environmental painting"
+    negative: "ground level, neon, cyberpunk, pristine, futuristic"
+    width: 2048
+    height: 1152
+    count: 4
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 30201
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Renders"
+    name_base: "keyframe_sky_bastion"
+
+  - category: keyframe
+    biome: Black_Vault
+    prompt: "Underground bunker complex concept, Black Vault, massive concrete chambers, emergency lighting, water damage, abandoned military equipment, claustrophobic atmosphere, harsh fluorescent lighting, photorealistic environmental art"
+    negative: "outdoor, neon, cyberpunk, pristine, inhabited"
+    width: 2048
+    height: 1152
+    count: 4
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 30301
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/Renders"
+    name_base: "keyframe_black_vault"
+
+  # ========== MATERIAL TILES ==========
+  - category: material_tile
+    biome: IEZ_Districts
+    prompt: "Seamless texture tile, damaged concrete with rebar, bullet holes, weathering, cracks, rust stains, realistic PBR material, 4K texture quality, photorealistic surface detail"
+    negative: "seams, borders, text, watermark"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 35
+    cfg: 7.5
+    seed: 31001
+    sampler: "ddim"
+    out_dir: "Docs/Concepts/StyleTiles"
+    name_base: "tile_iez"
+
+  - category: material_tile
+    biome: Tech_Wastes
+    prompt: "Seamless texture tile, corroded metal sheets, rust patterns, acid damage, electronic waste embedded, realistic PBR material, 4K texture quality, photorealistic surface"
+    negative: "seams, borders, text, watermark"
+    width: 2048
+    height: 2048
+    count: 6
+    model: "sdxl_base.safetensors"
+    steps: 35
+    cfg: 7.5
+    seed: 31101
+    sampler: "ddim"
+    out_dir: "Docs/Concepts/StyleTiles"
+    name_base: "tile_tech"
+
+  # ========== WEAPON CONCEPTS ==========
+  - category: weapon_concept
+    weapon_type: human_ar
+    prompt: "Military assault rifle concept sheet, multiple angles, modular design, attachment rails, tactical accessories, magazine visible, iron sights, realistic proportions, technical drawing style, white background, detailed mechanical parts"
+    negative: "sci-fi, laser, energy weapon, glowing parts"
+    width: 1536
+    height: 1024
+    count: 3
+    model: "sdxl_base.safetensors"
+    steps: 38
+    cfg: 8.0
+    seed: 40001
+    sampler: "euler_ancestral"
+    out_dir: "Docs/Concepts/AI/Weapons"
+    name_base: "weapon_ar"
+
+  - category: weapon_concept
+    weapon_type: human_dmr
+    prompt: "Designated marksman rifle concept sheet, long barrel, scope mount, bipod, precision stock, multiple viewing angles, technical blueprint style, detailed mechanical components, white background"
+    negative: "sci-fi, laser, energy weapon, glowing parts"
+    width: 1536
+    height: 1024
+    count: 3
+    model: "sdxl_base.safetensors"
+    steps: 38
+    cfg: 8.0
+    seed: 40101
+    sampler: "euler_ancestral"
+    out_dir: "Docs/Concepts/AI/Weapons"
+    name_base: "weapon_dmr"
+
+  - category: weapon_concept
+    weapon_type: hybrid_rail
+    prompt: "Hybrid railgun DMR concept, electromagnetic rails visible, capacitor banks, hybrid technology, military design with alien tech integration, multiple angles, technical concept art, detailed components"
+    negative: "pure sci-fi, neon glow, fantasy"
+    width: 1536
+    height: 1024
+    count: 3
+    model: "sdxl_base.safetensors"
+    steps: 38
+    cfg: 8.0
+    seed: 40201
+    sampler: "euler_ancestral"
+    out_dir: "Docs/Concepts/AI/Weapons"
+    name_base: "weapon_rail_dmr"
+
+  - category: weapon_concept
+    weapon_type: alien_beam
+    prompt: "Alien beam weapon concept, crystalline focusing array, organic technological design, energy conduits, gravitational lensing effect, multiple views, concept art style, otherworldly aesthetics"
+    negative: "human military, conventional, bullets, magazine"
+    width: 1536
+    height: 1024
+    count: 3
+    model: "sdxl_base.safetensors"
+    steps: 38
+    cfg: 8.0
+    seed: 40301
+    sampler: "euler_ancestral"
+    out_dir: "Docs/Concepts/AI/Weapons"
+    name_base: "weapon_alien_beam"
+
+  # ========== VEHICLES ==========
+  - category: vehicle_concept
+    vehicle_type: apc
+    prompt: "8x8 armored personnel carrier concept, military vehicle, angular armor plating, turret mount, desert camouflage, technical concept art, multiple viewing angles, weathered and battle-damaged"
+    negative: "sci-fi, hover, flying, neon"
+    width: 1536
+    height: 1024
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 50001
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/AI/Vehicles"
+    name_base: "vehicle_apc"
+
+  - category: vehicle_concept
+    vehicle_type: scout_helo
+    prompt: "Light reconnaissance helicopter concept, military scout configuration, sensor pod, minimal armor, technical drawing style, multiple angles, weathered paint, battlefield modifications"
+    negative: "futuristic, sci-fi, energy weapons"
+    width: 1536
+    height: 1024
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 50101
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/AI/Vehicles"
+    name_base: "vehicle_scout_helo"
+
+  - category: vehicle_concept
+    vehicle_type: alien_skimmer
+    prompt: "Alien hover vehicle concept, anti-gravity propulsion, crystalline hull, energy field generators, organic technological design, multiple views, concept art style"
+    negative: "wheels, tracks, human military, conventional"
+    width: 1536
+    height: 1024
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 40
+    cfg: 8.5
+    seed: 50201
+    sampler: "dpmpp_2m"
+    out_dir: "Docs/Concepts/AI/Vehicles"
+    name_base: "vehicle_alien_skimmer"
+
+  # ========== CHARACTERS ==========
+  - category: character_concept
+    faction: DIR
+    armor_class: light
+    prompt: "Military character concept, Directorate light infantry, tactical vest, urban camouflage, helmet with NVG mount, full body turnaround, technical concept art, equipment details"
+    negative: "sci-fi armor, power armor, fantasy"
+    width: 1536
+    height: 1024
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 38
+    cfg: 8.0
+    seed: 60001
+    sampler: "euler_ancestral"
+    out_dir: "Docs/Concepts/AI/Characters"
+    name_base: "char_dir_light"
+
+  - category: character_concept
+    faction: VLT
+    armor_class: heavy
+    prompt: "Salvager heavy armor concept, Vultures Union, industrial exoskeleton frame, welded plate armor, hazmat elements, salvage tools integrated, full body design, concept art"
+    negative: "clean, pristine, high-tech, energy shields"
+    width: 1536
+    height: 1024
+    count: 2
+    model: "sdxl_base.safetensors"
+    steps: 38
+    cfg: 8.0
+    seed: 60101
+    sampler: "euler_ancestral"
+    out_dir: "Docs/Concepts/AI/Characters"
+    name_base: "char_vlt_heavy"
+
+  # ========== UI ICONS ==========
+  - category: ui_icons
+    icon_set: damage_types
+    prompt: "Game UI icon set, damage type symbols, flat design, single color on transparent, kinetic bullet physical plasma energy icons, minimalist military HUD style, vector graphics, high contrast"
+    negative: "3D, gradient, photorealistic, complex"
+    width: 1024
+    height: 1024
+    count: 1
+    model: "sdxl_base.safetensors"
+    steps: 30
+    cfg: 7.0
+    seed: 70001
+    sampler: "ddim"
+    out_dir: "Content/TG/Icons"
+    name_base: "icons_damage_types"
+    import_ue: true
+
+  - category: ui_icons
+    icon_set: status_effects
+    prompt: "Game UI status effect icons, flat minimalist design, bleeding stunned suppressed burning icons, military HUD aesthetic, single color symbols, high contrast, vector style"
+    negative: "3D, gradient, photorealistic, complex"
+    width: 512
+    height: 512
+    count: 8
+    model: "sdxl_base.safetensors"
+    steps: 30
+    cfg: 7.0
+    seed: 70101
+    sampler: "ddim"
+    out_dir: "Content/TG/Icons"
+    name_base: "icon_status"
+    import_ue: true
+
+  - category: ui_icons
+    icon_set: mission_verbs
+    prompt: "Game UI mission objective icon, flat design, military tactical symbol, attack defend extract escort icons, minimalist HUD style, single color, high contrast"
+    negative: "3D, gradient, photorealistic, complex"
+    width: 512
+    height: 512
+    count: 8
+    model: "sdxl_base.safetensors"
+    steps: 30
+    cfg: 7.0
+    seed: 70201
+    sampler: "ddim"
+    out_dir: "Content/TG/Icons"
+    name_base: "icon_mission"
+    import_ue: true
+
+  # ========== PALETTES ==========
+  - category: palette_board
+    faction: all
+    prompt: "Military color palette reference board, color swatches with HEX codes, material sphere previews, organized grid layout, faction colors, clean presentation, design reference sheet"
+    negative: "messy, unorganized, no labels"
+    width: 2048
+    height: 2048
+    count: 1
+    model: "sdxl_base.safetensors"
+    steps: 32
+    cfg: 7.5
+    seed: 80001
+    sampler: "euler"
+    out_dir: "Docs/Concepts/Palettes"
+    name_base: "palette_master"
+
+# Generation Settings
+settings:
+  retry_on_fail: true
+  max_retries: 3
+  save_metadata: true
+  create_manifest: true
+  log_progress: true

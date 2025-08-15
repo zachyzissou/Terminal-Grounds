@@ -1,0 +1,88 @@
+{
+  "prompt": {
+    "1": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"
+      }
+    },
+    "2": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "Terminal Grounds Terminal Grounds Metro_Maintenance_Corridor, underground metro maintenance corridor, single-point perspective, leading lines, vanishing point, wet concrete, machined metal, cable trays, hazard striping, industrial fixtures, practical illumination, subtle wear, atmospheric depth, clean sci-fi industrial, machined surfaces, anodized metals, structured lighting, precise geometry, restrained color palette, subtle wear, professional game art, sharp focus, crisp edges, high micro-contrast, fine surface detail, balanced exposure, visible midtone detail, clear shadow detail, neutral grade, professional game art, concept art, detailed illustration, professional game art, high detail, cinematic lighting, atmospheric",
+        "clip": [
+          "1",
+          1
+        ]
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "grunge overload, whimsical, fantasy ornaments, cartoonish, heavy grime, text, watermark, soft focus, gaussian blur, bokeh, shallow depth of field, motion blur, heavy bloom, washed out, low-contrast, haze, foggy veil, text, watermark, underexposed, crushed blacks, heavy vignette, banding, text, watermark",
+        "clip": [
+          "1",
+          1
+        ]
+      }
+    },
+    "4": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": 768,
+        "height": 432,
+        "batch_size": 1
+      }
+    },
+    "5": {
+      "class_type": "KSampler",
+      "inputs": {
+        "seed": 94887,
+        "steps": 8,
+        "cfg": 4.0,
+        "sampler_name": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1,
+        "model": [
+          "1",
+          0
+        ],
+        "positive": [
+          "2",
+          0
+        ],
+        "negative": [
+          "3",
+          0
+        ],
+        "latent_image": [
+          "4",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "5",
+          0
+        ],
+        "vae": [
+          "1",
+          2
+        ]
+      }
+    },
+    "7": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "6",
+          0
+        ],
+        "filename_prefix": "HQ_Metro_Maintenance_Corridor_Clean_SciFi_768x432_s8_cfg4.0"
+      }
+    }
+  }
+}

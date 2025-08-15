@@ -1,0 +1,177 @@
+version: 1
+owners:
+  primary: Narrative
+  reviewers: [Design, Art]
+events:
+  - id: EVT_FIRST_CONTACT
+    year: 2147
+    anchor: "#timeline"
+  - id: EVT_SHATTERED_ACCORD
+    year: 2159
+    anchor: "#timeline"
+  - id: EVT_IEZ_CASCADE
+    year: 2161
+    anchor: "#timeline"
+  - id: EVT_SKYFALL_BARRAGE
+    name: Skyfall Barrage
+    anchor: "#events"
+    tags: [orbital, bombardment, salvage]
+  - id: EVT_HARMONIC_WINDOW
+    name: Harmonic Window
+    anchor: "#events"
+    tags: [monolith, emp, stealth]
+  - id: EVT_BLACKOUT_STORM
+    name: Blackout Storm
+    anchor: "#events"
+    tags: [emp, comms, drones]
+  - id: EVT_CONVOY_REDLINE
+    name: Convoy Redline
+    anchor: "#events"
+    tags: [logistics, convoy, pvpve]
+  - id: EVT_VAULT_SIREN
+    name: Vault Siren
+    anchor: "#events"
+    tags: [vault, archivists, escalation]
+regions:
+  - id: REG_IEZ
+    name: Interdiction Exclusion Zone
+    anchor: "#world"
+  - id: REG_TECH_WASTES
+    name: Tech Wastes
+    anchor: "#world"
+  - id: REG_CRIMSON_DOCKS
+    name: Crimson Docks
+    anchor: "#world"
+  - id: REG_METRO_A
+    name: Metro Maintenance A
+    anchor: "#world"
+  - id: REG_SKY_BASTION
+    name: Sky Bastion
+    anchor: "#world"
+  - id: REG_BLACK_VAULT
+    name: Black Vault
+    anchor: "#world"
+  - id: REG_IEZ_RING_OUTER
+    name: IEZ Outer Ring (H1)
+    anchor: "#world"
+  - id: REG_IEZ_RING_MEDIAN
+    name: IEZ Median Ring (H2)
+    anchor: "#world"
+  - id: REG_IEZ_RING_CORE
+    name: IEZ Core (H3)
+    anchor: "#world"
+factions:
+  - id: FCT_DIR
+    name: Directorate
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_VUL
+    name: Vultures Union
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_F77
+    name: Free 77
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_CCB
+    name: Corporate Combine
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_NOM
+    name: Nomad Clans
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_VAR
+    name: Vaulted Archivists
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_CWD
+    name: Civic Wardens
+    anchor: "#factions"
+    flavor_ref: "docs/Lore/Factions_Flavor.md"
+  - id: FCT_BSK
+    name: Black Sky Charter
+    anchor: "#factions"
+    tags: [secret, orbital, event_only]
+  - id: FCT_NCH
+    name: Null Choir
+    anchor: "#factions"
+    tags: [secret, archivist_splinter, emp, stealth, event_only]
+  - id: FCT_MSN
+    name: Monolith Sentinels
+    anchor: "#factions"
+    tags: [alien_automata, event_only]
+tech:
+  - id: TEC_HUMAN
+    name: Human Technology
+    anchor: "#technology"
+  - id: TEC_HYBRID
+    name: Hybrid Technology
+    anchor: "#technology"
+  - id: TEC_ALIEN
+    name: Alien Technology
+    anchor: "#technology"
+  - id: TEC_SKIMMER
+    name: Skimmer Class
+    anchor: "#cosmology"
+  - id: TEC_HARROWER
+    name: Harrower Class
+    anchor: "#cosmology"
+  - id: TEC_MONOLITH
+    name: Monolith Class
+    anchor: "#cosmology"
+augments:
+  - id: AUG_REFLEX_SPLICE
+    name: Reflex Splice
+    anchor: "#technology"
+  - id: AUG_OCULAR_SUITE
+    name: Ocular Suite
+    anchor: "#technology"
+  - id: AUG_SUBDERMAL_PLATE
+    name: Subdermal Plating
+    anchor: "#technology"
+  - id: AUG_NEURAL_SLICER
+    name: Neural Slicer
+    anchor: "#technology"
+characters:
+  - id: CHR_ADELE_VARGAS
+    name: Marshal Adele Vargas
+    anchor: "#characters"
+  - id: CHR_RIN_OKAFOR
+    name: Rin Okafor
+    anchor: "#characters"
+  - id: CHR_JAX_KORDER
+    name: Jax Korder
+    anchor: "#characters"
+  - id: CHR_ELI_ZHOU
+    name: Dr. Eli Zhou
+    anchor: "#characters"
+  - id: CHR_SABLE_KHAN
+    name: Sable Khan
+    anchor: "#characters"
+  - id: CHR_LUPE_SANTOS
+    name: Lupe Santos
+    anchor: "#characters"
+  - id: CHR_DOCTOR_IVEY
+    name: Doctor Ivey
+    anchor: "#characters"
+
+pois:
+  - id: POI_METEOR_SITE
+    name: Meteor Site
+    anchor: "docs/Lore/POIs_Flavor.md#meteor-site"
+  - id: POI_DRONE_HIVE
+    name: Drone Hive
+    anchor: "docs/Lore/POIs_Flavor.md#drone-hive"
+  - id: POI_VAULT_PERIMETER
+    name: Vault Perimeter
+    anchor: "docs/Lore/POIs_Flavor.md#vault-perimeter"
+  - id: POI_COMBINE_FORWARD_PAD
+    name: Combine Pad
+    anchor: "docs/Lore/POIs_Flavor.md#combine-pad"
+  - id: POI_NOMAD_CONVOY_CAMP
+    name: Nomad Convoy Camp
+    anchor: "docs/Lore/POIs_Flavor.md#nomad-convoy-camp"
+  - id: POI_WARDEN_FORT
+    name: Warden Fort
+    anchor: "docs/Lore/POIs_Flavor.md#warden-fort"

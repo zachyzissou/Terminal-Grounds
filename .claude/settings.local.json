@@ -4,8 +4,19 @@
       "Bash(python:*)",
       "Bash(/dev/null)",
       "Bash(git add:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(del ultimate_quality_workflow.py quality_enhanced_workflow.py enhanced_workflow_builder.py optimal_emblem_workflow.py five_upscaler_tests.py test_upscalers.py simple_variations.py)",
+      "Bash(rm:*)",
+      "Bash(dir:*)",
+      "Bash(TERMINAL_GROUNDS_GENERATOR.bat)",
+      "Bash(nvidia-smi:*)",
+      "Bash(cmd /c:*)",
+      "Bash(powershell:*)",
+      "Bash(find:*)",
+      "Bash(FIX_COMFYUI.bat)",
+      "Bash(set TG_CKPT=FLUX1\\flux1-dev-fp8.safetensors)"
     ],
-    "deny": []
+    "deny": [],
+    "defaultMode": "acceptEdits"
   }
 }

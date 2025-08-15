@@ -1,0 +1,18 @@
+{
+  "input": "Tools\\ArtGen\\inputs\\url_batch_template.json",
+  "output_dir": "Tools\\ArtGen\\inputs\\downloads",
+  "ok": 0,
+  "fail": 2,
+  "results": [
+    {
+      "name": "ui_icon_damage_ballistic_1024.png",
+      "url": "",
+      "status": "missing-field"
+    },
+    {
+      "name": "ui_icon_rarity_common_1024.png",
+      "url": "",
+      "status": "missing-field"
+    }
+  ]
+}

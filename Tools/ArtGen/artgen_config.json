@@ -1,0 +1,15 @@
+{
+  "name": "TerminalGrounds ArtGen",
+  "batches": [
+    "Tools/ArtGen/outputs/batch_2025-08-12A.plan.json",
+    "Tools/ArtGen/outputs/batch_from_report.plan.json"
+  ],
+  "import": {
+    "ue_texture_settings": {
+      "ui": {"CompressionSettings": "TC_EditorIcon", "LODGroup": "TEXTUREGROUP_UI", "NeverStream": true},
+      "world": {"CompressionSettings": "TC_Default", "LODGroup": "TEXTUREGROUP_World", "NeverStream": false}
+    },
+    "decal_material_master": "/Game/TG/Materials/M_TG_Decal_Master.M_TG_Decal_Master",
+    "decal_instance_prefix": "MI_TG_Decal_"
+  }
+}

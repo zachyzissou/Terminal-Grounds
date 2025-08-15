@@ -1,24 +1,29 @@
-# Phase 4 — Documentation Delta Pass (No Overwrites)
+# Terminal Grounds - Phase 4 Implementation Log
 
-This log tracks append-only documentation updates, formatting normalization, and minor fixes performed during Phase 4. User-authored content was not overwritten; only appended or formatting-normalized where safe.
+## Asset Generation Pipeline
 
-Date: 2025-08-11
+### System Information
+- **ComfyUI Server**: http://127.0.0.1:8000
+- **Project Root**: C:\Users\Zachg\Terminal-Grounds
+- **UE Version**: 5.6
 
-## Changes in this pass
+### Pipeline Components Created
 
-- README.md
-  - Added: Quickstart (UE5), Repository map, UE asset path index.
-  - Normalized: Removed code-fence wrappers; replaced tab-indented list items with space-indented bullets; ensured blanks around headings/lists.
-  - Note: Added a temporary "Screenshot TODO" stub for future visual inserts.
+#### 1. Core Scripts
+- `Tools/Validation/scan_placeholders.py` - Placeholder asset scanner
+- `Tools/Comfy/client/comfy_client.py` - ComfyUI HTTP client wrapper
+- `Tools/Comfy/generate.py` - Main generation orchestrator
+- `Tools/Unreal/python/tools_import_artgen_outputs.py` - UE5.6 import script
+- `Tools/Validation/validate_placeholders.py` - CI validation script
 
-- HOWTO-BUILD.md
-  - Fixed: Removed stray closing code fence.
-  - Normalized: Converted trailing notes into proper list items.
+#### 2. Workflows
+- `Tools/Comfy/workflows/txt2img_base.json` - Base text-to-image workflow
 
-- HOWTO-HOST.md
-  - Fixed: Removed stray closing code fence.
+#### 3. Recipes
+- `Tools/ArtGen/recipes/comfy_vertical_slice.yml` - Comprehensive vertical slice recipe
 
-## Lint/format hygiene
+#### 4. CI/CD
+- `.github/workflows/docs-gate.yml` - GitHub Actions validation workflow
 
 - Removed all hard tabs from updated files.
 - Ensured no lingering code-fence wrappers around entire documents.
@@ -60,3 +65,8 @@ Date: 2025-08-11
 [2025-08-11] Tools: Added Unreal Python scripts (sanity pass, niagara baselines, multi-biome lookdev) under Tools/Unreal/python/
 
 [2025-08-11] Tools: Added placeholder render generator (Tools/gen_placeholder_renders.py) and refreshed Docs/Concepts/ASSET_MANIFEST.json
+
+### Generation Log
+<!-- Entries will be appended here automatically -->
+[ArtGen] Batch: Tools/ArtGen/outputs/batch_2025-08-12A.plan.json • model=flux-1-schnell • items=8
+[ArtGen] Batch: Tools/ArtGen/outputs/batch_from_report.plan.json • model=flux-1-schnell • items=73

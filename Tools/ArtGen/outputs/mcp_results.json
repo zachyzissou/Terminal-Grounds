@@ -1,0 +1,326 @@
+[
+  {
+    "target_rel": "Content/TG/Icons/damage_ballistic_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/damage_ion_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/status_heat_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/status_charge_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/crimson_docks_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/drone_hive_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/metro_blackline_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/refinery_alpha_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/damage_ballistic_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/damage_ballistic_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/damage_ion_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/damage_ion_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/extract_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/extract_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/map_ping_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/map_ping_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/rarity_common_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/rarity_common_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/rarity_legendary_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/rarity_legendary_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/status_charge_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/status_charge_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/status_heat_128_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Content/TG/Icons/status_heat_64_1024.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Gear/assault_frame_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Gear/heavy_frame_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Gear/light_frame_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/CivicWardens_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/CorporateCombine_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/Directorate_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/Free77_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/NomadClans_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/VaultedArchivists_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Palettes/VulturesUnion_palette_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/crimson_docks_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/drone_hive_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/metro_blackline_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/refinery_alpha_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/salvage_yard_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/sky_bastion_pad_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/tech_excavator_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/POIs/vault_blast_door_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/CivicWardens_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/CorporateCombine_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/Directorate_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/Free77_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/NomadClans_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/VaultedArchivists_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/StyleTiles/VulturesUnion_styletile_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/battle_walker_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/cargo_truck_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/grav_sled_a1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/harvester_craft_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/plasma_bike_h1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/recon_helo_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/scout_drone_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Vehicles/stalker_apc_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/blackline_mk3_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/cyclops_lmg_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/disruptor_lance_a1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/echo_lance_a2_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/enforcer_lmg_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/graviton_projector_a1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/grav_harrow_a1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/hunter_dmr_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/ion_pike_h2_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/ion_scatter_h1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/kestrel_smg_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/longstrike_h3_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/maul_h2_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/mk1_service_ar_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/mk2_dmr_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/mk2_service_ar_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/neutron_cannon_a2_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/phase_bow_a2_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/plasma_rail_h1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/reaper_ar_h1_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/riot_10_shotgun_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/storm_smg_h2_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/void_rifle_a3_2048.png",
+    "url": ""
+  },
+  {
+    "target_rel": "Docs/Concepts/Weapons/watchman_dmr_2048.png",
+    "url": ""
+  }
+]

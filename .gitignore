@@ -21,6 +21,7 @@ __pycache__/
 venv/
 .env
 .env.*
+!.env.example
 .mypy_cache/
 .pytest_cache/
 .coverage*
@@ -57,3 +58,6 @@ Build/**/Linux/*
 Build/**/Windows/*
 Build/**/Mac/*
 Content/**/Developers/**
+
+# Windows reserved device filenames
+nul

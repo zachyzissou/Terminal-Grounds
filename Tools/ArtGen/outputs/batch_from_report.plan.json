@@ -1,0 +1,449 @@
+{
+  "batch": "auto-from-report",
+  "model": "flux-1-schnell",
+  "defaults": {
+    "steps": 6,
+    "width": 1024,
+    "height": 1024
+  },
+  "items": [
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/damage_ballistic_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/damage_ballistic_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/damage_ion_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/damage_ion_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/extract_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/extract_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/map_ping_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/map_ping_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/rarity_common_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/rarity_common_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/rarity_legendary_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/rarity_legendary_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/status_charge_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/status_charge_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/status_heat_128_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "ui-icon",
+      "target": "Content/TG/Icons/status_heat_64_1024.png",
+      "prompt": "Terminal Grounds UI icon, clean vector-like glyph matching filename semantics, bold silhouette, high contrast, no text, flat shading, dark sci-fi UI kit",
+      "negative": "photo, 3d scene, text, watermark"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Gear/assault_frame_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Gear/heavy_frame_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Gear/light_frame_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/CivicWardens_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/CorporateCombine_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/Directorate_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/Free77_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/NomadClans_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/VaultedArchivists_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Palettes/VulturesUnion_palette_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/crimson_docks_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/drone_hive_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/metro_blackline_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/refinery_alpha_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/salvage_yard_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/sky_bastion_pad_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/tech_excavator_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/POIs/vault_blast_door_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/CivicWardens_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/CorporateCombine_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/Directorate_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/Free77_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/NomadClans_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/VaultedArchivists_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/StyleTiles/VulturesUnion_styletile_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/battle_walker_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/cargo_truck_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/grav_sled_a1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/harvester_craft_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/plasma_bike_h1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/recon_helo_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/scout_drone_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Vehicles/stalker_apc_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/blackline_mk3_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/cyclops_lmg_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/disruptor_lance_a1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/echo_lance_a2_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/enforcer_lmg_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/graviton_projector_a1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/grav_harrow_a1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/hunter_dmr_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/ion_pike_h2_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/ion_scatter_h1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/kestrel_smg_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/longstrike_h3_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/maul_h2_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/mk1_service_ar_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/mk2_dmr_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/mk2_service_ar_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/neutron_cannon_a2_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/phase_bow_a2_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/plasma_rail_h1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/reaper_ar_h1_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/riot_10_shotgun_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/storm_smg_h2_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/void_rifle_a3_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    },
+    {
+      "category": "concept",
+      "target": "Docs/Concepts/Weapons/watchman_dmr_2048.png",
+      "prompt": "Terminal Grounds concept art, painterly sci-fi consistent with lore and style guide, high detail, atmospheric lighting, 2048x2048",
+      "negative": "text, logo, watermark, UI"
+    }
+  ]
+}
