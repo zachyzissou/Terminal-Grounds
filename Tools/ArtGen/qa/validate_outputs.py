@@ -40,7 +40,7 @@ def main(out_dir: str) -> None:
     for p in out.rglob("*.png"):
         try:
             validate_one(p)
-        except Exception as exc:  # noqa: BLE001
+        except (FileNotFoundError, ValueError, JSONDecodeError) as exc:
             failures.append((str(p), str(exc)))
     if failures:
         print("QA FAIL:", json.dumps(failures, indent=2))
