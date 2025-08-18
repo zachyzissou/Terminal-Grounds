@@ -9,8 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
     ROOT / "README.md",
     ROOT / "Docs/Phase4_Implementation_Log.md",
-    ROOT / "docs/Art/ART_BIBLE.md",
-    ROOT / "docs/Art/UI_STYLE_GUIDE.md",
+    ROOT / "Docs/Art/ART_BIBLE.md",
+    ROOT / "Docs/Art/UI_STYLE_GUIDE.md",
     ROOT / "HOWTO-BUILD.md",
     ROOT / "HOWTO-HOST.md",
 ]

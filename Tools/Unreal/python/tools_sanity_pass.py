@@ -1,7 +1,7 @@
 """
 tools_sanity_pass.py
 Run inside Unreal Editor Python. Validates UE version, key plugins, opens/creates a temp look-dev level,
-spawns a cube and (if possible) a Niagara actor. Writes a report to docs/Tech/UE56_SANITY.md and appends to docs/Phase4_Implementation_Log.md.
+spawns a cube and (if possible) a Niagara actor. Writes a report to Docs/Tech/UE56_SANITY.md and appends to Docs/Phase4_Implementation_Log.md.
 """
 import os
 from datetime import date

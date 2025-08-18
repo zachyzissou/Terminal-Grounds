@@ -26,7 +26,7 @@ Date: 2025-08-11
 
 ## Next slices (planned)
 
-- Present/Thin/Missing classification sweep across docs/ and top-level guides.
+- Present/Thin/Missing classification sweep across Docs/ and top-level guides.
 - Append-only expansions to HOWTO-BUILD/HOWTO-HOST for platform specifics and Docker/compose notes.
 - Add UE asset path tables to relevant art/UI docs where helpful.
 - Open PR: "Phase 4 — Documentation Delta Pass (No Overwrites)" once classification and minimal expansions land.
