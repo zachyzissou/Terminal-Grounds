@@ -72,6 +72,11 @@ class ComfyClient:
 def inject_params(api_workflow: Dict[str, Any], params: Dict[str, Any]) -> Dict[str, Any]:
     """Inject prompt parameters into an API workflow template."""
     workflow = json.loads(json.dumps(api_workflow))
-    # TODO: map specific node IDs to workflow inputs
+    # Inject params into nodes that have 'inputs' dict
+    for node in workflow.values():
+        if isinstance(node, dict) and "inputs" in node:
+            for k, v in params.items():
+                if k in node["inputs"]:
+                    node["inputs"][k] = v
     return workflow
 
