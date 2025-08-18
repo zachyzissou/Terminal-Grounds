@@ -34,7 +34,15 @@ def run_batch(folder: str) -> None:
     for img in pathlib.Path(folder).rglob("*.png"):
         imported = import_image(img)
         if imported:
-            meta = json.loads(img.with_suffix(img.suffix + ".json").read_text())
+            meta_path = img.with_suffix(img.suffix + ".json")
+            try:
+                meta = json.loads(meta_path.read_text())
+            except FileNotFoundError:
+                print(f"Warning: Metadata file not found for {img}. Skipping metadata tagging.")
+                continue
+            except json.JSONDecodeError as e:
+                print(f"Warning: Invalid JSON in {meta_path}: {e}. Skipping metadata tagging.")
+                continue
             for asset in imported:
                 set_metadata(asset, meta)
 
