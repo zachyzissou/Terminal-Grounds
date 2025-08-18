@@ -3,7 +3,7 @@ tools_build_niagara_baselines.py
 Run inside Unreal Editor Python. Creates baseline Niagara systems (assets only, minimal placeholders)
 under /Game/TG/VFX.
 
-Also appends the created UE paths to docs/VFX/VFX_BIBLE.md and docs/Phase4_Implementation_Log.md.
+Also appends the created UE paths to Docs/VFX/VFX_BIBLE.md and Docs/Phase4_Implementation_Log.md.
 """
 import os
 from datetime import date

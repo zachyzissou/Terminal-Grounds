@@ -10,7 +10,7 @@ from datetime import date
 import unreal
 
 ROOT = unreal.SystemLibrary.get_project_directory()
-LOG = os.path.normpath(os.path.join(ROOT, "../docs/Phase4_Implementation_Log.md"))
+LOG = os.path.normpath(os.path.join(ROOT, "../Docs/Phase4_Implementation_Log.md"))
 BASE_DIR = "/Game/TG/ThirdParty"
 LOOKDEV_DIR = "/Game/TG/LookDev"
 

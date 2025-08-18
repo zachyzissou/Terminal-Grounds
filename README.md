@@ -304,7 +304,7 @@ Terminal Grounds — Logistics is drama. Alien tech is dangerous. Every screensh
 - `Config/` — Engine, Game, and project DeveloperSettings
 - `Content/` — UE assets (Maps, Materials, VFX, UI, ConceptArt, etc.)
 - `Data/` — Source-of-truth CSVs for datatables (mirrors subset under Content/DataTables)
-- `docs/` — Bibles and guides (Art, VFX, Audio, Lore, Concepts)
+- `Docs/` — Bibles and guides (Art, VFX, Audio, Lore, Concepts)
 - `Plugins/` — Project plugins (TGAttachments, TGModKit)
 - `Source/` — C++ modules (TGCore, TGNet, TGCombat, …)
 - `Server/` + `Docker/` — Dedicated server packaging and container runtime
