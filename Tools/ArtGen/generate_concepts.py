@@ -30,7 +30,7 @@ def run() -> None:
             params = {
                 "prompt": f'{pack["positive"][0]}, {row["Name"]}, {row.get("Tags", "")}',
                 "negative": ", ".join(pack["negative"]),
-                "seed": int(pack["defaults"]["seed"]) + int(row.get("SeedOffset", 0)),
+                "seed": int(pack["defaults"]["seed"]) + safe_int(row.get("SeedOffset", 0)),
                 "model": pack["defaults"]["model"],
                 "loras": pack["defaults"]["loras"],
                 "width": pack["defaults"]["width"],
