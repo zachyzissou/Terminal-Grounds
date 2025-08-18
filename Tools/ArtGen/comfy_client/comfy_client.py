@@ -25,7 +25,13 @@ class ComfyClient:
     def queue_workflow(self, api_workflow: Dict[str, Any]) -> str:
         """Queue a workflow and return its prompt identifier."""
         resp = self._post("/prompt", {"prompt": api_workflow})
-        return resp.get("prompt_id") or resp.get("node_id") or str(uuid.uuid4())
+        prompt_id = resp.get("prompt_id") or resp.get("node_id")
+        if not prompt_id:
+            raise RuntimeError(
+                "API response missing both 'prompt_id' and 'node_id': "
+                f"{resp}"
+            )
+        return prompt_id
 
     def wait_for_images(
         self,
