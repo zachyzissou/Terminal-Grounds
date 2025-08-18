@@ -5,6 +5,8 @@ public class TGServer : ModuleRules
     public TGServer(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-    PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "NetCore", "Networking" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "NetCore", "Networking" });
+
+        PrivateDependencyModuleNames.AddRange(new string[] { });
     }
 }

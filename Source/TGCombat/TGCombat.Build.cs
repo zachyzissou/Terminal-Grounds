@@ -6,5 +6,7 @@ public class TGCombat : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "GameplayTags" });
+
+        PrivateDependencyModuleNames.AddRange(new string[] { });
     }
 }

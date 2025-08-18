@@ -1,0 +1,4881 @@
+[
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "type": "doc",
+    "size": 298,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "HOWTO-HOST.md",
+    "type": "doc",
+    "size": 922,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "SECURITY.md",
+    "type": "doc",
+    "size": 322,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "README.md",
+    "type": "doc",
+    "size": 18409,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "DESIGN_OVERVIEW.md",
+    "type": "doc",
+    "size": 2464,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "TESTING.md",
+    "type": "doc",
+    "size": 508,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "docker-compose.yml",
+    "type": "config",
+    "size": 372,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "BUILD-FAQ.md",
+    "type": "doc",
+    "size": 443,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".gitignore",
+    "type": "other",
+    "size": 590,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".editorconfig",
+    "type": "other",
+    "size": 212,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".vsconfig",
+    "type": "other",
+    "size": 654,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "DECISIONS.md",
+    "type": "doc",
+    "size": 1579,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "HOWTO-BUILD.md",
+    "type": "doc",
+    "size": 1549,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".gitattributes",
+    "type": "other",
+    "size": 1020,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "PROGRESS.md",
+    "type": "doc",
+    "size": 5220,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "type": "doc",
+    "size": 914,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Terminal Grounds.code-workspace",
+    "type": "other",
+    "size": 119,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "TerminalGrounds.uproject",
+    "type": "other",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/.keep",
+    "type": "other",
+    "size": 49,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/Maps/README.txt",
+    "type": "doc",
+    "size": 86,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/POIs.csv",
+    "type": "other",
+    "size": 751,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/Weapons.csv",
+    "type": "other",
+    "size": 1300,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/Missions.csv",
+    "type": "other",
+    "size": 863,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/Items.csv",
+    "type": "other",
+    "size": 910,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/Vehicles.csv",
+    "type": "other",
+    "size": 724,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/Attachments.csv",
+    "type": "other",
+    "size": 597,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/DataTables/Factions.csv",
+    "type": "other",
+    "size": 1291,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Props/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/status_charge_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/extract_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/status_heat_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/rarity_legendary_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/extract_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/map_ping_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/status_charge_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/status_heat_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/rarity_common_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/damage_ion_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/damage_ballistic_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/damage_ballistic_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/rarity_common_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/rarity_legendary_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/map_ping_64.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Icons/damage_ion_128.png",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/ConceptArt/README.md",
+    "type": "doc",
+    "size": 7186,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/ConceptArt/Weapons/Human_Weapons.md",
+    "type": "doc",
+    "size": 10208,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/ConceptArt/Weapons/Hybrid_Weapons.md",
+    "type": "doc",
+    "size": 11748,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/ConceptArt/Weapons/Alien_Weapons.md",
+    "type": "doc",
+    "size": 14889,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/ConceptArt/Vehicles/All_Vehicles.md",
+    "type": "doc",
+    "size": 15278,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/LookDev/README.md",
+    "type": "doc",
+    "size": 1397,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/LookDev/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Environment/EnvironmentalStorytelling.md",
+    "type": "doc",
+    "size": 9406,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Audio/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/UI/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/VFX/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Vehicles/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Characters/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Materials/README.md",
+    "type": "doc",
+    "size": 3873,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Materials/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Materials/Hybrid/README.md",
+    "type": "doc",
+    "size": 9309,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Materials/Alien/README.md",
+    "type": "doc",
+    "size": 12229,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Materials/Human/README.md",
+    "type": "doc",
+    "size": 6505,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/TechWastes/README.md",
+    "type": "doc",
+    "size": 241,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/TechWastes/TechWastes_Band_Gamma.umap",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/LookDev/LookDev_Hybrid_Tech.umap",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/LookDev/README.md",
+    "type": "doc",
+    "size": 308,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/LookDev/LookDev_Human_Tech.umap",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/LookDev/LookDev_Alien_Tech.umap",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/IEZ/README.md",
+    "type": "doc",
+    "size": 252,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/IEZ/IEZ_District_Beta.umap",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Maps/IEZ/IEZ_District_Alpha.umap",
+    "type": "content",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Playable/Implementation.md",
+    "type": "doc",
+    "size": 14312,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Playable/README.md",
+    "type": "doc",
+    "size": 7041,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Lighting/LightingGuide.md",
+    "type": "doc",
+    "size": 12260,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Textures/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/Free77_Volunteer_Recruitment.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/NomadClans_Convoy_Discipline.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/VaultedArchivists_Archive_Integrity.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/CivicWardens_Evac_Corridor.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/Neutral_Report_Hybrid_Instability.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/Neutral_Grid_Safety.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/CorporateCombine_Lab_Safety.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/Directorate_Maintain_Formation.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Posters/VulturesUnion_Salvage_Credit.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/VulturesUnion_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/CorporateCombine_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/Free77_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/VaultedArchivists_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/CivicWardens_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/NomadClans_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Decals/Factions/Directorate_2K.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Content/TG/Blockouts/README.md",
+    "type": "doc",
+    "size": 1483,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".vscode/settings.json",
+    "type": "config",
+    "size": 729,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".vscode/extensions.json",
+    "type": "config",
+    "size": 264,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "ServerConfig/server.yaml",
+    "type": "config",
+    "size": 276,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/config",
+    "type": "other",
+    "size": 127,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/index",
+    "type": "other",
+    "size": 43761,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/HEAD",
+    "type": "other",
+    "size": 21,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/FETCH_HEAD",
+    "type": "other",
+    "size": 107,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/description",
+    "type": "other",
+    "size": 73,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/packed-refs",
+    "type": "other",
+    "size": 46,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/push-to-checkout.sample",
+    "type": "other",
+    "size": 2783,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/post-update.sample",
+    "type": "other",
+    "size": 189,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-receive.sample",
+    "type": "other",
+    "size": 544,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-rebase.sample",
+    "type": "other",
+    "size": 4898,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/applypatch-msg.sample",
+    "type": "other",
+    "size": 478,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/post-merge",
+    "type": "other",
+    "size": 345,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-merge-commit.sample",
+    "type": "other",
+    "size": 416,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/post-commit",
+    "type": "other",
+    "size": 347,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/update.sample",
+    "type": "other",
+    "size": 3650,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/sendemail-validate.sample",
+    "type": "other",
+    "size": 2308,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/commit-msg.sample",
+    "type": "other",
+    "size": 896,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-push",
+    "type": "other",
+    "size": 341,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/prepare-commit-msg.sample",
+    "type": "other",
+    "size": 1492,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-commit.sample",
+    "type": "other",
+    "size": 1643,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/fsmonitor-watchman.sample",
+    "type": "other",
+    "size": 4726,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/post-checkout",
+    "type": "other",
+    "size": 351,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-applypatch.sample",
+    "type": "other",
+    "size": 424,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/hooks/pre-push.sample",
+    "type": "other",
+    "size": 1374,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/refs/heads/main",
+    "type": "other",
+    "size": 41,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/refs/heads/work",
+    "type": "other",
+    "size": 41,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/logs/HEAD",
+    "type": "other",
+    "size": 347,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/logs/refs/heads/main",
+    "type": "other",
+    "size": 188,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/logs/refs/heads/work",
+    "type": "other",
+    "size": 156,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/721937169",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3961650803",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/936447976",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1382648369",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/246102255",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1398252458",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3859691005",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1209767369",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/182858666",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2322775558",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/11956129",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1439259681",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/928120670",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1064558870",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1189909925",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3465425126",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4180972266",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2491378952",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1140030722",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3807356235",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1897816172",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3477178444",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/492860269",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3398224391",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4135239273",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2884690111",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3911853841",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3762356226",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/89455057",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/954457352",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3154764885",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1185165831",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2788928548",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3595971108",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/943774458",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/169223744",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/794016218",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3802758145",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3617526972",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3974167476",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3700887056",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2515878004",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1137732717",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1473978966",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3015055381",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/877489855",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3493929176",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3467332801",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3331570808",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3196471002",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2559571426",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1219879612",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1614664349",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/141301069",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2320170822",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/716416213",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1226116418",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1204298716",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2491091546",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/146218862",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2451716893",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1318098568",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3464482551",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1992672237",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1625090232",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1682896959",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2973165559",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3511535229",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3309555414",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1689419605",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/98493216",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4213378708",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2095889253",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2112971415",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/564416760",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/230814884",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/826325743",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2557947654",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3737322031",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/307605895",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1877189077",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/436737991",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/425778400",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/154138520",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/529665744",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3164556604",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3861072254",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2188448920",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2145589640",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/453684615",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/350143410",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/400803466",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1789286759",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1780486839",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1477363223",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1301220391",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1576744362",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1475737531",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2401092308",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/8618844",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2047060966",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/205251395",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/188675050",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1750745015",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3433223432",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3391710667",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3874299093",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2329127898",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1099541174",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3548564256",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3051646104",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1298865649",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2638927984",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2237132812",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3054108433",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/152691878",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1973903336",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1778263823",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/857175340",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2053449269",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2729190574",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4272041551",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4112585535",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/736684288",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3853919441",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3818128636",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3859055982",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2855511331",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3099172150",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1852272033",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4220850590",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2575218925",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2449089878",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2377744569",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2732709868",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/635537789",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2083829210",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/488747165",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3944563215",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3557204742",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1529719103",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2966985108",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2521304160",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/172219289",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1001036492",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/735847511",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/186125533",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3168033454",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/995537287",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3851570689",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/731377961",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2916768617",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/522402687",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3870059639",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/873598621",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/450902427",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/821837766",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3272203350",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3956525106",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2204219645",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/233712323",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/725984377",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1820613147",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3677116700",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2624866483",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3173346383",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3388030983",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/443954502",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3439365898",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/442492536",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1628113336",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/511556841",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3407623298",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1457166174",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2640957503",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4269761131",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3770455390",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1969912438",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3431439709",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/869999102",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3627655295",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2097701168",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1310851036",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1753042945",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2445800805",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3803072893",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/468815107",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3144724876",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/439901635",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/217386864",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/478663616",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1819325818",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/311671056",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2295724121",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3624871651",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/217334961",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3063423194",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3149226572",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3664610687",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/921595607",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2285163032",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1095043260",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1508137640",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3664919218",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1287370590",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1940671393",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3252103519",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1034214239",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1102805896",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2177355176",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/146876990",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1939934431",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4056237135",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/121483792",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/407252329",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2056976775",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2700829830",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2968375981",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/588595592",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3889200671",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3059621620",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/535233889",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2945586848",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4188384139",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/896764131",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1285159840",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/342475532",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1022910167",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/464482278",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2139992399",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3538885196",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3107952472",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3233020562",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/59512467",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2340804796",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2685890585",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/721520400",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2286860406",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1119716747",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2734306612",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2115721809",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/100843776",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4166354205",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2440603196",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1071652618",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1859256448",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4012272345",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2119122128",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2883458732",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3300528888",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2266702541",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1077185671",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2099898048",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/256981980",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/716251156",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3217393713",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3919937606",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3998283296",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/4189611966",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1550863503",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1744545042",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3953433373",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2563883900",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1312767560",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1017842380",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1484246610",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1200243151",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1163089115",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/317899297",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3190028266",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/3054080447",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/1100916325",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2043952951",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/lfs/tmp/2043901528",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/objects/pack/pack-75b72b18143c2c6068e5167176c30109a0115a63.idx",
+    "type": "other",
+    "size": 31452,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/objects/pack/pack-75b72b18143c2c6068e5167176c30109a0115a63.pack",
+    "type": "other",
+    "size": 427870,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/objects/pack/pack-75b72b18143c2c6068e5167176c30109a0115a63.rev",
+    "type": "other",
+    "size": 4392,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".git/info/exclude",
+    "type": "other",
+    "size": 240,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TerminalGroundsEditor.Target.cs",
+    "type": "code",
+    "size": 539,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TerminalGrounds.Target.cs",
+    "type": "code",
+    "size": 525,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TerminalGroundsServer.Target.cs",
+    "type": "code",
+    "size": 605,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGBase/TGBase.Build.cs",
+    "type": "code",
+    "size": 354,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGBase/Public/TGBase.h",
+    "type": "code",
+    "size": 88,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGBase/Private/TGBaseModule.cpp",
+    "type": "code",
+    "size": 134,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/TGCore.Build.cs",
+    "type": "code",
+    "size": 414,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Public/TGCore.h",
+    "type": "code",
+    "size": 86,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Public/TGGameSettings.h",
+    "type": "code",
+    "size": 664,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Public/TGCharacter.h",
+    "type": "code",
+    "size": 265,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Public/TGGameMode.h",
+    "type": "code",
+    "size": 221,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Public/TGProfileSave.h",
+    "type": "code",
+    "size": 367,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Private/TGGameMode.cpp",
+    "type": "code",
+    "size": 130,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Private/TGGameSettings.cpp",
+    "type": "code",
+    "size": 228,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Private/TGProfileSave.cpp",
+    "type": "code",
+    "size": 27,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Private/TGCoreModule.cpp",
+    "type": "code",
+    "size": 167,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Private/TGCharacter.cpp",
+    "type": "code",
+    "size": 116,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCore/Private/TGGameplayTagsTest.cpp",
+    "type": "code",
+    "size": 577,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGVehicles/TGVehicles.Build.cs",
+    "type": "code",
+    "size": 417,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGVehicles/Public/TGVehicles.h",
+    "type": "code",
+    "size": 92,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGVehicles/Private/TGVehiclesModule.cpp",
+    "type": "code",
+    "size": 146,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/TGUI.Build.cs",
+    "type": "code",
+    "size": 431,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/Public/TGInventoryWidget.h",
+    "type": "code",
+    "size": 4803,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/Public/TGHUDIndicators.h",
+    "type": "code",
+    "size": 3647,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/Public/TGUI.h",
+    "type": "code",
+    "size": 86,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/Private/TGHUDIndicators.cpp",
+    "type": "code",
+    "size": 3631,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/Private/TGUIModule.cpp",
+    "type": "code",
+    "size": 128,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGUI/Private/TGInventoryWidget.cpp",
+    "type": "code",
+    "size": 3614,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGAI/TGAI.Build.cs",
+    "type": "code",
+    "size": 362,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGAI/Public/TGAI.h",
+    "type": "code",
+    "size": 86,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGAI/Private/TGAIModule.cpp",
+    "type": "code",
+    "size": 128,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGLoot/TGLoot.Build.cs",
+    "type": "code",
+    "size": 354,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGLoot/Public/TGItemDef.h",
+    "type": "code",
+    "size": 520,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGLoot/Public/TGLoot.h",
+    "type": "code",
+    "size": 88,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGLoot/Private/TGItemDef.cpp",
+    "type": "code",
+    "size": 23,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGLoot/Private/TGLootModule.cpp",
+    "type": "code",
+    "size": 134,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGWorld/TGWorld.Build.cs",
+    "type": "code",
+    "size": 356,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGWorld/Public/TGWorld.h",
+    "type": "code",
+    "size": 89,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGWorld/Private/TGWorldModule.cpp",
+    "type": "code",
+    "size": 137,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGMissions/TGMissions.Build.cs",
+    "type": "code",
+    "size": 378,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGMissions/Public/TGMissions.h",
+    "type": "code",
+    "size": 92,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGMissions/Public/TGMissionDirector2.h",
+    "type": "code",
+    "size": 8381,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGMissions/Private/TGMissionsModule.cpp",
+    "type": "code",
+    "size": 146,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGMissions/Private/TGMissionDirector2.cpp",
+    "type": "code",
+    "size": 6042,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGNet/TGNet.Build.cs",
+    "type": "code",
+    "size": 363,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGNet/Public/TGNet.h",
+    "type": "code",
+    "size": 87,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGNet/Public/TGLagCompensationComponent.h",
+    "type": "code",
+    "size": 902,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGNet/Private/TGNetModule.cpp",
+    "type": "code",
+    "size": 131,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGNet/Private/TGLagCompensationComponent.cpp",
+    "type": "code",
+    "size": 922,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGServer/TGServer.Build.cs",
+    "type": "code",
+    "size": 383,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGServer/Public/TGTelemetrySubsystem.h",
+    "type": "code",
+    "size": 5420,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGServer/Public/TGServer.h",
+    "type": "code",
+    "size": 90,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGServer/Private/TGTelemetrySubsystem.cpp",
+    "type": "code",
+    "size": 4125,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGServer/Private/TGServerModule.cpp",
+    "type": "code",
+    "size": 140,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/TGCombat.Build.cs",
+    "type": "code",
+    "size": 374,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGExosuitData.h",
+    "type": "code",
+    "size": 3061,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGExosuitComponent.h",
+    "type": "code",
+    "size": 4057,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGChargeComponent.h",
+    "type": "code",
+    "size": 4905,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGAugmentData.h",
+    "type": "code",
+    "size": 4768,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGThermalComponent.h",
+    "type": "code",
+    "size": 4106,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGCombat.h",
+    "type": "code",
+    "size": 90,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGWeaponInstance.h",
+    "type": "code",
+    "size": 495,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Public/TGWeapon.h",
+    "type": "code",
+    "size": 1029,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Private/TGChargeComponent.cpp",
+    "type": "code",
+    "size": 4069,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Private/TGExosuitComponent.cpp",
+    "type": "code",
+    "size": 4178,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Private/TGWeapon.cpp",
+    "type": "code",
+    "size": 1141,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Private/TGWeaponInstance.cpp",
+    "type": "code",
+    "size": 30,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Private/TGCombatModule.cpp",
+    "type": "code",
+    "size": 140,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Source/TGCombat/Private/TGThermalComponent.cpp",
+    "type": "code",
+    "size": 2992,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".github/copilot-instructions.md",
+    "type": "doc",
+    "size": 838,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".github/instructions/instructions.md",
+    "type": "doc",
+    "size": 21301,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".github/workflows/build-server.yml",
+    "type": "config",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".github/workflows/artgen.yml",
+    "type": "config",
+    "size": 930,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".github/workflows/docs-gate.yml",
+    "type": "config",
+    "size": 2182,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".github/workflows/build-linux-server.yml",
+    "type": "config",
+    "size": 2258,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Config/DefaultGameplayTags.ini",
+    "type": "config",
+    "size": 1595,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Config/DefaultEditor.ini",
+    "type": "config",
+    "size": 255,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Config/DefaultGame.ini",
+    "type": "config",
+    "size": 411,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Config/TerminalGrounds.ini",
+    "type": "config",
+    "size": 87,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Config/DefaultEngine.ini",
+    "type": "config",
+    "size": 1895,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Config/DefaultInput.ini",
+    "type": "config",
+    "size": 8983,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "docs/README.md",
+    "type": "doc",
+    "size": 148,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Phase4_Docs_Inventory.md",
+    "type": "doc",
+    "size": 2190,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Phase4_Implementation_Log.md",
+    "type": "doc",
+    "size": 3204,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/ProjectAudit.md",
+    "type": "doc",
+    "size": 1924,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/ThirdPartyAssets.md",
+    "type": "doc",
+    "size": 596,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Lore/POIs_Flavor.md",
+    "type": "doc",
+    "size": 517,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Lore/LORE_BIBLE.md",
+    "type": "doc",
+    "size": 14941,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Lore/Lore_Backbone.md",
+    "type": "doc",
+    "size": 1852,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Lore/Factions_Flavor.md",
+    "type": "doc",
+    "size": 1393,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Lore/Weapons_Flavor.md",
+    "type": "doc",
+    "size": 1650,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/ART_BIBLE.md",
+    "type": "doc",
+    "size": 16214,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/UI_STYLE_GUIDE.md",
+    "type": "doc",
+    "size": 11975,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/VulturesUnion.md",
+    "type": "doc",
+    "size": 7116,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/NomadClans.md",
+    "type": "doc",
+    "size": 7833,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/VaultedArchivists.md",
+    "type": "doc",
+    "size": 8587,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/CorporateCombine.md",
+    "type": "doc",
+    "size": 8061,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/Directorate.md",
+    "type": "doc",
+    "size": 5721,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/Free77.md",
+    "type": "doc",
+    "size": 7341,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Art/Factions/CivicWardens.md",
+    "type": "doc",
+    "size": 9037,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Audio/AUDIO_VISION.md",
+    "type": "doc",
+    "size": 19932,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/VFX/VFX_BIBLE.md",
+    "type": "doc",
+    "size": 16073,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Tech/asset_manifest.json",
+    "type": "config",
+    "size": 772,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Tech/UE56_SANITY.md",
+    "type": "doc",
+    "size": 1149,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Audits/TG_Audit_GameplayTags.md",
+    "type": "doc",
+    "size": 370,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Audits/TG_Audit_Inventory.md",
+    "type": "doc",
+    "size": 344,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/ASSET_MANIFEST.json",
+    "type": "config",
+    "size": 4,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Gear/augments.md",
+    "type": "doc",
+    "size": 2622,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Gear/assault_frame.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Gear/light_frame.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Gear/prompts.md",
+    "type": "doc",
+    "size": 1707,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Gear/heavy_frame.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/Free77_Volunteer_Recruitment.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/NomadClans_Convoy_Discipline.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/VaultedArchivists_Archive_Integrity.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/CivicWardens_Evac_Corridor.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/Neutral_Report_Hybrid_Instability.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/Neutral_Grid_Safety.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/CorporateCombine_Lab_Safety.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/Directorate_Maintain_Formation.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Posters/VulturesUnion_Salvage_Credit.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/riot_10_shotgun.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/hunter_dmr.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/longstrike_h3.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/blackline_mk3.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/echo_lance_a2.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/README.md",
+    "type": "doc",
+    "size": 710,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/mk2_dmr.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/ion_scatter_h1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/cyclops_lmg.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/storm_smg_h2.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/plasma_rail_h1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/watchman_dmr.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/graviton_projector_a1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/void_rifle_a3.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/grav_harrow_a1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/maul_h2.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/disruptor_lance_a1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/neutron_cannon_a2.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/phase_bow_a2.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/enforcer_lmg.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/mk1_service_ar.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/kestrel_smg.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/ion_pike_h2.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/prompts.md",
+    "type": "doc",
+    "size": 2060,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/reaper_ar_h1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Weapons/mk2_service_ar.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/sky_bastion_pad.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/drone_hive.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/salvage_yard.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/crimson_docks.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/refinery_alpha.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/tech_excavator.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/locations.md",
+    "type": "doc",
+    "size": 3059,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/metro_blackline.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/prompts.md",
+    "type": "doc",
+    "size": 1878,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/POIs/vault_blast_door.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/UI/README.md",
+    "type": "doc",
+    "size": 849,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/UI/HUD.md",
+    "type": "doc",
+    "size": 2060,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/UI/prompts.md",
+    "type": "doc",
+    "size": 1807,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/scout_drone.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/README.md",
+    "type": "doc",
+    "size": 715,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/harvester_craft.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/recon_helo.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/battle_walker.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/cargo_truck.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/grav_sled_a1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/plasma_bike_h1.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/prompts.md",
+    "type": "doc",
+    "size": 1972,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Vehicles/stalker_apc.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Bases/modules.md",
+    "type": "doc",
+    "size": 3501,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Bases/prompts.md",
+    "type": "doc",
+    "size": 1667,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Factions/README.md",
+    "type": "doc",
+    "size": 851,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Factions/prompts.md",
+    "type": "doc",
+    "size": 1535,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/TechWastes_Day.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/IEZ_palette.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/Hero.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/Hero_Wastes.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/SkyBastion_storm.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/IEZ_Day.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/SkyBastion_Night.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/TechWastes_Night.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/SkyBastion_Day.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/BlackVault_Day.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/Wastes_palette.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/BlackVault_Night.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/IEZ_Night.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/Hero_IEZ.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Renders/BlackVault_mood.png",
+    "type": "content",
+    "size": 130,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/NomadClans_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/VaultedArchivists_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/VulturesUnion_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/Directorate_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/CorporateCombine_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/CivicWardens_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/StyleTiles/Free77_styletile.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/Free77_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/NomadClans_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/VaultedArchivists_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/CorporateCombine_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/CivicWardens_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/Directorate_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Docs/Concepts/Palettes/VulturesUnion_palette.png",
+    "type": "content",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGAttachments/TGAttachments.uplugin",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGAttachments/Source/TGAttachments/TGAttachments.Build.cs",
+    "type": "code",
+    "size": 356,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGAttachments/Source/TGAttachments/Public/TGAttachmentDef.h",
+    "type": "code",
+    "size": 1168,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGAttachments/Source/TGAttachments/Public/TGAttachments.h",
+    "type": "code",
+    "size": 95,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGAttachments/Source/TGAttachments/Private/TGAttachmentDef.cpp",
+    "type": "code",
+    "size": 29,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGAttachments/Source/TGAttachments/Private/TGAttachmentsModule.cpp",
+    "type": "code",
+    "size": 155,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGModKit/TGModKit.uplugin",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGModKit/Source/TGModKit/TGModKit.Build.cs",
+    "type": "code",
+    "size": 368,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGModKit/Source/TGModKit/Public/TGModKit.h",
+    "type": "code",
+    "size": 90,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Plugins/TGModKit/Source/TGModKit/Private/TGModKitModule.cpp",
+    "type": "code",
+    "size": 140,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "src/.keep",
+    "type": "other",
+    "size": 48,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Docker/Dockerfile",
+    "type": "other",
+    "size": 405,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": ".claude/settings.local.json",
+    "type": "config",
+    "size": 160,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/README.md",
+    "type": "doc",
+    "size": 321,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/validate_docs_assets.py",
+    "type": "code",
+    "size": 1584,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/gen_placeholder_renders.py",
+    "type": "code",
+    "size": 1773,
+    "lfs": false,
+    "suspicious": true
+  },
+  {
+    "path": "Tools/build_asset_manifest.py",
+    "type": "code",
+    "size": 1819,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/asset_manifest.py",
+    "type": "code",
+    "size": 1578,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/docs_gate.py",
+    "type": "code",
+    "size": 889,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/tools_make_faction_emblems.py",
+    "type": "code",
+    "size": 5912,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/generate_concepts.py",
+    "type": "code",
+    "size": 2135,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/tools_try_sd_client.py",
+    "type": "code",
+    "size": 2223,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/tools_make_icons.py",
+    "type": "code",
+    "size": 2679,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/tools_make_swatches.py",
+    "type": "code",
+    "size": 2037,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/tools_make_posters.py",
+    "type": "code",
+    "size": 3057,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/tools_make_lookdev_placeholders.py",
+    "type": "code",
+    "size": 2711,
+    "lfs": false,
+    "suspicious": true
+  },
+  {
+    "path": "Tools/ArtGen/workflows/style_board.api.json",
+    "type": "config",
+    "size": 648,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/workflows/concept_art.api.json",
+    "type": "config",
+    "size": 523,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/workflows/texture_decal.api.json",
+    "type": "config",
+    "size": 642,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/qa/validate_outputs.py",
+    "type": "code",
+    "size": 1496,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/prompt_packs/biome_prompts.json",
+    "type": "config",
+    "size": 912,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/prompt_packs/biomes/IEZ.json",
+    "type": "config",
+    "size": 527,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/prompt_packs/biomes/WASTES.json",
+    "type": "config",
+    "size": 532,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/prompt_packs/factions/F77.json",
+    "type": "config",
+    "size": 558,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/prompt_packs/factions/DIR.json",
+    "type": "config",
+    "size": 558,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/prompt_packs/factions/VLT.json",
+    "type": "config",
+    "size": 553,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/ue_import/tools_import_artgen_outputs.py",
+    "type": "code",
+    "size": 1883,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/Directorate.svg",
+    "type": "other",
+    "size": 129,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/CorporateCombine.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/NomadClans.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/VaultedArchivists.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/CivicWardens.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/Free77.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/svg/VulturesUnion.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/comfy_client/comfy_client.py",
+    "type": "code",
+    "size": 3216,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/comfy_client/__init__.py",
+    "type": "code",
+    "size": 29,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/status_heat.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/rarity_legendary.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/damage_ion.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/extract.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/damage_ballistic.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/rarity_common.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/map_ping.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/ArtGen/icons/svg/status_charge.svg",
+    "type": "other",
+    "size": 128,
+    "lfs": true,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/TGModKit/README.md",
+    "type": "doc",
+    "size": 5571,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/TGModKit/Templates/WeaponMod/Config/ModInfo.json",
+    "type": "config",
+    "size": 1076,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/TGModKit/Templates/WeaponMod/Data/Weapons.csv",
+    "type": "other",
+    "size": 357,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Testing/Performance/run_performance_tests.py",
+    "type": "code",
+    "size": 14472,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/required_plugins.json",
+    "type": "config",
+    "size": 288,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_build_lookdev_levels.py",
+    "type": "code",
+    "size": 4684,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_find_ue_roots.py",
+    "type": "code",
+    "size": 1462,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_build_lookdev_level.py",
+    "type": "code",
+    "size": 3792,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_sanity_pass.py",
+    "type": "code",
+    "size": 3826,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_capture_lookdev_renders.py",
+    "type": "code",
+    "size": 1375,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_build_niagara_baselines.py",
+    "type": "code",
+    "size": 2397,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_import_artgen_outputs.py",
+    "type": "code",
+    "size": 5095,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_validate_required_plugins.py",
+    "type": "code",
+    "size": 4023,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_create_master_materials.py",
+    "type": "code",
+    "size": 5117,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Unreal/python/tools_import_thirdparty_samples.py",
+    "type": "code",
+    "size": 2147,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Tools/Validation/inventory_repo.py",
+    "type": "code",
+    "size": 3530,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Server/run_server.ps1",
+    "type": "other",
+    "size": 295,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Server/run_server.sh",
+    "type": "code",
+    "size": 244,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Server/server.yaml",
+    "type": "config",
+    "size": 712,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Server/Docker/Dockerfile",
+    "type": "other",
+    "size": 405,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Posters.csv",
+    "type": "other",
+    "size": 2330,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Briefings.csv",
+    "type": "other",
+    "size": 3543,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Barks.csv",
+    "type": "other",
+    "size": 7950,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/POIs.csv",
+    "type": "other",
+    "size": 1428,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Weapons.csv",
+    "type": "other",
+    "size": 2707,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Missions.csv",
+    "type": "other",
+    "size": 1382,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Items.csv",
+    "type": "other",
+    "size": 910,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Vehicles.csv",
+    "type": "other",
+    "size": 724,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Attachments.csv",
+    "type": "other",
+    "size": 1016,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Factions.csv",
+    "type": "other",
+    "size": 1291,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Tables/Rumors.csv",
+    "type": "other",
+    "size": 3179,
+    "lfs": false,
+    "suspicious": false
+  },
+  {
+    "path": "Data/Curves/.gitkeep",
+    "type": "other",
+    "size": 0,
+    "lfs": false,
+    "suspicious": false
+  }
+]

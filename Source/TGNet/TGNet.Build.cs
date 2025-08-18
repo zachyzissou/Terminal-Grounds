@@ -6,5 +6,7 @@ public class TGNet : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "NetCore" });
+
+        PrivateDependencyModuleNames.AddRange(new string[] { });
     }
 }
