@@ -1,0 +1,23 @@
+{
+  "name": "Wasteland",
+  "style_loras": ["wastes_dust_v1"],
+  "palette": ["#7E6A4A", "#B09F82", "#D7C9B2", "#4A3F35"],
+  "positive": [
+    "wind-scoured dunes, derelict hulks, sun-bleached signage"
+  ],
+  "negative": [
+    "verdant fields, pristine metals, bright graffiti"
+  ],
+  "defaults": {
+    "seed": 1844674407370955161,
+    "width": 1024,
+    "height": 1024,
+    "sampler": "dpmpp_2m",
+    "steps": 28,
+    "cfg": 6.5,
+    "model": "flux.1-dev",
+    "loras": [
+      {"name": "wastes_dust_v1", "strength": 0.8}
+    ]
+  }
+}
