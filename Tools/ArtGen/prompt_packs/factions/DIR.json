@@ -1,0 +1,24 @@
+{
+  "name": "Directorate",
+  "style_loras": ["dir_mil_spec_v1"],
+  "palette": ["#2B2E34", "#6C737D", "#C2C7CC", "#E6B400"],
+  "positive": [
+    "parkerized steel, chevrons, serial-stamped crates, disciplined formations"
+  ],
+  "negative": [
+    "neon cyberpunk, glossy sci-fi, anime eyes, low-detail"
+  ],
+  "defaults": {
+    "seed": 1844674407370955161,
+    "width": 1024,
+    "height": 1024,
+    "sampler": "dpmpp_2m",
+    "steps": 28,
+    "cfg": 6.5,
+    "model": "flux.1-dev",
+    "loras": [
+      {"name": "dir_mil_spec_v1", "strength": 0.8}
+    ]
+  }
+}
+

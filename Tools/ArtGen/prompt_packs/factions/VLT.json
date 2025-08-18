@@ -1,0 +1,24 @@
+{
+  "name": "Vultures",
+  "style_loras": ["vlt_salvage_v1"],
+  "palette": ["#7F8C8D", "#D35400", "#2C3E50", "#BDC3C7"],
+  "positive": [
+    "patched armor, scavenged plating, rusted rivets, opportunistic crews"
+  ],
+  "negative": [
+    "pristine surfaces, neon glows, medieval motifs, anime eyes"
+  ],
+  "defaults": {
+    "seed": 1844674407370955161,
+    "width": 1024,
+    "height": 1024,
+    "sampler": "dpmpp_2m",
+    "steps": 28,
+    "cfg": 6.5,
+    "model": "flux.1-dev",
+    "loras": [
+      {"name": "vlt_salvage_v1", "strength": 0.8}
+    ]
+  }
+}
+

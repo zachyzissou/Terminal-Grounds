@@ -1,0 +1,24 @@
+{
+  "name": "Free77",
+  "style_loras": ["f77_contractor_v1"],
+  "palette": ["#34495E", "#BDC3C7", "#95A5A6", "#2C3E50"],
+  "positive": [
+    "modular gear, contractor patches, utilitarian rigs, pragmatic teams"
+  ],
+  "negative": [
+    "extravagant ornaments, fantasy armor, neon trims, low-detail"
+  ],
+  "defaults": {
+    "seed": 1844674407370955161,
+    "width": 1024,
+    "height": 1024,
+    "sampler": "dpmpp_2m",
+    "steps": 28,
+    "cfg": 6.5,
+    "model": "flux.1-dev",
+    "loras": [
+      {"name": "f77_contractor_v1", "strength": 0.8}
+    ]
+  }
+}
+

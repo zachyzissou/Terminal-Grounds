@@ -1,0 +1,35 @@
+{
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "CLIPTextEncode",
+      "inputs": {
+        "text": "",
+        "clip": "CLIP"
+      }
+    },
+    {
+      "id": 2,
+      "type": "KSampler",
+      "inputs": {
+        "seed": 0,
+        "steps": 28,
+        "cfg": 6.5,
+        "sampler_name": "dpmpp_2m",
+        "model": "flux.1-dev"
+      }
+    },
+    {
+      "id": 3,
+      "type": "SaveImage",
+      "inputs": {}
+    }
+  ],
+  "links": [
+    [1, 0, 2, 0],
+    [2, 0, 3, 0]
+  ]
+}
+

@@ -1,0 +1,24 @@
+{
+  "name": "Ice Exclusion Zone",
+  "style_loras": ["iez_frost_v1"],
+  "palette": ["#E0F7FA", "#B2EBF2", "#80DEEA", "#4DD0E1"],
+  "positive": [
+    "glacial plains, frostbitten structures, cobalt haze"
+  ],
+  "negative": [
+    "lush vegetation, warm tones, tropical fauna"
+  ],
+  "defaults": {
+    "seed": 1844674407370955161,
+    "width": 1024,
+    "height": 1024,
+    "sampler": "dpmpp_2m",
+    "steps": 28,
+    "cfg": 6.5,
+    "model": "flux.1-dev",
+    "loras": [
+      {"name": "iez_frost_v1", "strength": 0.8}
+    ]
+  }
+}
+
