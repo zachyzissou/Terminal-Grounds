@@ -48,4 +48,7 @@ def run_batch(folder: str) -> None:
 
 
 if __name__ == "__main__":
-    run_batch(r"C:\\Path\\to\\Docs\\Concepts")
+    parser = argparse.ArgumentParser(description="Import generated images into Unreal and tag metadata.")
+    parser.add_argument("folder", nargs="?", default=r"C:\\Path\\to\\Docs\\Concepts", help="Folder containing images to import")
+    args = parser.parse_args()
+    run_batch(args.folder)
