@@ -14,7 +14,10 @@
       "Bash(powershell:*)",
       "Bash(find:*)",
       "Bash(FIX_COMFYUI.bat)",
-      "Bash(set TG_CKPT=FLUX1\\flux1-dev-fp8.safetensors)"
+      "Bash(set TG_CKPT=FLUX1\\flux1-dev-fp8.safetensors)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"

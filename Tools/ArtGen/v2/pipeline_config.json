@@ -1,0 +1,287 @@
+{
+  "pipeline_info": {
+    "name": "Terminal Grounds Asset Pipeline v2.0",
+    "version": "2.0.0",
+    "description": "Unified asset generation pipeline for Terminal Grounds game development",
+    "created_date": "2025-08-19",
+    "last_updated": "2025-08-19"
+  },
+  
+  "comfyui": {
+    "server_detection": {
+      "auto_detect": true,
+      "primary_port": 8000,
+      "fallback_port": 8188,
+      "timeout_seconds": 5
+    },
+    "connection": {
+      "max_retries": 3,
+      "retry_delay_seconds": 2,
+      "timeout_seconds": 300,
+      "health_check_interval": 30
+    },
+    "performance": {
+      "max_concurrent_jobs": 2,
+      "memory_optimization": true,
+      "model_caching": true
+    }
+  },
+  
+  "quality_assurance": {
+    "scoring": {
+      "min_acceptable_score": 60.0,
+      "target_score": 80.0,
+      "hero_threshold": 90.0
+    },
+    "enhancement": {
+      "auto_enhance": true,
+      "max_enhancement_attempts": 2,
+      "upscale_threshold": 70.0,
+      "sharpen_threshold": 75.0
+    },
+    "thresholds_by_type": {
+      "weapon": {"min": 75, "target": 85, "hero": 90},
+      "vehicle": {"min": 70, "target": 80, "hero": 85},
+      "emblem": {"min": 80, "target": 90, "hero": 95},
+      "poster": {"min": 65, "target": 75, "hero": 85},
+      "icon": {"min": 75, "target": 85, "hero": 90},
+      "concept": {"min": 60, "target": 75, "hero": 85},
+      "environment": {"min": 65, "target": 80, "hero": 90},
+      "texture": {"min": 75, "target": 85, "hero": 90},
+      "ui": {"min": 70, "target": 80, "hero": 85}
+    }
+  },
+  
+  "models": {
+    "primary_model": "FLUX1\\flux1-dev-fp8.safetensors",
+    "fallback_models": [
+      "flux1-dev.safetensors",
+      "flux1-schnell.safetensors"
+    ],
+    "loras": {
+      "logo_design": "LogoRedmondV2-Logo-LogoRedmAF",
+      "poster_design": "Ink_poster-000004",
+      "concept_art": "ck-Sommo-Concept-Art-000015",
+      "sci_fi_environment": "Sci-fi_env_flux",
+      "textures": "Textures"
+    },
+    "upscaler": "4x-UltraSharp.pth"
+  },
+  
+  "workflows": {
+    "templates_directory": "../workflows",
+    "custom_directory": "workflows",
+    "auto_discovery": true,
+    "validation": {
+      "required_nodes": ["CheckpointLoaderSimple", "KSampler", "SaveImage"],
+      "validate_on_load": true
+    }
+  },
+  
+  "factions": {
+    "enabled_factions": [
+      "directorate",
+      "free77", 
+      "vultures",
+      "combine",
+      "nomads",
+      "archivists",
+      "wardens",
+      "neutral"
+    ],
+    "data_directory": "../prompt_packs/factions",
+    "style_profiles": {
+      "directorate": {
+        "primary_color": "#2B4C8C",
+        "style_keywords": ["corporate", "military", "authoritative", "clean"],
+        "quality_emphasis": "precision"
+      },
+      "free77": {
+        "primary_color": "#8B4513", 
+        "style_keywords": ["mercenary", "practical", "rugged", "tactical"],
+        "quality_emphasis": "functionality"
+      },
+      "vultures": {
+        "primary_color": "#2F2F2F",
+        "style_keywords": ["scavenger", "industrial", "makeshift", "weathered"],
+        "quality_emphasis": "character"
+      },
+      "combine": {
+        "primary_color": "#4682B4",
+        "style_keywords": ["corporate", "high-tech", "sleek", "efficient"],
+        "quality_emphasis": "polish"
+      },
+      "nomads": {
+        "primary_color": "#D2691E",
+        "style_keywords": ["tribal", "mobile", "organic", "weathered"],
+        "quality_emphasis": "authenticity"
+      },
+      "archivists": {
+        "primary_color": "#556B2F",
+        "style_keywords": ["academic", "mystical", "ancient", "ornate"],
+        "quality_emphasis": "detail"
+      },
+      "wardens": {
+        "primary_color": "#483D8B",
+        "style_keywords": ["defensive", "utilitarian", "sturdy", "protective"],
+        "quality_emphasis": "reliability"
+      }
+    }
+  },
+  
+  "paths": {
+    "base_directory": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\ArtGen",
+    "output_directory": "Style_Staging\\_Recent_Generations",
+    "staging_directory": "Style_Staging",
+    "batch_output": "outputs\\batch",
+    "assets_database": "v2\\assets.db",
+    "temp_directory": "temp",
+    "archive_directory": "archive"
+  },
+  
+  "ue5_integration": {
+    "enabled": true,
+    "auto_import": false,
+    "project_config": {
+      "project_name": "TerminalGrounds",
+      "content_base_path": "/Game/Generated",
+      "texture_path": "/Game/Generated/Textures",
+      "material_path": "/Game/Generated/Materials",
+      "blueprint_path": "/Game/Generated/Blueprints"
+    },
+    "import_settings": {
+      "create_materials": true,
+      "create_material_instances": true,
+      "organize_by_faction": true,
+      "auto_lod_generation": true
+    }
+  },
+  
+  "generation_defaults": {
+    "quality_level": "production",
+    "resolution": {
+      "weapon": {"width": 1024, "height": 1024},
+      "vehicle": {"width": 1280, "height": 768},
+      "emblem": {"width": 1024, "height": 1024},
+      "poster": {"width": 768, "height": 1024},
+      "icon": {"width": 512, "height": 512},
+      "concept": {"width": 1280, "height": 768},
+      "environment": {"width": 1536, "height": 864},
+      "texture": {"width": 1024, "height": 1024},
+      "ui": {"width": 1024, "height": 768}
+    },
+    "sampling": {
+      "steps": 28,
+      "cfg": 4.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    "enhancement": {
+      "auto_upscale": true,
+      "target_upscale": "2048x2048",
+      "quality_threshold_for_upscale": 75.0
+    }
+  },
+  
+  "batch_processing": {
+    "csv_parsing": {
+      "encoding": "utf-8-sig",
+      "auto_detect_columns": true,
+      "required_columns": ["name", "asset_type"],
+      "optional_columns": ["faction", "description", "style", "quality_level"]
+    },
+    "processing": {
+      "max_concurrent_jobs": 2,
+      "retry_failed_jobs": true,
+      "max_retries": 3,
+      "progress_reporting": true,
+      "session_persistence": true
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "file_logging": true,
+    "log_directory": "logs",
+    "max_log_files": 10,
+    "log_rotation_mb": 50,
+    "console_logging": true,
+    "detailed_timing": false
+  },
+  
+  "performance": {
+    "hardware_detection": {
+      "auto_detect_gpu": true,
+      "optimize_for_hardware": true
+    },
+    "memory_management": {
+      "cleanup_temp_files": true,
+      "cleanup_interval_hours": 24,
+      "max_temp_size_gb": 10
+    },
+    "caching": {
+      "workflow_cache_enabled": true,
+      "model_cache_enabled": true,
+      "cache_cleanup_days": 7
+    }
+  },
+  
+  "features": {
+    "experimental": {
+      "ai_prompt_enhancement": false,
+      "style_transfer": false,
+      "batch_optimization": true,
+      "automatic_tagging": true
+    },
+    "integrations": {
+      "github_actions": false,
+      "discord_notifications": false,
+      "slack_notifications": false
+    }
+  },
+  
+  "validation": {
+    "startup_checks": {
+      "validate_comfyui_connection": true,
+      "validate_model_files": true,
+      "validate_directory_structure": true,
+      "validate_dependencies": true
+    },
+    "runtime_checks": {
+      "monitor_disk_space": true,
+      "monitor_memory_usage": true,
+      "validate_output_files": true
+    }
+  },
+  
+  "presets": {
+    "quick_preview": {
+      "steps": 20,
+      "resolution_scale": 0.5,
+      "quality_threshold": 50,
+      "skip_enhancement": true
+    },
+    "production_ready": {
+      "steps": 32,
+      "resolution_scale": 1.0,
+      "quality_threshold": 80,
+      "force_enhancement": true,
+      "ue5_import": true
+    },
+    "hero_quality": {
+      "steps": 40,
+      "resolution_scale": 2.0,
+      "quality_threshold": 90,
+      "multiple_variants": 3,
+      "best_of_selection": true
+    }
+  },
+  
+  "schema_version": "2.0.0",
+  "last_migration": null,
+  "backup_settings": {
+    "auto_backup_config": true,
+    "backup_retention_days": 30,
+    "backup_directory": "config_backups"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "comfyui_url": "http://127.0.0.1:8188",
+  "generation_timeout": 600.0,
+  "base_output_dir": "../../Docs/Generated",
+  "workflow_dir": "./workflows",
+  "prompt_packs_dir": "./prompt_packs",
+  "max_concurrent_jobs": 2,
+  "job_timeout": 600.0,
+  "retry_failed_jobs": true,
+  "max_retries": 3,
+  "quality_gate_enabled": true,
+  "auto_enhance_assets": true,
+  "auto_upscale_assets": false,
+  "min_quality_score": 70.0,
+  "ue5_integration_enabled": false,
+  "ue5_project_path": null,
+  "ue5_engine_path": null,
+  "use_ue5_python_api": true,
+  "log_level": "INFO",
+  "log_file": null,
+  "faction_configs": {
+    "directorate": {
+      "name": "Directorate",
+      "config_file": "DIR.json"
+    },
+    "free77": {
+      "name": "Free77",
+      "config_file": "F77.json"
+    },
+    "vultures": {
+      "name": "Vultures",
+      "config_file": "VLT.json"
+    }
+  },
+  "default_model": "flux.1-dev",
+  "available_models": [
+    "flux.1-dev",
+    "flux.1-schnell"
+  ],
+  "experimental_features": false,
+  "debug_mode": false,
+  "telemetry_enabled": false
+}
