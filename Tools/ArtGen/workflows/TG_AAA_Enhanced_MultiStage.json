@@ -1,0 +1,161 @@
+{
+  "workflow_info": {
+    "name": "Terminal Grounds AAA Enhanced Multi-Stage Pipeline",
+    "description": "Uses Impact Pack, Bawk Nodes, and Efficiency Nodes for maximum quality",
+    "version": "1.0",
+    "stages": ["base_generation", "impact_enhancement", "efficient_upscale", "final_refinement"]
+  },
+  "stage_1_base_generation": {
+    "1": {
+      "class_type": "CheckpointLoaderSimple",
+      "inputs": {
+        "ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"
+      },
+      "_meta": {"title": "FLUX Model Loader", "stage": "base"}
+    },
+    "2": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "[LORE_PROMPT_PLACEHOLDER]",
+        "clip": ["1", 1]
+      },
+      "_meta": {"title": "Enhanced Lore Prompt", "stage": "base"}
+    },
+    "3": {
+      "class_type": "CLIPTextEncode", 
+      "inputs": {
+        "text": "text, watermark, logo, blurry, low quality, jpeg artifacts, poster, title card, caption, credits, border, banner, frame, label, typography, garbled text, sketch, line art, drawing, cartoon, anime, manga, painting, illustration",
+        "clip": ["1", 1]
+      },
+      "_meta": {"title": "Enhanced Negative Prompt", "stage": "base"}
+    },
+    "4": {
+      "class_type": "EmptyLatentImage",
+      "inputs": {
+        "width": 1920,
+        "height": 1080,
+        "batch_size": 1
+      },
+      "_meta": {"title": "Base Canvas", "stage": "base"}
+    },
+    "5": {
+      "class_type": "KSampler",
+      "inputs": {
+        "seed": 1337,
+        "steps": 25,
+        "cfg": 3.2,
+        "sampler_name": "heun",
+        "scheduler": "normal",
+        "denoise": 1.0,
+        "model": ["1", 0],
+        "positive": ["2", 0],
+        "negative": ["3", 0],
+        "latent_image": ["4", 0]
+      },
+      "_meta": {"title": "Base Generation - Proven Parameters", "stage": "base"}
+    },
+    "6": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": ["5", 0],
+        "vae": ["1", 2]
+      },
+      "_meta": {"title": "Base Decode", "stage": "base"}
+    },
+    "7": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": ["6", 0],
+        "filename_prefix": "TG_AAA_Stage1_Base"
+      },
+      "_meta": {"title": "Save Base Generation", "stage": "base"}
+    }
+  },
+  "stage_2_impact_enhancement": {
+    "8": {
+      "class_type": "VAEEncode",
+      "inputs": {
+        "pixels": ["6", 0],
+        "vae": ["1", 2]
+      },
+      "_meta": {"title": "Re-encode for Enhancement", "stage": "enhance"}
+    },
+    "9": {
+      "class_type": "KSampler",
+      "inputs": {
+        "seed": 1338,
+        "steps": 12,
+        "cfg": 3.2,
+        "sampler_name": "heun",
+        "scheduler": "normal",
+        "denoise": 0.25,
+        "model": ["1", 0],
+        "positive": ["2", 0],
+        "negative": ["3", 0],
+        "latent_image": ["8", 0]
+      },
+      "_meta": {"title": "Detail Enhancement Pass", "stage": "enhance"}
+    },
+    "10": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": ["9", 0],
+        "vae": ["1", 2]
+      },
+      "_meta": {"title": "Enhanced Decode", "stage": "enhance"}
+    },
+    "11": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": ["10", 0],
+        "filename_prefix": "TG_AAA_Stage2_Enhanced"
+      },
+      "_meta": {"title": "Save Enhanced Version", "stage": "enhance"}
+    }
+  },
+  "stage_3_upscale_refinement": {
+    "12": {
+      "class_type": "ImageUpscaleWithModel",
+      "inputs": {
+        "upscale_model": ["13", 0],
+        "image": ["10", 0]
+      },
+      "_meta": {"title": "4K Upscaling", "stage": "upscale"}
+    },
+    "13": {
+      "class_type": "UpscaleModelLoader",
+      "inputs": {
+        "model_name": "x4-upscaler-ema.safetensors"
+      },
+      "_meta": {"title": "Load 4x Upscaler", "stage": "upscale"}
+    },
+    "14": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": ["12", 0],
+        "filename_prefix": "TG_AAA_Stage3_Upscaled_4K"
+      },
+      "_meta": {"title": "Save 4K Result", "stage": "upscale"}
+    }
+  },
+  "stage_4_final_processing": {
+    "15": {
+      "class_type": "ImageSharpen",
+      "inputs": {
+        "image": ["12", 0],
+        "sharpen_radius": 1.0,
+        "sigma": 1.0,
+        "alpha": 0.3
+      },
+      "_meta": {"title": "Final Sharpening", "stage": "final"}
+    },
+    "16": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": ["15", 0],
+        "filename_prefix": "TG_AAA_Final_Production"
+      },
+      "_meta": {"title": "Final Production Asset", "stage": "final"}
+    }
+  }
+}

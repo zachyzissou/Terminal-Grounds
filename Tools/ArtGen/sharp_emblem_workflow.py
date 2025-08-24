@@ -1,5 +1,10 @@
 """
 Sharp Emblem Workflow - Fixes blur while maintaining vibrancy
+
+FACTION FIXES (August 24, 2025):
+- Use "Scavenger_Union" instead of "VulturesUnion" (failed - black image)
+- Use "Combine_Industries" instead of "CorporateCombine" (failed - dark blob)
+- Working factions: Directorate, Free77, NomadClans
 """
 
 import json
@@ -99,7 +104,7 @@ def test_sharp_workflow():
     
     data = json.dumps({"prompt": workflow}).encode('utf-8')
     req = urllib.request.Request(
-        "http://127.0.0.1:8000/prompt",
+        "http://127.0.0.1:8188/prompt",
         data=data,
         headers={'Content-Type': 'application/json'}
     )

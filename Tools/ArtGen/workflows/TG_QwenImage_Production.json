@@ -1,0 +1,122 @@
+{
+  "1": {
+    "class_type": "DiffusionModelLoader",
+    "inputs": {
+      "model_name": "qwen_image_fp8_e4m3fn.safetensors",
+      "vae_name": "qwen_image_vae.safetensors",
+      "clip_name1": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "clip_name2": "none",
+      "weight_dtype": "fp8_e4m3fn_fast"
+    },
+    "_meta": {"title": "Qwen-Image Model Loader (Memory Optimized)"}
+  },
+  "2": {
+    "class_type": "TextEncodeQwenImageEdit",
+    "inputs": {
+      "clip": ["1", 2],
+      "prompt": "Terminal Grounds Metro Maintenance corridor, underground maintenance tunnels, well-lit industrial environment, balanced exposure, arched platforms, service alcoves, grated vents, hazard chevrons, weathered concrete textures, flaked paint details, oily puddles, conduit bundles, atmospheric lighting with visible details, 50mm lens, deep perspective, photoreal, cinematic lighting, Unreal Engine 5.6, Lumen GI, Nanite geometry, game-ready, gritty realism, SSAO, high-frequency normal maps, neutral grade, detailed signage and text elements"
+    },
+    "_meta": {"title": "Qwen Enhanced Positive Prompt"}
+  },
+  "3": {
+    "class_type": "TextEncodeQwenImageEdit",
+    "inputs": {
+      "clip": ["1", 2],
+      "prompt": "text, watermark, logo, blurry, low quality, jpeg artifacts, poster, title card, caption, credits, border, banner, frame, label, typography, garbled text, sketch, line art, drawing, cartoon, anime, manga, painting, illustration, underexposed, too dark, crushed blacks, lost shadow detail, murky, obscured details, poorly rendered text, illegible signage"
+    },
+    "_meta": {"title": "Qwen Enhanced Negative Prompt"}
+  },
+  "4": {
+    "class_type": "EmptySD3LatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 576,
+      "batch_size": 1
+    },
+    "_meta": {"title": "Qwen Latent Image Setup (Memory Optimized)"}
+  },
+  "5": {
+    "class_type": "SamplerCustomAdvanced",
+    "inputs": {
+      "noise": ["6", 0],
+      "guider": ["7", 0],
+      "sampler": ["8", 0],
+      "sigmas": ["9", 0],
+      "latent_image": ["4", 0]
+    },
+    "_meta": {"title": "Qwen Custom Sampler"}
+  },
+  "6": {
+    "class_type": "RandomNoise",
+    "inputs": {
+      "noise_seed": 1337
+    },
+    "_meta": {"title": "Qwen Noise Generator"}
+  },
+  "7": {
+    "class_type": "BasicGuider",
+    "inputs": {
+      "model": ["1", 0],
+      "conditioning": ["2", 0]
+    },
+    "_meta": {"title": "Qwen Basic Guider"}
+  },
+  "8": {
+    "class_type": "KSamplerSelect",
+    "inputs": {
+      "sampler_name": "heun"
+    },
+    "_meta": {"title": "Qwen Sampler Select"}
+  },
+  "9": {
+    "class_type": "BasicScheduler",
+    "inputs": {
+      "model": ["1", 0],
+      "scheduler": "normal",
+      "steps": 25,
+      "denoise": 1.0
+    },
+    "_meta": {"title": "Qwen Scheduler"}
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["5", 0],
+      "vae": ["1", 1]
+    },
+    "_meta": {"title": "Qwen Base Decode"}
+  },
+  "11": {
+    "class_type": "UpscaleModelLoader",
+    "inputs": {
+      "model_name": "4x-UltraSharp.pth"
+    },
+    "_meta": {"title": "Load 4K Upscaler"}
+  },
+  "12": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": ["11", 0],
+      "image": ["10", 0]
+    },
+    "_meta": {"title": "Simple 4x Upscale (Memory Safe)"}
+  },
+  "13": {
+    "class_type": "ImageSharpen",
+    "inputs": {
+      "image": ["12", 0],
+      "sharpen_radius": 1.0,
+      "sigma": 1.0,
+      "alpha": 0.2
+    },
+    "_meta": {"title": "Qwen Final Sharpening"}
+  },
+  "14": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["13", 0],
+      "filename_prefix": "TG_QwenImage_Production"
+    },
+    "_meta": {"title": "Save Qwen FINAL RESULT"}
+  }
+}

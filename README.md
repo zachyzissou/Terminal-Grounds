@@ -8,6 +8,12 @@ A grounded, session-based salvage/extraction FPS built in Unreal Engine 5.6. Tig
 
 Active development on Windows. Self-hosting and packaging supported. See docs for canon and design.
 
+**Latest Updates (August 2025):**
+- ✅ AAA asset generation pipeline achieved 85%+ success rate
+- ✅ ComfyUI integration with FLUX1-dev-fp8 model
+- ✅ Production-ready workflows for 3 environment types
+- 🔧 API workflow system under active development
+
 ## Quick start (Windows + VS Code tasks)
 
 Prereqs

@@ -1,0 +1,57 @@
+# ArtGen specific ignores
+
+# Archive directories
+archive/
+workflows/archive/
+scripts/archive/
+
+# Temporary and test files
+temp/
+temp_*
+test_*.py
+*_test.py
+debug_*.py
+
+# Output files
+outputs/
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+!docs/**/*.jpg
+
+# Generated reports
+*_REPORT.md
+!AAA_QUALITY_SOLUTION_REPORT.md
+!API_INVESTIGATION_REPORT.md
+
+# Cache and temporary
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Staging and review
+staging/
+_Review_Boards/
+_Recent_Generations/
+
+# ComfyUI specific
+history_*.json
+prompt_history_*.json
+last_workflow_*.json
+
+# Configuration overrides
+*.local.json
+*.local.yaml
+
+# Log files
+*.log
+*.pid
+
+# Batch outputs
+batch_*.json
+batch_*.md
+!batch_*_template.json

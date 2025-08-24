@@ -1,0 +1,95 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"
+    },
+    "_meta": {"title": "FLUX Model Loader"}
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Terminal Grounds Metro Maintenance corridor, underground maintenance tunnels, well-lit industrial environment, balanced exposure, arched platforms, service alcoves, grated vents, hazard chevrons, weathered concrete textures, flaked paint details, oily puddles, conduit bundles, atmospheric lighting with visible details, 50mm lens, deep perspective, photoreal, cinematic lighting, Unreal Engine 5.6, Lumen GI, Nanite geometry, game-ready, gritty realism, SSAO, high-frequency normal maps, neutral grade",
+      "clip": ["1", 1]
+    },
+    "_meta": {"title": "Enhanced Positive Prompt"}
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "text, watermark, logo, blurry, low quality, jpeg artifacts, poster, title card, caption, credits, border, banner, frame, label, typography, garbled text, sketch, line art, drawing, cartoon, anime, manga, painting, illustration, underexposed, too dark, crushed blacks, lost shadow detail, murky, obscured details",
+      "clip": ["1", 1]
+    },
+    "_meta": {"title": "Enhanced Negative Prompt"}
+  },
+  "4": {
+    "class_type": "BawkSampler",
+    "inputs": {
+      "model": ["1", 0],
+      "conditioning": ["2", 0],
+      "vae": ["1", 2],
+      "resolution": "FHD 16:9 - 1920x1080",
+      "batch_size": 1,
+      "seed": 1337,
+      "sampler": "heun",
+      "scheduler": "normal",
+      "steps": 25,
+      "guidance": 3.2,
+      "max_shift": 0.5,
+      "base_shift": 0.3,
+      "denoise": 1.0,
+      "use_custom_resolution": false
+    },
+    "_meta": {"title": "FLUX-Optimized Base Generation"}
+  },
+  "5": {
+    "class_type": "LatentUpscaleBy",
+    "inputs": {
+      "samples": ["4", 1],
+      "upscale_method": "bicubic",
+      "scale_by": 1.25
+    },
+    "_meta": {"title": "Stage 2: Gentle Latent Enhancement - Direct from BawkSampler"}
+  },
+  "7": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["6", 0],
+      "vae": ["1", 2]
+    },
+    "_meta": {"title": "Stage 2: Decode Enhanced"}
+  },
+  "8": {
+    "class_type": "UpscaleModelLoader",
+    "inputs": {
+      "model_name": "RealESRGAN_x4.pth"
+    },
+    "_meta": {"title": "Stage 3: Load Gentle Upscaler"}
+  },
+  "9": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": ["8", 0],
+      "image": ["7", 0]
+    },
+    "_meta": {"title": "Stage 3: 4K Upscaling"}
+  },
+  "10": {
+    "class_type": "ImageSharpen",
+    "inputs": {
+      "image": ["9", 0],
+      "sharpen_radius": 1,
+      "sigma": 2.0,
+      "alpha": 0.1
+    },
+    "_meta": {"title": "Stage 4: Subtle Final Sharpening"}
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["10", 0],
+      "filename_prefix": "TG_Debug_SingleOutput_Final"
+    },
+    "_meta": {"title": "Save FINAL RESULT ONLY"}
+  }
+}

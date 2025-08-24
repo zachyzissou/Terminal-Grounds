@@ -1,0 +1,6 @@
+IMPROVED VISIBILITY PROMPT:
+
+Terminal Grounds Metro Maintenance A corridor, underground maintenance tunnels, WELL-LIT industrial environment, BALANCED EXPOSURE, clear architectural details visible, arched platforms, service alcoves, grated vents, hazard chevrons clearly marked, weathered concrete with visible texture, flaked paint details, reflective oily puddles, exposed conduit bundles, BRIGHT KEY LIGHTING with atmospheric fill, subtle volumetric haze (not obscuring details), proper exposure for game assets, visible surface details, 50mm lens, deep perspective, in-engine render, Unreal Engine 5.6, Lumen GI providing ambient illumination, Nanite geometry with clear detail, game-ready, gritty realism, photoreal, PROPERLY EXPOSED cinematic lighting, directional key light illuminating scene, SSAO enhancing but not darkening, high-frequency normal maps visible, neutral grade with lifted shadows
+
+ENHANCED NEGATIVE:
+text, watermark, logo, blurry, low quality, jpeg artifacts, poster, title card, caption, credits, border, banner, frame, label, typography, garbled text, sketch, line art, drawing, cartoon, anime, manga, painting, illustration, UNDEREXPOSED, too dark, crushed blacks, lost shadow detail, murky, obscured details

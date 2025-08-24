@@ -40,10 +40,10 @@ def create_working_flux_workflow():
             "class_type": "KSampler",
             "inputs": {
                 "seed": 94887,  # From working metadata
-                "steps": 40,    # From working metadata
+                "steps": 20,    # Reduced for faster testing
                 "cfg": 4.5,     # From working metadata
                 "sampler_name": "euler",
-                "scheduler": "simple",  # From working metadata
+                "scheduler": "normal",  # Changed from "simple"
                 "denoise": 1.0,
                 "model": ["1", 0],
                 "positive": ["2", 0],
@@ -158,14 +158,14 @@ def main():
     if prompt_id:
         success = monitor_job(prompt_id)
         if success:
-            print("\n🎉 SUCCESS! ComfyUI is working!")
-            print("✅ We can generate Terminal Grounds assets!")
+            print("\nSUCCESS! ComfyUI is working!")
+            print("We can generate Terminal Grounds assets!")
             print("\nNext: Run the full asset generation pipeline")
         else:
-            print("\n❌ Job failed with the same tqdm error")
+            print("\nJob failed with error")
             print("Need to investigate ComfyUI environment issue")
     else:
-        print("\n❌ Could not queue job")
+        print("\nCould not queue job")
         print("Check ComfyUI server status")
 
 if __name__ == "__main__":

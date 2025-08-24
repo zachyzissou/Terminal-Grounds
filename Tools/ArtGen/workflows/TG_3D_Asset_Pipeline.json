@@ -1,0 +1,28 @@
+{
+  "workflow_info": {
+    "name": "Terminal Grounds 3D Asset Pipeline",
+    "description": "Leverages ComfyUI-3D-Pack for 3D mesh generation from 2D concepts",
+    "version": "1.0",
+    "requires": ["ComfyUI-3D-Pack", "peft>=0.17.0"],
+    "stages": ["2d_concept", "3d_generation", "mesh_export"]
+  },
+  "stage_1_concept_generation": {
+    "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"}},
+    "2": {"class_type": "CLIPTextEncode", "inputs": {"text": "[CONCEPT_PROMPT] concept art, multiple angles, reference sheet, clean background, orthographic views", "clip": ["1", 1]}},
+    "3": {"class_type": "CLIPTextEncode", "inputs": {"text": "blurry, text, watermark, complex background", "clip": ["1", 1]}},
+    "4": {"class_type": "EmptyLatentImage", "inputs": {"width": 1024, "height": 1024, "batch_size": 1}},
+    "5": {"class_type": "KSampler", "inputs": {"seed": 1337, "steps": 25, "cfg": 3.2, "sampler_name": "heun", "scheduler": "normal", "denoise": 1.0, "model": ["1", 0], "positive": ["2", 0], "negative": ["3", 0], "latent_image": ["4", 0]}},
+    "6": {"class_type": "VAEDecode", "inputs": {"samples": ["5", 0], "vae": ["1", 2]}},
+    "7": {"class_type": "SaveImage", "inputs": {"images": ["6", 0], "filename_prefix": "TG_3D_Concept"}}
+  },
+  "stage_2_3d_processing": {
+    "8": {"class_type": "Hunyuan3DNode", "inputs": {"image": ["6", 0], "quality": "high", "output_format": "obj"}},
+    "9": {"class_type": "SaveMesh", "inputs": {"mesh": ["8", 0], "filename_prefix": "TG_3D_Mesh"}}
+  },
+  "notes": {
+    "usage": "This workflow requires ComfyUI-3D-Pack to be properly loaded after peft update",
+    "3d_nodes": ["Hunyuan3DNode", "Zero123PlusNode", "PartCrafterNode"],
+    "output_formats": ["obj", "ply", "fbx"],
+    "integration": "Generated meshes can be imported directly into UE5 for Terminal Grounds"
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "technology": [
+    {
+      "id": "TECH_ALN_BEACON",
+      "type": "tech",
+      "name": "Harmonic Beacon Fragment",
+      "tags": [
+        "alien",
+        "anomaly",
+        "beacon"
+      ],
+      "tier": "alien",
+      "summary": "Emits subaudible patterns that alter local physics; poorly understood, dangerous.",
+      "signatures": {
+        "visual": [
+          "obsidian facets",
+          "internal glow",
+          "impossible reflections"
+        ],
+        "narrative": [
+          "navigation anomalies",
+          "time slippage"
+        ]
+      }
+    },
+    {
+      "id": "TECH_HUM_RADIO",
+      "type": "tech",
+      "name": "Shielded Field Radio Mk.III",
+      "tags": [
+        "comms",
+        "human",
+        "reliable"
+      ],
+      "tier": "human",
+      "summary": "Reliable comms with EMP-hardening kits; Directorate staple.",
+      "signatures": {
+        "visual": [
+          "rubberized casing",
+          "braided antenna",
+          "clean numeral stencils"
+        ],
+        "narrative": [
+          "encrypted brevity",
+          "fallback codewords"
+        ]
+      }
+    },
+    {
+      "id": "TECH_HYB_INVERTER",
+      "type": "tech",
+      "name": "Salvage Hybrid Inverter Pack",
+      "tags": [
+        "power",
+        "hybrid",
+        "unstable"
+      ],
+      "tier": "hybrid",
+      "summary": "Union-built inverter bridging alien coils to human loads; powerful but temperamental.",
+      "signatures": {
+        "visual": [
+          "braided cables",
+          "improvised heat sinks",
+          "warning chevrons"
+        ],
+        "narrative": [
+          "cooldown rituals",
+          "spare fuses as talismans"
+        ]
+      }
+    }
+  ],
+  "characters": [
+    {
+      "id": "CHR_CWD_ALAIA",
+      "type": "character",
+      "name": "Gate Captain Alaia Korr",
+      "tags": [
+        "warden",
+        "negotiator",
+        "disciplined"
+      ],
+      "relationships": {
+        "faction": "FCT_CWD"
+      },
+      "summary": "Warden gate lead who de-escalates with a ledger and a stare; will not break toll rules.",
+      "signatures": {
+        "visual": [
+          "clean stenciling",
+          "numbered armband",
+          "mesh shield"
+        ],
+        "narrative": [
+          "published toll codes",
+          "triage priority calls"
+        ]
+      }
+    },
+    {
+      "id": "CHR_F77_SIX",
+      "type": "character",
+      "name": "Handler \"Six\"",
+      "tags": [
+        "handler",
+        "negotiator",
+        "precise"
+      ],
+      "relationships": {
+        "faction": "FCT_F77"
+      },
+      "summary": "Contract handler with a perfect memory for riders and penalties; never raises their voice.",
+      "signatures": {
+        "visual": [
+          "subdued patch",
+          "ledger slate"
+        ],
+        "narrative": [
+          "contract addenda",
+          "penalty schedules"
+        ]
+      }
+    },
+    {
+      "id": "CHR_VUL_MASE",
+      "type": "character",
+      "name": "Rig Chief Mase Darlow",
+      "tags": [
+        "salvager",
+        "foreman",
+        "pragmatist"
+      ],
+      "relationships": {
+        "faction": "FCT_VUL"
+      },
+      "summary": "Union foreman who can strip a gantry in minutes; hates wasted motion.",
+      "signatures": {
+        "visual": [
+          "rigging harness",
+          "weld visor",
+          "tarpaulin sash"
+        ],
+        "narrative": [
+          "bid arbitration",
+          "hazard pay chits"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT_METEOR_SALVAGE",
+      "type": "event",
+      "name": "Meteor Salvage Window",
+      "tags": [
+        "IEZ",
+        "salvage",
+        "timed"
+      ],
+      "summary": "A shower opens new craters in the IEZ; timed runs before EMP aftershocks.",
+      "signatures": {
+        "visual": [
+          "fresh craters",
+          "slag steam",
+          "blue-ash dust"
+        ],
+        "narrative": [
+          "countdown calls",
+          "route markers",
+          "rival crews"
+        ]
+      }
+    },
+    {
+      "id": "EVT_TECH_VAULT_SIEGE",
+      "type": "event",
+      "name": "Tech Vault Breach",
+      "tags": [
+        "vault",
+        "siege",
+        "anomaly"
+      ],
+      "summary": "A sealed chamber groans open in the Black Vault; all factions reposition.",
+      "signatures": {
+        "visual": [
+          "iris doors",
+          "harmonic shimmer",
+          "floodlights"
+        ],
+        "narrative": [
+          "no-radio zones",
+          "truce cracks",
+          "artifact bids"
+        ]
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "REG_BLACK_VAULT",
+      "type": "region",
+      "name": "Black Vault",
+      "materials": "unknown alloys, obsidian composites, carbon lattice",
+      "canon_refs": [
+        "LORE_BIBLE#region_black_vault"
+      ],
+      "motifs": "sealed iris doors, harmonic beacons, null-field chambers",
+      "desc": "buried alien facility interface with human lockdowns",
+      "atmo": "subaudible tones, EM shimmer, light that bends wrong"
+    },
+    {
+      "id": "REG_CRIMSON_DOCKS",
+      "type": "region",
+      "name": "Crimson Docks",
+      "materials": "salt-stained steel, peeling paint, rope lashings",
+      "canon_refs": [
+        "LORE_BIBLE#region_crimson_docks"
+      ],
+      "motifs": "cranes, slipways, stacked containers, hoists",
+      "desc": "salvage exchange and refit quays, Union hub",
+      "atmo": "overcast skylight, sodium lamps, mist off the water"
+    },
+    {
+      "id": "REG_IEZ",
+      "type": "region",
+      "name": "Interdiction Exclusion Zone (outer ring)",
+      "materials": "slagged steel, cracked asphalt, blue-ash dust",
+      "canon_refs": [
+        "LORE_BIBLE#region_iez"
+      ],
+      "motifs": "phase-sheared slabs, toppled gantries, scorch patterns",
+      "desc": "tilted ferrocrete, melted rails, monolithic shadows",
+      "atmo": "charged haze, distant EMP pops, low thunder"
+    },
+    {
+      "id": "REG_METRO_A",
+      "type": "region",
+      "name": "Metro Maintenance A",
+      "materials": "weathered concrete, flaked paint, oily puddles, conduit bundles",
+      "canon_refs": [
+        "LORE_BIBLE#region_metro_a"
+      ],
+      "motifs": "arched platforms, service alcoves, grated vents, hazard chevrons",
+      "desc": "Warden toll tunnels, neutral ground with truce rules",
+      "atmo": "warm practicals, cool fill, shafted dust through vents"
+    },
+    {
+      "id": "REG_SKY_BASTION",
+      "type": "region",
+      "name": "Sky Bastion",
+      "materials": "brushed composites, reinforced glass, matte armor plates",
+      "canon_refs": [
+        "LORE_BIBLE#region_sky_bastion"
+      ],
+      "motifs": "gantry arms, mooring cables, anti-drone nets, beacon pylons",
+      "desc": "elevated aerostat dock and command spire, Directorate foothold",
+      "atmo": "high winds, aviation strobes, distant rotor thrum"
+    },
+    {
+      "id": "REG_SUBWAY_SUMP_GARDENS",
+      "type": "region",
+      "name": "Subway Sump Gardens",
+      "materials": "algae-stained concrete, PVC lines, foil reflectors",
+      "canon_refs": [
+        "LORE_BIBLE#region_subway_sump_gardens"
+      ],
+      "motifs": "tiered planters, drip lines, sump pumps, catwalks",
+      "desc": "flooded maintenance chambers converted into hydro beds under grow-lamps",
+      "atmo": "humid air, pump rattle, buzzing ballasts"
+    },
+    {
+      "id": "REG_TECH_SINK",
+      "type": "region",
+      "name": "Tech Sinkyards",
+      "materials": "rust, coolant sheen, rubber hose, chainlink",
+      "canon_refs": [
+        "LORE_BIBLE#region_tech_sinkyards"
+      ],
+      "motifs": "submerged tracks, floating pallets, pump scaffolds, warning placards",
+      "desc": "sunken rail yards flooded with coolant and rain, used as ad-hoc scrapyards",
+      "atmo": "low fog, pump thrum, distant weld flash"
+    },
+    {
+      "id": "REG_TECH_WASTES",
+      "type": "region",
+      "name": "Tech Wastes",
+      "materials": "oxidized alloys, stained polymer panels, glass dust",
+      "canon_refs": [
+        "LORE_BIBLE#region_tech_wastes"
+      ],
+      "motifs": "autolines, robot arms, cable trellises, coolant plumes",
+      "desc": "de-industrial belts stuttering to life",
+      "atmo": "industrial fog, warning strobes through haze"
+    }
+  ],
+  "factions": [
+    {
+      "id": "FCT_CWD",
+      "aliases": [
+        "Wardens"
+      ],
+      "palette": {
+        "secondary": "#CED7DE",
+        "accent": "#F1C24B",
+        "primary": "#54708C"
+      },
+      "hooks": [
+        "Guard medical caravans during a blackout storm.",
+        "De-escalate a toll standoff between Nomads and raiders.",
+        "Counter-drone “Chimes” deployment under duress."
+      ],
+      "name": "Civic Wardens",
+      "tags": [
+        "defense",
+        "neutral",
+        "tolls",
+        "shields",
+        "counter-drone"
+      ],
+      "canon_refs": [
+        "LORE_BIBLE#factions"
+      ],
+      "relationships": {
+        "regions": [
+          "REG_METRO_A"
+        ]
+      },
+      "summary": "Civil defense guardians who keep tunnels safe and the truce sacred. They trade predictability for legitimacy: toll codes, med priority, and mesh barriers that actually hold.\n",
+      "signatures": {
+        "visual": [
+          "mesh barriers",
+          "sandbags",
+          "floodlight arrays",
+          "clean stenciling",
+          "numbered gates"
+        ],
+        "narrative": [
+          "toll codes",
+          "triage priorities",
+          "community liaison",
+          "gate de-escalation"
+        ]
+      },
+      "type": "faction"
+    },
+    {
+      "id": "FCT_DIR",
+      "aliases": [
+        "DIR"
+      ],
+      "palette": {
+        "secondary": "#A8DADC",
+        "accent": "#F1FAEE",
+        "primary": "#1D3557"
+      },
+      "hooks": [
+        "Reassert control of a lost checkpoint without civilian casualties.",
+        "Escort a high-value defector through contested tunnels.",
+        "Recover an encrypted command module from the IEZ."
+      ],
+      "name": "Directorate",
+      "tags": [
+        "military",
+        "disciplined",
+        "human-tech",
+        "logistics"
+      ],
+      "canon_refs": [
+        "LORE_BIBLE#factions_directorate"
+      ],
+      "relationships": {
+        "regions": [
+          "REG_SKY_BASTION",
+          "REG_METRO_A"
+        ]
+      },
+      "summary": "Command remnants enforcing strict order with pristine human tech and a chain of command that survived the cascade.\n",
+      "signatures": {
+        "visual": [
+          "clean stenciling",
+          "uniform armor plates",
+          "standardized optics",
+          "white-blue LEDs",
+          "polished barrels"
+        ],
+        "narrative": [
+          "callsign brevity",
+          "ROE adherence",
+          "layered perimeters",
+          "logistics convoys"
+        ]
+      },
+      "type": "faction"
+    },
+    {
+      "id": "FCT_F77",
+      "aliases": [
+        "F77"
+      ],
+      "palette": {
+        "secondary": "#8D99AE",
+        "accent": "#EF233C",
+        "primary": "#2B2D42"
+      },
+      "hooks": [
+        "Secure a tech vault breach for a 24-hour window.",
+        "Hunt convoy raiders along Nomad trade lines.",
+        "Provide counter-sniper overwatch in the IEZ."
+      ],
+      "name": "Free 77",
+      "tags": [
+        "mercenary",
+        "balanced",
+        "contract"
+      ],
+      "canon_refs": [
+        "LORE_BIBLE#factions_free77"
+      ],
+      "relationships": {
+        "regions": [
+          "REG_TECH_WASTES",
+          "REG_IEZ"
+        ]
+      },
+      "summary": "Professional mercenaries taking contracts that keep them solvent and mobile. Balanced kit, pragmatic morals.\n",
+      "signatures": {
+        "visual": [
+          "mixed camo",
+          "modular kit",
+          "invoice tags",
+          "arm-patch QR"
+        ],
+        "narrative": [
+          "contract riders",
+          "arbitration clauses",
+          "NDAs"
+        ]
+      },
+      "type": "faction"
+    },
+    {
+      "id": "FCT_NOM",
+      "aliases": [
+        "Nomads"
+      ],
+      "palette": {
+        "secondary": "#C4B8A6",
+        "accent": "#D9843B",
+        "primary": "#5B4D3B"
+      },
+      "hooks": [
+        "Escort a medicine run through a blackout corridor.",
+        "Rebuild a bridge in a night to reopen trade.",
+        "Recover a stranded tanker under drone harassment."
+      ],
+      "name": "Nomad Clans",
+      "tags": [
+        "mobile",
+        "convoy",
+        "trade"
+      ],
+      "canon_refs": [
+        "LORE_BIBLE#factions_nomad_clans"
+      ],
+      "relationships": {
+        "regions": [
+          "REG_CRIMSON_DOCKS",
+          "REG_TECH_WASTES"
+        ]
+      },
+      "summary": "Mobile convoy cities with deep roadcraft. They keep trade alive between bastions, swapping parts and favors at speed.\n",
+      "signatures": {
+        "visual": [
+          "armored cabs",
+          "roof racks",
+          "antenna whips",
+          "sand screens",
+          "convoy pennants"
+        ],
+        "narrative": [
+          "waypoint barter",
+          "convoy law",
+          "rolling repairs",
+          "horn codes"
+        ]
+      },
+      "type": "faction"
+    },
+    {
+      "id": "FCT_VUL",
+      "aliases": [
+        "Union",
+        "VU"
+      ],
+      "palette": {
+        "secondary": "#C56F33",
+        "accent": "#E9B872",
+        "primary": "#6B2B06"
+      },
+      "hooks": [
+        "Cut a rival crew out of a hot salvage bid at the Docks.",
+        "Smuggle a hybrid coil past Warden tolls.",
+        "Negotiate rights to a meteor fall in the IEZ."
+      ],
+      "name": "Vultures Union",
+      "tags": [
+        "salvage",
+        "trade",
+        "hybrid-tech"
+      ],
+      "canon_refs": [
+        "LORE_BIBLE#factions_vultures_union"
+      ],
+      "relationships": {
+        "regions": [
+          "REG_CRIMSON_DOCKS"
+        ]
+      },
+      "summary": "Salvage specialists who turn wreck into wealth. Opportunistic, practical, and masters of jury-rigging.\n",
+      "signatures": {
+        "visual": [
+          "panel patches",
+          "visible welds",
+          "colored tarps",
+          "rigging harnesses"
+        ],
+        "narrative": [
+          "bid sheets",
+          "cut percentages",
+          "union arbitration"
+        ]
+      },
+      "type": "faction"
+    }
+  ],
+  "pois": [
+    {
+      "id": "POI_CRIMSON_DOCKS",
+      "type": "poi",
+      "name": "Crimson Docks Slipway 12",
+      "hook": "rigged auction; drone hive under the slipway",
+      "canon_refs": [
+        "LORE_BIBLE#poi_crimson_docks_slip12"
+      ],
+      "region": "REG_CRIMSON_DOCKS"
+    },
+    {
+      "id": "POI_IEZ_OUTER_RING",
+      "type": "poi",
+      "name": "IEZ Salvage Field H1",
+      "hook": "meteor salvage scramble under rolling EMP",
+      "canon_refs": [
+        "LORE_BIBLE#poi_iez_outer_ring_h1"
+      ],
+      "region": "REG_IEZ"
+    },
+    {
+      "id": "POI_METRO_A",
+      "type": "poi",
+      "name": "Warden Toll Tunnel Gate 5",
+      "hook": "escort med caravan past smuggling routes",
+      "canon_refs": [
+        "LORE_BIBLE#poi_metro_a_gate5"
+      ],
+      "region": "REG_METRO_A"
+    }
+  ]
+}

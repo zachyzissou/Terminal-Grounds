@@ -17,9 +17,32 @@
       "Bash(set TG_CKPT=FLUX1\\flux1-dev-fp8.safetensors)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(claude doctor)",
+      "Bash(claude --version)",
+      "Bash(pip install:*)",
+      "*",
+      "WebSearch",
+      "Bash(curl:*)",
+      "Bash(tasklist)",
+      "WebFetch(domain:civitai.com)",
+      "Bash(timeout:*)",
+      "Bash(mv:*)",
+      "Bash(\".venv\\Scripts\\python.exe\" -m pip install --upgrade \"peft>=0.17.0\")",
+      "Bash(\".venv\\Scripts\\python.exe\" -m pip install --upgrade \"av>=12.0.0\")",
+      "Bash(pip uninstall:*)",
+      "Bash(START_COMFYUI_CLEAN.bat)",
+      "Bash(set PYTHONIOENCODING=utf-8)",
+      "Bash(set PYTHONUTF8=1)",
+      "Bash(grep:*)",
+      "Bash(forfiles:*)",
+      "Bash(taskkill:*)"
     ],
     "deny": [],
-    "defaultMode": "acceptEdits"
-  }
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\Users\\Zachg\\Documents\\ComfyUI"
+    ]
+  },
+  "outputStyle": "Explanatory"
 }

@@ -36,6 +36,22 @@ Thumbs.db
 
 # Misc
 *.swp
+nul
+=0.17.0
+temp_object_info.json
+
+# ComfyUI outputs and history
+history_*.json
+prompt_history_*.json
+last_workflow_*.json
+
+# Temporary organization files
+*_REPORT.md
+!AAA_QUALITY_SOLUTION_REPORT.md
+!API_INVESTIGATION_REPORT.md
+ORGANIZATION_PLAN.md
+REORGANIZATION_PLAN.md
+EXECUTE_*.bat
 
 # Unreal Engine
 Binaries/

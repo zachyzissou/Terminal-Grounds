@@ -1,0 +1,107 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"
+    },
+    "_meta": {
+      "title": "FLUX1-dev Checkpoint"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Terminal Grounds IEZ_Facility_Interior, corporate facility interior, professional environment, clean sci-fi industrial, anodized metal surfaces, glass panels, precision engineering, corporate lighting design, even illumination, professional game art concept, high detail environmental design, sharp focus crisp edges, fine surface textures, balanced exposure neutral lighting, architectural visualization quality",
+      "clip": [
+        "1",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "Enhanced Positive Prompt"
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "text, words, letters, numbers, UI elements, interface, HUD, overlays, logos, signs, typography, screen text, digital displays, blurry, soft focus, low quality, abstract, gradient, overexposed, blown highlights, washed out, watermark, signature",
+      "clip": [
+        "1",
+        1
+      ]
+    },
+    "_meta": {
+      "title": "Enhanced Negative Prompt"
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1536,
+      "height": 864,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "1536x864 Canvas"
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 94887,
+      "steps": 25,
+      "cfg": 3.2,
+      "sampler_name": "heun",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Heun Sampler (Optimized)"
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    },
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "TG_FINAL_IEZ_Facility_Interior"
+    },
+    "_meta": {
+      "title": "Save Final Output"
+    }
+  }
+}

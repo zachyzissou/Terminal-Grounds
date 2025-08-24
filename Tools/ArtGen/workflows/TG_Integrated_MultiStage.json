@@ -1,0 +1,136 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"
+    },
+    "_meta": {"title": "FLUX Model Loader"}
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Terminal Grounds Metro Maintenance corridor, underground maintenance tunnels, well-lit industrial environment, balanced exposure, arched platforms, service alcoves, grated vents, hazard chevrons, weathered concrete textures, flaked paint details, oily puddles, conduit bundles, atmospheric lighting with visible details, 50mm lens, deep perspective, photoreal, cinematic lighting, Unreal Engine 5.6, Lumen GI, Nanite geometry, game-ready, gritty realism, SSAO, high-frequency normal maps, neutral grade",
+      "clip": ["1", 1]
+    },
+    "_meta": {"title": "Enhanced Positive Prompt"}
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "text, watermark, logo, blurry, low quality, jpeg artifacts, poster, title card, caption, credits, border, banner, frame, label, typography, garbled text, sketch, line art, drawing, cartoon, anime, manga, painting, illustration, underexposed, too dark, crushed blacks, lost shadow detail, murky, obscured details",
+      "clip": ["1", 1]
+    },
+    "_meta": {"title": "Enhanced Negative Prompt"}
+  },
+  "4": {
+    "class_type": "BawkSampler",
+    "inputs": {
+      "model": ["1", 0],
+      "conditioning": ["2", 0],
+      "vae": ["1", 2],
+      "resolution": "FHD 16:9 - 1920x1080",
+      "batch_size": 1,
+      "seed": 1337,
+      "sampler": "heun",
+      "scheduler": "normal",
+      "steps": 25,
+      "guidance": 3.2,
+      "max_shift": 0.5,
+      "base_shift": 0.3,
+      "denoise": 1.0,
+      "use_custom_resolution": false
+    },
+    "_meta": {"title": "FLUX-Optimized Base Generation"}
+  },
+  "5": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["4", 0],
+      "filename_prefix": "TG_Integrated_Stage1_Base"
+    },
+    "_meta": {"title": "Save Stage 1 - Base"}
+  },
+  "6": {
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": ["4", 0],
+      "vae": ["1", 2]
+    },
+    "_meta": {"title": "Encode for Enhancement"}
+  },
+  "7": {
+    "class_type": "IterativeLatentUpscale",
+    "inputs": {
+      "samples": ["6", 0],
+      "upscale_factor": 1.25,
+      "steps": 2,
+      "temp_prefix": "TG_Progressive",
+      "upscaler": ["8", 0],
+      "step_mode": "simple"
+    },
+    "_meta": {"title": "Progressive Enhancement"}
+  },
+  "8": {
+    "class_type": "LatentUpscaler",
+    "inputs": {
+      "upscale_method": "nearest-exact",
+      "width": 2400,
+      "height": 1350,
+      "crop": "disabled"
+    },
+    "_meta": {"title": "Latent Upscaler Provider"}
+  },
+  "9": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["7", 0],
+      "vae": ["1", 2]
+    },
+    "_meta": {"title": "Decode Enhanced"}
+  },
+  "10": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["9", 0],
+      "filename_prefix": "TG_Integrated_Stage2_Enhanced"
+    },
+    "_meta": {"title": "Save Stage 2 - Enhanced"}
+  },
+  "11": {
+    "class_type": "SD_4XUpscale_Conditioning",
+    "inputs": {
+      "images": ["9", 0],
+      "positive": ["2", 0],
+      "negative": ["3", 0],
+      "scale_ratio": 2.0,
+      "noise_augmentation": 0.05
+    },
+    "_meta": {"title": "4K Upscaling with Conditioning"}
+  },
+  "12": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["11", 0],
+      "filename_prefix": "TG_Integrated_Stage3_4K"
+    },
+    "_meta": {"title": "Save Stage 3 - 4K"}
+  },
+  "13": {
+    "class_type": "ImageSharpen",
+    "inputs": {
+      "image": ["11", 0],
+      "sharpen_radius": 1.0,
+      "sigma": 1.0,
+      "alpha": 0.2
+    },
+    "_meta": {"title": "Final Sharpening"}
+  },
+  "14": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["13", 0],
+      "filename_prefix": "TG_Integrated_Final_Production"
+    },
+    "_meta": {"title": "Save Final - Production Ready"}
+  }
+}
