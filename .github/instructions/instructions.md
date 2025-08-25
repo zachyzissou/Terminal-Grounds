@@ -31,7 +31,7 @@ Terminal Grounds is a grounded‑but‑sci‑fi **first‑person shooter** set i
 * **Exploration & POIs** (Destiny‑like) → layered objectives within iconic sites.
 * **Risked extraction** (Tarkov DNA) → bring back loot or lose it.
 * **Faction drama** (Fallout vibes) → ideology, economy, betrayal.
-* **Subtle sci‑fi** → alien tech embedded in modern battlefields; dangerous, rare, and readable.
+* **Subtle sci‑fi** → monolith tech embedded in modern battlefields; dangerous, rare, and readable.
 
 ### 1.2 Why We Exist
 
@@ -41,7 +41,7 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 1. **Readability first**: silhouettes, palettes, iconography, and audio make intent legible at a glance.
 2. **Cause & effect**: weather, factions, and events chain into emergent problems the player must solve.
-3. **Grounded tech**: Human > Hybrid > Alien tiers must be intuitive to parse and mechanically distinct.
+3. **Grounded tech**: Field > Splice > Monolith tiers must be intuitive to parse and mechanically distinct.
 4. **Honest difficulty**: no bullet sponges; lethality is high; positioning and control win fights.
 5. **Player agency**: always multiple ways to complete or abort; extraction is a choice with consequences.
 
@@ -59,25 +59,25 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 * **2049–2057**: Climate flashpoints + privatized militaries surge. First broadcast of **coherent anomalous signal**.
 * **2058**: *The Sky Quiet.* Satellites fail intermittently; unexplained gravitational lensing events.
-* **2062**: First confirmed alien relic recovery. Early **Hybrid** prototypes (human + alien conduit).
+* **2062**: First confirmed monolith relic recovery. Early **Splice** prototypes (field kit + monolith conduit).
 * **2066**: The Directorate consolidates urban grids (IEZs). Civil corridors militarized.
-* **2069**: Convoy cultures expand across Wastes (Nomad Clans).
-* **2071**: Corporate Combine standardizes PMCs; **Wardens** form civic militias to protect neighborhoods.
-* **2073**: **Vaulted Archivists** weaponize EMP doctrine after Black Vault breaches.
+* **2069**: Convoy cultures expand across Wastes (Roadborn Clans).
+* **2071**: Trivector Combine standardizes PMCs; **Wardens** form truce militias to protect neighborhoods.
+* **2073**: **Obsidian Archive** weaponize EMP doctrine after Deep Vault breaches.
 * **2075**: Meteoric storm / EMI surge. **Sky Bastion** facilities fortified above clouds.
 * **2080–Now**: Endless low‑to‑high intensity conflicts; extraction economies dominate.
 
 ### 2.2 Technology Tiers
 
-* **Human**: Ballistics, polymers, steel; rugged, modular, repairable. Reliable under all weather.
-* **Hybrid**: Human chassis with alien **conduits**; high output, governed by **Heat/Charge/Overload**.
-* **Alien**: Beam/phase/grav energy; scarce, unstable, devastating; uses **Cells** and exotic materials.
+* **Field**: Ballistics, polymers, steel; rugged, modular, repairable. Reliable under all weather.
+* **Splice**: Field chassis with monolith **conduits**; high output, governed by **Heat/Charge/Overload**.
+* **Monolith**: Beam/phase/grav energy; scarce, unstable, devastating; uses **Cells** and exotic materials.
 
 ### 2.3 Canonical Factions (7)
 
 > These are the **official** factions. Some earlier drafts used synonyms; treat these as canonical and include aliases for compatibility.
 
-1. **Directorate (DIR)** — *Alias:* Iron Dominion.
+1. **Sky Bastion Directorate (SBD)** — *Alias:* Directorate.
 
    * **Identity**: Last disciplined command; grid control, curfews, logistics worship.
    * **Doctrine**: Secure → exploit → hold. Combined arms, overwatch lanes, escalation manuals.
@@ -85,38 +85,38 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
    * **NPCs**: Rifle squads, DMR sentinels, APC crews, drone handlers.
    * **VO style**: clipped, procedural, time stamps ("Grid A‑12, shutter 4 closing").
 
-2. **Vultures Union (VLT)** — *Alias:* Ash Vultures.
+2. **Iron Vultures (VLT)** — *Alias:* Ash Vultures.
 
    * **Identity**: Salvage cartel; contract raiders; profit over ideology.
    * **Doctrine**: Smoke & flank; break contact rich. Ambushes in storms.
    * **Visual**: Hazard tape, layered scrap, stencil tags. Palette `#7F8C8D / #D35400 / #F0C27B`.
    * **NPCs**: Cutters, torch gunners, rig drivers, skirmishers.
 
-3. **Free 77 (F77)** — *Alias:* Independent Settlers (mercenary wings).
+3. **The Seventy-Seven (F77)** — *Alias:* Independent Settlers (mercenary wings).
 
    * **Identity**: Metered mercs; timers and contracts rule all.
    * **Doctrine**: Time‑boxed ops; extraction discipline; clock‑driven callouts.
    * **Visual**: Practical kit, contract stencils "77". Palette `#34495E / #BDC3C7 / #95A5A6`.
 
-4. **Corporate Combine (CCB)** — *Alias:* Eclipse Syndicate (corporate black arm).
+4. **Trivector Combine (TVC)** — *Alias:* Eclipse Syndicate (corporate black arm).
 
    * **Identity**: PR‑polished PMC; legalese and NDAs behind every barrel.
    * **Doctrine**: Precision strikes, evidence control, denial ops.
    * **Visual**: Ceramic gloss, hex shields, spotless pads. Palette `#0C0F12 / #00C2FF / #C0F3FF`.
 
-5. **Nomad Clans (NMD)**
+5. **Roadborn Clans (RBC)**
 
    * **Identity**: Convoy culture; road oaths; rolling markets.
    * **Doctrine**: Encircle, pin, drain supplies; mobile bases.
    * **Visual**: Banners over axles, welded plates, canvas canopies. Palette `#6E2C00 / #AF601A / #EAC086`.
 
-6. **Vaulted Archivists (VAC)** — *Alias:* The Ascendant (radical sects).
+6. **Obsidian Archive (OBA)** — *Alias:* The Ascendant (radical sects).
 
    * **Identity**: Cult of meaning & EMP; “silence the coil.”
    * **Doctrine**: Blackouts, ambush, vanish; protect vault sites.
    * **Visual**: Eye‑over‑coil symbol; violet warnings. Palette `#2C3E50 / #8E44AD / #BBA1E1`.
 
-7. **Civic Wardens (CWD)**
+7. **Truce Wardens (TWD)**
 
    * **Identity**: Neighborhood militias; barricade engineers.
    * **Doctrine**: Fortify, funnel, crossfire; civil corridor control.
@@ -151,21 +151,21 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
   2. **Metro Blackline** — subterranean; extraction race when power cycles.
   3. **Comms Terrace** — dish array; storm‑timed calibration event.
 
-### 3.2 Tech Wastes (Desert Rustscape)
+### 3.2 Machine Grave (Desert Rustscape)
 
 * **Mood**: Oxide dunes; crane skeletons; heat shimmer.
 * **Palette**: `#6B3E2E` rust, `#CDA17A` dust, `#344148` shadow, `#E0D2B8` glare.
-* **Weather**: Dust storms, EMI micro‑arcs.
+* **Weather**: Dust storms, EMI micro–arcs.
 * **Props**: Gantries, tanks, cable nests, wreck mounds.
 * **Decals**: Salvage lot markers, hazard chevrons, auction stencils.
 * **Ambient**: Whistling rigs, sheet metal clatter, far thunder.
 * **POIs**:
 
-  1. **Gantry Twelve** — climb & power; Vultures ambush.
-  2. **Boneyard Mile** — convoy raids; tire pop hazards.
-  3. **Cracked Reactor** — radiation pockets; Hybrid loot.
+ 1. **Gantry Twelve** — climb & power; Vultures ambush.
+ 2. **Boneyard Mile** — convoy raids; tire pop hazards.
+ 3. **Cracked Reactor** — radiation pockets; Splice loot.
 
-### 3.3 Sky Bastion (High‑Altitude Pads)
+### 3.3 North Bastion Pads (High–Altitude)
 
 * **Mood**: Pads above stormtops; lightning curtains.
 * **Palette**: `#0F1216`, `#3B4B5E`, `#9CB7D1`, `#F1F5F9` arcs.
@@ -178,7 +178,7 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
   1. **Stair of Storms** — vertical insertion; pad defense.
   2. **Charge Hall** — coil chambers; overcharge puzzle.
 
-### 3.4 Black Vault (Underground)
+### 3.4 The Deep Vault (Underground)
 
 * **Mood**: Near‑black; shafts of volumetric light; geometry that disobeys expectation.
 * **Palette**: `#0B0B0E`, `#1F1135`, `#6C63FF`, `#A394F1`.
@@ -188,8 +188,8 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 * **Ambient**: Low nodes, heartbeat hum, distant phase pops.
 * **POIs**:
 
-  1. **Door Theta** — timed vault windows; Archivist patrols.
-  2. **Wellplate** — grav wells; item levitation hazards.
+   1. **Door Theta** — timed vault windows; Obsidian Archive patrols.
+   2. **Wellplate** — grav wells; item levitation hazards.
 
 ### 3.5 Riftfields (Anomaly Plains)
 
@@ -206,24 +206,24 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 > Three tech tiers, nine families, exemplar models, attachment compatibility, failure states, SFX/VFX notes, and gameplay knobs.
 
-### 4.1 Human Line (reliable, repairable)
+### 4.1 Field Line (reliable, repairable)
 
 * **AR — Blackline MK3**: Mid recoil, 30‑rnd, 5.56; optic rails; burst mod.
 * **DMR — Watchman**: High accuracy; semi; glass ping SFX; subsonic ammo option.
 * **LMG — Cyclops**: Belt‑fed; deployable bipod; heat shimmer cone.
 * **Shotgun — Riot‑10**: Breach; door charge synergy.
 
-**Attachments (Human)**: Muzzle (comp/suppressor), Barrel, Underbarrel (grip/GL), Optic (iron/holo/4x), Stock, Mag (drum/fast).
+**Attachments (Field)**: Muzzle (comp/suppressor), Barrel, Underbarrel (grip/GL), Optic (iron/holo/4x), Stock, Mag (drum/fast).
 
-### 4.2 Hybrid Line (heat/charge/overload)
+### 4.2 Splice Line (heat/charge/overload)
 
 * **Rail DMR — Longstrike H3**: Charge shot; heat meter; vent hiss SFX.
 * **Ion Rifle — Pike H2**: Arc projectiles; coil glow intensity = damage.
 * **SMG — Maul H2**: High ROF plasma bolts; EMP vulnerability.
 
-**Failure States**: Overheat (reduced ROF + bloom), Overload (forced vent + self‑stun), EMP (temporary disable).
+**Failure States**: Overheat (reduced ROF + bloom), Overload (forced vent + self–stun), EMP (temporary disable).
 
-### 4.3 Alien Exotics (scarce, devastating)
+### 4.3 Monolith Exotics (scarce, devastating)
 
 * **Beam — Phase Bow A2**: Hitscan beam with refraction trail; battery depletion.
 * **Pulse — Echo Lance A2**: Burst pulses; shield bleed.
@@ -231,25 +231,25 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 ### 4.4 Augments (light cyberpunk)
 
-* **Reflex Splice**: +ADS snap, ‑stamina regen.
-* **Ocular Suite**: Thermal/IR modes; glare penalties; bloom on lightning.
-* **Subdermal Plate**: Damage resist vs speed loss.
-* **Neural Slicer**: Drone range; blackout risk in EMI.
+* **Echo Reflex**: +ADS snap, –stamina regen.
+* **Spectral Sight**: Thermal/IR modes; glare penalties; bloom on lightning.
+* **Plateskin**: Damage resist vs speed loss.
+* **Nerveweave**: Drone range; blackout risk in EMI.
 
 ### 4.5 SFX/VFX Principles
 
-* Human: powder crack + mechanism; muzzle bloom small; brass cascade.
-* Hybrid: coil whine, vent hiss; emissive syncs to ROF; overheat tint.
-* Alien: harmonic layers, spatial wobble; refraction ribbons; gravity particle drift.
+* Field: powder crack + mechanism; muzzle bloom small; brass cascade.
+* Splice: coil whine, vent hiss; emissive syncs to ROF; overheat tint.
+* Monolith: harmonic layers, spatial wobble; refraction ribbons; gravity particle drift.
 
 ---
 
 ## 5) Vehicles & Drones
 
 * **APC 8×8**: Seats, turret, firing ports; tire puncture states; dust VFX; engine deck heat.
-* **Scout Helo**: Gunner cam, downwash cones, pad shields at Sky Bastion.
+* **Scout Helo**: Gunner cam, downwash cones, pad shields at North Bastion.
 * **Logistics Truck**: Tow rigs, salvage crane, convoy AI routines.
-* **Alien Skimmer**: Low‑alt grav; fuel cells; recoil affects hover stability.
+* **Monolith Skimmer**: Low–alt grav; fuel cells; recoil affects hover stability.
 * **UAV/UGV**: Recon pings, jammer bubbles, short‑burst attack variants; countered by mesh screens and EMP.
 
 ---
@@ -264,7 +264,7 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 ### 6.2 Event Types
 
 * **Weather**: Ashfall, Dust, EMI Lightning, Grav Ripples (Vault).
-* **Faction Ops**: VLT salvage pushes, DIR lockdowns, VAC blackout hunts.
+* **Faction Ops**: VLT salvage pushes, SBD lockdowns, OBA blackout hunts.
 * **World Hazards**: Metro power cycles, Reactor leaks, Pad outages.
 
 ### 6.3 Extraction Logic
@@ -275,8 +275,8 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 ## 7) Economy, Loot, Crafting, Base
 
-* **Rarity tiers**: Common/Specialist/Mil‑Spec/Hybrid/Alien.
-* **Currencies**: Scrip (local), Credits (inter‑faction), Cells (Alien), Intel (mission).
+* **Rarity tiers**: Common/Specialist/Mil–Spec/Splice/Monolith.
+* **Currencies**: Scrip (local), Credits (inter–faction), Cells (Monolith), Intel (mission).
 * **Resources**: Scrap, Alloys, Conduits, Optics, Chemicals.
 * **Vendors**: Per‑faction stock that mutates with reputation and map state.
 * **Base Upgrades**: Workshop, Optics bench, Conduit lab, Barracks, Perimeter, Drone bay.
@@ -285,13 +285,13 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 ## 8) AI — Behavior & Tactics
 
-* **Directorate**: bounding overwatch; anchor + flank; uses smoke to reposition.
-* **Vultures**: feints, decoys, explosive traps; retreat on timer with loot.
-* **Free 77**: clock‑driven aggression; break off to extract at T‑00:50.
-* **Combine**: data denial; flash + precision; clean withdrawal routes.
-* **Nomads**: vehicle encirclement; raid supply; tire target priority.
-* **Archivists**: EMP first; blind then melee; vanish on counterpush.
-* **Wardens**: funneling corridors; tripwires; crossfire.
+* **Sky Bastion Directorate**: bounding overwatch; anchor + flank; uses smoke to reposition.
+* **Iron Vultures**: feints, decoys, explosive traps; retreat on timer with loot.
+* **The Seventy-Seven**: clock–driven aggression; break off to extract at T–00:50.
+* **Trivector Combine**: data denial; flash + precision; clean withdrawal routes.
+* **Roadborn Clans**: vehicle encirclement; raid supply; tire target priority.
+* **Obsidian Archive**: EMP first; blind then melee; vanish on counterpush.
+* **Truce Wardens**: funneling corridors; tripwires; crossfire.
 
 ---
 
@@ -310,7 +310,9 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 
 * **Music**: Low brass, ritual drums, restrained synth; per‑biome motifs.
 * **Gun SFX**: Layered close/mid/far; environmental tails; indoor occlusion.
-* **Alien SFX**: harmonics + pitch glide; EMP pops; phase sheens.
+* **Monolith SFX**: harmonics + pitch glide; EMP pops; phase sheens.
+* **Daily smoke**: open each look‑dev map; fire Field/Splice/Monolith exemplars; network join; extract once.
+* **Weekly playtest**: 60‑min raid; log extraction rates, deaths/time, GPU frame time, crash stats.
 * **VO**: Faction‑specific callouts; radio compression; profanity filters per region.
 * **Loudness**: LUFS targets; mix stems for photo mode and capture.
 
@@ -331,7 +333,7 @@ Most shooters choose *feel* or *world*. We choose **both**: tournament‑grade h
 * Target **UE 5.6**. Modules: TGCore, TGNet, TGCombat, TGLoot, TGAI, TGMissions, TGBase, TGVehicles, TGUI, TGServer.
 * Folders:
 
-```
+```text
 Content/TG/{Materials,VFX,UI,Audio,Props,Characters,Vehicles,Maps,LookDev,Textures,Decals,Icons}
 Docs/{Art,Audio,Design,Lore,Tech,World,VFX,Concepts}
 Data/{Tables,Curves}
@@ -368,7 +370,7 @@ Server/
 * **Create Masters**: `M_TG_Human_Master`, `M_TG_Hybrid_Master`, `M_TG_Alien_Master`, `M_TG_Decal_Master`.
 * **Import Art**: create `MI_TG_Decal_*`; place DecalActors in look‑dev maps.
 * **Niagara Baselines**: create all systems listed in §11.
-* **Look‑Dev Maps**: build IEZ/TechWastes/SkyBastion/BlackVault with props, decals, and VFX lanes.
+* **Look–Dev Maps**: build IEZ/MachineGrave/NorthBastion/TheDeepVault with props, decals, and VFX lanes.
 * **MRQ Captures**: export 8K stills/clips to `Docs/Concepts/Renders/` and embed in README.
 
 ### 13.3 SD/ComfyUI Prompt Packs (Optional)
@@ -453,13 +455,13 @@ Server/
 
 ### Appendix A — Palette Cheat Sheet (HEX)
 
-* DIR `#161A1D / #2E4053 / #9FB2C9`
+* SBD `#161A1D / #2E4053 / #9FB2C9`
 * VLT `#7F8C8D / #D35400 / #F0C27B`
 * F77 `#34495E / #BDC3C7 / #95A5A6`
-* CCB `#0C0F12 / #00C2FF / #C0F3FF`
-* NMD `#6E2C00 / #AF601A / #EAC086`
-* VAC `#2C3E50 / #8E44AD / #BBA1E1`
-* CWD `#145A32 / #27AE60 / #A9DFBF`
+* TVC `#0C0F12 / #00C2FF / #C0F3FF`
+* RBC `#6E2C00 / #AF601A / #EAC086`
+* OBA `#2C3E50 / #8E44AD / #BBA1E1`
+* TWD `#145A32 / #27AE60 / #A9DFBF`
 
 ### Appendix B — Required Tables (CSV)
 
@@ -467,9 +469,9 @@ Server/
 
 ### Appendix C — Example Mission Cards
 
-* **Escort × Convoy × Rust Storm** → Wastes, Nomad vs Vulture.
-* **Raid × Vault × EMI Surge** → Black Vault, Archivist traps.
-* **Defend × Pad × Lightning Curtain** → Sky Bastion, Combine strike.
+* **Escort × Convoy × Rust Storm** → Machine Grave, Roadborn vs Vulture.
+* **Raid × Vault × EMI Surge** → The Deep Vault, Obsidian Archive traps.
+* **Defend × Pad × Lightning Curtain** → North Bastion, Trivector strike.
 
 ### Appendix D — Weapon Tuning Knobs
 
@@ -479,5 +481,5 @@ Server/
 
 * CPU frametime ≤ 8 ms; GPU ≤ 8 ms (120 FPS target) on 4070‑class, comp preset.
 
-**End of Unabridged Instructions**
+#### End of Unabridged Instructions
 

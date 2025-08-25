@@ -1,10 +1,10 @@
-# Vultures Union Faction Style Guide
+# Iron Vultures Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 
 ## Faction Identity
 
-The Vultures Union are master scavengers and salvage operators who thrive in the post-Accord chaos. They excel at jury-rigging alien technology with human components, creating powerful but unpredictable hybrid systems.
+The Iron Vultures are master scavengers and salvage operators who thrive in the post-Accord chaos. They excel at jury-rigging monolith-derived parts with human components, creating powerful but unpredictable splice systems.
 
 ## Visual Philosophy
 
@@ -116,17 +116,17 @@ The Vultures aesthetic emphasizes improvisation, material reuse, and practical p
 - **Reliability**: Constant maintenance required, frequent field repairs
 - **Modification**: Extensive jury-rigging and performance modifications
 
-### Hybrid Technology Mastery
+### Splice Technology Mastery
 
-- **Integration**: Alien components grafted onto human systems
+- **Integration**: Monolith components grafted onto human systems
 - **Appearance**: Visible integration points, improvised cooling systems
 - **Markings**: Hand-written specifications, warning labels, crew notes
 
-### Alien Technology Salvage
+### Monolith Technology Salvage
 
 - **Approach**: Careful extraction and integration into existing systems
 - **Housing**: Improvised containment using available materials
-- **Safety**: Ad-hoc radiation shielding and emergency shutdown systems
+- **Safety**: Ad-hoc shielding and emergency shutdown systems for field anomalies
 
 ## Audio Identity
 

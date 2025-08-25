@@ -8,7 +8,7 @@ Core Themes:
 
 - Grounded military desperation: logistics, lines of supply, worn kit, triage choices
 - Salvage economy: scarcity breeds ingenuity; everything is modular, repurposed, re‑soldered
-- Cosmic dread: alien tech functions but defies understanding; it changes people who use it
+- Cosmic dread: monolith tech functions but defies understanding; it changes people who use it
 
 World State (2161):
 
@@ -19,22 +19,22 @@ World State (2161):
 
 The Seven Factions:
 
-1. Directorate — "Order from Chaos" — Ex‑military command structure
-2. Vultures Union — "The dead don't need their toys" — Scavenger pirates
-3. Free 77 — "Freedom's just another word for 'ammo is expensive'" — Mercenaries
-4. Corporate Combine — "Progress is profit, and profit is survival" — Megacorp militia
-5. Nomad Clans — "Our home has wheels and guns" — Convoy raiders/traders
-6. Vaulted Archivists — "The truth is out there — we sold it to you" — Alien tech cultists
-7. Civic Wardens — "If no one else will stand guard, we will" — Local militias
+1. Sky Bastion Directorate — "Order from Chaos" — Ex‑military command structure
+2. Iron Vultures — "The dead don't need their toys" — Scavenger pirates
+3. The Seventy‑Seven — "Freedom's just another word for 'ammo is expensive'" — Mercenaries
+4. Trivector Combine — "Progress is profit, and profit is survival" — Megacorp militia
+5. Roadborn Clans — "Our home has wheels and guns" — Convoy raiders/traders
+6. Obsidian Archive — "The truth is digitized, cataloged, and dangerous" — Monolith lorekeepers
+7. Truce Wardens — "If no one else will stand guard, we will" — Local militias
 
 Key Regions:
 
-- IEZ (Interdiction Exclusion Zone) — Reality‑warping alien wreck site
-- Tech Wastes — De‑industrial belts with stuttering factories
+- IEZ (Interdiction Exclusion Zone) — Reality‑warping monolith wreck site
+- Machine Grave — De‑industrial belts with stuttering factories
 - Metro Maintenance A — Underground neutral territory
-- Crimson Docks — Red‑stained salvage port and battleground
+- Crimson Freeport — Red‑stained salvage port and battleground
 - Sky Bastion — Mountain fortress of the Directorate
-- Black Vault — Mysterious pre‑Harvester subterranean complex
+- The Deep Vault — Mysterious pre‑Harvester subterranean complex
 
 ## 🎨 Your Creative Mandate
 
@@ -54,7 +54,7 @@ Voice Requirements:
 - Grounded realism over fantasy spectacle
 - Military precision in terminology and tactics
 - Scarcity mindset — everything is precious, nothing is wasted
-- Understated cosmic horror — alien tech is unsettling, not flashy
+- Understated cosmic horror — monolith tech is unsettling, not flashy
 - Human focus — technology serves character development
 - Lived‑in authenticity — show wear, adaptation, improvisation
 
@@ -117,7 +117,7 @@ Phase 2: Historical Weaving — Timeline expansion and event details
 
 Phase 3: World Living — Location stories and environmental details
 
-Phase 4: Technology Integration — Alien tech narratives and consequences
+Phase 4: Technology Integration — Monolith tech narratives and consequences
 
 Phase 5: Conflict Architecture — Inter‑faction dynamics and ongoing plots
 

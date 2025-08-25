@@ -47,9 +47,9 @@ Note: Canon lore one-liners live in docs/Lore/POIs_Flavor.md. This file focuses 
 
 ## POI_VAULT_PERIMETER — Vault Perimeter
 
-- **Type**: Archivist Stronghold
+- **Type**: Obsidian Archive Stronghold
 - **Lore**: See docs/Lore/POIs_Flavor.md#vault-perimeter
-- **Materials**: Alien-human hybrid architecture, energy shields, sensor arrays
+- **Materials**: Splice architecture, energy shields, sensor arrays
 - **Palette**: #8E44AD (Purple Energy), #2C3E50 (Dark Metal), #00C2FF (Shield Blue)
 - **Layout**: Checkpoint structure with shield generators, guard towers
 - **Silhouette**:
@@ -65,11 +65,11 @@ Note: Canon lore one-liners live in docs/Lore/POIs_Flavor.md. This file focuses 
     Dimensions: 40m x 20m
 ```
 
-## POI_COMBINE_FORWARD_PAD — Combine Forward Pad
+## POI_TVC_FORWARD_PAD — Trivector Forward Pad
 
 - **Type**: Corporate Helipad
-- **Lore**: See docs/Lore/POIs_Flavor.md#combine-forward-pad
-- **Materials**: Polished concrete, corporate logos, high-tech equipment
+- **Lore**: See docs/Lore/POIs_Flavor.md#trivector-forward-pad
+- **Materials**: Polished concrete, Trivector Combine logos, high-tech equipment
 - **Palette**: #00C2FF (Corporate Blue), #ECF0F1 (White), #2C3E50 (Dark Accents)
 - **Layout**: Landing pad with fuel depot, guard stations, corporate branding
 - **Silhouette**:
@@ -77,7 +77,7 @@ Note: Canon lore one-liners live in docs/Lore/POIs_Flavor.md. This file focuses 
 ```text
     🚁 CORPORATE AIRSPACE 🚁
     ╔═══════════════════════╗
-    ║      COMBINE™         ║
+  ║       TRIVECTOR       ║
     ║    ◉ LANDING PAD ◉    ║
     ║  [F] [C] [G] [R]      ║
     ║ FUEL CMD GUARD REPAIR ║

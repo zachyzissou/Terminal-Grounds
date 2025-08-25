@@ -2,9 +2,9 @@
 id: TECH_HUM_RADIO
 name: Shielded Field Radio Mk.III
 type: tech
-tier: human
+tier: field
 summary: Reliable comms with EMP-hardening kits; Directorate staple.
-tags: [comms, human, reliable]
+tags: [comms, field, reliable]
 signatures:
   visual: [rubberized casing, braided antenna, clean numeral stencils]
   narrative: [encrypted brevity, fallback codewords]

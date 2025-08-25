@@ -1,6 +1,6 @@
 ---
 id: REG_CRIMSON_DOCKS
-name: Crimson Docks
+name: Crimson Freeport
 type: region
 desc: salvage exchange and refit quays, Union hub
 motifs: cranes, slipways, stacked containers, hoists

@@ -1,87 +1,87 @@
 Id,Faction,Context,Text,Weight
-contact_directorate_001,Directorate,Combat,"Hold position! We maintain discipline when others run!",1.0
-contact_directorate_002,Directorate,Victory,"Order restored. Secure the perimeter and count our losses.",1.0
-contact_directorate_003,Directorate,Retreat,"Fall back to secondary positions! Maintain formation!",0.8
-contact_vultures_001,Vultures,Salvage,"Look at all this beautiful scrap! My eyes are tearing up.",1.2
-contact_vultures_002,Vultures,Combat,"Jury-rigged doesn't mean junk! Fire everything!",1.0
-contact_vultures_003,Vultures,Trading,"One person's wreck is another's fortune, friend.",1.0
-contact_free77_001,Free77,Contract,"Contract parameters updated. Adjusting tactics accordingly.",1.0
-contact_free77_002,Free77,Combat,"Professional service means professional results.",1.0
-contact_free77_003,Free77,Payment,"Payment confirmed. Contract complete.",0.8
-contact_combine_001,Combine,Technology,"These readings are impossible... and beautiful.",1.0
-contact_combine_002,Combine,Combat,"Superior technology will prevail over primitive tactics!",1.0
-contact_combine_003,Combine,Research,"Every sample brings us closer to understanding their true purpose.",1.2
-contact_nomads_001,Nomads,Convoy,"The road endures, even when we don't.",1.0
-contact_nomads_002,Nomads,Trading,"Hauling cargo across the wastes since the cascade. What do you need?",1.0
-contact_nomads_003,Nomads,Combat,"You picked the wrong convoy to mess with!",1.0
-contact_archivists_001,Archivists,Knowledge,"The Harvesters left us a library. We're still learning to read.",1.2
-contact_archivists_002,Archivists,Technology,"EMP charged and ready. They won't see us coming.",1.0
-contact_archivists_003,Archivists,Research,"Every artifact tells a story. This one speaks of war.",1.0
-contact_wardens_001,Wardens,Protection,"Civilians under our protection. Stand down or face consequences.",1.2
-contact_wardens_002,Wardens,Community,"We stand together, or we fall apart.",1.0
-contact_wardens_003,Wardens,Mediation,"There's enough salvage for everyone if we're smart about it.",0.8
-combat_directorate_001,Directorate,Combat,"Suppressing fire! Cover the advance!",1.0
-combat_directorate_002,Directorate,Hostile,"Enemy spotted! Range 200 meters!",1.0
-combat_directorate_003,Directorate,Wounded,"Medic! We need medical assistance here!",0.8
-combat_directorate_004,Directorate,Reload,"Reloading! Cover me!",1.0
-combat_directorate_005,Directorate,Grenade,"Frag out! Take cover!",0.9
-victory_directorate_001,Directorate,Victory,"Target eliminated. Area secure.",1.0
-victory_directorate_002,Directorate,Victory,"Excellent work, soldier. Mission accomplished.",0.8
-retreat_directorate_001,Directorate,Retreat,"Strategic withdrawal! Regroup at rally point!",0.9
-retreat_directorate_002,Directorate,Retreat,"Fall back! We'll return with reinforcements!",0.8
-salvage_vultures_001,Vultures,Salvage,"Jackpot! This wreck's got enough parts for a whole loadout!",1.2
-salvage_vultures_002,Vultures,Salvage,"These components are still warm! Fresh from a fight!",1.0
-salvage_vultures_003,Vultures,Salvage,"One person's battlefield casualty is my payday!",1.1
-salvage_vultures_004,Vultures,Salvage,"Look at these beautiful scorch marks! Quality plasma damage!",1.0
-combat_vultures_001,Vultures,Combat,"Scrap 'em and bag 'em!",1.0
-combat_vultures_002,Vultures,Combat,"My gear may be jury-rigged, but it still kills!",1.0
-combat_vultures_003,Vultures,Hostile,"You want my salvage? Come and take it!",1.1
-trading_vultures_001,Vultures,Trading,"Best prices in the wasteland! Everything must go!",0.9
-trading_vultures_002,Vultures,Trading,"Fresh from the battlefield! Still got the bullet holes!",1.0
-contract_free77_001,Free77,Contract,"Mission parameters received. Beginning operation.",1.0
-contract_free77_002,Free77,Contract,"Professional service, professional rates.",0.8
-contract_free77_003,Free77,Payment,"Credits transferred. Contract fulfilled.",0.9
-combat_free77_001,Free77,Combat,"Engaging hostiles with extreme prejudice.",1.0
-combat_free77_002,Free77,Combat,"Target acquired. Taking the shot.",1.0
-combat_free77_003,Free77,Tactical,"Flanking maneuver initiated.",0.9
-neutral_free77_001,Free77,Neutral,"Nothing personal. Just business.",1.0
-research_combine_001,Combine,Research,"Fascinating energy readings! Record everything!",1.2
-research_combine_002,Combine,Technology,"This alien tech defies our understanding of physics!",1.1
-research_combine_003,Combine,Discovery,"Breakthrough! These readings could change everything!",1.2
-combat_combine_001,Combine,Combat,"Superior firepower will carry the day!",1.0
-combat_combine_002,Combine,Technology,"Hybrid systems at maximum efficiency!",1.0
-experiment_combine_001,Combine,Experiment,"Field test proceeding as planned.",0.9
-experiment_combine_002,Combine,Experiment,"Data collection in progress. Maintain test parameters.",0.8
-convoy_nomads_001,Nomads,Convoy,"Convoy rolling! All units maintain formation!",1.0
-convoy_nomads_002,Nomads,Route,"Road's clear ahead! Full speed!",0.9
-convoy_nomads_003,Nomads,Fuel,"Fuel stops in thirty clicks! Keep those engines cool!",0.8
-trading_nomads_001,Nomads,Trading,"Best mobile merchants in the wasteland!",0.9
-trading_nomads_002,Nomads,Goods,"Got everything you need! Weapons, fuel, medical supplies!",1.0
-combat_nomads_001,Nomads,Combat,"Don't mess with the convoy!",1.0
-combat_nomads_002,Nomads,Vehicle,"Ram speed! Take them down!",1.1
-knowledge_archivists_001,Archivists,Knowledge,"Every artifact is a piece of the greater puzzle.",1.2
-knowledge_archivists_002,Archivists,Discovery,"The Harvesters' secrets are slowly revealing themselves.",1.1
-knowledge_archivists_003,Archivists,Research,"We must preserve this knowledge for future generations.",1.0
-stealth_archivists_001,Archivists,Stealth,"EMP field active. We are invisible to their sensors.",1.0
-stealth_archivists_002,Archivists,Technology,"Phase cloak engaged. Moving like ghosts.",0.9
-combat_archivists_001,Archivists,Combat,"Knowledge is power! And power must be protected!",1.0
-ancient_archivists_001,Archivists,Ancient,"These ruins predate the Harvesters... fascinating.",1.1
-protection_wardens_001,Wardens,Protection,"Stand down! These civilians are under our protection!",1.2
-protection_wardens_002,Wardens,Civilian,"Evacuate the non-combatants! Clear the area!",1.1
-mediation_wardens_001,Wardens,Mediation,"Let's talk this through. Nobody needs to die today.",0.9
-mediation_wardens_002,Wardens,Peace,"There's a solution that works for everyone.",0.8
-community_wardens_001,Wardens,Community,"We rebuild together, or we fall apart.",1.0
-combat_wardens_001,Wardens,Combat,"For the community! For the future!",1.0
-rescue_wardens_001,Wardens,Rescue,"Medical team inbound! Hold position!",0.9
-npc_commander_hayes_001,Directorate,Leadership,"Commander Hayes here. Orders are orders - execute them.",1.0
-npc_commander_hayes_002,Directorate,Strategy,"Every battle is won before the first shot is fired.",0.9
-npc_boss_merchant_001,Vultures,Trading,"Boss Merchant's the name, and salvage is my game!",1.1
-npc_boss_merchant_002,Vultures,Philosophy,"In this business, yesterday's weapon is tomorrow's spare parts.",1.0
-npc_dr_chen_001,Combine,Research,"Dr. Chen reporting. These readings are... extraordinary.",1.0
-npc_dr_chen_002,Combine,Discovery,"Each artifact brings us closer to understanding their true nature.",1.1
-npc_scholar_vex_001,Archivists,Knowledge,"Scholar Vex, keeper of forbidden knowledge.",0.9
-npc_scholar_vex_002,Archivists,Warning,"Some secrets are buried for good reason.",1.0
-npc_road_captain_stone_001,Nomads,Leadership,"Road Captain Stone. The convoy moves, or we all die.",1.0
-npc_road_captain_stone_002,Nomads,Philosophy,"The road teaches you everything - how to live, how to survive.",0.9
-npc_broker_nash_001,Free77,Business,"Broker Nash. I've got contracts for any crew with the skills.",1.0
-npc_broker_nash_002,Free77,Pragmatic,"No job too dangerous, as long as the payment clears.",1.0
+contact_directorate_001,Sky Bastion Directorate,Combat,"Hold position! We maintain discipline when others run!",1.0
+contact_directorate_002,Sky Bastion Directorate,Victory,"Order restored. Secure the perimeter and count our losses.",1.0
+contact_directorate_003,Sky Bastion Directorate,Retreat,"Fall back to secondary positions! Maintain formation!",0.8
+contact_vultures_001,Iron Vultures,Salvage,"Look at all this beautiful scrap! My eyes are tearing up.",1.2
+contact_vultures_002,Iron Vultures,Combat,"Jury-rigged doesn't mean junk! Fire everything!",1.0
+contact_vultures_003,Iron Vultures,Trading,"One person's wreck is another's fortune, friend.",1.0
+contact_free77_001,The Seventy-Seven,Contract,"Contract parameters updated. Adjusting tactics accordingly.",1.0
+contact_free77_002,The Seventy-Seven,Combat,"Professional service means professional results.",1.0
+contact_free77_003,The Seventy-Seven,Payment,"Payment confirmed. Contract complete.",0.8
+contact_combine_001,Trivector Combine,Technology,"These readings are impossible... and beautiful.",1.0
+contact_combine_002,Trivector Combine,Combat,"Superior technology will prevail over primitive tactics!",1.0
+contact_combine_003,Trivector Combine,Research,"Every sample brings us closer to understanding their true purpose.",1.2
+contact_nomads_001,Roadborn Clans,Convoy,"The road endures, even when we don't.",1.0
+contact_nomads_002,Roadborn Clans,Trading,"Hauling cargo across the wastes since the cascade. What do you need?",1.0
+contact_nomads_003,Roadborn Clans,Combat,"You picked the wrong convoy to mess with!",1.0
+contact_archivists_001,Obsidian Archive,Knowledge,"The Monolith left us a library. We're still learning to read.",1.2
+contact_archivists_002,Obsidian Archive,Technology,"EMP charged and ready. They won't see us coming.",1.0
+contact_archivists_003,Obsidian Archive,Research,"Every artifact tells a story. This one speaks of war.",1.0
+contact_wardens_001,Truce Wardens,Protection,"Civilians under our protection. Stand down or face consequences.",1.2
+contact_wardens_002,Truce Wardens,Community,"We stand together, or we fall apart.",1.0
+contact_wardens_003,Truce Wardens,Mediation,"There's enough salvage for everyone if we're smart about it.",0.8
+combat_directorate_001,Sky Bastion Directorate,Combat,"Suppressing fire! Cover the advance!",1.0
+combat_directorate_002,Sky Bastion Directorate,Hostile,"Enemy spotted! Range 200 meters!",1.0
+combat_directorate_003,Sky Bastion Directorate,Wounded,"Medic! We need medical assistance here!",0.8
+combat_directorate_004,Sky Bastion Directorate,Reload,"Reloading! Cover me!",1.0
+combat_directorate_005,Sky Bastion Directorate,Grenade,"Frag out! Take cover!",0.9
+victory_directorate_001,Sky Bastion Directorate,Victory,"Target eliminated. Area secure.",1.0
+victory_directorate_002,Sky Bastion Directorate,Victory,"Excellent work, soldier. Mission accomplished.",0.8
+retreat_directorate_001,Sky Bastion Directorate,Retreat,"Strategic withdrawal! Regroup at rally point!",0.9
+retreat_directorate_002,Sky Bastion Directorate,Retreat,"Fall back! We'll return with reinforcements!",0.8
+salvage_vultures_001,Iron Vultures,Salvage,"Jackpot! This wreck's got enough parts for a whole loadout!",1.2
+salvage_vultures_002,Iron Vultures,Salvage,"These components are still warm! Fresh from a fight!",1.0
+salvage_vultures_003,Iron Vultures,Salvage,"One person's battlefield casualty is my payday!",1.1
+salvage_vultures_004,Iron Vultures,Salvage,"Look at these beautiful scorch marks! Quality plasma damage!",1.0
+combat_vultures_001,Iron Vultures,Combat,"Scrap 'em and bag 'em!",1.0
+combat_vultures_002,Iron Vultures,Combat,"My gear may be jury-rigged, but it still kills!",1.0
+combat_vultures_003,Iron Vultures,Hostile,"You want my salvage? Come and take it!",1.1
+trading_vultures_001,Iron Vultures,Trading,"Best prices in the wasteland! Everything must go!",0.9
+trading_vultures_002,Iron Vultures,Trading,"Fresh from the battlefield! Still got the bullet holes!",1.0
+contract_free77_001,The Seventy-Seven,Contract,"Mission parameters received. Beginning operation.",1.0
+contract_free77_002,The Seventy-Seven,Contract,"Professional service, professional rates.",0.8
+contract_free77_003,The Seventy-Seven,Payment,"Credits transferred. Contract fulfilled.",0.9
+combat_free77_001,The Seventy-Seven,Combat,"Engaging hostiles with extreme prejudice.",1.0
+combat_free77_002,The Seventy-Seven,Combat,"Target acquired. Taking the shot.",1.0
+combat_free77_003,The Seventy-Seven,Tactical,"Flanking maneuver initiated.",0.9
+neutral_free77_001,The Seventy-Seven,Neutral,"Nothing personal. Just business.",1.0
+research_combine_001,Trivector Combine,Research,"Fascinating energy readings! Record everything!",1.2
+research_combine_002,Trivector Combine,Technology,"This Monolith tech defies our understanding of physics!",1.1
+research_combine_003,Trivector Combine,Discovery,"Breakthrough! These readings could change everything!",1.2
+combat_combine_001,Trivector Combine,Combat,"Superior firepower will carry the day!",1.0
+combat_combine_002,Trivector Combine,Technology,"Splice systems at maximum efficiency!",1.0
+experiment_combine_001,Trivector Combine,Experiment,"Field test proceeding as planned.",0.9
+experiment_combine_002,Trivector Combine,Experiment,"Data collection in progress. Maintain test parameters.",0.8
+convoy_nomads_001,Roadborn Clans,Convoy,"Convoy rolling! All units maintain formation!",1.0
+convoy_nomads_002,Roadborn Clans,Route,"Road's clear ahead! Full speed!",0.9
+convoy_nomads_003,Roadborn Clans,Fuel,"Fuel stops in thirty clicks! Keep those engines cool!",0.8
+trading_nomads_001,Roadborn Clans,Trading,"Best mobile merchants in the wasteland!",0.9
+trading_nomads_002,Roadborn Clans,Goods,"Got everything you need! Weapons, fuel, medical supplies!",1.0
+combat_nomads_001,Roadborn Clans,Combat,"Don't mess with the convoy!",1.0
+combat_nomads_002,Roadborn Clans,Vehicle,"Ram speed! Take them down!",1.1
+knowledge_archivists_001,Obsidian Archive,Knowledge,"Every artifact is a piece of the greater puzzle.",1.2
+knowledge_archivists_002,Obsidian Archive,Discovery,"The Monolith's secrets are slowly revealing themselves.",1.1
+knowledge_archivists_003,Obsidian Archive,Research,"We must preserve this knowledge for future generations.",1.0
+stealth_archivists_001,Obsidian Archive,Stealth,"EMP field active. We are invisible to their sensors.",1.0
+stealth_archivists_002,Obsidian Archive,Technology,"Phase cloak engaged. Moving like ghosts.",0.9
+combat_archivists_001,Obsidian Archive,Combat,"Knowledge is power! And power must be protected!",1.0
+ancient_archivists_001,Obsidian Archive,Ancient,"These ruins predate the Monolith harvesters... fascinating.",1.1
+protection_wardens_001,Truce Wardens,Protection,"Stand down! These civilians are under our protection!",1.2
+protection_wardens_002,Truce Wardens,Civilian,"Evacuate the non-combatants! Clear the area!",1.1
+mediation_wardens_001,Truce Wardens,Mediation,"Let's talk this through. Nobody needs to die today.",0.9
+mediation_wardens_002,Truce Wardens,Peace,"There's a solution that works for everyone.",0.8
+community_wardens_001,Truce Wardens,Community,"We rebuild together, or we fall apart.",1.0
+combat_wardens_001,Truce Wardens,Combat,"For the community! For the future!",1.0
+rescue_wardens_001,Truce Wardens,Rescue,"Medical team inbound! Hold position!",0.9
+npc_commander_hayes_001,Sky Bastion Directorate,Leadership,"Commander Hayes here. Orders are orders - execute them.",1.0
+npc_commander_hayes_002,Sky Bastion Directorate,Strategy,"Every battle is won before the first shot is fired.",0.9
+npc_boss_merchant_001,Iron Vultures,Trading,"Boss Merchant's the name, and salvage is my game!",1.1
+npc_boss_merchant_002,Iron Vultures,Philosophy,"In this business, yesterday's weapon is tomorrow's spare parts.",1.0
+npc_dr_chen_001,Trivector Combine,Research,"Dr. Chen reporting. These readings are... extraordinary.",1.0
+npc_dr_chen_002,Trivector Combine,Discovery,"Each artifact brings us closer to understanding their true nature.",1.1
+npc_scholar_vex_001,Obsidian Archive,Knowledge,"Scholar Vex, keeper of forbidden knowledge.",0.9
+npc_scholar_vex_002,Obsidian Archive,Warning,"Some secrets are buried for good reason.",1.0
+npc_road_captain_stone_001,Roadborn Clans,Leadership,"Road Captain Stone. The convoy moves, or we all die.",1.0
+npc_road_captain_stone_002,Roadborn Clans,Philosophy,"The road teaches you everything - how to live, how to survive.",0.9
+npc_broker_nash_001,The Seventy-Seven,Business,"Broker Nash. I've got contracts for any crew with the skills.",1.0
+npc_broker_nash_002,The Seventy-Seven,Pragmatic,"No job too dangerous, as long as the payment clears.",1.0

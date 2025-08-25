@@ -11,4 +11,4 @@ signatures:
 
 # Notes
 
-Union crews prep bids while Free 77 negotiate escort rates; Directorate warns civilians away.
+Union crews prep bids while The Seventy-Seven negotiate escort rates; Directorate warns civilians away.

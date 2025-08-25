@@ -1,4 +1,4 @@
-# Directorate Faction Style Guide
+# Sky Bastion Directorate Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 

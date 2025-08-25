@@ -8,8 +8,8 @@ Raid → Fight → Loot → Extract → Stash/Base → Repeat. Dynamic missions/
 
 ## Phase 1 Systems (Complete)
 - **Weapons + Attachments**: Basic ballistic weapons with modular attachment system
-- **Inventory/Stash**: Persistent character progression and item storage  
-- **Factions + AI**: Directorate, Vultures, Free77 with AI behaviors
+**Inventory/Stash**: Persistent character progression and item storage
+- **Factions + AI**: Sky Bastion Directorate, Iron Vultures, The Seventy-Seven with AI behaviors
 - **POIs + Resources**: Industrial sites with resource collection
 - **Missions**: Contract-based objective system
 - **Vehicles**: Light technical vehicles
@@ -20,15 +20,15 @@ Raid → Fight → Loot → Extract → Stash/Base → Repeat. Dynamic missions/
 
 ### Sci-Fi Player Systems
 - **Exosuits**: Light/Assault/Heavy frames affecting movement and combat
-- **Weapon Tiers**: Human (reliable), Hybrid (powerful/unstable), Alien (rare/unpredictable)
-- **Augmentations**: Cyberpunk enhancements with trade-offs (Reflex, Ocular, Subdermal, Neural)
+- **Weapon Tiers**: Field (reliable), Splice (powerful/unstable), Monolith (rare/unpredictable)
+- **Augmentations**: Cyberpunk enhancements with trade-offs (Echo Reflex, Spectral Sight, Plateskin, Nerveweave)
 - **Deployables**: Drones, EMP devices, jammers, radar systems
 
 ### Expanded Factions
-- **Corporate Combine**: High-tech PMC with prototypes and aerial superiority
-- **Nomad Clans**: Convoy-based raiders with heavy ground vehicles  
-- **Vaulted Archivists**: Alien-tech cult specializing in EMP and stealth
-- **Civic Wardens**: Defensive militia focused on fortification
+- **Trivector Combine**: High-tech PMC with prototypes and aerial superiority
+- **Roadborn Clans**: Convoy-based raiders with heavy ground vehicles  
+- **Obsidian Archive**: Monolith zealots specializing in EMP and stealth
+- **Truce Wardens**: Defensive militia focused on fortification
 
 ### Vehicle Expansion
 - **APC 8x8**: Multi-crew armored personnel carrier
@@ -37,11 +37,13 @@ Raid → Fight → Loot → Extract → Stash/Base → Repeat. Dynamic missions/
 - **UAV Drones**: Recon, Attack, and Logistics variants
 
 ### Dynamic World
-- **Procedural Events**: Meteor Salvage, Drone Swarms, Convoy Wars, Tech Vault Sieges
-- **Tech Wastes**: New zone with alien debris and electromagnetic storms
+
+- **Procedural Events**: Blacksky Barrage, Monolith Bloom, Dead-Sky Surge, Ashway Lockdown, Vault Clarion
+- **Machine Grave**: Zone with monolith debris and electromagnetic storms
 - **Base Building**: Reactor, Shield Generator, Drone Bay, Vehicle Garage modules
 
 ## Lore Foundation
-**Year 2161** — Post-Shattered Accord wasteland. Alien Harvesters dormant for decades, their wrecks fuel an arms race between surviving factions. Earth divided into fortified cities, industrial zones, and dangerous wastelands.
+
+**Year 2161** — Post-Shattered Accord wasteland. Monolith Harvesters lay dormant for decades, their wrecks fuel an arms race between surviving factions. Earth divided into fortified cities, industrial zones, and dangerous wastelands.
 
 **Tone**: Grounded military desperation meets scavenger economy with cosmic dread. Cyberpunk elements provide flavor without overwhelming the core military aesthetic.

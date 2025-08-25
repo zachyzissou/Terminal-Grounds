@@ -1,0 +1,946 @@
+{
+  "terminal_grounds_aaa_quality_report": {
+    "framework_version": "1.0",
+    "analysis": {
+      "analysis_timestamp": "2025-08-24T19:39:03.320513",
+      "total_files": 40,
+      "quality_distribution": {
+        "aaa_ready": 19,
+        "production_ready": 0,
+        "needs_improvement": 16,
+        "reject": 5
+      },
+      "version_comparison": {
+        "v1.0": [
+          {
+            "filename": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+            "score": 75,
+            "size_mb": 1.09
+          },
+          {
+            "filename": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+            "score": 85,
+            "size_mb": 1.32
+          },
+          {
+            "filename": "TG_PERFECT_Corporate_Plaza_Clean_SciFi_00001_.png",
+            "score": 60,
+            "size_mb": 0.64
+          },
+          {
+            "filename": "TG_PERFECT_Corporate_Plaza_Gritty_Realism_00001_.png",
+            "score": 60,
+            "size_mb": 0.66
+          },
+          {
+            "filename": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00001_.png",
+            "score": 75,
+            "size_mb": 0.83
+          },
+          {
+            "filename": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+            "score": 75,
+            "size_mb": 1.03
+          },
+          {
+            "filename": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00001_.png",
+            "score": 85,
+            "size_mb": 1.41
+          },
+          {
+            "filename": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+            "score": 85,
+            "size_mb": 1.6
+          },
+          {
+            "filename": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+            "score": 85,
+            "size_mb": 1.57
+          },
+          {
+            "filename": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+            "score": 85,
+            "size_mb": 1.62
+          },
+          {
+            "filename": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00001_.png",
+            "score": 85,
+            "size_mb": 1.74
+          },
+          {
+            "filename": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+            "score": 85,
+            "size_mb": 1.76
+          },
+          {
+            "filename": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_00001_.png",
+            "score": 60,
+            "size_mb": 0.69
+          },
+          {
+            "filename": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+            "score": 85,
+            "size_mb": 1.57
+          },
+          {
+            "filename": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_00001_.png",
+            "score": 85,
+            "size_mb": 1.21
+          },
+          {
+            "filename": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+            "score": 85,
+            "size_mb": 1.47
+          },
+          {
+            "filename": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00001_.png",
+            "score": 85,
+            "size_mb": 1.44
+          },
+          {
+            "filename": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+            "score": 85,
+            "size_mb": 1.7
+          },
+          {
+            "filename": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_00001_.png",
+            "score": 85,
+            "size_mb": 1.6
+          },
+          {
+            "filename": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+            "score": 85,
+            "size_mb": 1.72
+          },
+          {
+            "filename": "TG_PERFECT_Underground_Bunker_Clean_SciFi_00001_.png",
+            "score": 85,
+            "size_mb": 1.99
+          },
+          {
+            "filename": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+            "score": 95,
+            "size_mb": 2.16
+          },
+          {
+            "filename": "TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
+            "score": 95,
+            "size_mb": 2.27
+          },
+          {
+            "filename": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+            "score": 95,
+            "size_mb": 2.26
+          }
+        ],
+        "v0.9": [],
+        "legacy": [
+          {
+            "filename": "TG_LORE_Corporate_Plaza_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 0.99
+          },
+          {
+            "filename": "TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
+            "score": 85,
+            "size_mb": 1.45
+          },
+          {
+            "filename": "TG_LORE_IEZ_Facility_Interior_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.09
+          },
+          {
+            "filename": "TG_LORE_IEZ_Facility_Interior_Gritty_Realism_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 0.88
+          },
+          {
+            "filename": "TG_LORE_Industrial_Platform_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 0.93
+          },
+          {
+            "filename": "TG_LORE_Industrial_Platform_Gritty_Realism_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.02
+          },
+          {
+            "filename": "TG_LORE_Metro_Maintenance_Corridor_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.0
+          },
+          {
+            "filename": "TG_LORE_Metro_Maintenance_Corridor_Gritty_Realism_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.02
+          },
+          {
+            "filename": "TG_LORE_Research_Laboratory_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.02
+          },
+          {
+            "filename": "TG_LORE_Research_Laboratory_Gritty_Realism_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 0.83
+          },
+          {
+            "filename": "TG_LORE_Security_Checkpoint_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 0.97
+          },
+          {
+            "filename": "TG_LORE_Security_Checkpoint_Gritty_Realism_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 0.81
+          },
+          {
+            "filename": "TG_LORE_Tech_Wastes_Exterior_Clean_SciFi_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.05
+          },
+          {
+            "filename": "TG_LORE_Tech_Wastes_Exterior_Gritty_Realism_Perfect_00001_.png",
+            "score": 75,
+            "size_mb": 1.14
+          },
+          {
+            "filename": "TG_LORE_Underground_Bunker_Clean_SciFi_Perfect_00001_.png",
+            "score": 60,
+            "size_mb": 0.8
+          },
+          {
+            "filename": "TG_LORE_Underground_Bunker_Gritty_Realism_Perfect_00001_.png",
+            "score": 60,
+            "size_mb": 0.67
+          }
+        ]
+      },
+      "detailed_results": [
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Corporate_Plaza_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 0.99,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.321516"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 1.45,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_IEZ_Facility_Interior_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 1.09,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_IEZ_Facility_Interior_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 0.88,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Industrial_Platform_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 0.93,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Industrial_Platform_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 1.02,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Metro_Maintenance_Corridor_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 1.0,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Metro_Maintenance_Corridor_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 1.02,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Research_Laboratory_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 1.02,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Research_Laboratory_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 0.83,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Security_Checkpoint_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 0.97,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Security_Checkpoint_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 0.81,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Tech_Wastes_Exterior_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 1.05,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Tech_Wastes_Exterior_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 1.14,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Underground_Bunker_Clean_SciFi_Perfect_00001_.png",
+          "file_size_mb": 0.8,
+          "technical_score": {
+            "score": 60,
+            "grade": "Needs Work",
+            "description": "Below production threshold"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Underground_Bunker_Gritty_Realism_Perfect_00001_.png",
+          "file_size_mb": 0.67,
+          "technical_score": {
+            "score": 60,
+            "grade": "Needs Work",
+            "description": "Below production threshold"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "legacy",
+            "location": null,
+            "style": null,
+            "variation": null
+          },
+          "timestamp": "2025-08-24T19:39:03.322520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+          "file_size_mb": 1.09,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Corporate",
+            "style": "Lobby",
+            "variation": "Interior_Clean_SciFi_Wide_Ambient_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.322520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+          "file_size_mb": 1.32,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Corporate",
+            "style": "Lobby",
+            "variation": "Interior_Gritty_Realism_Wide_Ambient_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.322520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Plaza_Clean_SciFi_00001_.png",
+          "file_size_mb": 0.64,
+          "technical_score": {
+            "score": 60,
+            "grade": "Needs Work",
+            "description": "Below production threshold"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Corporate",
+            "style": "Plaza",
+            "variation": "Clean_SciFi_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.322520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Plaza_Gritty_Realism_00001_.png",
+          "file_size_mb": 0.66,
+          "technical_score": {
+            "score": 60,
+            "grade": "Needs Work",
+            "description": "Below production threshold"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Corporate",
+            "style": "Plaza",
+            "variation": "Gritty_Realism_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00001_.png",
+          "file_size_mb": 0.83,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "IEZ",
+            "style": "Facility",
+            "variation": "Interior_Clean_SciFi_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+          "file_size_mb": 1.03,
+          "technical_score": {
+            "score": 75,
+            "grade": "Good",
+            "description": "Acceptable quality with room for improvement"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "IEZ",
+            "style": "Facility",
+            "variation": "Interior_Clean_SciFi_Detail_Dramatic_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00001_.png",
+          "file_size_mb": 1.41,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "IEZ",
+            "style": "Facility",
+            "variation": "Interior_Gritty_Realism_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+          "file_size_mb": 1.6,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "IEZ",
+            "style": "Facility",
+            "variation": "Interior_Gritty_Realism_Detail_Dramatic_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+          "file_size_mb": 1.57,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Metro",
+            "style": "Maintenance",
+            "variation": "Corridor_Clean_SciFi_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+          "file_size_mb": 1.62,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Metro",
+            "style": "Maintenance",
+            "variation": "Corridor_Clean_SciFi_Wide_Ambient_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00001_.png",
+          "file_size_mb": 1.74,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Metro",
+            "style": "Maintenance",
+            "variation": "Corridor_Gritty_Realism_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+          "file_size_mb": 1.76,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Metro",
+            "style": "Maintenance",
+            "variation": "Corridor_Gritty_Realism_Wide_Ambient_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Clean_SciFi_00001_.png",
+          "file_size_mb": 0.69,
+          "technical_score": {
+            "score": 60,
+            "grade": "Needs Work",
+            "description": "Below production threshold"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Security",
+            "style": "Checkpoint",
+            "variation": "Clean_SciFi_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+          "file_size_mb": 1.57,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Security",
+            "style": "Checkpoint",
+            "variation": "Clean_SciFi_Perspective_Atmospheric_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Gritty_Realism_00001_.png",
+          "file_size_mb": 1.21,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Security",
+            "style": "Checkpoint",
+            "variation": "Gritty_Realism_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+          "file_size_mb": 1.47,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Security",
+            "style": "Checkpoint",
+            "variation": "Gritty_Realism_Perspective_Atmospheric_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00001_.png",
+          "file_size_mb": 1.44,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Tech",
+            "style": "Wastes",
+            "variation": "Exterior_Clean_SciFi_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+          "file_size_mb": 1.7,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Tech",
+            "style": "Wastes",
+            "variation": "Exterior_Clean_SciFi_Perspective_Atmospheric_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_00001_.png",
+          "file_size_mb": 1.6,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Tech",
+            "style": "Wastes",
+            "variation": "Exterior_Gritty_Realism_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+          "file_size_mb": 1.72,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Tech",
+            "style": "Wastes",
+            "variation": "Exterior_Gritty_Realism_Perspective_Atmospheric_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Clean_SciFi_00001_.png",
+          "file_size_mb": 1.99,
+          "technical_score": {
+            "score": 85,
+            "grade": "AAA Ready",
+            "description": "Production ready quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Underground",
+            "style": "Bunker",
+            "variation": "Clean_SciFi_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.323520"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+          "file_size_mb": 2.16,
+          "technical_score": {
+            "score": 95,
+            "grade": "Masterpiece",
+            "description": "Exceptional detail and quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Underground",
+            "style": "Bunker",
+            "variation": "Clean_SciFi_Detail_Dramatic_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.324020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
+          "file_size_mb": 2.27,
+          "technical_score": {
+            "score": 95,
+            "grade": "Masterpiece",
+            "description": "Exceptional detail and quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Underground",
+            "style": "Bunker",
+            "variation": "Gritty_Realism_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.324020"
+        },
+        {
+          "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+          "file_size_mb": 2.26,
+          "technical_score": {
+            "score": 95,
+            "grade": "Masterpiece",
+            "description": "Exceptional detail and quality"
+          },
+          "metadata": {
+            "prefix": "TG",
+            "version": "v1.0",
+            "location": "Underground",
+            "style": "Bunker",
+            "variation": "Gritty_Realism_Detail_Dramatic_00001"
+          },
+          "timestamp": "2025-08-24T19:39:03.324020"
+        }
+      ]
+    },
+    "summary": {
+      "total_assets_analyzed": 40,
+      "aaa_ready_percentage": 47.5,
+      "production_ready_percentage": 47.5,
+      "overall_grade": "Good Progress Toward AAA",
+      "top_performing_assets": [
+        {
+          "filename": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+          "score": 95,
+          "grade": "Masterpiece",
+          "size_mb": 2.16
+        },
+        {
+          "filename": "TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
+          "score": 95,
+          "grade": "Masterpiece",
+          "size_mb": 2.27
+        },
+        {
+          "filename": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+          "score": 95,
+          "grade": "Masterpiece",
+          "size_mb": 2.26
+        },
+        {
+          "filename": "TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
+          "score": 85,
+          "grade": "AAA Ready",
+          "size_mb": 1.45
+        },
+        {
+          "filename": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+          "score": 85,
+          "grade": "AAA Ready",
+          "size_mb": 1.32
+        }
+      ]
+    },
+    "recommendations": [
+      "CRITICAL: 5 assets below rejection threshold - investigate prompt/parameter issues",
+      "PRIORITY: Less than 60% AAA ready - enhance prompts with more detail/complexity"
+    ]
+  }
+}

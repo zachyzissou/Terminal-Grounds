@@ -1,6 +1,6 @@
 ---
 id: FCT_CWD
-name: Civic Wardens
+name: Truce Wardens
 type: faction
 aliases: [Wardens]
 summary: >

@@ -6,7 +6,7 @@ augment_reflex,Augment,Prototype,1,0.3,GE_ReflexSplice,Concepts/Gear/augment_ref
 augment_ocular,Augment,Prototype,1,0.2,GE_OcularSuite,Concepts/Gear/augment_ocular.png
 augment_subdermal,Augment,Prototype,1,0.8,GE_SubdermalPlating,Concepts/Gear/augment_subdermal.png
 augment_neural,Augment,Prototype,1,0.4,GE_NeuralSlicer,Concepts/Gear/augment_neural.png
-artifact_alien_cell,Artifact,Alien,5,0.6,GE_AlienCellRisk,Concepts/Artifacts/alien_cell.png
+artifact_alien_cell,Artifact,Monolith,5,0.6,GE_AlienCellRisk,Concepts/Artifacts/alien_cell.png
 fuel_canister,Resource,Industrial,20,1.2,,Concepts/Items/fuel_canister.png
 electronics,Resource,TechSalvage,10,0.4,,Concepts/Items/electronics.png
-alien_alloy,Resource,Alien,5,0.8,,Concepts/Items/alien_alloy.png
+alien_alloy,Resource,Monolith,5,0.8,,Concepts/Items/alien_alloy.png

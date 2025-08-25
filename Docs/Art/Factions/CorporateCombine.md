@@ -1,16 +1,16 @@
-# Corporate Combine Faction Style Guide
+# Trivector Combine Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 
 ## Faction Identity
 
-The Corporate Combine represents the fusion of Vector Dynamics, Helix Industries, and Sigma Collective into a techno-corporate entity focused on experimental technology and prototype systems.
+The Trivector Combine represents the fusion of Vector Dynamics, Helix Industries, and Sigma Collective into a techno-corporate bloc focused on experimental systems and prototype programs.
 
 ## Visual Philosophy
 
 **High-Tech Innovation** • **Corporate Authority** • **Experimental Edge**
 
-The Corporate aesthetic emphasizes cutting-edge technology, corporate branding, and experimental prototype systems. Their equipment should feel advanced, expensive, and slightly unstable.
+The Combine aesthetic emphasizes cutting-edge technology, corporate branding, and experimental prototype systems. Their equipment should feel advanced, expensive, and slightly unstable.
 
 ## Color Palette
 
@@ -116,9 +116,9 @@ The Corporate aesthetic emphasizes cutting-edge technology, corporate branding, 
 - **Reliability**: Cutting-edge performance with occasional instability
 - **Modification**: Authorized upgrades only, warranty considerations
 
-### Hybrid Technology Development
+### Splice Technology Development
 
-- **Integration**: Scientific approach to alien technology reverse-engineering
+- **Integration**: Scientific approach to splice technology development using monolith fragments
 - **Appearance**: Clean laboratory integration with extensive safety systems
 - **Research**: Ongoing experimentation and development programs
 

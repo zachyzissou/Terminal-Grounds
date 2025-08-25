@@ -1,6 +1,6 @@
 ---
 id: FCT_F77
-name: Free 77
+name: The Seventy-Seven
 type: faction
 aliases: [F77]
 summary: >
@@ -15,7 +15,7 @@ palette:
   accent: "#EF233C"
 hooks:
   - Secure a tech vault breach for a 24-hour window.
-  - Hunt convoy raiders along Nomad trade lines.
+  - Hunt convoy raiders along Roadborn trade lines.
   - Provide counter-sniper overwatch in the IEZ.
 relationships:
   regions: [REG_TECH_WASTES, REG_IEZ]

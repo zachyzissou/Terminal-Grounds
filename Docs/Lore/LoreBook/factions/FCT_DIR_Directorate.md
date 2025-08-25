@@ -5,7 +5,7 @@ type: faction
 aliases: [DIR]
 summary: >
   Command remnants enforcing strict order with pristine human tech and a chain of command that survived the cascade.
-tags: [military, disciplined, human-tech, logistics]
+tags: [military, disciplined, field-tech, logistics]
 signatures:
   visual: [clean stenciling, uniform armor plates, standardized optics, white-blue LEDs, polished barrels]
   narrative: [callsign brevity, ROE adherence, layered perimeters, logistics convoys]
@@ -32,8 +32,8 @@ Sector Commands, Quick Reaction Platoons, Sapper Teams, and Logistics Trains.
 
 ## Equipment
 
-Pristine human-grade rifles, armored carriers, encrypted comms, standardized kits.
+Pristine field-grade rifles, armored carriers, encrypted comms, standardized kits.
 
 ## Vulnerabilities
 
-Bureaucratic rigidity, slow to adapt to hybrid/alien anomalies.
+Bureaucratic rigidity, slow to adapt to splice/monolith anomalies.

@@ -1,6 +1,6 @@
 ---
 id: REG_TECH_WASTES
-name: Tech Wastes
+name: Machine Grave
 type: region
 desc: de-industrial belts stuttering to life
 motifs: autolines, robot arms, cable trellises, coolant plumes

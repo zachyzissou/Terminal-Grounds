@@ -4,7 +4,7 @@ Version: 1.0.0
 
 Owners: Narrative (Primary), Design, Art
 
-Last Updated: 2025-08-13
+Last Updated: 2025-08-24
 
 Scope: Canonical worldbuilding for Terminal Grounds across all disciplines.
 
@@ -33,7 +33,7 @@ Pillars
 
 - Grounded military desperation: logistics, lines of supply, worn kit, triage choices.
 - Salvage economy: scarcity breeds ingenuity; everything is modular, repurposed, re-soldered.
-- Cosmic dread: alien tech functions but defies understanding; it changes people who use it.
+- Cosmic dread: monolith tech functions but defies understanding; it changes people who use it.
 
 No-go list
 
@@ -62,7 +62,7 @@ No-go list
 ## Cosmology & Harvesters {#cosmology}
 
 - The Harvesters: Automated extractors. Purpose unknown. Wreck typology suggests reconnaissance (Skimmer), combat/logistics (Harrower), and deep infrastructure (Monolith).
-- Linguistic artifacts: Emissions show prime harmonics and non-integer frequency lattices. Archivists’ “Cant” borrows terms from these patterns.
+- Linguistic artifacts: Emissions show prime harmonics and non-integer frequency lattices. The Archive's “Cant” borrows terms from these patterns.
 - Wreck Classification:
 	- TEC_SKIMMER: 50–100m; basic energy systems, survey arrays; reliable hybridization source.
 	- TEC_HARROWER: 200–500m; weaponized arrays, defensive drones; unstable but powerful yields.
@@ -74,59 +74,59 @@ No-go list
 
 ## World & Regions {#world}
 
-- REG_IEZ — Interdiction Exclusion Zone
+- REG_IEZ — The Dead Sky (IEZ)
 	- The 200 km radius “dead-sky” where Monolith-caused cascade originated. Outer bands are salvageable; inner core remains jitter-locked. Terrain: tilted ferrocrete, melted rails, monolithic shadows.
 	- Hazards: rolling EMP microbursts, phase shears, drone reactivation events.
 	- Logistics: convoy cords and shielded relays, “breadcrumb” Faraday shelters.
-- REG_TECH_WASTES — De-industrial belts
-	- Semi-autonomous factories stutter to life with scavenged power. Corporate Combine and Archivists contest control.
-- REG_METRO_A — Metro Maintenance A
+- REG_TECH_WASTES — Machine Grave (de‑industrial belts)
+	- Semi-autonomous factories stutter to life with scavenged power. Trivector Combine and Obsidian Archive contest control.
+- REG_METRO_A — Sump Gardens (Metro A)
 	- Subterranean neutral ground enforced by Wardens’ tolls and truce rules.
-- REG_CRIMSON_DOCKS — Salvage port
-	- Vultures Union hub. The red-stained quays are both market and battleground.
-- REG_SKY_BASTION — Directorate mountain stronghold
+- REG_CRIMSON_DOCKS — Crimson Freeport (salvage port)
+	- Iron Vultures hub. The red-stained quays are both market and battleground.
+- REG_SKY_BASTION — North Bastion (Directorate mountain stronghold)
 	- A high-altitude fortress with reinforced hangars and long-range comms arrays.
-- REG_BLACK_VAULT — Subterranean complex of unknown origin
-	- Claimed by Archivists; rumored pre-Harvester. Emits intermittent prime harmonics.
+- REG_BLACK_VAULT — The Deep Vault (subterranean complex of unknown origin)
+	- Claimed by the Obsidian Archive; rumored pre-Harvester. Emits intermittent prime harmonics.
 
 ## Factions {#factions}
 
-- FCT_DIR — Directorate
+- FCT_DIR — Sky Bastion Directorate
 	- Philosophy: Order through discipline; legitimacy by continuity of command.
-	- Territory: Sky Bastion, IEZ northern districts.
-	- Tech Focus: Human-tier reliability; rigorously vetted hybrids.
+	- Territory: North Bastion, IEZ northern districts.
+	- Tech Focus: Field-grade reliability; rigorously vetted splice systems.
 	- Structure: Field Legions, Logistics Corps, Signals Authority.
 	- Slogans: “Order from Chaos.”
 	- Signature: Standardized kit, clean stenciling, disciplined comms.
-- FCT_VUL — Vultures Union
+- FCT_VUL — Iron Vultures
 	- Philosophy: Survival through salvage; markets as mediation.
-	- Territory: Crimson Docks; roving scavenger flotillas.
-	- Tech Focus: Jury-rigged hybrids; drone tethering.
+	- Territory: Crimson Freeport; roving scavenger flotillas.
+	- Tech Focus: Jury-rigged splice kits; drone tethering.
 	- Slogans: “From Scrap, Strength.”
 	- Signature: Panel-patched armor, visible welds, colored tarps.
-- FCT_F77 — Free 77
+- FCT_F77 — The Seventy-Seven
 	- Philosophy: Contract pragmatism; competence as currency.
 	- Territory: Itinerant; agency offices in neutral nodes.
 	- Tech Focus: Balanced loadouts tailored to contracts.
 	- Slogans: “Contract Complete.”
 	- Signature: Mixed camo, modular kit, invoice tags on crates.
-- FCT_CCB — Corporate Combine
+- FCT_CCB — Trivector Combine
 	- Philosophy: Progress by supremacy of technology.
-	- Territory: Tech Wastes, R&D pads, secured corridors.
-	- Tech Focus: Prototype hybrids, dangerous edge cases.
+	- Territory: Machine Grave, R&D pads, secured corridors.
+	- Tech Focus: Prototype splice systems, dangerous edge cases.
 	- Slogans: “Through Technology, Tomorrow.”
 	- Signature: Polished composites, neon diagnostics, NDA stamps.
-- FCT_NOM — Nomad Clans
+- FCT_NOM — Roadborn Clans
 	- Philosophy: Freedom through mobility; roads as lifelines.
 	- Territory: Convoy-cities; seasonal routes.
 	- Tech Focus: Vehicle mods; logistics systems; quick-deploy fortifications.
 	- Slogans: “The Road Endures.”
-- FCT_VAR — Vaulted Archivists
+- FCT_VAR — Obsidian Archive
 	- Philosophy: Knowledge as salvation; reality is a system to be studied.
-	- Territory: Black Vault, hidden labs.
+	- Territory: The Deep Vault, hidden labs.
 	- Tech Focus: EMP, stealth, sensor manipulation; pure artifact studies.
 	- Slogans: “Knowledge Preserves.”
-- FCT_CWD — Civic Wardens
+- FCT_CWD — Truce Wardens
 	- Philosophy: Mutual aid through defense of civilians.
 	- Territory: Metro Maintenance A; safe nodes; settlement belts.
 	- Tech Focus: Hardening, shields, counter-drone networks.
@@ -134,11 +134,11 @@ No-go list
 
 ### Event-Only/Secret Aggressors
 
-- FCT_BSK — Black Sky Charter
+- FCT_BSK — Blacksky Charter
 	- Modus: Off-books aerospace cell with legacy targeting stacks. Visible only during Skyfall. Laser-designation teams, decoy beacons, area denial.
 - FCT_NCH — Null Choir
 	- Modus: Archivist splinter; silent-cant ops; EMP/shadow kit; appears during Harmonic Windows and in Phase Pockets.
-- FCT_MSN — Monolith Sentinels
+- FCT_MSN — Monolith Wardens
 	- Modus: Autonomous Harvester constructs; guard harmonics, punish energy spikes.
 
 ## Characters {#characters}
@@ -147,7 +147,7 @@ No-go list
 	- Background: Kept a corps intact through the Accord collapse by rationing reputation as carefully as munitions.
 	- Motivation: Restore a chain of command the world can trust.
 	- Conflict: Needs hybrid superiority she distrusts; leans on Archivist intel she resents.
-- CHR_RIN_OKAFOR (FCT_VUL) — Union Broker of Crimson Docks
+- CHR_RIN_OKAFOR (FCT_VUL) — Union Broker of Crimson Freeport
 	- Background: Scrap dealer turned market architect; built arbitration rituals that keep the Docks from burning daily.
 	- Motivation: Make salvage law stronger than faction law.
 	- Conflict: Convoy raids keep the docks fed—but destabilize treaties.
@@ -176,9 +176,9 @@ No-go list
 
 Tiers
 
-- TEC_HUMAN — Reliable, maintainable, well-documented. Countered by armor and alien shields.
-- TEC_HYBRID — Powerful but heat/EMP/overdraw risks; requires cooldown disciplines and power budget planning.
-- TEC_ALIEN — Rare, reality-bending effects; no repair; user psych cost.
+- TEC_HUMAN — Field Grade: reliable, maintainable, well-documented. Countered by armor and alien shields.
+- TEC_HYBRID — Splice Grade: powerful but heat/EMP/overdraw risks; requires cooldown disciplines and power budget planning.
+- TEC_ALIEN — Monolith Grade: rare, reality-bending effects; no repair; user psych cost.
 
 Representative Systems
 
@@ -189,10 +189,10 @@ Representative Systems
 
 Augmentation Suite
 
-- AUG_REFLEX_SPLICE — Reaction boost; nervous system cascade risk; incompatible with Neural Slicer.
-- AUG_OCULAR_SUITE — Multi-spectrum targeting; hallucination side-effect.
-- AUG_SUBDERMAL_PLATE — +DR; mobility reduction, chronic inflammation.
-- AUG_NEURAL_SLICER — Tactical awareness, direct equipment interfacing; personality drift; blackout events.
+- AUG_REFLEX_SPLICE — Echo Reflex: reaction boost; nervous system cascade risk; incompatible with Nerveweave.
+- AUG_OCULAR_SUITE — Spectral Sight: multi-spectrum targeting; hallucination side-effect.
+- AUG_SUBDERMAL_PLATE — Plateskin: +DR; mobility reduction, chronic inflammation.
+- AUG_NEURAL_SLICER — Nerveweave: tactical awareness, direct equipment interfacing; personality drift; blackout events.
 
 Countermeasures
 
@@ -285,14 +285,21 @@ Style
 
 ### Signature Events {#events}
 
-- EVT_SKYFALL_BARRAGE — Orbital debris strikes guided by dormant Harrower beacons; bombardments open salvage but draw predators. Black Sky Charter operatives mark targets; kinetic rods follow.
-- EVT_HARMONIC_WINDOW — Monolith harmonic bloom opens Phase Pockets; stealth/EMP conditions favor Null Choir and awaken Monolith Sentinels.
-- EVT_BLACKOUT_STORM — Rolling EMP microbursts collapse comms; Warden tolls suspend; drones desync and go feral.
-- EVT_CONVOY_REDLINE — Trade routes go “hot”; Nomad long-hauls lock routes; mercenaries converge on LZs.
-- EVT_VAULT_SIREN — Black Vault emits high-order primes; Archivists lock sectors; Combine pushes a demo; Directorate declares a no-fly.
+- EVT_SKYFALL_BARRAGE — Blacksky Barrage: Orbital debris strikes guided by dormant Harrower beacons; bombardments open salvage but draw predators. Blacksky Charter operatives mark targets; kinetic rods follow.
+- EVT_HARMONIC_WINDOW — Monolith Bloom: harmonic bloom opens Phase Pockets; stealth/EMP conditions favor Null Choir and awaken Monolith Wardens.
+- EVT_BLACKOUT_STORM — Dead-Sky Surge: rolling EMP microbursts collapse comms; Warden tolls suspend; drones desync and go feral.
+- EVT_CONVOY_REDLINE — Ashway Lockdown: trade routes go “hot”; Nomad long-hauls lock routes; mercenaries converge on LZs.
+- EVT_VAULT_SIREN — Vault Clarion: Deep Vault emits high-order primes; Obsidian Archive locks sectors; Trivector pushes a demo; Sky Bastion Directorate declares a no-fly.
 
 ---
 
 ## Changelog {#changelog}
 
 - 1.0.0: Canonized timeline (2161, +6 months), standardized IEZ naming, set Sky Bastion to Directorate fortress, expanded factions (including event-only), characters, tech tiers, POIs, IEZ hardcore structure, culture, economy, glossary, and events.
+- 1.1.0: Display-name refresh to Bold+ set (IDs unchanged): factions, regions, events, tech tiers, augments. Added Retcon Notes for Archivists tone and event labels.
+
+## Retcon Notes (Display Names)
+
+- FCT_VAR display name changed to Obsidian Archive. Canon ID unchanged.
+- FCT_BSK label to Blacksky Charter for consistency.
+- Event labels updated as above; mechanics unchanged.

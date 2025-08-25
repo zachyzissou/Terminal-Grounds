@@ -1,6 +1,6 @@
 ---
 id: REG_BLACK_VAULT
-name: Black Vault
+name: The Deep Vault
 type: region
 desc: buried alien facility interface with human lockdowns
 motifs: sealed iris doors, harmonic beacons, null-field chambers

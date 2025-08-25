@@ -7,41 +7,49 @@
 - Environmental hazards and tactical features
 
 ## Meteor Site
-```
-Asteroid impact crater, crystalline alien debris scattered around crater rim, radiation warning signs, scorched earth, purple alien crystals, scientific equipment, hazmat suits, post-apocalyptic salvage site
+
+```text
+Asteroid impact crater, crystalline monolith debris scattered around crater rim, radiation warning signs, scorched earth, violet crystal growths, scientific equipment, hazmat suits, post-apocalyptic salvage site
 ```
 
-## Drone Hive  
-```
+## Drone Hive
+
+```text
 Abandoned data center, concrete brutalist architecture, broken windows, drone launch tubes, server racks, sparking electronics, red warning lights, swarm activity, industrial decay
 ```
 
 ## Vault Perimeter
-```
-Fortified checkpoint, energy shield generators, alien-human hybrid architecture, scanning equipment, guard towers, purple energy effects, high-tech security, ominous vault entrance
+
+```text
+Fortified checkpoint, energy shield generators, splice architecture, scanning equipment, guard towers, violet energy effects, high-tech security, ominous vault entrance
 ```
 
-## Combine Forward Pad
-```
-Corporate helipad, polished concrete, corporate logos, fuel depot, guard stations, high-tech equipment, professional military appearance, blue and white corporate colors
+## Trivector Forward Pad
+
+```text
+Corporate helipad, polished concrete, Trivector Combine logos, fuel depot, guard stations, high-tech equipment, professional military appearance, blue and white corporate colors
 ```
 
-## Tech Wastes (New Zone)
-```
-Alien orbital debris field, electromagnetic storm effects, twisted metal wreckage, reality distortion effects, dangerous electrical phenomena, scavenger equipment, electromagnetic interference
+## Machine Grave (New Zone)
+
+```text
+Orbital debris field, electromagnetic storm effects, twisted metal wreckage, subtle geometry distortions, dangerous electrical phenomena, scavenger equipment, electromagnetic interference
 ```
 
-## Nomad Convoy Camp
-```
-Mobile vehicle settlement, armored trucks in defensive circle, clan banners, fuel drums, repair equipment, tribal decorations, convoy culture, improvised fortifications
+## Roadborn Convoy Camp
+
+```text
+Mobile vehicle settlement, armored trucks in defensive circle, clan banners, fuel drums, repair equipment, convoy culture, improvised fortifications
 ```
 
-## Warden Fortification
-```
+## Truce Warden Fortification
+
+```text
 Improvised defensive wall, sandbags, concrete barriers, civilian militia equipment, watchtowers, practical military engineering, civic defense, community protection
 ```
 
 ## Environmental Guidelines
+
 - Day/night lighting considerations
 - Weather effects (storms, radiation)
 - Tactical cover and sightlines

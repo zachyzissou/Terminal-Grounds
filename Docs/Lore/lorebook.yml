@@ -13,43 +13,43 @@ events:
     year: 2161
     anchor: "#timeline"
   - id: EVT_SKYFALL_BARRAGE
-    name: Skyfall Barrage
+    name: Blacksky Barrage
     anchor: "#events"
     tags: [orbital, bombardment, salvage]
   - id: EVT_HARMONIC_WINDOW
-    name: Harmonic Window
+    name: Monolith Bloom
     anchor: "#events"
     tags: [monolith, emp, stealth]
   - id: EVT_BLACKOUT_STORM
-    name: Blackout Storm
+    name: Dead-Sky Surge
     anchor: "#events"
     tags: [emp, comms, drones]
   - id: EVT_CONVOY_REDLINE
-    name: Convoy Redline
+    name: Ashway Lockdown
     anchor: "#events"
     tags: [logistics, convoy, pvpve]
   - id: EVT_VAULT_SIREN
-    name: Vault Siren
+    name: Vault Clarion
     anchor: "#events"
     tags: [vault, archivists, escalation]
 regions:
   - id: REG_IEZ
-    name: Interdiction Exclusion Zone
+    name: The Dead Sky (IEZ)
     anchor: "#world"
   - id: REG_TECH_WASTES
-    name: Tech Wastes
+    name: Machine Grave
     anchor: "#world"
   - id: REG_CRIMSON_DOCKS
-    name: Crimson Docks
+    name: Crimson Freeport
     anchor: "#world"
   - id: REG_METRO_A
-    name: Metro Maintenance A
+    name: Sump Gardens (Metro A)
     anchor: "#world"
   - id: REG_SKY_BASTION
-    name: Sky Bastion
+    name: North Bastion
     anchor: "#world"
   - id: REG_BLACK_VAULT
-    name: Black Vault
+    name: The Deep Vault
     anchor: "#world"
   - id: REG_IEZ_RING_OUTER
     name: IEZ Outer Ring (H1)
@@ -62,35 +62,35 @@ regions:
     anchor: "#world"
 factions:
   - id: FCT_DIR
-    name: Directorate
+    name: Sky Bastion Directorate
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_VUL
-    name: Vultures Union
+    name: Iron Vultures
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_F77
-    name: Free 77
+    name: The Seventy-Seven
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_CCB
-    name: Corporate Combine
+    name: Trivector Combine
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_NOM
-    name: Nomad Clans
+    name: Roadborn Clans
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_VAR
-    name: Vaulted Archivists
+    name: Obsidian Archive
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_CWD
-    name: Civic Wardens
+    name: Truce Wardens
     anchor: "#factions"
     flavor_ref: "docs/Lore/Factions_Flavor.md"
   - id: FCT_BSK
-    name: Black Sky Charter
+    name: Blacksky Charter
     anchor: "#factions"
     tags: [secret, orbital, event_only]
   - id: FCT_NCH
@@ -98,18 +98,18 @@ factions:
     anchor: "#factions"
     tags: [secret, archivist_splinter, emp, stealth, event_only]
   - id: FCT_MSN
-    name: Monolith Sentinels
+    name: Monolith Wardens
     anchor: "#factions"
     tags: [alien_automata, event_only]
 tech:
   - id: TEC_HUMAN
-    name: Human Technology
+    name: Field Grade
     anchor: "#technology"
   - id: TEC_HYBRID
-    name: Hybrid Technology
+    name: Splice Grade
     anchor: "#technology"
   - id: TEC_ALIEN
-    name: Alien Technology
+    name: Monolith Grade
     anchor: "#technology"
   - id: TEC_SKIMMER
     name: Skimmer Class
@@ -122,16 +122,16 @@ tech:
     anchor: "#cosmology"
 augments:
   - id: AUG_REFLEX_SPLICE
-    name: Reflex Splice
+    name: Echo Reflex
     anchor: "#technology"
   - id: AUG_OCULAR_SUITE
-    name: Ocular Suite
+    name: Spectral Sight
     anchor: "#technology"
   - id: AUG_SUBDERMAL_PLATE
-    name: Subdermal Plating
+    name: Plateskin
     anchor: "#technology"
   - id: AUG_NEURAL_SLICER
-    name: Neural Slicer
+    name: Nerveweave
     anchor: "#technology"
 characters:
   - id: CHR_ADELE_VARGAS
@@ -167,11 +167,11 @@ pois:
     name: Vault Perimeter
     anchor: "docs/Lore/POIs_Flavor.md#vault-perimeter"
   - id: POI_COMBINE_FORWARD_PAD
-    name: Combine Pad
-    anchor: "docs/Lore/POIs_Flavor.md#combine-pad"
+    name: Trivector Forward Pad
+    anchor: "docs/Lore/POIs_Flavor.md#trivector-forward-pad"
   - id: POI_NOMAD_CONVOY_CAMP
-    name: Nomad Convoy Camp
+    name: Roadborn Convoy Camp
     anchor: "docs/Lore/POIs_Flavor.md#nomad-convoy-camp"
   - id: POI_WARDEN_FORT
-    name: Warden Fort
+    name: Truce Warden Fort
     anchor: "docs/Lore/POIs_Flavor.md#warden-fort"

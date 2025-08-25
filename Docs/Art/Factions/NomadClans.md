@@ -1,16 +1,16 @@
-# Nomad Clans Faction Style Guide
+# Roadborn Clans Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 
 ## Faction Identity
 
-The Nomad Clans are mobile communities of traders and raiders who dominate the wasteland roads. They specialize in convoy operations, vehicle modification, and long-range logistics.
+The Roadborn Clans are mobile communities of traders and raiders who dominate the wasteland roads. They specialize in convoy operations, vehicle modification, and long-range logistics.
 
 ## Visual Philosophy
 
 **Road Warrior** • **Mobile Community** • **Vehicular Culture**
 
-The Nomad aesthetic emphasizes mobility, vehicle integration, and road-hardened functionality. Their equipment should feel designed for constant movement and harsh travel conditions.
+The Roadborn aesthetic emphasizes mobility, vehicle integration, and road-hardened functionality. Their equipment should feel designed for constant movement and harsh travel conditions.
 
 ## Color Palette
 

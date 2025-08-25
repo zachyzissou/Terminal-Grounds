@@ -1,6 +1,6 @@
 ---
 id: POI_CRIMSON_DOCKS
-name: Crimson Docks Slipway 12
+name: Crimson Freeport Slipway 12
 type: poi
 region: REG_CRIMSON_DOCKS
 hook: rigged auction; drone hive under the slipway

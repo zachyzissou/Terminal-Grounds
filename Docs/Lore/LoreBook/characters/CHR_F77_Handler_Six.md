@@ -13,4 +13,4 @@ signatures:
 
 # Notes
 
-Rumored to have walked from the Black Vault with both eyes still human.
+Rumored to have walked from The Deep Vault with both eyes still human.

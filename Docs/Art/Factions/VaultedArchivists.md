@@ -1,16 +1,16 @@
-# Vaulted Archivists Faction Style Guide
+# Obsidian Archive Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 
 ## Faction Identity
 
-The Vaulted Archivists are keepers of pre-war knowledge and alien technology. They combine scholarly research with mystical reverence for advanced technology, serving as both librarians and tech-priests.
+The Obsidian Archive are keepers of pre-war knowledge and monolith-era technology. They combine scholarly research with ritualized handling of advanced systems, serving as both librarians and field lexicographers.
 
 ## Visual Philosophy
 
-**Academic Authority** • **Mystical Technology** • **Ancient Wisdom**
+**Academic Authority** • **Monolith Lore** • **Ancient Wisdom**
 
-The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge, and integration with alien technology. Their equipment should feel both academic and mysteriously advanced.
+The Archive aesthetic emphasizes scholarly authority, reverence for knowledge, and integration with monolith-derived systems. Their equipment should feel both academic and mysteriously advanced.
 
 ## Color Palette
 
@@ -18,18 +18,18 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 
 - **Archive Green**: `#228B22` - Knowledge, growth, preservation
 - **Knowledge Gold**: `#DAA520` - Wisdom, value, illumination
-- **Mystery Purple**: `#4B0082` - Alien technology, mystical systems
+- **Mystery Purple**: `#4B0082` - Monolith systems, prime harmonics
 
 ### Secondary Colors
 
 - **Ancient Brass**: `#B5651D` - Old knowledge, traditional methods, patina
-- **Energy Cyan**: `#008B8B` - Alien energy systems, data flow, power
+- **Energy Cyan**: `#008B8B` - Monolith energy systems, data flow, power
 
 ### Usage Guidelines
 
 - Archive green for primary identification and scholarly equipment (35% coverage)
 - Knowledge gold for important systems and hierarchical indicators (25% coverage)
-- Mystery purple for alien technology integration (25% coverage)
+- Mystery purple for monolith technology integration (25% coverage)
 - Ancient brass for traditional equipment and scholarly tools (10% coverage)
 - Energy cyan for active alien systems and data displays (5% coverage)
 
@@ -42,11 +42,11 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 - **Wear Patterns**: Scholarly use, careful handling, age-appropriate wear
 - **Detail Elements**: Academic inscriptions, classification systems, preservation labels
 
-### Alien Technology Integration
+### Monolith Technology Integration
 
-- **Sacred Housing**: Alien technology housed in traditional academic formats
-- **Reverent Treatment**: Technology treated as religious artifacts with appropriate ceremony
-- **Protective Systems**: Extensive protection for irreplaceable alien components
+- **Sacred Housing**: Monolith technology housed in traditional academic formats
+- **Reverent Treatment**: Technology treated as relics with appropriate ceremony
+- **Protective Systems**: Extensive protection for irreplaceable monolith components
 
 ## Insignia and Iconography
 
@@ -80,11 +80,11 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 
 - **Design Principles**: Traditional academic forms housing advanced technology
 - **Proportions**: Classical proportions with subtle technological integration
-- **Details**: Scholarly decoration combined with functional alien systems
+- **Details**: Scholarly decoration combined with functional monolith systems
 
 ### Equipment Silhouettes
 
-- **Characteristics**: Traditional academic tools enhanced with alien technology
+- **Characteristics**: Traditional academic tools enhanced with monolith technology
 - **Integration**: Seamless blending of old knowledge with new capabilities
 - **Condition**: Meticulously maintained, reverently preserved, carefully enhanced
 
@@ -92,27 +92,27 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 
 ### Archive Complexes
 
-- **Architecture**: Classical academic buildings with alien technology integration
+- **Architecture**: Classical academic buildings with monolith technology integration
 - **Collections**: Vast libraries with physical and digital knowledge storage
 - **Preservation**: Climate control, security systems, conservation laboratories
 
 ### Research Stations
 
 - **Layout**: Academic study spaces with alien technology research facilities
-- **Equipment**: Scholarly tools combined with alien analysis systems
-- **Security**: Knowledge protection and alien technology containment
+- **Equipment**: Scholarly tools combined with monolith analysis systems
+- **Security**: Knowledge protection and monolith technology containment
 
 ### Field Operations
 
 - **Mobile Archives**: Portable research stations and knowledge collection systems
-- **Exploration**: Archaeological equipment for alien technology recovery
+- **Exploration**: Archaeological equipment for monolith technology recovery
 - **Documentation**: Comprehensive recording and analysis systems
 
 ## Technology Integration
 
 ### Academic Approach
 
-- **Aesthetic**: Scholarly treatment of alien technology as research subjects
+- **Aesthetic**: Scholarly treatment of monolith technology as research subjects
 - **Methodology**: Systematic study and documentation of alien systems
 - **Integration**: Careful incorporation into traditional academic frameworks
 
@@ -131,9 +131,9 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 ## Audio Identity
 
 - **Communication Style**: Academic terminology, knowledge preservation focus
-- **Equipment Sounds**: Ancient equipment operation, alien technology ambience
+- **Equipment Sounds**: Ancient equipment operation, monolith technology ambience
 - **Voice Characteristics**: Scholarly authority, mystical knowledge
-- **Ambient Identity**: Archive operation, alien technology ambience
+- **Ambient Identity**: Archive operation, monolith technology ambience
 
 ## Academic Hierarchy
 
@@ -158,24 +158,24 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 - **Access Controls**: Careful management of who can access what knowledge
 - **Dissemination Ethics**: Responsible sharing of dangerous or powerful information
 
-## Alien Technology Reverence
+## Monolith Technology Reverence
 
 ### Sacred Procedures
 
-- **Activation Rituals**: Formal ceremonies for operating alien systems
-- **Maintenance Ceremonies**: Respectful care and preservation of alien technology
+- **Activation Rituals**: Formal ceremonies for operating monolith systems
+- **Maintenance Ceremonies**: Respectful care and preservation of monolith technology
 - **Integration Blessings**: Ceremonial approval for combining systems
 
 ### Mystical Understanding
 
-- **Technology as Artifact**: Treating alien systems as cultural and religious objects
+- **Technology as Artifact**: Treating monolith systems as cultural and religious objects
 - **Wisdom Seeking**: Understanding the philosophical implications of advanced technology
-- **Harmonic Integration**: Achieving balance between human knowledge and alien systems
+- **Harmonic Integration**: Achieving balance between human knowledge and monolith systems
 
 ### Protective Measures
 
-- **Containment Protocols**: Safe handling and storage of dangerous alien technology
-- **Emergency Procedures**: Rapid response to alien technology malfunctions
+- **Containment Protocols**: Safe handling and storage of dangerous monolith technology
+- **Emergency Procedures**: Rapid response to monolith technology malfunctions
 - **Purification Rituals**: Cleansing procedures for contaminated equipment
 
 ## Asset Implementation Notes
@@ -200,11 +200,11 @@ The Archivists aesthetic emphasizes scholarly authority, reverence for knowledge
 - **Leather Aging**: Procedural leather wear and patina development
 - **Brass Oxidation**: Natural brass aging and verdigris formation
 - **Wood Preservation**: High-quality wood finishing and conservation
-- **Alien Integration**: Seamless blending of alien technology with traditional materials
+- **Monolith Integration**: Seamless blending of monolith technology with traditional materials
 
 ### Performance Considerations
 
-- Complex material blending for traditional/alien technology integration
+- Complex material blending for traditional/monolith technology integration
 - Procedural aging system for academic equipment and facilities
-- Alien technology effect system for mystical elements
-- LOD system maintains scholarly detail and alien technology visibility
+- Monolith technology effect system for mystical elements
+- LOD system maintains scholarly detail and monolith technology visibility

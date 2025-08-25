@@ -1,6 +1,6 @@
 ---
 id: FCT_NOM
-name: Nomad Clans
+name: Roadborn Clans
 type: faction
 aliases: [Nomads]
 summary: >

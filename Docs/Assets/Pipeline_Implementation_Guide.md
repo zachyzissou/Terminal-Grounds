@@ -1,25 +1,30 @@
 # Terminal Grounds Asset Pipeline Implementation Guide
 
 ## 🎯 Overview
+
 This document outlines the complete asset generation and replacement pipeline for Terminal Grounds, integrating HF/MCP image generation with UE5.6.
 
 ## 📊 Current Status (2025-01-29)
 
 ### Assets Generated Today
+
 ✅ **Faction Logos (7/7)**
-- Directorate - Navy blue military shield with wings
-- Vultures Union - Scavenger skull with industrial elements  
-- Free 77 - Mercenary badge with Highway 77 motif
-- Corporate Combine - High-tech hexagonal circuit design
-- Nomad Clans - Convoy compass with road elements
-- Vaulted Archivists - Knowledge key with mystical books
-- Civic Wardens - Emergency services shield with medical cross
+
+- Sky Bastion Directorate - Navy blue military shield with wings
+- Iron Vultures - Scavenger skull with industrial elements  
+- The Seventy-Seven - Mercenary badge with Highway 77 motif
+- Trivector Combine - High-tech hexagonal circuit design
+- Roadborn Clans - Convoy compass with road elements
+- Obsidian Archive - Knowledge key with arcane geometry
+- Truce Wardens - Emergency services shield with medical cross
 
 ✅ **UI Icons (2/8)**
+
 - Ballistic damage indicator
 - Ion damage indicator
 
 ### Placeholder Status
+
 - **Total Placeholders Identified**: 73
 - **Replaced So Far**: 9
 - **Remaining**: 64
@@ -27,13 +32,15 @@ This document outlines the complete asset generation and replacement pipeline fo
 ## 🔧 Pipeline Components
 
 ### 1. Asset Generation System
+
 - **Tool**: Hugging Face MCP with FLUX.1 Schnell
 - **Resolution**: 512x512 to 2048x2048
 - **Formats**: PNG with transparency support
 - **Style Consistency**: Enforced through Art Bible parameters
 
 ### 2. Directory Structure
-```
+
+```text
 Terminal-Grounds/
 ├── Content/TG/
 │   ├── Icons/
@@ -54,7 +61,9 @@ Terminal-Grounds/
 ```
 
 ### 3. Automation Script
+
 The Python pipeline script (`tg-asset-pipeline`) provides:
+
 - Placeholder detection and categorization
 - Asset manifest generation
 - UE5 import script creation
@@ -64,26 +73,29 @@ The Python pipeline script (`tg-asset-pipeline`) provides:
 ## 📋 Next Steps
 
 ### Immediate Actions (Priority 1)
+
 1. **Complete UI Icon Set**
    - Generate remaining 6 UI icons at 512x512
    - Icons needed: extract_marker, map_ping, rarity variants, status_charge
 
 2. **Weapon Concepts Generation**
    - 20+ weapon concepts identified in placeholder report
-   - Focus on tier differentiation (Human/Hybrid/Alien)
+   - Focus on tier differentiation (Field/Splice/Monolith)
    - Resolution: 2048x1024
 
 3. **Run Pipeline Script**
-   ```bash
+
+   ```powershell
    python Tools/ArtGen/tg-asset-pipeline.py
    ```
 
 ### Short-term Goals (Priority 2)
+
 1. **Biome Concept Art**
-   - IEZ Alpha/Beta Districts
-   - Tech Wastes Gamma Band
-   - Sky Bastion views
-   - Black Vault interiors
+      - IEZ Alpha/Beta Districts
+      - Machine Grave Gamma Band
+      - North Bastion views
+      - The Deep Vault interiors
 
 2. **Vehicle Concepts**
    - 8 vehicles in placeholder report
@@ -95,6 +107,7 @@ The Python pipeline script (`tg-asset-pipeline`) provides:
    - Warning signs and markers
 
 ### Integration Tasks
+
 1. **UE5.6 Import**
    - Run generated import script in UE5 Python console
    - Apply material instances with faction colors
@@ -111,19 +124,22 @@ The Python pipeline script (`tg-asset-pipeline`) provides:
 ## 🎨 Generation Prompts Template
 
 ### Faction Assets
-```
+
+```text
 {faction_name} faction {asset_type}, {primary_colors}, {thematic_elements}, 
 {art_style}, PBR ready, high contrast, vector style, {resolution} resolution
 ```
 
 ### UI Elements
-```
+
+```text
 Game UI {element_type}, {function_description}, {color_scheme}, 
 clean minimalist design, high readability, transparent background, {size}px
 ```
 
 ### Concept Art
-```
+
+```text
 {category} concept art, Terminal Grounds style, {tech_tier} technology, 
 {faction_influence}, post-apocalyptic sci-fi, weathered textures, 
 atmospheric lighting, {resolution} resolution
@@ -132,6 +148,7 @@ atmospheric lighting, {resolution} resolution
 ## 📈 Quality Metrics
 
 ### Resolution Requirements
+
 - **Faction Logos**: 2048x2048 (currently 1024x1024 - needs upscale)
 - **UI Icons**: 512x512 minimum
 - **Weapon Concepts**: 2048x1024
@@ -139,6 +156,7 @@ atmospheric lighting, {resolution} resolution
 - **Decals/Posters**: 1024x1024
 
 ### Performance Targets
+
 - **Texture Memory**: < 16MB per asset
 - **Total Package**: < 2GB for all visual assets
 - **LOD Generation**: Required for all in-game assets
@@ -156,18 +174,21 @@ atmospheric lighting, {resolution} resolution
 ## 🚀 Commands Reference
 
 ### Generate Assets
+
 ```python
 # Use HF MCP tools as shown in examples
 hugging mcp:gr1_flux1_schnell_infer
 ```
 
 ### Run Pipeline
-```bash
+
+```powershell
 cd C:\Users\Zachg\Terminal-Grounds
 python Tools/ArtGen/tg-asset-pipeline.py
 ```
 
 ### Import to UE5
+
 ```python
 # In UE5 Python console
 exec(open('Tools/ArtGen/ue5_import.py').read())

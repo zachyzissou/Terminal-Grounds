@@ -2,9 +2,9 @@
 id: TECH_HYB_INVERTER
 name: Salvage Hybrid Inverter Pack
 type: tech
-tier: hybrid
+tier: splice
 summary: Union-built inverter bridging alien coils to human loads; powerful but temperamental.
-tags: [power, hybrid, unstable]
+tags: [power, splice, unstable]
 signatures:
   visual: [braided cables, improvised heat sinks, warning chevrons]
   narrative: [cooldown rituals, spare fuses as talismans]

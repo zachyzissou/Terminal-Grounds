@@ -1,4 +1,4 @@
-# Free 77 Faction Style Guide
+# The Seventy-Seven Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 

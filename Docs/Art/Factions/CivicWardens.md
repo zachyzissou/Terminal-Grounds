@@ -1,10 +1,10 @@
-# Civic Wardens Faction Style Guide
+# Truce Wardens Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions
 
 ## Faction Identity
 
-The Civic Wardens are community protectors and emergency responders who emerged from civilian emergency services. They focus on defensive operations, civilian protection, and disaster response.
+The Truce Wardens are community protectors and emergency responders who emerged from civilian emergency services. They focus on defensive operations, civilian protection, and disaster response.
 
 ## Visual Philosophy
 
