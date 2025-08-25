@@ -218,12 +218,12 @@ def main():
     
     factions = [
         ("Directorate", "military chevron insignia, steel gray and blue, authoritative geometric design"),
-        ("VulturesUnion", "scavenger bird skull emblem, black and hazard yellow, industrial salvage aesthetic"),
+        ("IronScavengers", "asymmetrical scrap-metal claw grasping mixed faction symbols, scavenger orange on gunmetal field with trophy gold, theft markers and salvage aesthetic"),
         ("Free77", "stenciled number 77, tactical brown and tan, mercenary contractor badge"),
-        ("CorporateCombine", "hexagonal corporate shield, sleek blue chrome, high-tech minimalist logo"),
-        ("NomadClans", "tribal wheel and banner, rust orange and leather brown, convoy culture symbol"),
-        ("VaultedArchivists", "mystical eye with energy coil, gold and dark emerald, ancient technology sigil"),
-        ("CivicWardens", "fortress bastion block, safety orange and navy blue, community defense emblem")
+        ("CorporateHegemony", "interlocked hexagonal corporate shields with holographic enhancement, corporate blue field with hologram cyan highlights, branding warfare aesthetic"),
+        ("NomadClans", "hand-painted convoy culture symbol with adaptive camouflage elements, sun-bleached orange and weathered leather brown, mobile survival aesthetic"),
+        ("ArchiveKeepers", "geometric data preservation patterns with glowing text elements, ancient purple and data gold, information archaeology aesthetic"),
+        ("CivicWardens", "community-made urban militia stencil, safety green and warden teal, grassroots protection aesthetic")
     ]
     
     generated = []

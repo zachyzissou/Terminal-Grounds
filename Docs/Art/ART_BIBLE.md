@@ -1,10 +1,19 @@
 # Terminal Grounds - Art Bible
 
-## Visual Identity
+## Visual Identity Framework
+*Updated with Chief Art Director recommendations*
+
+### Core Art Pillars
+
+**PILLAR 1: GROUNDED MILITARISM** - Authentic military aesthetics with near-future tactical enhancement
+**PILLAR 2: ENVIRONMENTAL SCARRING** - Landscapes physically wounded by exotic technology and endless conflict
+**PILLAR 3: TECHNOLOGICAL STRATIFICATION** - Clear visual hierarchy from Field-grade to Monolith-tier equipment
+**PILLAR 4: TRIBAL CORPORATE WARFARE** - Faction armies that brand territory through environmental marking
+**PILLAR 5: EXTRACTION TENSION** - High-stakes escape scenarios with countdown architecture
 
 ### Core Aesthetic
 
-**Grounded Military Sci-Fi** - A world where Field-grade military technology meets Monolith influence, creating a unique Splice aesthetic that feels both familiar and otherworldly.
+**Grounded Military Sci-Fi** - A world where Field-grade military technology meets Monolith influence, creating a unique Splice aesthetic that feels both familiar and otherworldly. Every surface tells a story of conflict and survival.
 
 ## Faction Visual Language
 
@@ -16,13 +25,15 @@
 - **Design Philosophy**: Brutalist efficiency, stark geometry
 - **Emblem Style**: Military stencil, negative space usage
 
-### Iron Vultures (VLT)
+### Iron Scavengers (ISC) *[Renamed from Iron Vultures/VulturesUnion]*
 
 - **Palette**: `#7F8C8D` `#D35400` `#F0C27B`
-- **Motifs**: Salvage symbols, hazard warnings, industrial stencils
-- **Materials**: Corroded metal, welded plates, reclaimed tech
-- **Design Philosophy**: Function over form, makeshift reliability
-- **Emblem Style**: Industrial warning aesthetic
+- **Motifs**: Theft markers, salvage symbols, hazard warnings, jury-rigged repairs
+- **Materials**: Welded salvage plates, mixed faction components, improvised repairs
+- **Design Philosophy**: Functional ugliness, every piece tells a theft story
+- **Emblem Style**: Industrial warning aesthetic with asymmetrical composition
+- **Signature Hook**: Equipment showing clear signs of being stolen from other factions
+- **Environmental Mark**: Scrap-metal totems made from defeated enemies' gear
 
 ### The Seventy-Seven (F77)
 
@@ -32,37 +43,45 @@
 - **Design Philosophy**: Professional military contractor
 - **Emblem Style**: Corporate military hybrid
 
-### Trivector Combine (TVC)
+### Corporate Hegemony (CHG) *[Renamed from Trivector Combine]*
 
-- **Palette**: `#0C0F12` `#00C2FF` `#C0F3FF`
-- **Motifs**: Hexagonal shields, ceramic patterns, security badges
-- **Materials**: High-tech ceramics, reactive armor, smart glass
-- **Design Philosophy**: Cutting-edge corporate security
-- **Emblem Style**: Clean geometric precision
+- **Palette**: `#0C0F12` `#00C2FF` `#C0F3FF` `#FFFFFF`
+- **Motifs**: Corporate logos, security badges, holographic interfaces, brand integration
+- **Materials**: Reactive polymers, smart glass, self-cleaning surfaces, logo-integrated gear
+- **Design Philosophy**: Corporate branding as psychological warfare
+- **Emblem Style**: Sleek corporate identity with integrated holographic elements
+- **Signature Hook**: Equipment that glows with corporate branding, logo-scarred battlefields
+- **Environmental Mark**: Holographic territory markers and automated security warnings
 
-### Roadborn Clans (RBC)
+### Nomad Clans (NOM) *[Renamed from Roadborn Clans]*
 
 - **Palette**: `#6E2C00` `#AF601A` `#EAC086`
-- **Motifs**: Vehicle parts, tribal glyphs, road symbols
-- **Materials**: Weathered metal, leather, desert-worn fabrics
-- **Design Philosophy**: Mobile survival, convoy culture
-- **Emblem Style**: Hand-painted road warrior
+- **Motifs**: Vehicle parts, tribal glyphs, road symbols, adaptive camouflage
+- **Materials**: Sun-bleached textiles, road-worn metals, weathered leather, adaptive materials
+- **Design Philosophy**: Mobile survival, convoy culture, terrain adaptation
+- **Emblem Style**: Hand-painted road warrior aesthetics with environmental integration
+- **Signature Hook**: Equipment that transforms for different terrain and weather conditions
+- **Environmental Mark**: Temporary monuments built from vehicle parts and territorial bones
 
-### Obsidian Archive (OBA)
+### Archive Keepers (ARC) *[Renamed from Obsidian Archive]*
 
-- **Palette**: `#2C3E50` `#8E44AD` `#BBA1E1`
-- **Motifs**: Eye-over-coil, arcane symbols, data streams
-- **Materials**: Ancient alloys, crystalline tech, preserved materials
-- **Design Philosophy**: Knowledge preservation, mystical technology
-- **Emblem Style**: Esoteric geometric patterns
+- **Palette**: `#2C3E50` `#8E44AD` `#BBA1E1` `#FFD700`
+- **Motifs**: Data preservation symbols, ancient text fragments, crystalline tech patterns
+- **Materials**: Ancient metal-tech fusion, crystalline data storage, preserved materials
+- **Design Philosophy**: Information as sacred artifact, technological archaeology
+- **Emblem Style**: Geometric data preservation patterns with glowing text elements
+- **Signature Hook**: Equipment covered in glowing text from dead languages
+- **Environmental Mark**: Information graffiti - walls that display historical data
 
-### Truce Wardens (TWD)
+### Civic Wardens (CWD) *[Renamed from Truce Wardens]*
 
 - **Palette**: `#145A32` `#27AE60` `#A9DFBF`
-- **Motifs**: Mesh barriers, sandbags, civil defense symbols
-- **Materials**: Concrete, chain link, urban fortification
-- **Design Philosophy**: Community defense, makeshift protection
-- **Emblem Style**: Urban militia stencil
+- **Motifs**: Mesh barriers, sandbags, civil defense symbols, community protection markers
+- **Materials**: Recycled concrete, chain link, improvised urban fortification materials
+- **Design Philosophy**: Community defense, grassroots protection, civilian resilience
+- **Emblem Style**: Urban militia stencil with community-made aesthetics
+- **Signature Hook**: Equipment showing community craftsmanship and collective maintenance
+- **Environmental Mark**: Neighborhood fortifications with civilian warning systems
 
 ## Biome Aesthetics
 
@@ -126,21 +145,43 @@
 - **Concept Art**: 1280x720 minimum
 - **Material Tiles**: 2048x2048, seamless
 
-### Weathering Standards
+### Faction Visual Identity Standards
 
-- All assets show environmental wear
-- No pristine surfaces except Trivector Combine
-- Faction-appropriate damage patterns
-- Environmental storytelling through wear
+#### Weathering Hierarchy
+- **Corporate Hegemony**: Pristine surfaces with smart-cleaning tech
+- **Directorate**: Professional maintenance, institutional wear patterns
+- **Free77**: Commercial-grade wear, professional replacement schedules
+- **Archive Keepers**: Ancient preservation with selective restoration
+- **Iron Scavengers**: Heavy wear, improvised repairs, mixed components
+- **Nomad Clans**: Environmental adaptation, wind/sun weathering
+- **Civic Wardens**: Community maintenance, makeshift but cared-for
 
-## Asset Naming Convention
+#### Silhouette Recognition Requirements
+- Each faction must be instantly identifiable at 100+ meters
+- Character silhouettes prioritize faction-specific equipment arrangements
+- Vehicle profiles emphasize faction modification patterns
+- Weapon silhouettes maintain faction aesthetic consistency
+
+## Enhanced Asset Naming Convention
+*Updated for new faction identities*
 
 ```text
-[category]_[faction]_[type]_v[000]
-emblem_dir_chevron_v001.png
-poster_vlt_salvage_v002.png
-weapon_splice_rail_v001.png
+[FACTION]_[CATEGORY]_[TYPE]_[VARIANT]_[VERSION]
+DIR_EMBLEM_Chevron_Primary_v001.png
+ISC_POSTER_Salvage_Recruitment_v002.png
+CHG_WEAPON_Rail_Corporate_v001.png
+F77_VHCL_APC_Contract_v003.png
+ARC_EMBLEM_DataVault_Ancient_v001.png
 ```
+
+### Faction Code Reference
+- **DIR**: Directorate
+- **F77**: Free77 Contractors
+- **ISC**: Iron Scavengers *(was VLT/VulturesUnion)*
+- **CHG**: Corporate Hegemony *(was TVC/Trivector)*
+- **NOM**: Nomad Clans *(was RBC/Roadborn)*
+- **ARC**: Archive Keepers *(was OBA/Obsidian)*
+- **CWD**: Civic Wardens *(was TWD/Truce)*
 
 ## Prohibited Elements
 
@@ -160,5 +201,7 @@ weapon_splice_rail_v001.png
 
 ---
 
-*Last Updated: Implementation Phase 4*
-*Asset Pipeline: ComfyUI → UE5.6*
+*Last Updated: Chief Art Director Implementation Phase 1*
+*Asset Pipeline: ComfyUI FLUX1-dev-fp8 → UE5.6*
+*Visual Identity Framework: Quadruple-A Standards*
+*Faction Naming: Updated for consistency and generation compatibility*

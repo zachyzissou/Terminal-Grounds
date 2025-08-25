@@ -88,6 +88,7 @@ if (Test-Path $Baseline) {
         # Merge arrays from baseline into existing for reference, dedup by id
         $existing = [pscustomobject]@{
           styleCapsule = if ($existing.styleCapsule) { $existing.styleCapsule } else { $base.styleCapsule }
+          termAliases  = if ($existing.termAliases) { $existing.termAliases } else { $base.termAliases }
           regions      = Merge-ById -New $existing.regions -Existing $base.regions
           factions     = Merge-ById -New $existing.factions -Existing $base.factions
           pois         = Merge-ById -New $existing.pois -Existing $base.pois
@@ -107,7 +108,8 @@ foreach ($r in $sets.regions) {
     desc      = $r.desc
     motifs    = $r.motifs
     materials = $r.materials
-    atmo      = $r.atmo
+  atmo      = $r.atmo
+  aliases   = if ($existing -and $existing.regions) { ($existing.regions | Where-Object { $_.id -eq $r.id } | Select-Object -First 1).aliases } else { $null }
   }
 }
 if ($existing -and $existing.regions) { $regionsOut = Merge-ById -New $regionsOut -Existing $existing.regions }
@@ -127,6 +129,7 @@ foreach ($f in $sets.factions) {
     name      = $f.name
     signature = $sig
   slogan    = if ($f.slogan) { $f.slogan } else { ($existing.factions | Where-Object { $_.id -eq $f.id } | Select-Object -First 1).slogan }
+  aliases   = if ($existing -and $existing.factions) { ($existing.factions | Where-Object { $_.id -eq $f.id } | Select-Object -First 1).aliases } else { $null }
   }
 }
 if ($existing -and $existing.factions) { $factionsOut = Merge-ById -New $factionsOut -Existing $existing.factions }
@@ -136,7 +139,8 @@ foreach ($p in $sets.pois) {
   $poisOut += [pscustomobject]@{
     id   = $p.id
     name = $p.name
-    hook = $p.hook
+  hook = $p.hook
+  aliases = if ($existing -and $existing.pois) { ($existing.pois | Where-Object { $_.id -eq $p.id } | Select-Object -First 1).aliases } else { $null }
   }
 }
 if ($existing -and $existing.pois) { $poisOut = Merge-ById -New $poisOut -Existing $existing.pois }
@@ -168,13 +172,15 @@ foreach ($e in $sets.events) {
   $eventsOut += [pscustomobject]@{
     id   = $e.id
     name = $e.name
-    tags = $e.tags
+  tags = $e.tags
+  aliases = if ($existing -and $existing.events) { ($existing.events | Where-Object { $_.id -eq $e.id } | Select-Object -First 1).aliases } else { $null }
   }
 }
 if ($existing -and $existing.events) { $eventsOut = Merge-ById -New $eventsOut -Existing $existing.events }
 
 $out = [pscustomobject]@{
   styleCapsule = if ($existing -and $existing.styleCapsule) { $existing.styleCapsule } else { $styleDefault }
+  termAliases  = if ($existing -and $existing.termAliases) { $existing.termAliases } else { $null }
   regions      = @($regionsOut)
   factions     = @($factionsOut)
   pois         = @($poisOut)
