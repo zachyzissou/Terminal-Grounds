@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Database Setup Validation and Initial Data Population
 Week 1 Priority Task - CDO Implementation
@@ -6,7 +7,15 @@ Week 1 Priority Task - CDO Implementation
 
 import psycopg2
 import json
+import sys
+import os
 from datetime import datetime
+
+# Fix Windows console encoding for Unicode output
+if sys.platform.startswith('win'):
+    os.system('chcp 65001 > nul 2>&1')
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
 def validate_database_setup():
     """Validate database setup and create initial territorial hierarchy"""

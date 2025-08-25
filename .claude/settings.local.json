@@ -36,7 +36,8 @@
       "Bash(set PYTHONUTF8=1)",
       "Bash(grep:*)",
       "Bash(forfiles:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(where psql)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits",

@@ -89,9 +89,13 @@ if (Test-Path $Baseline) {
         $existing = [pscustomobject]@{
           styleCapsule = if ($existing.styleCapsule) { $existing.styleCapsule } else { $base.styleCapsule }
           termAliases  = if ($existing.termAliases) { $existing.termAliases } else { $base.termAliases }
+          world        = if ($existing.world) { $existing.world } else { $base.world }
           regions      = Merge-ById -New $existing.regions -Existing $base.regions
           factions     = Merge-ById -New $existing.factions -Existing $base.factions
           pois         = Merge-ById -New $existing.pois -Existing $base.pois
+          characters   = Merge-ById -New $existing.characters -Existing $base.characters
+          technology   = Merge-ById -New $existing.technology -Existing $base.technology
+          events       = Merge-ById -New $existing.events -Existing $base.events
         }
       }
     }
@@ -181,6 +185,7 @@ if ($existing -and $existing.events) { $eventsOut = Merge-ById -New $eventsOut -
 $out = [pscustomobject]@{
   styleCapsule = if ($existing -and $existing.styleCapsule) { $existing.styleCapsule } else { $styleDefault }
   termAliases  = if ($existing -and $existing.termAliases) { $existing.termAliases } else { $null }
+  world        = if ($existing -and $existing.world) { $existing.world } else { $null }
   regions      = @($regionsOut)
   factions     = @($factionsOut)
   pois         = @($poisOut)

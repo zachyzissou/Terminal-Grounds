@@ -1,4 +1,4 @@
-# Terminal Grounds Lore Bible (Canon)
+# Bloom Lore Bible (Canon)
 
 Version: 1.0.0
 
@@ -6,7 +6,7 @@ Owners: Narrative (Primary), Design, Art
 
 Last Updated: 2025-08-24
 
-Scope: Canonical worldbuilding for Terminal Grounds across all disciplines.
+Scope: Canonical worldbuilding for Bloom across all disciplines. Project codename: "Terminal Grounds" (internal tools and paths may still use TG names).
 
 Change Policy: Canon edits require “lore-change” PR label, narrative approval, and a changelog entry. Summaries must link here; duplication prohibited.
 
@@ -73,6 +73,9 @@ No-go list
 	- Psychotropic resonance: Long exposure correlates with derealization, intrusive patterning.
 
 ## World & Regions {#world}
+
+- World Name — Bloom
+	- The quarantined city‑zone reshaped by recurring Monolith phenomena called “blooms.” Factions extract tech, keep the truce, and try to breathe between surges. Use “Bloom” or “the Bloom” in prose; reserve “Monolith Bloom” for the specific harmonic event.
 
 - REG_IEZ — The Dead Sky (IEZ)
 	- The 200 km radius “dead-sky” where Monolith-caused cascade originated. Outer bands are salvageable; inner core remains jitter-locked. Terrain: tilted ferrocrete, melted rails, monolithic shadows.
@@ -270,6 +273,8 @@ Conflict Patterns
 - Interdiction Exclusion Zone (IEZ): Canon term. Not “Industrial Exclusion Zone.”
 - Hybrid: human frames + alien components; never “mutant tech.”
 - Harvester: automated alien system; never “visitors” or “angels.”
+- Bloom (World): The quarantined city‑zone setting (proper noun). Synonym: “the Bloom.”
+- Monolith Bloom (Event): The harmonic‑surge event that opens Phase Pockets; do not confuse with the world name.
 
 Style
 

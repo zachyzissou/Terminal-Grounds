@@ -1,6 +1,8 @@
-# Terminal Grounds
+# Bloom (codename: Terminal Grounds)
 
 A grounded, session-based salvage/extraction FPS built in Unreal Engine 5.6. Tight gunfeel, faction-driven conflict, and a salvage economy where Human → Hybrid → Alien tech escalates both power and risk.
+
+Branding: The game and world are titled “Bloom.” Internal tools, paths, and some scripts may still reference the codename “Terminal Grounds (TG)” until the full rollout is complete.
 
 “Logistics is drama. Alien tech is dangerous. Extract, or it never happened.”
 
@@ -9,6 +11,7 @@ A grounded, session-based salvage/extraction FPS built in Unreal Engine 5.6. Tig
 Active development on Windows. Self-hosting and packaging supported. See docs for canon and design.
 
 **Latest Updates (August 2025):**
+
 - ✅ AAA asset generation pipeline achieved 85%+ success rate
 - ✅ ComfyUI integration with FLUX1-dev-fp8 model
 - ✅ Production-ready workflows for 3 environment types
