@@ -1,0 +1,31 @@
+# Terminal Grounds - Web Asset Index
+
+**Generated**: August 26, 2025
+**Quality Standard**: AAA Production Ready
+**Total Assets**: 47
+
+## Faction Emblems
+- TG_Enhanced_Emblem_ArchiveKeepers_00001_.png
+- TG_Enhanced_Emblem_CivicWardens_00001_.png
+- TG_Enhanced_Emblem_CorporateHegemony_00001_.png
+- TG_Enhanced_Emblem_Directorate_00001_.png
+- TG_Enhanced_Emblem_Directorate_00002_.png
+- TG_Enhanced_Emblem_Free77_00001_.png
+- TG_Enhanced_Emblem_IronScavengers_00001_.png
+- TG_Enhanced_Emblem_IronScavengers_00002_.png
+- TG_Enhanced_Emblem_NomadClans_00001_.png
+
+## Hero Environmental Assets
+- TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00004_.png
+- TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00003_.png
+- TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00003_.png
+- TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png
+- TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00004_.png
+- TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00003_.png
+- TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00004_.png
+- TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00003_.png
+- TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00004_.png
+- TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00003_.png
+
+## Environmental Showcases
+- 28 environmental variants in /environments/

@@ -97,3 +97,13 @@ Tracking shipped work and stubs for the vertical slice.
 - [x] Validate vehicle systems and event chains with torture testing
 - [x] Establish performance targets (90/120 FPS) with automated validation
 - [x] Complete accessibility testing framework and compliance structure
+
+## Phase 4 - Systems Bold (In Progress)
+
+- [x] Splice Events subsystem scaffolding (deck, triggers, outcomes)
+- [x] Trust subsystem scaffolding (Pledge/Parley/Breach, events)
+- [x] Convoy Economy subsystem scaffolding (Integrity Index, decay, events)
+- [x] Codex subsystem scaffolding (categories, unlocks, events)
+- [x] Cross-system wiring: Splice outcomes apply Convoy integrity shifts, Trust deltas, Codex unlocks
+- [ ] TGUI widgets: Convoy ticker, Trust meter, Codex panel
+- [ ] Persistence: save/load Convoy index, Trust records, Codex unlocks

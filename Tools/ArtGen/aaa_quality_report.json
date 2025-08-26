@@ -2,7 +2,7 @@
   "terminal_grounds_aaa_quality_report": {
     "framework_version": "1.0",
     "analysis": {
-      "analysis_timestamp": "2025-08-24T19:38:18.223401",
+      "analysis_timestamp": "2025-08-25T22:06:26.272809",
       "total_files": 40,
       "quality_distribution": {
         "aaa_ready": 19,
@@ -233,7 +233,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.273815"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
@@ -250,7 +250,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.273815"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_IEZ_Facility_Interior_Clean_SciFi_Perfect_00001_.png",
@@ -267,7 +267,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.273815"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_IEZ_Facility_Interior_Gritty_Realism_Perfect_00001_.png",
@@ -284,7 +284,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.273815"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Industrial_Platform_Clean_SciFi_Perfect_00001_.png",
@@ -301,7 +301,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.273815"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Industrial_Platform_Gritty_Realism_Perfect_00001_.png",
@@ -318,7 +318,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.273815"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Metro_Maintenance_Corridor_Clean_SciFi_Perfect_00001_.png",
@@ -335,7 +335,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Metro_Maintenance_Corridor_Gritty_Realism_Perfect_00001_.png",
@@ -352,7 +352,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Research_Laboratory_Clean_SciFi_Perfect_00001_.png",
@@ -369,7 +369,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.223901"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Research_Laboratory_Gritty_Realism_Perfect_00001_.png",
@@ -386,7 +386,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Security_Checkpoint_Clean_SciFi_Perfect_00001_.png",
@@ -403,7 +403,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Security_Checkpoint_Gritty_Realism_Perfect_00001_.png",
@@ -420,7 +420,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Tech_Wastes_Exterior_Clean_SciFi_Perfect_00001_.png",
@@ -437,7 +437,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Tech_Wastes_Exterior_Gritty_Realism_Perfect_00001_.png",
@@ -454,7 +454,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Underground_Bunker_Clean_SciFi_Perfect_00001_.png",
@@ -471,7 +471,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_LORE_Underground_Bunker_Gritty_Realism_Perfect_00001_.png",
@@ -488,7 +488,7 @@
             "style": null,
             "variation": null
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
@@ -505,7 +505,7 @@
             "style": "Lobby",
             "variation": "Interior_Clean_SciFi_Wide_Ambient_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
@@ -522,7 +522,7 @@
             "style": "Lobby",
             "variation": "Interior_Gritty_Realism_Wide_Ambient_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Plaza_Clean_SciFi_00001_.png",
@@ -539,7 +539,7 @@
             "style": "Plaza",
             "variation": "Clean_SciFi_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.274323"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Corporate_Plaza_Gritty_Realism_00001_.png",
@@ -556,7 +556,7 @@
             "style": "Plaza",
             "variation": "Gritty_Realism_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00001_.png",
@@ -573,7 +573,7 @@
             "style": "Facility",
             "variation": "Interior_Clean_SciFi_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
@@ -590,7 +590,7 @@
             "style": "Facility",
             "variation": "Interior_Clean_SciFi_Detail_Dramatic_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00001_.png",
@@ -607,7 +607,7 @@
             "style": "Facility",
             "variation": "Interior_Gritty_Realism_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224400"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
@@ -624,7 +624,7 @@
             "style": "Facility",
             "variation": "Interior_Gritty_Realism_Detail_Dramatic_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
@@ -641,7 +641,7 @@
             "style": "Maintenance",
             "variation": "Corridor_Clean_SciFi_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
@@ -658,7 +658,7 @@
             "style": "Maintenance",
             "variation": "Corridor_Clean_SciFi_Wide_Ambient_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275328"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00001_.png",
@@ -675,7 +675,7 @@
             "style": "Maintenance",
             "variation": "Corridor_Gritty_Realism_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
@@ -692,7 +692,7 @@
             "style": "Maintenance",
             "variation": "Corridor_Gritty_Realism_Wide_Ambient_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Clean_SciFi_00001_.png",
@@ -709,7 +709,7 @@
             "style": "Checkpoint",
             "variation": "Clean_SciFi_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
@@ -726,7 +726,7 @@
             "style": "Checkpoint",
             "variation": "Clean_SciFi_Perspective_Atmospheric_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Gritty_Realism_00001_.png",
@@ -743,7 +743,7 @@
             "style": "Checkpoint",
             "variation": "Gritty_Realism_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
@@ -760,7 +760,7 @@
             "style": "Checkpoint",
             "variation": "Gritty_Realism_Perspective_Atmospheric_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00001_.png",
@@ -777,7 +777,7 @@
             "style": "Wastes",
             "variation": "Exterior_Clean_SciFi_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
@@ -794,7 +794,7 @@
             "style": "Wastes",
             "variation": "Exterior_Clean_SciFi_Perspective_Atmospheric_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_00001_.png",
@@ -811,7 +811,7 @@
             "style": "Wastes",
             "variation": "Exterior_Gritty_Realism_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
@@ -828,7 +828,7 @@
             "style": "Wastes",
             "variation": "Exterior_Gritty_Realism_Perspective_Atmospheric_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Clean_SciFi_00001_.png",
@@ -845,7 +845,7 @@
             "style": "Bunker",
             "variation": "Clean_SciFi_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
@@ -862,7 +862,7 @@
             "style": "Bunker",
             "variation": "Clean_SciFi_Detail_Dramatic_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.275834"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
@@ -879,7 +879,7 @@
             "style": "Bunker",
             "variation": "Gritty_Realism_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.276842"
         },
         {
           "file_path": "C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\environments\\TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
@@ -896,7 +896,7 @@
             "style": "Bunker",
             "variation": "Gritty_Realism_Detail_Dramatic_00001"
           },
-          "timestamp": "2025-08-24T19:38:18.224900"
+          "timestamp": "2025-08-25T22:06:26.276842"
         }
       ]
     },

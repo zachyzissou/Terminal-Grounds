@@ -20,7 +20,7 @@ from pathlib import Path
 
 # Add the parent directory to the path to import existing modules
 sys.path.append(str(Path(__file__).parent))
-from terminal_grounds_generator import PERFECT_PARAMS, submit_workflow
+from terminal_grounds_generator import PERFECTION_PARAMS, submit_workflow
 
 # TERRITORIAL ASSET SPECIFICATIONS
 
@@ -121,18 +121,27 @@ class TerritorialAssetGenerator:
             pairs = bias_str.split(';')
             for pair in pairs:
                 if ':' in pair:
-                    key, value = pair.split(':')
+                    key, value = pair.split(':', 1)  # Split only on first colon
                     bias_dict[key.strip()] = float(value.strip())
         return bias_dict
 
     def parse_preference_field(self, pref_str: str) -> Dict[str, str]:
-        """Parse preference field like 'ConvoyWar:0.7'"""
+        """Parse preference field like 'ConvoyWar:0.7' or 'Ground:0.6|Air:0.2|Drone:0.2'"""
         pref_dict = {}
         if pref_str:
-            pairs = pref_str.split(';')
-            for pair in pairs:
+            # Handle both | and ; separators  
+            separators = [';', '|']
+            items = [pref_str]
+            
+            for sep in separators:
+                new_items = []
+                for item in items:
+                    new_items.extend(item.split(sep))
+                items = new_items
+            
+            for pair in items:
                 if ':' in pair:
-                    key, value = pair.split(':')
+                    key, value = pair.split(':', 1)  # Split only on first colon
                     pref_dict[key.strip()] = value.strip()
         return pref_dict
 
@@ -200,10 +209,10 @@ class TerritorialAssetGenerator:
             "3": {
                 "inputs": {
                     "seed": spec.strategic_value * 1000,  # Deterministic seed based on strategic value
-                    "steps": PERFECT_PARAMS["steps"],
-                    "cfg": PERFECT_PARAMS["cfg"],
-                    "sampler_name": PERFECT_PARAMS["sampler"],
-                    "scheduler": PERFECT_PARAMS["scheduler"],
+                    "steps": PERFECTION_PARAMS["steps"],
+                    "cfg": PERFECTION_PARAMS["cfg"],
+                    "sampler_name": PERFECTION_PARAMS["sampler"],
+                    "scheduler": PERFECTION_PARAMS["scheduler"],
                     "denoise": 1.0,
                     "model": ["11", 0],
                     "positive": ["1", 0],
@@ -338,10 +347,10 @@ class TerritorialAssetGenerator:
             "3": {
                 "inputs": {
                     "seed": hash(f"{spec.territory_name}_{spec.controlling_faction}_{spec.asset_type}") % 2147483647,
-                    "steps": PERFECT_PARAMS["steps"],
-                    "cfg": PERFECT_PARAMS["cfg"],
-                    "sampler_name": PERFECT_PARAMS["sampler"],
-                    "scheduler": PERFECT_PARAMS["scheduler"],
+                    "steps": PERFECTION_PARAMS["steps"],
+                    "cfg": PERFECTION_PARAMS["cfg"],
+                    "sampler_name": PERFECTION_PARAMS["sampler"],
+                    "scheduler": PERFECTION_PARAMS["scheduler"],
                     "denoise": 1.0,
                     "model": ["11", 0],
                     "positive": ["1", 0],

@@ -12,6 +12,11 @@ Start here for canon, design, art guides, and tooling.
 
 - World Scale & Expansion: ./Design/World_Scale_And_Expansion.md
 - Concepts and POIs: ./Concepts/
+- Bold Systems:
+	- Season 1 Arc: ./Design/Season1_Arc.md
+	- Splice Events: ./Design/Splice_Events.md
+	- Convoy Economy: ./Design/Convoy_Economy.md
+	- Trust System: ./Design/Trust_System.md
 
 ## Art
 

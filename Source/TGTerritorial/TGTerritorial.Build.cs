@@ -25,7 +25,7 @@ public class TGTerritorial : ModuleRules
                 "Engine",
                 "UnrealEd",
                 "Json",
-                "JsonObjectConverter",
+                "JsonUtilities",
                 "HTTP",
                 "WebSockets",
                 "TGWorld",

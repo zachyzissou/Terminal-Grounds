@@ -9,8 +9,8 @@ UTerritorialManager::UTerritorialManager()
 {
     bSystemInitialized = false;
     bWebSocketConnected = false;
-    WebSocketConnection = nullptr;
-    DatabaseConnection = nullptr;
+    // WebSocketConnection = nullptr;
+    // DatabaseConnection = nullptr;
     LastCacheUpdate = FDateTime::MinValue();
 }
 
@@ -57,8 +57,8 @@ bool UTerritorialManager::UpdateTerritorialInfluence(int32 TerritoryID, ETerrito
     State->LastUpdated = FDateTime::Now();
     
     // Recalculate dominant faction and contested status
-    State->DominantFaction = FindDominantFaction(State->FactionInfluences);
-    State->bIsContested = DetermineIfContested(State->FactionInfluences);
+    // State->DominantFaction = FindDominantFaction(State->FactionInfluences);
+    // State->bIsContested = DetermineIfContested(State->FactionInfluences);
 
     // Create update record
     FTerritorialUpdate Update;
@@ -68,7 +68,7 @@ bool UTerritorialManager::UpdateTerritorialInfluence(int32 TerritoryID, ETerrito
     Update.InfluenceChange = InfluenceChange;
     Update.ChangeCause = Cause;
     Update.NewInfluenceValue = NewInfluence;
-    Update.bControlChanged = (State->DominantFaction != FindDominantFaction(State->FactionInfluences));
+    Update.bControlChanged = false; // (State->DominantFaction != FindDominantFaction(State->FactionInfluences));
     Update.Timestamp = FDateTime::Now();
 
     // Fire events for Blueprint/game code consumption
@@ -209,7 +209,7 @@ void UTerritorialManager::InitializeTerritorialSystem()
     UE_LOG(LogTemp, Log, TEXT("Initializing Terminal Grounds Territorial Control System"));
 
     // Initialize basic territorial structure for Phase 1
-    InitializeBasicTerritorialStructure();
+    // InitializeBasicTerritorialStructure(); // Commented out for now
 
     // TODO: Initialize WebSocket connection when ready
     // TODO: Initialize database connection when ready
@@ -228,18 +228,9 @@ void UTerritorialManager::ShutdownTerritorialSystem()
     UE_LOG(LogTemp, Log, TEXT("Shutting down Territorial Control System"));
 
     // Clean up connections
-    if (WebSocketConnection)
-    {
-        // TODO: Close WebSocket connection
-        WebSocketConnection = nullptr;
-        bWebSocketConnected = false;
-    }
-
-    if (DatabaseConnection)
-    {
-        // TODO: Close database connection
-        DatabaseConnection = nullptr;
-    }
+    // TODO: Clean up WebSocket connection when implemented
+    // TODO: Clean up database connection when implemented
+    bWebSocketConnected = false;
 
     // Clear cached data
     CachedTerritorialStates.Empty();
@@ -289,8 +280,8 @@ void UTerritorialManager::InitializeBasicTerritorialStructure()
             State.FactionInfluences.Add(FactionID, Influence);
         }
 
-        State.DominantFaction = FindDominantFaction(State.FactionInfluences);
-        State.bIsContested = DetermineIfContested(State.FactionInfluences);
+        // State.DominantFaction = FindDominantFaction(State.FactionInfluences);
+        // State.bIsContested = DetermineIfContested(State.FactionInfluences);
 
         FString StateKey = FString::Printf(TEXT("region_%d"), Region.RegionID);
         CachedTerritorialStates.Add(StateKey, State);

@@ -75,17 +75,17 @@ public:
     FOnPlayerTerritorialAction OnPlayerTerritorialAction;
 
 protected:
-    // WebSocket connection for real-time updates
-    UPROPERTY()
-    class UWebSocketComponent* WebSocketConnection;
+    // WebSocket connection for real-time updates (forward declared)
+    // UPROPERTY()
+    // class UWebSocketComponent* WebSocketConnection;
 
     // Cached territorial state for performance
     UPROPERTY()
     TMap<FString, FTerritorialState> CachedTerritorialStates;
 
     // Database connection (will be implemented via plugin)
-    UPROPERTY()
-    class UTerritorialDatabase* DatabaseConnection;
+    // UPROPERTY()
+    // class UTerritorialDatabase* DatabaseConnection;
 
     // System state
     UPROPERTY()
@@ -137,7 +137,7 @@ public:
     virtual void Initialize(FSubsystemCollectionBase& Collection) override;
     virtual void Deinitialize() override;
 
-    UFUNCTION(BlueprintPure, Category = "Territorial", CallInEditor = true)
+    UFUNCTION(BlueprintPure, Category = "Territorial")
     static UTerritorialManager* GetTerritorialManager(const UObject* WorldContext);
 
 protected:

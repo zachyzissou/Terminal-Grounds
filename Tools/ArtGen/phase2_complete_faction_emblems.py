@@ -23,11 +23,11 @@ PROVEN_PARAMS = {
 def create_enhanced_emblem_workflow(faction_name, description, seed_offset):
     """Create emblem workflow using Chief Art Director enhanced descriptions"""
     
-    # Enhanced prompts using Chief Art Director framework with proven quality modifiers
-    positive_prompt = f"masterpiece quality {description}, Terminal Grounds faction emblem, military insignia, professional game asset, iconic symbol design, institutional graphic design, centered composition, clean background, high contrast detail, sharp crisp edges, balanced composition, official faction military identity, corporate quality standards, recognizable silhouette, faction authority symbol"
+    # Enhanced prompts using Chief Art Director framework with improved text quality
+    positive_prompt = f"masterpiece quality {description}, Terminal Grounds faction emblem, military insignia, professional game asset, iconic symbol design, institutional graphic design, centered composition, clean background, high contrast detail, sharp crisp edges, balanced composition, official faction military identity, corporate quality standards, recognizable silhouette, faction authority symbol, clean typography if text present, readable lettering, military stencil precision"
     
-    # Proven negative prompt from terminal_grounds_generator.py with emblem-specific additions
-    negative_prompt = "blurry, low quality, pixelated, distorted, bad anatomy, bad lighting, oversaturated, undersaturated, generic, sterile, empty, lifeless, bland, boring, repetitive, copy-paste, artificial, fake, plastic, text, watermark, signature, modern cars, contemporary clothing, smartphones, modern technology, fantasy elements, magic, supernatural, cartoon, anime, illustration, abstract, gradient, overexposed, blown highlights, soft edges, unclear details, amateur design, low resolution"
+    # ENHANCED negative prompt with stronger text quality controls for clean emblems
+    negative_prompt = "blurry, low quality, pixelated, distorted, bad anatomy, bad lighting, oversaturated, undersaturated, generic, sterile, empty, lifeless, bland, boring, repetitive, copy-paste, artificial, fake, plastic, watermark, signature, modern cars, contemporary clothing, smartphones, modern technology, fantasy elements, magic, supernatural, cartoon, anime, illustration, abstract, gradient, overexposed, blown highlights, soft edges, unclear details, amateur design, low resolution, gibberish text, scrambled letters, unreadable text, corrupted characters, malformed letters, text artifacts, nonsense writing, random symbols, broken fonts, distorted typography, scattered text, peripheral text, text around edges, foreign characters, meaningless words"
     
     workflow = {
         "1": {
@@ -135,9 +135,11 @@ def main():
         
         ("NomadClans", "hand-painted convoy culture wheel with adaptive camouflage elements, sun-bleached orange and weathered leather brown, mobile survival aesthetic, environmental adaptation symbols, tribal road warrior elements"),
         
-        ("ArchiveKeepers", "geometric data preservation patterns with glowing text elements from dead languages, ancient purple and data gold with crystalline tech patterns, information archaeology aesthetic, technological archaeology symbols"),
+        ("ArchiveKeepers", "geometric data preservation patterns, NO TEXT ELEMENTS, ancient purple and data gold with crystalline tech patterns, information archaeology aesthetic, clean technological symbols"),
         
-        ("CivicWardens", "community-made urban militia stencil with mesh barrier elements, safety green and warden teal with community protection markers, grassroots protection aesthetic, improvised urban fortification symbols")
+        ("CivicWardens", "community-made urban militia stencil with mesh barrier elements, safety green and warden teal with community protection markers, grassroots protection aesthetic, improvised urban fortification symbols"),
+        
+        ("IronScavengers_Alt", "black raven bird silhouette with industrial gear talons, weathered metal texture, scavenger aesthetic, predatory bird design, NO TEXT")
     ]
     
     print(f"Generating {len(enhanced_factions)} enhanced faction emblems...")

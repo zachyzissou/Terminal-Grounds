@@ -11,6 +11,28 @@ if (-not (Get-Module -ListAvailable powershell-yaml)) {
 }
 Import-Module powershell-yaml -ErrorAction SilentlyContinue | Out-Null
 
+function Ensure-Array {
+  param($Value)
+  if ($null -eq $Value) { return $null }
+  if ($Value -is [string]) { return ,$Value }
+  if ($Value -is [System.Collections.IEnumerable]) { return @($Value) }
+  return ,$Value
+}
+
+function Normalize-TierToken {
+  param([string]$Tier)
+  if (-not $Tier) { return $null }
+  switch ($Tier.ToLowerInvariant()) {
+    'alien'     { return 'alien' }
+    'human'     { return 'human' }
+    'hybrid'    { return 'hybrid' }
+    'monolith'  { return 'alien' }
+    'field'     { return 'human' }
+    'splice'    { return 'hybrid' }
+    default     { return $Tier }
+  }
+}
+
 function Merge-ById {
   param(
     [Parameter(Mandatory=$true)]$New,
@@ -106,14 +128,23 @@ $styleDefault = "in-engine render, Unreal Engine 5.6, Lumen GI, Nanite geometry,
 
 $regionsOut = @()
 foreach ($r in $sets.regions) {
+  $existingAliases = $null
+  if ($existing -and $existing.regions) { $existingAliases = ($existing.regions | Where-Object { $_.id -eq $r.id } | Select-Object -First 1).aliases }
+  $aliasesArr = Ensure-Array $existingAliases
+  # Remove duplicates and primary name if present
+  if ($aliasesArr) {
+    $aliasesArr = @([System.Linq.Enumerable]::Distinct([string[]]$aliasesArr))
+    if ($r.name) { $aliasesArr = @($aliasesArr | Where-Object { $_ -and $_ -ne $r.name }) }
+    if ($aliasesArr.Count -eq 0) { $aliasesArr = $null }
+  }
   $regionsOut += [pscustomobject]@{
     id        = $r.id
     name      = $r.name
     desc      = $r.desc
     motifs    = $r.motifs
     materials = $r.materials
-  atmo      = $r.atmo
-  aliases   = if ($existing -and $existing.regions) { ($existing.regions | Where-Object { $_.id -eq $r.id } | Select-Object -First 1).aliases } else { $null }
+    atmo      = $r.atmo
+    aliases   = $aliasesArr
   }
 }
 if ($existing -and $existing.regions) { $regionsOut = Merge-ById -New $regionsOut -Existing $existing.regions }
@@ -128,23 +159,39 @@ foreach ($f in $sets.factions) {
     if ($f.signatures.narrative) { $vis += $f.signatures.narrative }
     if ($vis) { $sig = ($vis | Select-Object -First 6) -join ', ' }
   }
+  $existingAliases = $null
+  if ($existing -and $existing.factions) { $existingAliases = ($existing.factions | Where-Object { $_.id -eq $f.id } | Select-Object -First 1).aliases }
+  $aliasesArr = Ensure-Array $existingAliases
+  if ($aliasesArr) {
+    $aliasesArr = @([System.Linq.Enumerable]::Distinct([string[]]$aliasesArr))
+    if ($f.name) { $aliasesArr = @($aliasesArr | Where-Object { $_ -and $_ -ne $f.name }) }
+    if ($aliasesArr.Count -eq 0) { $aliasesArr = $null }
+  }
   $factionsOut += [pscustomobject]@{
     id        = $f.id
     name      = $f.name
     signature = $sig
-  slogan    = if ($f.slogan) { $f.slogan } else { ($existing.factions | Where-Object { $_.id -eq $f.id } | Select-Object -First 1).slogan }
-  aliases   = if ($existing -and $existing.factions) { ($existing.factions | Where-Object { $_.id -eq $f.id } | Select-Object -First 1).aliases } else { $null }
+    slogan    = if ($f.slogan) { $f.slogan } else { ($existing.factions | Where-Object { $_.id -eq $f.id } | Select-Object -First 1).slogan }
+    aliases   = $aliasesArr
   }
 }
 if ($existing -and $existing.factions) { $factionsOut = Merge-ById -New $factionsOut -Existing $existing.factions }
 
 $poisOut = @()
 foreach ($p in $sets.pois) {
+  $existingAliases = $null
+  if ($existing -and $existing.pois) { $existingAliases = ($existing.pois | Where-Object { $_.id -eq $p.id } | Select-Object -First 1).aliases }
+  $aliasesArr = Ensure-Array $existingAliases
+  if ($aliasesArr) {
+    $aliasesArr = @([System.Linq.Enumerable]::Distinct([string[]]$aliasesArr))
+    if ($p.name) { $aliasesArr = @($aliasesArr | Where-Object { $_ -and $_ -ne $p.name }) }
+    if ($aliasesArr.Count -eq 0) { $aliasesArr = $null }
+  }
   $poisOut += [pscustomobject]@{
     id   = $p.id
     name = $p.name
-  hook = $p.hook
-  aliases = if ($existing -and $existing.pois) { ($existing.pois | Where-Object { $_.id -eq $p.id } | Select-Object -First 1).aliases } else { $null }
+    hook = $p.hook
+    aliases = $aliasesArr
   }
 }
 if ($existing -and $existing.pois) { $poisOut = Merge-ById -New $poisOut -Existing $existing.pois }
@@ -165,7 +212,7 @@ foreach ($t in $sets.technology) {
   $techOut += [pscustomobject]@{
     id     = $t.id
     name   = $t.name
-    tier   = $t.tier
+  tier   = (Normalize-TierToken $t.tier)
     tags   = $t.tags
   }
 }
@@ -173,11 +220,19 @@ if ($existing -and $existing.technology) { $techOut = Merge-ById -New $techOut -
 
 $eventsOut = @()
 foreach ($e in $sets.events) {
+  $existingAliases = $null
+  if ($existing -and $existing.events) { $existingAliases = ($existing.events | Where-Object { $_.id -eq $e.id } | Select-Object -First 1).aliases }
+  $aliasesArr = Ensure-Array $existingAliases
+  if ($aliasesArr) {
+    $aliasesArr = @([System.Linq.Enumerable]::Distinct([string[]]$aliasesArr))
+    if ($e.name) { $aliasesArr = @($aliasesArr | Where-Object { $_ -and $_ -ne $e.name }) }
+    if ($aliasesArr.Count -eq 0) { $aliasesArr = $null }
+  }
   $eventsOut += [pscustomobject]@{
     id   = $e.id
     name = $e.name
-  tags = $e.tags
-  aliases = if ($existing -and $existing.events) { ($existing.events | Where-Object { $_.id -eq $e.id } | Select-Object -First 1).aliases } else { $null }
+    tags = $e.tags
+    aliases = $aliasesArr
   }
 }
 if ($existing -and $existing.events) { $eventsOut = Merge-ById -New $eventsOut -Existing $existing.events }
