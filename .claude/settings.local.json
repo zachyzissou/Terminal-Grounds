@@ -61,7 +61,12 @@
       "Bash(docker compose:*)",
       "WebFetch(domain:bloom.slurpgg.net)",
       "WebFetch(domain:robertsspaceindustries.com)",
-      "Bash(move:*)"
+      "Bash(move:*)",
+      "Read(C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64/**)",
+      "Bash(start \"\" \"C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:\\Users\\Zachg\\Terminal-Grounds\\TerminalGrounds.uproject\")",
+      "Bash(del \"C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\TG_UI_CivicWardens_HUD_00001_.png\")",
+      "Bash(\"C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:\\Users\\Zachg\\Terminal-Grounds\\TerminalGrounds.uproject\" -run=ResavePackages -buildlighting -allowcommandletrendering)",
+      "Read(C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\DotNET\\UnrealBuildTool/**)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits",

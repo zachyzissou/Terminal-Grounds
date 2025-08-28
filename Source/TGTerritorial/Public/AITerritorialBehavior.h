@@ -126,6 +126,8 @@ UCLASS(Abstract, Blueprintable)
 class TGTERRITORIAL_API UAITerritorialBehavior : public UObject
 {
     GENERATED_BODY()
+    
+    friend class UAITerritorialManager;
 
 public:
     UAITerritorialBehavior();
@@ -139,6 +141,16 @@ public:
 
     UFUNCTION(BlueprintImplementableEvent, Category = "AI Territorial")
     TArray<FTerritorialAction> PlanTacticalOperations(int32 TerritoryID, ETerritoryType TerritoryType);
+
+    // Core AI functions
+    UFUNCTION(BlueprintCallable, Category = "AI Territorial")
+    void UpdateTerritorialAI(const FTerritorialWorldState& WorldState);
+
+    UFUNCTION(BlueprintCallable, Category = "AI Territorial")
+    TArray<FTerritorialThreat> AnalyzeThreats(const FTerritorialWorldState& WorldState);
+
+    UFUNCTION(BlueprintCallable, Category = "AI Territorial")
+    FTerritorialDecision MakeStrategicDecisionWithThreats(const FTerritorialWorldState& WorldState, const TArray<FTerritorialThreat>& Threats);
 
     // Utility functions for AI decision-making
     UFUNCTION(BlueprintCallable, Category = "AI Territorial")
@@ -190,8 +202,11 @@ protected:
     UPROPERTY(BlueprintReadOnly, Category = "AI State")
     FDateTime LastDecisionTime;
 
+public:
     UPROPERTY(BlueprintReadOnly, Category = "AI State")
     TArray<FTerritorialDecision> PendingDecisions;
+
+protected:
 
     UPROPERTY(BlueprintReadOnly, Category = "AI State")
     TMap<int32, float> TerritoryPriorities; // Territory ID -> Priority score
@@ -332,7 +347,10 @@ protected:
     UPROPERTY(BlueprintReadOnly, Category = "AI State")
     FDateTime LastTacticalUpdate;
 
-    UPROPERTY(BlueprintReadOnly, Category = "AI State")
+private:
+    // Internal AI decision execution
+    void ExecuteAIDecision(const FTerritorialDecision& Decision);
+
     TArray<FTerritorialAction> QueuedActions;
 
 private:

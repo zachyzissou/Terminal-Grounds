@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TG Manual Asset Review</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Arial,sans-serif;margin:0;background:#0b0e12;color:#e6e6e6}
+    header{position:sticky;top:0;background:#11161d;border-bottom:1px solid #232a33;padding:8px 12px;display:flex;gap:8px;align-items:center;z-index:2}
+    input,select,button{background:#151b23;color:#e6e6e6;border:1px solid #2b3441;border-radius:6px;padding:6px 10px}
+    button{cursor:pointer}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px;padding:10px}
+    .card{background:#0f141a;border:1px solid #1f2731;border-radius:10px;overflow:hidden}
+    .card header{position:relative;display:flex;justify-content:space-between;align-items:center;background:#0f141a;border-bottom:1px solid #1f2731}
+    .meta{font-size:12px;opacity:.8}
+    img{display:block;width:100%;height:auto}
+    .actions{display:flex;gap:6px;padding:8px;border-top:1px solid #1f2731}
+    .pill{display:inline-block;border-radius:999px;padding:2px 8px;border:1px solid #2b3441;font-size:12px}
+    .keep{background:#0e2a14;border-color:#1d7a37}
+    .reject{background:#2a0e0e;border-color:#7a1d1d}
+    .review{background:#2a240e;border-color:#7a611d}
+    .hidden{display:none}
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Terminal Grounds — Manual Asset Review</strong>
+    <input id="q" placeholder="Search (name, category)" />
+  <select id="filter" aria-label="Filter category">
+      <option value="all">All</option>
+      <option value="logo">Logos</option>
+      <option value="environment">Environments</option>
+    </select>
+    <button id="export">Export Decisions</button>
+    <span class="meta" id="counts"></span>
+  </header>
+  <div class="grid" id="grid"></div>
+  <script>
+  const images = [];
+  fetch('review_index.json').then(r=>r.json()).then(list=>{
+    images.push(...list);
+    render();
+  });
+  const grid = document.getElementById('grid');
+  const counts = document.getElementById('counts');
+  const q = document.getElementById('q');
+  const filter = document.getElementById('filter');
+  q.addEventListener('input', render);
+  filter.addEventListener('change', render);
+
+  const decisions = new Map();
+  function setDecision(id, decision){ decisions.set(id, { decision, notes: '' }); renderCounts(); }
+  function setNotes(id, notes){ const e = decisions.get(id)||{decision:'Review',notes:''}; e.notes = notes; decisions.set(id,e); }
+  function renderCounts(){
+    const keep = [...decisions.values()].filter(x=>x.decision==='Keep').length;
+    const review = [...decisions.values()].filter(x=>x.decision==='Review').length;
+    const reject = [...decisions.values()].filter(x=>x.decision==='Reject').length;
+    counts.textContent = `Decisions — Keep ${keep} • Review ${review} • Reject ${reject}`;
+  }
+  function matches(it){
+    const term = q.value.toLowerCase();
+    if(term && !(it.name.toLowerCase().includes(term)||it.category.toLowerCase().includes(term))) return false;
+    if(filter.value!=='all' && it.category!==filter.value) return false;
+    return true;
+  }
+  function render(){
+    grid.textContent = '';
+    images.filter(matches).forEach((it)=>{
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <header>
+          <div>
+            <div>${it.name}</div>
+            <div class="meta">${it.width}x${it.height} • ${it.category}</div>
+          </div>
+          <div>
+            <span class="pill">Sharp ${it.sharpness?.toFixed?.(0) ?? '-'} | Edge ${(it.edge_density*100).toFixed(1)}%</span>
+          </div>
+        </header>
+        <img loading="lazy" src="${it.rel}" alt="${it.name}"/>
+        <div class="actions">
+          <button onclick="setDecision('${it.id}','Keep')" class="keep">Keep</button>
+          <button onclick="setDecision('${it.id}','Review')" class="review">Review</button>
+          <button onclick="setDecision('${it.id}','Reject')" class="reject">Reject</button>
+          <input placeholder="Notes" style="flex:1" oninput="setNotes('${it.id}', this.value)" />
+        </div>
+      `;
+      grid.appendChild(card);
+    });
+    renderCounts();
+  }
+  document.getElementById('export').addEventListener('click', ()=>{
+    const blob = new Blob([JSON.stringify(Object.fromEntries(decisions), null, 2)], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'manual_review_decisions.json';
+    a.click();
+  });
+  </script>
+</body>
+</html>

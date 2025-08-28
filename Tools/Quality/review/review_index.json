@@ -1,0 +1,3162 @@
+[
+  {
+    "id": ".aiia_cache/thumbnails/PA_Concept_001_00001_.jpg",
+    "name": "PA_Concept_001_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/PA_Concept_001_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/PA_Concept_002_00001_.jpg",
+    "name": "PA_Concept_002_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/PA_Concept_002_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/PA_Scenery_009_00001_.jpg",
+    "name": "PA_Scenery_009_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/PA_Scenery_009_00001_.jpg",
+    "width": 256,
+    "height": 143,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/PA_Scenery_102_00001_.jpg",
+    "name": "PA_Scenery_102_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/PA_Scenery_102_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/PA_Scenery_103_00001_.jpg",
+    "name": "PA_Scenery_103_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/PA_Scenery_103_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_4K_Test_00001_.jpg",
+    "name": "TG_4K_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_4K_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_AAA_Multistage_Base_00001_.jpg",
+    "name": "TG_AAA_Multistage_Base_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_AAA_Multistage_Base_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_AAA_Production_Test_00001_.jpg",
+    "name": "TG_AAA_Production_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_AAA_Production_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_API_Fixed_Communication_00001_.jpg",
+    "name": "TG_API_Fixed_Communication_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_API_Fixed_Communication_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_API_SmokeTest_00001_.jpg",
+    "name": "TG_API_SmokeTest_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_API_SmokeTest_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_API_Test_00001_.jpg",
+    "name": "TG_API_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_API_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Clean_NoText_00001_.jpg",
+    "name": "TG_Clean_NoText_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Clean_NoText_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Debug_Bicubic_Latent_00001_.jpg",
+    "name": "TG_Debug_Bicubic_Latent_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Debug_Bicubic_Latent_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Debug_Current_Problematic_00001_.jpg",
+    "name": "TG_Debug_Current_Problematic_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Debug_Current_Problematic_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Debug_Gentle_Pipeline_00001_.jpg",
+    "name": "TG_Debug_Gentle_Pipeline_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Debug_Gentle_Pipeline_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Debug_No_Sharpen_00001_.jpg",
+    "name": "TG_Debug_No_Sharpen_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Debug_No_Sharpen_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Debug_RealESRGAN_Model_00001_.jpg",
+    "name": "TG_Debug_RealESRGAN_Model_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Debug_RealESRGAN_Model_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Debug_Subtle_Sharpen_00001_.jpg",
+    "name": "TG_Debug_Subtle_Sharpen_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Debug_Subtle_Sharpen_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage1_Base_00001_.jpg",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage1_Base_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage1_Base_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage1_Base_00002_.jpg",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage1_Base_00002_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage1_Base_00002_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage2_Enhanced_00001_.jpg",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage2_Enhanced_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage2_Enhanced_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage3_4K_00001_.jpg",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage3_4K_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Enhanced_AAA_Pipeline_Stage3_4K_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Fixed_Lore_Test_00001_.jpg",
+    "name": "TG_Fixed_Lore_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Fixed_Lore_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Heun_Current_Baseline_00001_.jpg",
+    "name": "TG_Heun_Current_Baseline_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Heun_Current_Baseline_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Heun_FLUX_4step_beta_00001_.jpg",
+    "name": "TG_Heun_FLUX_4step_beta_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Heun_FLUX_4step_beta_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Heun_FLUX_4step_simple_00001_.jpg",
+    "name": "TG_Heun_FLUX_4step_simple_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Heun_FLUX_4step_simple_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_HeunPP_FLUX_1step_sgm_00001_.jpg",
+    "name": "TG_HeunPP_FLUX_1step_sgm_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_HeunPP_FLUX_1step_sgm_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_HeunPP_FLUX_4step_beta_00001_.jpg",
+    "name": "TG_HeunPP_FLUX_4step_beta_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_HeunPP_FLUX_4step_beta_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_HeunPP_FLUX_4step_simple_00001_.jpg",
+    "name": "TG_HeunPP_FLUX_4step_simple_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_HeunPP_FLUX_4step_simple_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_HeunPP_Test_00001_.jpg",
+    "name": "TG_HeunPP_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_HeunPP_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_IEZ_Material_Study_00001_.jpg",
+    "name": "TG_IEZ_Material_Study_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_IEZ_Material_Study_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Improved_Visibility_00001_.jpg",
+    "name": "TG_Improved_Visibility_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Improved_Visibility_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Final_Production_00001_.jpg",
+    "name": "TG_Integrated_Final_Production_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Final_Production_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Final_Production_00002_.jpg",
+    "name": "TG_Integrated_Final_Production_00002_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Final_Production_00002_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Stage1_Base_00001_.jpg",
+    "name": "TG_Integrated_Stage1_Base_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Stage1_Base_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Stage1_Base_00002_.jpg",
+    "name": "TG_Integrated_Stage1_Base_00002_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Stage1_Base_00002_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Stage2_Enhanced_00001_.jpg",
+    "name": "TG_Integrated_Stage2_Enhanced_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Stage2_Enhanced_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Stage2_Enhanced_00002_.jpg",
+    "name": "TG_Integrated_Stage2_Enhanced_00002_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Stage2_Enhanced_00002_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Stage3_4K_00001_.jpg",
+    "name": "TG_Integrated_Stage3_4K_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Stage3_4K_00001_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Integrated_Stage3_4K_00002_.jpg",
+    "name": "TG_Integrated_Stage3_4K_00002_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Integrated_Stage3_4K_00002_.jpg",
+    "width": 256,
+    "height": 145,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Lore_HeunPP_Test_00001_.jpg",
+    "name": "TG_Lore_HeunPP_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Lore_HeunPP_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_LumFrontier_Soldier_00001_.jpg",
+    "name": "TG_LumFrontier_Soldier_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_LumFrontier_Soldier_00001_.jpg",
+    "width": 171,
+    "height": 256,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Metro_AAA_Final_Base_00001_.jpg",
+    "name": "TG_Metro_AAA_Final_Base_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Metro_AAA_Final_Base_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Metro_AAA_Multistage_Base_00001_.jpg",
+    "name": "TG_Metro_AAA_Multistage_Base_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Metro_AAA_Multistage_Base_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Metro_AAA_Texture_00001_.jpg",
+    "name": "TG_Metro_AAA_Texture_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Metro_AAA_Texture_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Metro_Environment_Test_00001_.jpg",
+    "name": "TG_Metro_Environment_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Metro_Environment_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Metro_TRUE_HD_00001_.jpg",
+    "name": "TG_Metro_TRUE_HD_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Metro_TRUE_HD_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Metro_UHD_Detail_00001_.jpg",
+    "name": "TG_Metro_UHD_Detail_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Metro_UHD_Detail_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": ".aiia_cache/thumbnails/TG_Multistage_Fixed_Test_00001_.jpg",
+    "name": "TG_Multistage_Fixed_Test_00001_.jpg",
+    "rel": "../../Comfy/ComfyUI-API/output/.aiia_cache/thumbnails/TG_Multistage_Fixed_Test_00001_.jpg",
+    "width": 256,
+    "height": 144,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/corporate/TG_ENV_Corporate_Lobby_CleanSciFi_v01.png",
+    "name": "TG_ENV_Corporate_Lobby_CleanSciFi_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/corporate/TG_ENV_Corporate_Lobby_CleanSciFi_v01.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/corporate/TG_ENV_Corporate_Lobby_GrittyRealism_v01.png",
+    "name": "TG_ENV_Corporate_Lobby_GrittyRealism_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/corporate/TG_ENV_Corporate_Lobby_GrittyRealism_v01.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/industrial/TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Corridor_CleanSciFi_v01.png",
+    "name": "TG_ENV_Metro_Corridor_CleanSciFi_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Corridor_CleanSciFi_v01.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Corridor_GrittyRealism_v01.png",
+    "name": "TG_ENV_Metro_Corridor_GrittyRealism_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Corridor_GrittyRealism_v01.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Metro_Maintenance_Corridor_CleanSciFi_v01.png",
+    "name": "TG_ENV_Metro_Metro_Maintenance_Corridor_CleanSciFi_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Metro_Maintenance_Corridor_CleanSciFi_v01.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Metro_Maintenance_Corridor_GrittyRealism_v01.png",
+    "name": "TG_ENV_Metro_Metro_Maintenance_Corridor_GrittyRealism_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/underground/TG_ENV_Metro_Metro_Maintenance_Corridor_GrittyRealism_v01.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/underground/TG_ENV_Underground_Bunker_CleanSciFi_v01.png",
+    "name": "TG_ENV_Underground_Bunker_CleanSciFi_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/underground/TG_ENV_Underground_Bunker_CleanSciFi_v01.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/underground/TG_ENV_Underground_Bunker_GrittyRealism_v01.png",
+    "name": "TG_ENV_Underground_Bunker_GrittyRealism_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/underground/TG_ENV_Underground_Bunker_GrittyRealism_v01.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/wasteland/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/wasteland/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./01_PRODUCTION_READY/environments/wasteland/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./01_PRODUCTION_READY/environments/wasteland/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./02_CHIEF_ART_DIRECTOR/enhanced_emblems/CAD_EMBLEM_IronScavengers_TrophyClaw_v01.png",
+    "name": "CAD_EMBLEM_IronScavengers_TrophyClaw_v01.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./02_CHIEF_ART_DIRECTOR/enhanced_emblems/CAD_EMBLEM_IronScavengers_TrophyClaw_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Concept_001_00001_.png",
+    "name": "PA_Concept_001_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Concept_001_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Concept_002_00001_.png",
+    "name": "PA_Concept_002_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Concept_002_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Logo_DIR_00001_.png",
+    "name": "PA_Logo_DIR_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Logo_DIR_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Logo_VUL_00001_.png",
+    "name": "PA_Logo_VUL_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Logo_VUL_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_009_00001_.png",
+    "name": "PA_Scenery_009_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_009_00001_.png",
+    "width": 1728,
+    "height": 968,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_102_00001_.png",
+    "name": "PA_Scenery_102_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_102_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_103_00001_.png",
+    "name": "PA_Scenery_103_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_103_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_900_00001_.png",
+    "name": "PA_Scenery_900_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./03_DEVELOPMENT/batch_2025-08-24/PA_Scenery_900_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_Emblem_CorporateCombine_00001_.png",
+    "name": "TG_Emblem_CorporateCombine_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_Emblem_CorporateCombine_00001_.png",
+    "width": 2048,
+    "height": 2048,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_Emblem_Free77_00001_.png",
+    "name": "TG_Emblem_Free77_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_Emblem_Free77_00001_.png",
+    "width": 2048,
+    "height": 2048,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_Emblem_VulturesUnion_00001_.png",
+    "name": "TG_Emblem_VulturesUnion_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_Emblem_VulturesUnion_00001_.png",
+    "width": 2048,
+    "height": 2048,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_Enhanced_AAA_Pipeline_Stage1_Base_00001_.png",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage1_Base_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_Enhanced_AAA_Pipeline_Stage1_Base_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_Enhanced_AAA_Pipeline_Stage2_Enhanced_00001_.png",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage2_Enhanced_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_Enhanced_AAA_Pipeline_Stage2_Enhanced_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_LORE_Corporate_Plaza_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Corporate_Plaza_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_LORE_Corporate_Plaza_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_LORE_Corporate_Plaza_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_PERFECT_Corporate_Plaza_Clean_SciFi_00001_.png",
+    "name": "TG_PERFECT_Corporate_Plaza_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_PERFECT_Corporate_Plaza_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/quality_issues/TG_PERFECT_Corporate_Plaza_Gritty_Realism_00001_.png",
+    "name": "TG_PERFECT_Corporate_Plaza_Gritty_Realism_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/quality_issues/TG_PERFECT_Corporate_Plaza_Gritty_Realism_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./04_ARCHIVE/text_quality_issues/TG_Enhanced_Emblem_ArchiveKeepers_00001_.png",
+    "name": "TG_Enhanced_Emblem_ArchiveKeepers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./04_ARCHIVE/text_quality_issues/TG_Enhanced_Emblem_ArchiveKeepers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_AAA_Multistage_Base_00001_.png",
+    "name": "TG_AAA_Multistage_Base_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_AAA_Multistage_Base_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Enhanced_AAA_Pipeline_Stage1_Base_00002_.png",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage1_Base_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Enhanced_AAA_Pipeline_Stage1_Base_00002_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Enhanced_AAA_Pipeline_Stage3_4K_00001_.png",
+    "name": "TG_Enhanced_AAA_Pipeline_Stage3_4K_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Enhanced_AAA_Pipeline_Stage3_4K_00001_.png",
+    "width": 7680,
+    "height": 4320,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Final_Production_00001_.png",
+    "name": "TG_Integrated_Final_Production_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Final_Production_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Final_Production_00002_.png",
+    "name": "TG_Integrated_Final_Production_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Final_Production_00002_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Stage1_Base_00001_.png",
+    "name": "TG_Integrated_Stage1_Base_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Stage1_Base_00001_.png",
+    "width": 1920,
+    "height": 1088,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Stage1_Base_00002_.png",
+    "name": "TG_Integrated_Stage1_Base_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Stage1_Base_00002_.png",
+    "width": 1920,
+    "height": 1088,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Stage2_Enhanced_00001_.png",
+    "name": "TG_Integrated_Stage2_Enhanced_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Stage2_Enhanced_00001_.png",
+    "width": 2400,
+    "height": 1360,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Stage2_Enhanced_00002_.png",
+    "name": "TG_Integrated_Stage2_Enhanced_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Stage2_Enhanced_00002_.png",
+    "width": 2400,
+    "height": 1360,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Stage3_4K_00001_.png",
+    "name": "TG_Integrated_Stage3_4K_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Stage3_4K_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./archived/TG_Integrated_Stage3_4K_00002_.png",
+    "name": "TG_Integrated_Stage3_4K_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./archived/TG_Integrated_Stage3_4K_00002_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./debug_versions/TG_Debug_Bicubic_Latent_00001_.png",
+    "name": "TG_Debug_Bicubic_Latent_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./debug_versions/TG_Debug_Bicubic_Latent_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./debug_versions/TG_Debug_Current_Problematic_00001_.png",
+    "name": "TG_Debug_Current_Problematic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./debug_versions/TG_Debug_Current_Problematic_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./debug_versions/TG_Debug_Gentle_Pipeline_00001_.png",
+    "name": "TG_Debug_Gentle_Pipeline_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./debug_versions/TG_Debug_Gentle_Pipeline_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./debug_versions/TG_Debug_No_Sharpen_00001_.png",
+    "name": "TG_Debug_No_Sharpen_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./debug_versions/TG_Debug_No_Sharpen_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./debug_versions/TG_Debug_RealESRGAN_Model_00001_.png",
+    "name": "TG_Debug_RealESRGAN_Model_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./debug_versions/TG_Debug_RealESRGAN_Model_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./debug_versions/TG_Debug_Subtle_Sharpen_00001_.png",
+    "name": "TG_Debug_Subtle_Sharpen_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./debug_versions/TG_Debug_Subtle_Sharpen_00001_.png",
+    "width": 9600,
+    "height": 5440,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./emblems/TG_Emblem_Directorate_00001_.png",
+    "name": "TG_Emblem_Directorate_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./emblems/TG_Emblem_Directorate_00001_.png",
+    "width": 2048,
+    "height": 2048,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./emblems/TG_Emblem_NomadClans_00001_.png",
+    "name": "TG_Emblem_NomadClans_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./emblems/TG_Emblem_NomadClans_00001_.png",
+    "width": 2048,
+    "height": 2048,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_Advanced_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+    "name": "TG_Advanced_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_Advanced_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_IEZ_Material_Study_00001_.png",
+    "name": "TG_IEZ_Material_Study_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_IEZ_Material_Study_00001_.png",
+    "width": 768,
+    "height": 432,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_Metro_AAA_Final_Base_00001_.png",
+    "name": "TG_Metro_AAA_Final_Base_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_Metro_AAA_Final_Base_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_Metro_AAA_Multistage_Base_00001_.png",
+    "name": "TG_Metro_AAA_Multistage_Base_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_Metro_AAA_Multistage_Base_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_Metro_AAA_Texture_00001_.png",
+    "name": "TG_Metro_AAA_Texture_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_Metro_AAA_Texture_00001_.png",
+    "width": 768,
+    "height": 432,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_Metro_TRUE_HD_00001_.png",
+    "name": "TG_Metro_TRUE_HD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_Metro_TRUE_HD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_Metro_UHD_Detail_00001_.png",
+    "name": "TG_Metro_UHD_Detail_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_Metro_UHD_Detail_00001_.png",
+    "width": 768,
+    "height": 432,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v09_2025-08-24/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v09_2025-08-24/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00002_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00002_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00002_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00002_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00002_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/batch_v10_2025-08-24/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00002_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/batch_v10_2025-08-24/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_IEZ_Facility_Interior_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_IEZ_Facility_Interior_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_IEZ_Facility_Interior_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_IEZ_Facility_Interior_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_IEZ_Facility_Interior_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_IEZ_Facility_Interior_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Industrial_Platform_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Industrial_Platform_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Industrial_Platform_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Industrial_Platform_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Industrial_Platform_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Industrial_Platform_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Metro_Maintenance_Corridor_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Metro_Maintenance_Corridor_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Metro_Maintenance_Corridor_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Metro_Maintenance_Corridor_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Metro_Maintenance_Corridor_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Metro_Maintenance_Corridor_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Research_Laboratory_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Research_Laboratory_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Research_Laboratory_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Research_Laboratory_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Research_Laboratory_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Research_Laboratory_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Security_Checkpoint_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Security_Checkpoint_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Security_Checkpoint_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Security_Checkpoint_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Security_Checkpoint_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Security_Checkpoint_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Tech_Wastes_Exterior_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Tech_Wastes_Exterior_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Tech_Wastes_Exterior_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Tech_Wastes_Exterior_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Tech_Wastes_Exterior_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Tech_Wastes_Exterior_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Underground_Bunker_Clean_SciFi_Perfect_00001_.png",
+    "name": "TG_LORE_Underground_Bunker_Clean_SciFi_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Underground_Bunker_Clean_SciFi_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_LORE_Underground_Bunker_Gritty_Realism_Perfect_00001_.png",
+    "name": "TG_LORE_Underground_Bunker_Gritty_Realism_Perfect_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_LORE_Underground_Bunker_Gritty_Realism_Perfect_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00001_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Security_Checkpoint_Clean_SciFi_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Security_Checkpoint_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Security_Checkpoint_Gritty_Realism_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Security_Checkpoint_Gritty_Realism_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Underground_Bunker_Clean_SciFi_00001_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Clean_SciFi_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Underground_Bunker_Clean_SciFi_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Underground_Bunker_Gritty_Realism_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./environments/TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./environments/TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./production/batch_2025-08-24/TG_QwenImage_Production_00001_.png",
+    "name": "TG_QwenImage_Production_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./production/batch_2025-08-24/TG_QwenImage_Production_00001_.png",
+    "width": 4096,
+    "height": 2304,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./production/TG_Final_Production_00001_.png",
+    "name": "TG_Final_Production_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./production/TG_Final_Production_00001_.png",
+    "width": 7680,
+    "height": 4352,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./production/TG_Final_Production_00002_.png",
+    "name": "TG_Final_Production_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./production/TG_Final_Production_00002_.png",
+    "width": 7680,
+    "height": 4352,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_4K_Test_00001_.png",
+    "name": "TG_4K_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_4K_Test_00001_.png",
+    "width": 3840,
+    "height": 2160,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_AAA_Production_Test_00001_.png",
+    "name": "TG_AAA_Production_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_AAA_Production_Test_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_API_Fixed_Communication_00001_.png",
+    "name": "TG_API_Fixed_Communication_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_API_Fixed_Communication_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_API_SmokeTest_00001_.png",
+    "name": "TG_API_SmokeTest_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_API_SmokeTest_00001_.png",
+    "width": 768,
+    "height": 432,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_API_Test_00001_.png",
+    "name": "TG_API_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_API_Test_00001_.png",
+    "width": 768,
+    "height": 432,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Fixed_Lore_Test_00001_.png",
+    "name": "TG_Fixed_Lore_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Fixed_Lore_Test_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Heun_Current_Baseline_00001_.png",
+    "name": "TG_Heun_Current_Baseline_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Heun_Current_Baseline_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Heun_FLUX_4step_beta_00001_.png",
+    "name": "TG_Heun_FLUX_4step_beta_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Heun_FLUX_4step_beta_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Heun_FLUX_4step_simple_00001_.png",
+    "name": "TG_Heun_FLUX_4step_simple_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Heun_FLUX_4step_simple_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_HeunPP_FLUX_1step_sgm_00001_.png",
+    "name": "TG_HeunPP_FLUX_1step_sgm_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_HeunPP_FLUX_1step_sgm_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_HeunPP_FLUX_4step_beta_00001_.png",
+    "name": "TG_HeunPP_FLUX_4step_beta_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_HeunPP_FLUX_4step_beta_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_HeunPP_FLUX_4step_simple_00001_.png",
+    "name": "TG_HeunPP_FLUX_4step_simple_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_HeunPP_FLUX_4step_simple_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_HeunPP_Test_00001_.png",
+    "name": "TG_HeunPP_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_HeunPP_Test_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Lore_HeunPP_Test_00001_.png",
+    "name": "TG_Lore_HeunPP_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Lore_HeunPP_Test_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Metro_Environment_Test_00001_.png",
+    "name": "TG_Metro_Environment_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Metro_Environment_Test_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Metro_Test_00001_.png",
+    "name": "TG_Metro_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Metro_Test_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./tests/TG_Multistage_Fixed_Test_00001_.png",
+    "name": "TG_Multistage_Fixed_Test_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./tests/TG_Multistage_Fixed_Test_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./CTO_TEST_CompoundName_CorporateCombine_00001_.png",
+    "name": "CTO_TEST_CompoundName_CorporateCombine_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./CTO_TEST_CompoundName_CorporateCombine_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./CTO_TEST_CompoundName_IronScavengers_00001_.png",
+    "name": "CTO_TEST_CompoundName_IronScavengers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./CTO_TEST_CompoundName_IronScavengers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./CTO_TEST_CompoundName_VulturesUnion_00001_.png",
+    "name": "CTO_TEST_CompoundName_VulturesUnion_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./CTO_TEST_CompoundName_VulturesUnion_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./CTO_TEST_SingleName_Control_00001_.png",
+    "name": "CTO_TEST_SingleName_Control_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./CTO_TEST_SingleName_Control_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_ArchiveKeepers_Archive_00001_.png",
+    "name": "TG_Architecture_ArchiveKeepers_Archive_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_ArchiveKeepers_Archive_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_CivicWardens_Checkpoint_00001_.png",
+    "name": "TG_Architecture_CivicWardens_Checkpoint_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_CivicWardens_Checkpoint_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_Corporate_Facility_00001_.png",
+    "name": "TG_Architecture_Corporate_Facility_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_Corporate_Facility_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_Directorate_Bunker_00001_.png",
+    "name": "TG_Architecture_Directorate_Bunker_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_Directorate_Bunker_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_Free77_Outpost_00001_.png",
+    "name": "TG_Architecture_Free77_Outpost_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_Free77_Outpost_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_IronScavengers_Territory_00001_.png",
+    "name": "TG_Architecture_IronScavengers_Territory_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_IronScavengers_Territory_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Architecture_NomadClans_Camp_00001_.png",
+    "name": "TG_Architecture_NomadClans_Camp_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Architecture_NomadClans_Camp_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_ArchiveKeepers_Archivist_00001_.png",
+    "name": "TG_Character_ArchiveKeepers_Archivist_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_ArchiveKeepers_Archivist_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_CivicWardens_Guardian_00001_.png",
+    "name": "TG_Character_CivicWardens_Guardian_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_CivicWardens_Guardian_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_Corporate_Enforcer_00001_.png",
+    "name": "TG_Character_Corporate_Enforcer_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_Corporate_Enforcer_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_Directorate_Trooper_00001_.png",
+    "name": "TG_Character_Directorate_Trooper_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_Directorate_Trooper_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_Free77_Contractor_00001_.png",
+    "name": "TG_Character_Free77_Contractor_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_Free77_Contractor_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_IronScavengers_Raider_00001_.png",
+    "name": "TG_Character_IronScavengers_Raider_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_IronScavengers_Raider_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Character_NomadClans_Outrider_00001_.png",
+    "name": "TG_Character_NomadClans_Outrider_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Character_NomadClans_Outrider_00001_.png",
+    "width": 1024,
+    "height": 1536,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Clean_NoText_00001_.png",
+    "name": "TG_Clean_NoText_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Clean_NoText_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_ArchiveKeepers_00001_.png",
+    "name": "TG_Emblem_Var_ArchiveKeepers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_ArchiveKeepers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_ArchiveKeepers_00002_.png",
+    "name": "TG_Emblem_Var_ArchiveKeepers_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_ArchiveKeepers_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_ArchiveKeepers_00003_.png",
+    "name": "TG_Emblem_Var_ArchiveKeepers_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_ArchiveKeepers_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_CivicWardens_00001_.png",
+    "name": "TG_Emblem_Var_CivicWardens_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_CivicWardens_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_CivicWardens_00002_.png",
+    "name": "TG_Emblem_Var_CivicWardens_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_CivicWardens_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_CivicWardens_00003_.png",
+    "name": "TG_Emblem_Var_CivicWardens_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_CivicWardens_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_CorporateHegemony_00001_.png",
+    "name": "TG_Emblem_Var_CorporateHegemony_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_CorporateHegemony_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_CorporateHegemony_00002_.png",
+    "name": "TG_Emblem_Var_CorporateHegemony_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_CorporateHegemony_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_CorporateHegemony_00003_.png",
+    "name": "TG_Emblem_Var_CorporateHegemony_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_CorporateHegemony_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_Directorate_00001_.png",
+    "name": "TG_Emblem_Var_Directorate_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_Directorate_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_Directorate_00002_.png",
+    "name": "TG_Emblem_Var_Directorate_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_Directorate_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_Directorate_00003_.png",
+    "name": "TG_Emblem_Var_Directorate_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_Directorate_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_Free77_00001_.png",
+    "name": "TG_Emblem_Var_Free77_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_Free77_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_Free77_00002_.png",
+    "name": "TG_Emblem_Var_Free77_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_Free77_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_Free77_00003_.png",
+    "name": "TG_Emblem_Var_Free77_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_Free77_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_IronScavengers_00001_.png",
+    "name": "TG_Emblem_Var_IronScavengers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_IronScavengers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_IronScavengers_00002_.png",
+    "name": "TG_Emblem_Var_IronScavengers_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_IronScavengers_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_IronScavengers_00003_.png",
+    "name": "TG_Emblem_Var_IronScavengers_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_IronScavengers_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_NomadClans_00001_.png",
+    "name": "TG_Emblem_Var_NomadClans_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_NomadClans_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_NomadClans_00002_.png",
+    "name": "TG_Emblem_Var_NomadClans_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_NomadClans_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Emblem_Var_NomadClans_00003_.png",
+    "name": "TG_Emblem_Var_NomadClans_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Emblem_Var_NomadClans_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_ArchiveKeepers_00002_.png",
+    "name": "TG_Enhanced_Emblem_ArchiveKeepers_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_ArchiveKeepers_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_ArchiveKeepers_00003_.png",
+    "name": "TG_Enhanced_Emblem_ArchiveKeepers_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_ArchiveKeepers_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_CivicWardens_00001_.png",
+    "name": "TG_Enhanced_Emblem_CivicWardens_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_CivicWardens_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_CivicWardens_00002_.png",
+    "name": "TG_Enhanced_Emblem_CivicWardens_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_CivicWardens_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_CivicWardens_00003_.png",
+    "name": "TG_Enhanced_Emblem_CivicWardens_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_CivicWardens_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_CorporateHegemony_00001_.png",
+    "name": "TG_Enhanced_Emblem_CorporateHegemony_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_CorporateHegemony_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_CorporateHegemony_00002_.png",
+    "name": "TG_Enhanced_Emblem_CorporateHegemony_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_CorporateHegemony_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_CorporateHegemony_00003_.png",
+    "name": "TG_Enhanced_Emblem_CorporateHegemony_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_CorporateHegemony_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_Directorate_00001_.png",
+    "name": "TG_Enhanced_Emblem_Directorate_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_Directorate_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_Directorate_00002_.png",
+    "name": "TG_Enhanced_Emblem_Directorate_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_Directorate_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_Directorate_00003_.png",
+    "name": "TG_Enhanced_Emblem_Directorate_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_Directorate_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_Free77_00001_.png",
+    "name": "TG_Enhanced_Emblem_Free77_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_Free77_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_Free77_00002_.png",
+    "name": "TG_Enhanced_Emblem_Free77_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_Free77_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_Free77_00003_.png",
+    "name": "TG_Enhanced_Emblem_Free77_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_Free77_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_IronScavengers_00001_.png",
+    "name": "TG_Enhanced_Emblem_IronScavengers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_IronScavengers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_IronScavengers_00002_.png",
+    "name": "TG_Enhanced_Emblem_IronScavengers_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_IronScavengers_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_IronScavengers_00003_.png",
+    "name": "TG_Enhanced_Emblem_IronScavengers_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_IronScavengers_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_IronScavengers_Alt_00001_.png",
+    "name": "TG_Enhanced_Emblem_IronScavengers_Alt_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_IronScavengers_Alt_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_NomadClans_00001_.png",
+    "name": "TG_Enhanced_Emblem_NomadClans_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_NomadClans_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_NomadClans_00002_.png",
+    "name": "TG_Enhanced_Emblem_NomadClans_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_NomadClans_00002_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Enhanced_Emblem_NomadClans_00003_.png",
+    "name": "TG_Enhanced_Emblem_NomadClans_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Enhanced_Emblem_NomadClans_00003_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_FIXED_Emblem_ArchiveKeepers_00001_.png",
+    "name": "TG_FIXED_Emblem_ArchiveKeepers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_FIXED_Emblem_ArchiveKeepers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_FIXED_Emblem_CorporateHegemony_00001_.png",
+    "name": "TG_FIXED_Emblem_CorporateHegemony_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_FIXED_Emblem_CorporateHegemony_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_FIXED_Emblem_DirectorateCommand_00001_.png",
+    "name": "TG_FIXED_Emblem_DirectorateCommand_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_FIXED_Emblem_DirectorateCommand_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_FIXED_Emblem_IronScavengers_00001_.png",
+    "name": "TG_FIXED_Emblem_IronScavengers_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_FIXED_Emblem_IronScavengers_00001_.png",
+    "width": 1024,
+    "height": 1024,
+    "category": "logo",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Improved_Visibility_00001_.png",
+    "name": "TG_Improved_Visibility_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Improved_Visibility_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_LumFrontier_Soldier_00001_.png",
+    "name": "TG_LumFrontier_Soldier_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_LumFrontier_Soldier_00001_.png",
+    "width": 896,
+    "height": 1344,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00002_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00003_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00004_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Clean_SciFi_Wide_Ambient_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00002_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00003_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00004_.png",
+    "name": "TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Corporate_Lobby_Interior_Gritty_Realism_Wide_Ambient_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00003_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_IEZ_Facility_Interior_Clean_SciFi_Detail_Dramatic_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00002_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00003_.png",
+    "name": "TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_IEZ_Facility_Interior_Gritty_Realism_Detail_Dramatic_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00002_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00003_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Metro_Maintenance_Corridor_Clean_SciFi_Wide_Ambient_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00003_.png",
+    "name": "TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Metro_Maintenance_Corridor_Gritty_Realism_Wide_Ambient_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00002_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00003_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00004_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Clean_SciFi_Perspective_Atmospheric_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00002_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00003_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00004_.png",
+    "name": "TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Security_Checkpoint_Gritty_Realism_Perspective_Atmospheric_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00002_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00003_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00004_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Clean_SciFi_Perspective_Atmospheric_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00002_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00003_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00004_.png",
+    "name": "TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Tech_Wastes_Exterior_Gritty_Realism_Perspective_Atmospheric_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Territorial_Flag_Civic_Wardens_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Territorial_Flag_Civic_Wardens_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Territorial_Flag_Civic_Wardens_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Territorial_Flag_Directorate_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Territorial_Flag_Directorate_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Territorial_Flag_Directorate_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Territorial_Flag_Directorate_Gritty_Realism_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Territorial_Flag_Directorate_Gritty_Realism_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Territorial_Flag_Directorate_Gritty_Realism_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Territorial_Flag_Iron_Scavengers_Clean_SciFi_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Territorial_Flag_Iron_Scavengers_Clean_SciFi_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Territorial_Flag_Iron_Scavengers_Clean_SciFi_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Territorial_Flag_Iron_Scavengers_Gritty_Realism_Wide_Ambient_00001_.png",
+    "name": "TG_PERFECT_Territorial_Flag_Iron_Scavengers_Gritty_Realism_Wide_Ambient_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Territorial_Flag_Iron_Scavengers_Gritty_Realism_Wide_Ambient_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00003_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00004_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Clean_SciFi_Detail_Dramatic_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00001_.png",
+    "width": 1792,
+    "height": 1024,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00002_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00002_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00002_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00003_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00003_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00003_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00004_.png",
+    "name": "TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00004_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_PERFECT_Underground_Bunker_Gritty_Realism_Detail_Dramatic_00004_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_ArchiveKeepers_HUD_00001_.png",
+    "name": "TG_UI_ArchiveKeepers_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_ArchiveKeepers_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_CivicWardens_HUD_00001_.png",
+    "name": "TG_UI_CivicWardens_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_CivicWardens_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_Corporate_HUD_00001_.png",
+    "name": "TG_UI_Corporate_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_Corporate_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_Directorate_HUD_00001_.png",
+    "name": "TG_UI_Directorate_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_Directorate_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_Free77_HUD_00001_.png",
+    "name": "TG_UI_Free77_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_Free77_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_IronScavengers_HUD_00001_.png",
+    "name": "TG_UI_IronScavengers_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_IronScavengers_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_UI_NomadClans_HUD_00001_.png",
+    "name": "TG_UI_NomadClans_HUD_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_UI_NomadClans_HUD_00001_.png",
+    "width": 1920,
+    "height": 1080,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_ArchiveKeepers_Recon_00001_.png",
+    "name": "TG_Vehicle_ArchiveKeepers_Recon_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_ArchiveKeepers_Recon_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_CivicWardens_Riot_00001_.png",
+    "name": "TG_Vehicle_CivicWardens_Riot_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_CivicWardens_Riot_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_Corporate_APC_00001_.png",
+    "name": "TG_Vehicle_Corporate_APC_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_Corporate_APC_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_Directorate_Tank_00001_.png",
+    "name": "TG_Vehicle_Directorate_Tank_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_Directorate_Tank_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_Free77_MRAP_00001_.png",
+    "name": "TG_Vehicle_Free77_MRAP_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_Free77_MRAP_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_IronScavengers_Technical_00001_.png",
+    "name": "TG_Vehicle_IronScavengers_Technical_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_IronScavengers_Technical_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Vehicle_NomadClans_Convoy_00001_.png",
+    "name": "TG_Vehicle_NomadClans_Convoy_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Vehicle_NomadClans_Convoy_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_ArchiveKeepers_PDW_00001_.png",
+    "name": "TG_Weapon_ArchiveKeepers_PDW_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_ArchiveKeepers_PDW_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_CivicWardens_Carbine_00001_.png",
+    "name": "TG_Weapon_CivicWardens_Carbine_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_CivicWardens_Carbine_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_Corporate_SMG_00001_.png",
+    "name": "TG_Weapon_Corporate_SMG_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_Corporate_SMG_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_Directorate_MG_00001_.png",
+    "name": "TG_Weapon_Directorate_MG_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_Directorate_MG_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_Free77_Sniper_00001_.png",
+    "name": "TG_Weapon_Free77_Sniper_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_Free77_Sniper_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_IronScavengers_Rifle_00001_.png",
+    "name": "TG_Weapon_IronScavengers_Rifle_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_IronScavengers_Rifle_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_NomadClans_Shotgun_00001_.png",
+    "name": "TG_Weapon_NomadClans_Shotgun_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_NomadClans_Shotgun_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_Sharp_Corporate_SMG_00001_.png",
+    "name": "TG_Weapon_Sharp_Corporate_SMG_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_Sharp_Corporate_SMG_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_Sharp_Directorate_MG_00001_.png",
+    "name": "TG_Weapon_Sharp_Directorate_MG_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_Sharp_Directorate_MG_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  },
+  {
+    "id": "./TG_Weapon_Sharp_IronScavengers_Rifle_00001_.png",
+    "name": "TG_Weapon_Sharp_IronScavengers_Rifle_00001_.png",
+    "rel": "../../Comfy/ComfyUI-API/output/./TG_Weapon_Sharp_IronScavengers_Rifle_00001_.png",
+    "width": 1536,
+    "height": 864,
+    "category": "environment",
+    "sharpness": null,
+    "edge_density": 0.0
+  }
+]

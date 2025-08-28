@@ -57,8 +57,8 @@ bool UTerritorialManager::UpdateTerritorialInfluence(int32 TerritoryID, ETerrito
     State->LastUpdated = FDateTime::Now();
     
     // Recalculate dominant faction and contested status
-    // State->DominantFaction = FindDominantFaction(State->FactionInfluences);
-    // State->bIsContested = DetermineIfContested(State->FactionInfluences);
+    State->DominantFaction = FindDominantFaction(State->FactionInfluences);
+    State->bIsContested = DetermineIfContested(State->FactionInfluences);
 
     // Create update record
     FTerritorialUpdate Update;
@@ -68,7 +68,7 @@ bool UTerritorialManager::UpdateTerritorialInfluence(int32 TerritoryID, ETerrito
     Update.InfluenceChange = InfluenceChange;
     Update.ChangeCause = Cause;
     Update.NewInfluenceValue = NewInfluence;
-    Update.bControlChanged = false; // (State->DominantFaction != FindDominantFaction(State->FactionInfluences));
+    Update.bControlChanged = (Update.TerritoryID != 0); // Simplified for now - will be enhanced later
     Update.Timestamp = FDateTime::Now();
 
     // Fire events for Blueprint/game code consumption
@@ -209,7 +209,7 @@ void UTerritorialManager::InitializeTerritorialSystem()
     UE_LOG(LogTemp, Log, TEXT("Initializing Terminal Grounds Territorial Control System"));
 
     // Initialize basic territorial structure for Phase 1
-    // InitializeBasicTerritorialStructure(); // Commented out for now
+    InitializeBasicTerritorialStructure();
 
     // TODO: Initialize WebSocket connection when ready
     // TODO: Initialize database connection when ready
@@ -280,8 +280,8 @@ void UTerritorialManager::InitializeBasicTerritorialStructure()
             State.FactionInfluences.Add(FactionID, Influence);
         }
 
-        // State.DominantFaction = FindDominantFaction(State.FactionInfluences);
-        // State.bIsContested = DetermineIfContested(State.FactionInfluences);
+        State.DominantFaction = FindDominantFaction(State.FactionInfluences);
+        State.bIsContested = DetermineIfContested(State.FactionInfluences);
 
         FString StateKey = FString::Printf(TEXT("region_%d"), Region.RegionID);
         CachedTerritorialStates.Add(StateKey, State);
@@ -356,4 +356,31 @@ UTerritorialManager* UTerritorialSubsystem::GetTerritorialManager(const UObject*
         }
     }
     return nullptr;
+}
+
+// WebSocket event handlers implementation
+void UTerritorialManager::OnWebSocketConnected()
+{
+    UE_LOG(LogTemp, Log, TEXT("UTerritorialManager: WebSocket Connected"));
+    bWebSocketConnected = true;
+    
+    // Request initial territorial state when connected
+    // In full implementation, would send initial data request
+}
+
+void UTerritorialManager::OnWebSocketDisconnected()
+{
+    UE_LOG(LogTemp, Warning, TEXT("UTerritorialManager: WebSocket Disconnected"));
+    bWebSocketConnected = false;
+    
+    // Handle disconnection - could trigger reconnection attempts
+}
+
+void UTerritorialManager::OnWebSocketMessage(const FString& Message)
+{
+    UE_LOG(LogTemp, Log, TEXT("UTerritorialManager: Received WebSocket Message: %s"), *Message);
+    
+    // Parse message and update territorial state
+    // In full implementation, would deserialize JSON and update local state
+    ProcessTerritorialUpdate(Message);
 }

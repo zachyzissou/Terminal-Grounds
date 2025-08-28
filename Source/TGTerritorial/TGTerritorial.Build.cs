@@ -27,7 +27,6 @@ public class TGTerritorial : ModuleRules
                 "Json",
                 "JsonUtilities",
                 "HTTP",
-                "WebSockets",
                 "TGWorld",
                 "TGNet",
                 "TGAI"

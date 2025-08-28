@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Faction UI/HUD Interface Concept Generator
-Each faction's psychology expressed through interface design
+ENHANCED Faction UI/HUD Interface Concept Generator
+Improved: Professional game development approach with original design focus
+Terminal Grounds authentic faction interface psychology
 """
 
 import json
@@ -18,12 +19,14 @@ PROVEN_PARAMS = {
     "height": 1080
 }
 
-def create_ui_workflow(faction_name, ui_desc, seed):
-    """Create UI/HUD concept showing faction interface psychology"""
+def create_ui_workflow(faction_name, ui_desc, design_philosophy, seed):
+    """Create UI/HUD concept with ENHANCED professional game development approach"""
     
-    positive_prompt = f"tactical HUD interface design, {ui_desc}, Terminal Grounds faction UI system, military interface design, game HUD concept art, tactical display elements, faction-specific interface design, detailed UI mockup"
+    # ENHANCED: Professional game UI development with faction authenticity
+    positive_prompt = f"professional tactical interface design for Terminal Grounds, {ui_desc}, {design_philosophy}, military-inspired user interface, faction-branded interface elements, clean readable typography, authentic tactical display design, professional game UI development, original interface concept art, custom game interface design, detailed UI mockup with faction personality"
     
-    negative_prompt = "fantasy interface, magical elements, bright neon colors, clean modern UI, minimalist design, cartoon style, consumer interface, smartphone UI"
+    # TARGETED: Block only problematic sources while allowing professional inspiration
+    negative_prompt = "call of duty screenshots, battlefield interface copies, apex legends UI, overwatch interface, existing game screenshots, copyrighted game assets, trademarked UI elements, placeholder lorem ipsum text, unfinished mockups, amateur interface design, generic mobile app UI, consumer software interface, cartoon UI elements"
     
     workflow = {
         "1": {
@@ -96,43 +99,59 @@ def submit_workflow(workflow):
 
 def main():
     print("=" * 60)
-    print("FACTION UI/HUD CONCEPT GENERATOR")
-    print("Interface Psychology Matching Faction Identity")
+    print("ENHANCED FACTION UI/HUD GENERATOR")
+    print("Professional Game Development with Faction Authenticity")
     print("=" * 60)
     print()
     
+    # ENHANCED: Professional UI concepts with faction-specific design philosophy
     ui_concepts = [
-        # Iron Scavengers - Hacked systems
-        ("IronScavengers_HUD", "jury-rigged HUD with multiple incompatible systems hacked together, different fonts and colors from various faction interfaces, warning messages in three languages, some elements upside down from wrong installation, constant compatibility errors ignored"),
+        # Iron Scavengers - Resourceful improvisation
+        ("IronScavengers_HUD", 
+         "adaptive interface combining salvaged systems from multiple sources, different UI elements in various colors and fonts representing scavenged components, warning systems in multiple languages, some display elements rotated from improper installation, functionality over form design philosophy",
+         "improvised tech aesthetic inspired by real-world field modifications and emergency systems"),
         
-        # Corporate Hegemony - Brand integrated
-        ("Corporate_HUD", "sleek corporate interface with terms of service popups during combat, ammunition counter showing cost per shot, health bar sponsored by medical division, crosshairs form corporate logo when aimed, stock prices scrolling in peripheral vision"),
+        # Corporate - Professional brand integration
+        ("Corporate_HUD", 
+         "sleek professional interface with integrated corporate branding elements, cost-tracking displays for ammunition and resources, health monitoring with medical division logos, corporate efficiency metrics, stock market integration in peripheral displays",
+         "modern enterprise software design language with military tactical overlays"),
         
-        # Directorate - Military brutalism  
-        ("Directorate_HUD", "harsh green monochrome interface with hand-stamped serial numbers, regulation font from 1980s, authorization codes required for advanced functions, damage reports filed automatically, kill counter with batch numbers"),
+        # Directorate - Military authority
+        ("Directorate_HUD", 
+         "harsh military command interface in regulation green monochrome, official authorization codes required for advanced functions, automatic damage and casualty reporting systems, kill tracking with unit identification, regulation military stencil typography throughout",
+         "authentic military command and control system design inspired by real defense interfaces"),
         
-        # Free77 - Professional contractor
-        ("Free77_HUD", "modular interface with employer color schemes that change per contract, QR codes linking to service rates, ammunition cost calculator, contract completion percentage, invoice generation in real-time"),
+        # Free77 - Modular professionalism
+        ("Free77_HUD", 
+         "modular contractor interface with client-customizable color schemes, QR code integration for service rates and contracts, real-time cost calculation for ammunition and equipment, contract completion tracking, invoice generation systems",
+         "professional freelancer software meets tactical interface design"),
         
-        # Nomad Clans - Improvised survival
-        ("NomadClans_HUD", "patched together interface with hand-carved icons, fuel and water prominently displayed, route planning with hazard markers, family communications channel, repair status for all equipment"),
+        # Nomad Clans - Survival community
+        ("NomadClans_HUD", 
+         "community-focused interface with hand-carved icon aesthetics, fuel and water resource tracking prominently displayed, family communications channels, route planning with community hazard markers, equipment repair status for survival",
+         "survival community software with handmade aesthetic touches and family-oriented design"),
         
-        # Archive Keepers - Data overload
-        ("ArchiveKeepers_HUD", "information-dense interface with scrolling data streams, target personal history displays, ammunition that shows virus upload status, QR codes for knowledge database access, kill statistics with detailed analytics"),
+        # Archive Keepers - Information warfare
+        ("ArchiveKeepers_HUD", 
+         "information-dense interface with scrolling data streams, target personal history and threat assessment displays, ammunition tracking with data virus payload status, knowledge database access with security clearance levels, detailed analytics on all interactions",
+         "advanced information warfare interface inspired by intelligence analysis software"),
         
-        # Civic Wardens - Community watch
-        ("CivicWardens_HUD", "neighborhood watch interface with spray-painted styling, community radio channels, local area maps with civilian safe zones, ammunition shared counter, volunteer roster status")
+        # Civic Wardens - Neighborhood protection  
+        ("CivicWardens_HUD",
+         "community watch interface with neighborhood spray-paint styling, local radio communication channels, civilian safe zone mapping, shared resource tracking for community ammunition, volunteer status and local area patrol assignments",
+         "community volunteer software with neighborhood watch and emergency response design elements")
     ]
     
     queued = 0
-    seed_base = 98111
+    seed_base = 98333  # Different seed base for enhanced version
     
-    for i, (ui_name, description) in enumerate(ui_concepts):
-        seed = seed_base + (i * 159)
-        print(f"Generating {ui_name}...")
+    for i, (ui_name, description, design_philosophy) in enumerate(ui_concepts):
+        seed = seed_base + (i * 173)
+        print(f"Generating ENHANCED {ui_name}...")
         print(f"  Interface: {description[:50]}...")
+        print(f"  Philosophy: {design_philosophy[:40]}...")
         
-        workflow = create_ui_workflow(ui_name, description, seed)
+        workflow = create_ui_workflow(ui_name, description, design_philosophy, seed)
         prompt_id = submit_workflow(workflow)
         
         if prompt_id:
@@ -145,8 +164,8 @@ def main():
     
     print()
     print("=" * 60)
-    print(f"UI/HUD GENERATION COMPLETE: {queued}/7 interface concepts")
-    print("Each interface reflects faction psychology through design")
+    print(f"ENHANCED UI GENERATION COMPLETE: {queued}/7")
+    print("Professional game development with authentic faction identity")
 
 if __name__ == "__main__":
     main()

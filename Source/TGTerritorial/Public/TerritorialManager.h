@@ -5,11 +5,12 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Engine/Engine.h"
+#include "Subsystems/WorldSubsystem.h"
 #include "TerritorialTypes.h"
 #include "TerritorialManager.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnTerritorialControlChanged, int32, TerritoryID, ETerritoryType, TerritoryType, int32, OldFaction, int32, NewFaction);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnTerritoryContested, int32, TerritoryID, ETerritoryType, TerritoryType, const TArray<int32>&, ContestingFactions);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnTerritoryContestedCore, int32, TerritoryID, ETerritoryType, TerritoryType, const TArray<int32>&, ContestingFactions);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_FiveParams(FOnPlayerTerritorialAction, int32, PlayerID, int32, FactionID, const FString&, ActionType, int32, InfluenceGained, int32, TerritoryID);
 
 /**
@@ -48,6 +49,10 @@ public:
     UFUNCTION(BlueprintPure, Category = "Territorial")
     TArray<int32> GetDistrictsInRegion(int32 RegionID);
 
+    // Internal helper functions
+    UFUNCTION(BlueprintCallable, Category = "Territorial")
+    void InitializeBasicTerritorialStructure();
+
     UFUNCTION(BlueprintPure, Category = "Territorial")
     TArray<int32> GetControlPointsInDistrict(int32 DistrictID);
 
@@ -69,7 +74,7 @@ public:
     FOnTerritorialControlChanged OnTerritorialControlChanged;
 
     UPROPERTY(BlueprintAssignable, Category = "Territorial Events")
-    FOnTerritoryContested OnTerritoryContested;
+    FOnTerritoryContestedCore OnTerritoryContested;
 
     UPROPERTY(BlueprintAssignable, Category = "Territorial Events")
     FOnPlayerTerritorialAction OnPlayerTerritorialAction;
@@ -129,7 +134,7 @@ private:
  * Singleton access to territorial manager
  */
 UCLASS(BlueprintType)
-class TGTERRITORIAL_API UTerritorialSubsystem : public UEngineSubsystem
+class TGTERRITORIAL_API UTerritorialSubsystem : public UWorldSubsystem
 {
     GENERATED_BODY()
 

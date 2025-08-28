@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Faction Vehicle Concept Generator
-Implementing Chief Art Director Vehicle Philosophy per Faction
+ENHANCED Faction Vehicle Concept Generator
+Improved: Advanced text guidance for readable faction markings
+Professional military vehicle aesthetics with clear identification
 """
 
 import json
@@ -11,19 +12,21 @@ import uuid
 
 PROVEN_PARAMS = {
     "sampler": "heun",
-    "scheduler": "normal",
+    "scheduler": "normal",  
     "cfg": 3.2,
     "steps": 25,
     "width": 1536,
     "height": 864
 }
 
-def create_vehicle_workflow(faction_name, vehicle_desc, seed):
-    """Create vehicle concept based on faction philosophy"""
+def create_vehicle_workflow(faction_name, vehicle_desc, text_guidance, seed):
+    """Create vehicle concept with ENHANCED text handling for faction authenticity"""
     
-    positive_prompt = f"military vehicle concept art, {vehicle_desc}, Terminal Grounds faction vehicle, post-apocalyptic combat transport, weathered armored vehicle with authentic military markings and readable faction insignia, technical details visible, clear unit numbers and tactical symbols, professional military stenciling, orthographic concept view, game asset design, industrial mechanical detail, sharp lettering on armor plating"
+    # ENHANCED: Specific, achievable text instructions
+    positive_prompt = f"military vehicle concept art, {vehicle_desc}, Terminal Grounds faction vehicle, {text_guidance}, clean military stenciling with simple block lettering, faction identification markings on armor panels, weathered but readable unit numbers, professional military vehicle graphics, authentic military aesthetics, orthographic concept view, game asset design"
     
-    negative_prompt = "flying vehicle, hover car, sci-fi spaceship, clean pristine, factory new, fantasy, magical, glowing energy, impossible physics, cartoon proportions, gibberish text, scrambled letters, unreadable markings, nonsense symbols, corrupted signage"
+    # TARGETED: Specific text quality requirements while allowing good text
+    negative_prompt = "handwritten text, cursive fonts, small illegible text, overlapping letters, blurred text, pixelated text, comic sans, decorative fonts, multiple conflicting fonts, text over complex backgrounds, gibberish text, scrambled letters, corrupted digital display text, unreadable graffiti, flying vehicle, hover car, sci-fi spaceship, fantasy elements"
     
     workflow = {
         "1": {
@@ -31,7 +34,7 @@ def create_vehicle_workflow(faction_name, vehicle_desc, seed):
             "inputs": {"ckpt_name": "FLUX1\\flux1-dev-fp8.safetensors"}
         },
         "2": {
-            "class_type": "CLIPTextEncode",
+            "class_type": "CLIPTextEncode", 
             "inputs": {"text": positive_prompt, "clip": ["1", 1]}
         },
         "3": {
@@ -42,7 +45,7 @@ def create_vehicle_workflow(faction_name, vehicle_desc, seed):
             "class_type": "EmptyLatentImage",
             "inputs": {
                 "width": PROVEN_PARAMS["width"],
-                "height": PROVEN_PARAMS["height"],
+                "height": PROVEN_PARAMS["height"], 
                 "batch_size": 1
             }
         },
@@ -97,44 +100,59 @@ def submit_workflow(workflow):
 
 def main():
     print("=" * 60)
-    print("FACTION VEHICLE CONCEPT GENERATOR")
-    print("Vehicle Philosophy Implementation")
+    print("ENHANCED FACTION VEHICLE GENERATOR")
+    print("Advanced Text Guidance for Professional Military Aesthetics")
     print("=" * 60)
     print()
     
-    # Vehicle concepts from faction visual bible
+    # ENHANCED: Faction-specific visual identity with appropriate text guidance
     vehicles = [
-        # Iron Scavengers - Frankenstein assemblies
-        ("IronScavengers_Technical", "pickup truck with mismatched armor panels from three different military vehicles, scavenger orange paint over original camouflage showing through, trophy rack displaying defeated faction emblems, engine parts from different vehicles visible, no two wheels match"),
+        # Iron Scavengers - Makeshift but functional
+        ("IronScavengers_Technical", 
+         "pickup truck with mismatched armor panels welded from different sources, scavenger orange paint over various base colors, makeshift armor attachments, different wheel and tire combinations, battle-worn weathered appearance",
+         "stenciled faction symbols, spray-painted unit markings, hand-painted warning signs"),
         
-        # Corporate Hegemony - Brand warfare mobility
-        ("Corporate_APC", "white polymer armored personnel carrier with blue LED strips, holographic corporate logos projecting from hull, self-cleaning surfaces staying pristine, tinted windows showing internal displays, QR codes on armor panels"),
+        # Corporate - Clean professional branding
+        ("Corporate_APC", 
+         "white polymer armored personnel carrier with blue accent strips, clean corporate design language, pristine self-cleaning surfaces, tinted windows, integrated LED status displays",
+         "corporate logo placement, clean sans-serif identification numbers, professional vehicle branding"),
         
-        # Directorate - Brutalist authority
-        ("Directorate_Tank", "30-year-old main battle tank with hand-painted unit numbers, armor welded over armor in layers, searchlights as psychological weapons, treads designed to leave Directorate symbols, olive drab paint worn to bare metal"),
+        # Directorate - Military authority
+        ("Directorate_Tank", 
+         "main battle tank with layered welded armor reinforcements, olive drab paint worn to bare metal in high-wear areas, searchlight and communications equipment, heavy tracked chassis, intimidating military profile",
+         "official military stenciling, regulation unit numbers, command authority markings"),
         
-        # Free77 - Modular mercenary
-        ("Free77_MRAP", "mine-resistant vehicle with magnetic faction panels for current employer, desert tan base with removable employer color accents, 'For Hire' stenciling visible under paint, kill counter that's also invoice tally"),
+        # Free77 - Modular professional
+        ("Free77_MRAP", 
+         "mine-resistant ambush protected vehicle with modular attachment points, desert tan base color with removable panel system, mercenary-grade modifications, professional contractor aesthetics",
+         "contractor identification codes, modular faction panels, professional service markings"),
         
-        # Nomad Clans - Mobile home fortress
-        ("NomadClans_Convoy", "converted bus that's also living quarters, exterior covered in tool mounting points, solar panels and water collectors on roof, tires from four different manufacturers, road dust paint mixed with motor oil"),
+        # Nomad Clans - Mobile community
+        ("NomadClans_Convoy", 
+         "converted bus chassis with living quarter modifications, external tool and equipment mounting points, solar panels and water collection systems, mixed tire types, dust and oil weathering patterns",
+         "clan family symbols, route markers, community identification signs"),
         
-        # Archive Keepers - Data warfare platform
-        ("ArchiveKeepers_Recon", "surveillance vehicle covered in antenna arrays and sensors, purple and gold color scheme, QR codes on every panel, satellite dishes and data storage banks visible, holographic displays in windows"),
+        # Archive Keepers - High-tech information
+        ("ArchiveKeepers_Recon", 
+         "surveillance and reconnaissance vehicle with antenna arrays and sensor equipment, purple and gold faction color scheme, visible electronic equipment and data storage systems, satellite communication gear",
+         "data classification markings, archive identification codes, information security labels"),
         
-        # Civic Wardens - Improvised protection
-        ("CivicWardens_Riot", "converted delivery van with welded steel plates, 'Protected by Neighborhood Watch' signs as armor, different color panels from community donations, CB radio antennas, improvised ram made from shopping carts")
+        # Civic Wardens - Community protection
+        ("CivicWardens_Riot", 
+         "converted civilian delivery van with community-donated steel plate armor, mismatched colored panels representing different neighborhood contributions, CB radio antenna arrays, improvised but effective ram attachment",
+         "neighborhood watch signs, community volunteer markings, local area identification")
     ]
     
     queued = 0
-    seed_base = 95555
+    seed_base = 97777  # Different seed base for enhanced version
     
-    for i, (vehicle_name, description) in enumerate(vehicles):
-        seed = seed_base + (i * 123)
-        print(f"Generating {vehicle_name}...")
-        print(f"  Philosophy: {description[:50]}...")
+    for i, (vehicle_name, description, text_guidance) in enumerate(vehicles):
+        seed = seed_base + (i * 147)
+        print(f"Generating ENHANCED {vehicle_name}...")
+        print(f"  Vehicle: {description[:50]}...")
+        print(f"  Text Style: {text_guidance[:40]}...")
         
-        workflow = create_vehicle_workflow(vehicle_name, description, seed)
+        workflow = create_vehicle_workflow(vehicle_name, description, text_guidance, seed)
         prompt_id = submit_workflow(workflow)
         
         if prompt_id:
@@ -146,9 +164,9 @@ def main():
         time.sleep(0.5)
     
     print()
-    print("=" * 60) 
-    print(f"VEHICLE GENERATION COMPLETE: {queued}/7 faction vehicles")
-    print("Each demonstrates faction mobility philosophy")
+    print("=" * 60)
+    print(f"ENHANCED VEHICLE GENERATION COMPLETE: {queued}/7")
+    print("Professional military aesthetics with faction-appropriate text")
 
 if __name__ == "__main__":
     main()

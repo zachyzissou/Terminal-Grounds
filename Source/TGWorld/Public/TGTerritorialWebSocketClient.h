@@ -6,6 +6,7 @@
 #include "Dom/JsonObject.h"
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonWriter.h"
+#include "TGTerritorialManager.h"
 #include "TGTerritorialWebSocketClient.generated.h"
 
 USTRUCT(BlueprintType)
@@ -90,8 +91,8 @@ struct TGWORLD_API FTGTerritoryContest
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnWebSocketConnected);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnWebSocketDisconnected);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnInitialStateReceived);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTerritoryControlChanged, const FTGTerritoryControlChange&, ControlChange);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTerritoryContested, const FTGTerritoryContest&, Contest);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTerritoryControlChangedWebSocket, const FTGTerritoryControlChange&, ControlChange);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTerritoryContestedWebSocket, const FTGTerritoryContest&, Contest);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTerritoryDataUpdated, const FTGTerritoryData&, TerritoryData);
 
 /**
@@ -160,10 +161,10 @@ public:
     FOnInitialStateReceived OnInitialStateReceived;
 
     UPROPERTY(BlueprintAssignable, Category = "Territorial WebSocket Events")
-    FOnTerritoryControlChanged OnTerritoryControlChanged;
+    FOnTerritoryControlChangedWebSocket OnTerritoryControlChanged;
 
     UPROPERTY(BlueprintAssignable, Category = "Territorial WebSocket Events")
-    FOnTerritoryContested OnTerritoryContested;
+    FOnTerritoryContestedWebSocket OnTerritoryContested;
 
     UPROPERTY(BlueprintAssignable, Category = "Territorial WebSocket Events")
     FOnTerritoryDataUpdated OnTerritoryDataUpdated;
@@ -193,7 +194,7 @@ protected:
     void OnConnectionLost();
 
 private:
-    // WebSocket connection
+    // WebSocket connection (forward declared - will be implemented when WebSocket module is integrated)
     TSharedPtr<class IWebSocket> WebSocket;
     bool bConnected;
 

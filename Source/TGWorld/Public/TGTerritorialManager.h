@@ -5,6 +5,7 @@
 #include "Subsystems/WorldSubsystem.h"
 #include "Components/ActorComponent.h"
 #include "Engine/DataTable.h"
+#include "Engine/TimerHandle.h"
 #include "TGTerritorialManager.generated.h"
 
 // Forward declarations
@@ -117,7 +118,7 @@ struct TGWORLD_API FTGTerritoryData
 };
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnTerritoryControlChanged, int32, TerritoryId, int32, OldControllerFactionId, int32, NewControllerFactionId);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnTerritoryContested, int32, TerritoryId, bool, bContested);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnTerritoryContestedManager, int32, TerritoryId, bool, bContested);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnInfluenceChanged, int32, TerritoryId, int32, FactionId, int32, NewInfluenceLevel);
 
 /**
@@ -136,7 +137,6 @@ public:
     // UWorldSubsystem interface
     virtual void Initialize(FSubsystemCollectionBase& Collection) override;
     virtual void Deinitialize() override;
-    virtual void Tick(float DeltaTime) override;
     virtual bool DoesSupportWorldType(EWorldType::Type WorldType) const override;
 
     // Territory Management - C++ Performance Critical
@@ -193,7 +193,7 @@ public:
     FOnTerritoryControlChanged OnTerritoryControlChanged;
 
     UPROPERTY(BlueprintAssignable, Category = "Territory Events")
-    FOnTerritoryContested OnTerritoryContested;
+    FOnTerritoryContestedManager OnTerritoryContested;
 
     UPROPERTY(BlueprintAssignable, Category = "Territory Events")
     FOnInfluenceChanged OnInfluenceChanged;
@@ -214,9 +214,9 @@ protected:
     UPROPERTY(EditAnywhere, Category = "Performance")
     float CacheRefreshInterval;
 
-    // Internal state
-    float LastUpdateTime;
-    float LastCacheRefresh;
+    // Timer handles for periodic updates (since WorldSubsystems don't tick)
+    FTimerHandle UpdateTimerHandle;
+    FTimerHandle CacheRefreshTimerHandle;
 
     // Database integration
     bool ConnectToTerritorialDatabase();
@@ -234,6 +234,10 @@ private:
     
     // Database connection
     class UTGDatabaseClient* TerritorialDatabase;
+
+    // Update tracking (timer handles already declared above)
+    float LastUpdateTime;
+    float LastCacheRefresh;
 
     // Thread safety
     mutable FCriticalSection TerritorialDataMutex;

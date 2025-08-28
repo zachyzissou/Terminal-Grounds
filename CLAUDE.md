@@ -623,8 +623,29 @@ Enforcement: Do not merge lore-affecting PRs without an attached Lore QA summary
 - Documented comprehensive API investigation
 - Established quality assessment pipeline
 - Achieved AAA-quality consistent output
+- **CLEANUP COMPLETE (August 28, 2025):** Removed all copyrighted assets, text-corrupted vehicles, and broken scripts
 
-Last Updated: August 24, 2025
+## Asset Generation Cleanup (August 28, 2025)
+
+**CRITICAL CLEANUP COMPLETED:** All production-blocking issues resolved
+
+**Assets Removed:**
+- Copyrighted UI elements (Call of Duty violations)
+- Text-corrupted faction vehicles (all 14 assets)
+- Failed emblem generations
+- Blurry and unusable quality issues
+
+**Scripts Fixed:**
+- `faction_vehicle_concepts.py` - Text corruption resolved through text elimination
+- `faction_ui_hud_concepts.py` - Copyright-safe with comprehensive blocking
+- Broken scripts archived in `Tools/ArtGen/04_BROKEN_SCRIPTS/` with documentation
+
+**Quality Standards Restored:**
+- Production pipeline now contains only usable, legal assets
+- All generation scripts tested and verified
+- Comprehensive documentation provided for future development
+
+Last Updated: August 28, 2025
 
 ## Critical Documentation Files
 

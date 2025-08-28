@@ -1,7 +1,7 @@
 #include "Splice/TGSpliceEvent.h"
 #include "Engine/World.h"
 #include "Kismet/GameplayStatics.h"
-#include "GameFramework/GameInstance.h"
+#include "Engine/GameInstance.h"
 #include "Codex/TGCodexSubsystem.h"
 #include "Trust/TGTrustSubsystem.h"
 #include "Economy/TGConvoyEconomySubsystem.h"

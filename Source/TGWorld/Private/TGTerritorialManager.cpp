@@ -36,12 +36,31 @@ void UTGTerritorialManager::Initialize(FSubsystemCollectionBase& Collection)
     // Load initial territorial data
     RefreshTerritorialCache();
     
+    // Set up periodic update timer since WorldSubsystems don't tick
+    if (UWorld* World = GetWorld())
+    {
+        World->GetTimerManager().SetTimer(UpdateTimerHandle, 
+            FTimerDelegate::CreateUObject(this, &UTGTerritorialManager::ProcessTerritorialUpdates), 
+            TerritorialUpdateFrequency, true);
+            
+        World->GetTimerManager().SetTimer(CacheRefreshTimerHandle,
+            FTimerDelegate::CreateUObject(this, &UTGTerritorialManager::RefreshTerritorialCache),
+            CacheRefreshInterval, true);
+    }
+    
     UE_LOG(LogTGWorld, Log, TEXT("Territorial Management System initialized successfully"));
 }
 
 void UTGTerritorialManager::Deinitialize()
 {
     UE_LOG(LogTGWorld, Log, TEXT("Deinitializing Territorial Management System"));
+    
+    // Clear periodic update timers
+    if (UWorld* World = GetWorld())
+    {
+        World->GetTimerManager().ClearTimer(UpdateTimerHandle);
+        World->GetTimerManager().ClearTimer(CacheRefreshTimerHandle);
+    }
     
     // Cleanup WebSocket connection
     if (TerritorialWebSocket)
@@ -62,27 +81,8 @@ void UTGTerritorialManager::Deinitialize()
     Super::Deinitialize();
 }
 
-void UTGTerritorialManager::Tick(float DeltaTime)
-{
-    Super::Tick(DeltaTime);
-    
-    LastUpdateTime += DeltaTime;
-    LastCacheRefresh += DeltaTime;
-    
-    // Process territorial updates at specified frequency
-    if (LastUpdateTime >= TerritorialUpdateFrequency)
-    {
-        ProcessTerritorialUpdates();
-        LastUpdateTime = 0.0f;
-    }
-    
-    // Refresh cache at specified interval
-    if (LastCacheRefresh >= CacheRefreshInterval)
-    {
-        RefreshTerritorialCache();
-        LastCacheRefresh = 0.0f;
-    }
-}
+// Note: WorldSubsystems don't have Tick functionality like ActorComponents
+// Territorial updates will be handled via timer delegates or other mechanisms
 
 bool UTGTerritorialManager::DoesSupportWorldType(EWorldType::Type WorldType) const
 {

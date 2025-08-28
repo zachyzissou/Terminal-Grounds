@@ -98,6 +98,10 @@ protected:
     UFUNCTION(BlueprintImplementableEvent, Category = "Territorial Widget")
     void OnTerritoryContested(const FTerritorialDisplayData& TerritoryData);
 
+    // Helper functions
+    UFUNCTION(BlueprintPure, Category = "Territorial Widget")
+    FString GetTerritoryName(int32 TerritoryID) const;
+
     // Utility functions
     UFUNCTION(BlueprintPure, Category = "Territorial Widget")
     FLinearColor GetFactionColor(int32 FactionID) const;

@@ -2,6 +2,9 @@
 #include "TGWorld.h"
 #include "Engine/World.h"
 #include "Misc/DateTime.h"
+// WebSocket includes - Currently stubbed out until WebSocket module is integrated
+// #include "IWebSocket.h"
+// #include "WebSocketsModule.h"
 
 UTGTerritorialWebSocketClient::UTGTerritorialWebSocketClient()
 {
@@ -26,10 +29,11 @@ void UTGTerritorialWebSocketClient::Deinitialize()
 {
     UE_LOG(LogTGWorld, Log, TEXT("Deinitializing Territorial WebSocket Client"));
     
-    if (WebSocket.IsValid() && WebSocket->IsConnected())
-    {
-        WebSocket->Close();
-    }
+    // TODO: Re-enable when WebSocket module is integrated
+    // if (WebSocket.IsValid() && WebSocket->IsConnected())
+    // {
+    //     WebSocket->Close();
+    // }
     
     WebSocket.Reset();
     bConnected = false;
@@ -90,7 +94,7 @@ void UTGTerritorialWebSocketClient::DisconnectFromServer()
     
     if (WebSocket.IsValid())
     {
-        WebSocket->Close();
+        // WebSocket->Close(); // TODO: Re-enable when WebSocket module is integrated
     }
     
     bConnected = false;

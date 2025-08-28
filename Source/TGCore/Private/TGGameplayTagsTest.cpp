@@ -3,7 +3,7 @@
 #include "Misc/AutomationTest.h"
 #include "GameplayTagContainer.h"
 
-IMPLEMENT_SIMPLE_AUTOMATION_TEST(FTGGameplayTagsSanityTest, "TerminalGrounds.GameplayTags.Valid", EAutomationTestFlags::ApplicationContextMask | EAutomationTestFlags::SmokeFilter)
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(FTGGameplayTagsSanityTest, "TerminalGrounds.GameplayTags.Valid", EAutomationTestFlags::EditorContext | EAutomationTestFlags::SmokeFilter)
 
 bool FTGGameplayTagsSanityTest::RunTest(const FString& Parameters)
 {
