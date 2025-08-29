@@ -1,0 +1,32 @@
+{
+  "AGENT_INTEGRATION_GUIDE.md": {
+    "file_path": "AGENT_INTEGRATION_GUIDE.md",
+    "title": "Document Control Specialist - Agent Integration Guide",
+    "category": "uncategorized",
+    "owner": "unassigned",
+    "last_modified": "2025-08-28 16:19:37.267424",
+    "version": "1.0",
+    "status": "draft",
+    "dependencies": [],
+    "references": [],
+    "tags": [],
+    "content_hash": "ac0f7873e3bebec421e15025f915a62e",
+    "word_count": 1428,
+    "maintenance_priority": 1
+  },
+  "README.md": {
+    "file_path": "README.md",
+    "title": "Terminal Grounds - Document Control Specialist",
+    "category": "uncategorized",
+    "owner": "unassigned",
+    "last_modified": "2025-08-28 16:18:14.875780",
+    "version": "1.0",
+    "status": "draft",
+    "dependencies": [],
+    "references": [],
+    "tags": [],
+    "content_hash": "0b87cef92c8acb7f7e63781286445c1e",
+    "word_count": 894,
+    "maintenance_priority": 5
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "FLUX1\\flux1-dev.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "military vehicle concept art, riot control vehicle, Terminal Grounds faction vehicle, post-apocalyptic combat transport, weathered armored vehicle, technical mechanical detail, industrial design, realistic wear patterns, faction color scheme, orthographic concept view, game asset design, detailed mechanical components",
+      "clip": ["1", 1]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "text, letters, numbers, symbols, writing, inscriptions, labels, signage, military markings, stencils, unit numbers, faction insignia, readable text, words, typography, character symbols, alphanumeric content, adidas, nike, logos, brand marks, company logos, watermarks, copyright symbols, trademarked content, brand names, manufacturer labels, corporate branding, commercial logos, brand insignia, growds, terminal grounds text, any text overlay, text watermarks, flying vehicle, hover car, sci-fi spaceship, clean pristine, factory new, fantasy, magical, glowing energy, impossible physics, cartoon proportions, gibberish text, scrambled letters, unreadable markings, nonsense symbols, corrupted signage",
+      "clip": ["1", 1]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1536,
+      "height": 864,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 94887,
+      "steps": 25,
+      "cfg": 3.2,
+      "sampler_name": "heun",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "model": ["1", 0],
+      "positive": ["2", 0],
+      "negative": ["3", 0],
+      "latent_image": ["4", 0]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["5", 0],
+      "vae": ["1", 2]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "TG_FIXED_Vehicle_GUI_Test",
+      "images": ["6", 0]
+    }
+  }
+}

@@ -1,15 +1,19 @@
 ---
-id: CHR_F77_SIX
-name: Handler "Six"
-type: character
-relationships:
-  faction: FCT_F77
-summary: Contract handler with a perfect memory for riders and penalties; never raises their voice.
-tags: [handler, negotiator, precise]
-signatures:
-  visual: [subdued patch, ledger slate]
-  narrative: [contract addenda, penalty schedules]
+title: Handler "Six"
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- handler
+- negotiator
+- precise
+- faction:FCT_F77
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

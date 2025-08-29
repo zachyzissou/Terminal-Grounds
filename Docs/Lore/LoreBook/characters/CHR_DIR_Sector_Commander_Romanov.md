@@ -1,15 +1,19 @@
 ---
-id: CHR_DIR_ROMANOV
-name: Sector Commander Romanov
-type: character
-relationships:
-  faction: FCT_DIR
-summary: Directorate commander rebuilding chain-of-command with precise logistics and calm force.
-tags: [commander, logistics, disciplined]
-signatures:
-  visual: [pressed uniform, white-blue LED shoulder lamp]
-  narrative: [brevity codes, perimeter layering]
+title: Sector Commander Romanov
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- commander
+- logistics
+- disciplined
+- faction:FCT_DIR
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

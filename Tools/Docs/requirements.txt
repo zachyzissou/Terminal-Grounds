@@ -1,0 +1,24 @@
+"""
+Terminal Grounds Documentation Automation Framework
+Requirements and Dependencies
+
+Phase 3: Advanced Governance & Automation
+"""
+
+# Core Python dependencies for documentation automation
+PyYAML>=6.0.1          # YAML parsing for frontmatter
+pathlib>=1.0.1         # Path handling (built-in)
+typing>=3.7.4          # Type hints (built-in)
+dataclasses>=0.6        # Data classes (built-in)
+datetime                # Date/time handling (built-in)
+re                      # Regular expressions (built-in)
+logging                 # Logging (built-in)
+
+# Future enhancements (optional)
+# markdown>=3.4.1       # Markdown processing
+# jinja2>=3.1.2         # Template rendering
+# gitpython>=3.1.40     # Git integration
+# requests>=2.31.0      # HTTP requests for external validation
+# pytest>=7.4.0         # Testing framework
+# black>=23.0.0         # Code formatting
+# flake8>=6.0.0         # Linting

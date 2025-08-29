@@ -1,0 +1,34 @@
+document_categories:
+  art:
+  - docs/Art/
+  - Content/TG/
+  design:
+  - docs/Design/
+  - docs/Concepts/
+  lore:
+  - docs/Lore/
+  process:
+  - '*.md'
+  reference:
+  - Tools/ArtGen/
+  - docs/Assets/
+  technical:
+  - docs/Tech/
+  - Tools/
+maintenance_schedule_days:
+  critical: 30
+  high: 60
+  low: 365
+  medium: 120
+mandatory_metadata:
+- title
+- category
+- owner
+- status
+max_duplicate_content_similarity: 0.8
+status_lifecycle:
+- draft
+- review
+- approved
+- deprecated
+- archived

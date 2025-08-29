@@ -1,3 +1,14 @@
+---
+title: "Free77"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # The Seventy-Seven Faction Style Guide
 
 Lore Reference: See canonical faction details in docs/Lore/LORE_BIBLE.md#factions

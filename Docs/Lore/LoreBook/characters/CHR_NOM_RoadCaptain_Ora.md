@@ -1,15 +1,19 @@
 ---
-id: CHR_NOM_ORA
-name: Road Captain Ora
-type: character
-relationships:
-  faction: FCT_NOM
-summary: Keeps a convoy tight through storms and ambushes with horn codes and trust.
-tags: [driver, captain, convoy]
-signatures:
-  visual: [steering gloves, roof pennant]
-  narrative: [horn codes, fuel math]
+title: Road Captain Ora
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- driver
+- captain
+- convoy
+- faction:FCT_NOM
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

@@ -1,0 +1,102 @@
+{
+  "name": "design_base",
+  "domain": "design",
+  "type": "base",
+  "description": "Base template for design domain documents",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "default": "",
+      "validation": null,
+      "description": "Document title for design domain"
+    },
+    {
+      "name": "type",
+      "type": "enum",
+      "required": true,
+      "default": "reference",
+      "validation": {
+        "enum": [
+          "guide",
+          "reference",
+          "process",
+          "spec",
+          "api"
+        ]
+      },
+      "description": "Document type"
+    },
+    {
+      "name": "domain",
+      "type": "string",
+      "required": true,
+      "default": "design",
+      "validation": null,
+      "description": "Documentation domain"
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "required": true,
+      "default": "draft",
+      "validation": {
+        "enum": [
+          "draft",
+          "review",
+          "approved",
+          "deprecated"
+        ]
+      },
+      "description": "Document status"
+    },
+    {
+      "name": "last_reviewed",
+      "type": "date",
+      "required": true,
+      "default": "2025-08-28",
+      "validation": null,
+      "description": "Last review date"
+    },
+    {
+      "name": "maintainer",
+      "type": "string",
+      "required": true,
+      "default": "Documentation Team",
+      "validation": null,
+      "description": "Document maintainer"
+    },
+    {
+      "name": "tags",
+      "type": "array",
+      "required": false,
+      "default": [
+        "design"
+      ],
+      "validation": null,
+      "description": "Document tags"
+    },
+    {
+      "name": "related_docs",
+      "type": "array",
+      "required": false,
+      "default": [],
+      "validation": null,
+      "description": "Related documents"
+    }
+  ],
+  "content_structure": {
+    "sections": [
+      "Overview",
+      "Details",
+      "References"
+    ],
+    "required_sections": [
+      "Overview"
+    ]
+  },
+  "examples": [
+    "Example design document"
+  ]
+}

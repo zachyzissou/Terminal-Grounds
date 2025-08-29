@@ -1,11 +1,15 @@
 ---
-id: POI_TECH_COOLANT
-name: Coolant Leak Sump
-type: poi
-region: REG_TECH_SINK
-hook: patch pumps while corrosive fog eats seals
-canon_refs: ["LORE_BIBLE#poi_tech_coolant_leak"]
+title: Coolant Leak Sump
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

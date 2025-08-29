@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "terminal-grounds-docs-automation"
+version = "0.1.0"
+description = "Terminal Grounds Documentation Automation Framework"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.1",
+    "schedule>=1.2.2",
+]
+
+[project.scripts]
+validate-docs = "validators:main"
+generate-docs = "generators:main"
+monitor-docs = "monitors:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["validators", "generators", "monitors"]

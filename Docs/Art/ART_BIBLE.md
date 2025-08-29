@@ -1,9 +1,31 @@
+---
+title: "Terminal Grounds - Art Bible"
+type: reference
+domain: art
+status: approved
+last_reviewed: "2025-08-25"
+maintainer: "Art Team"
+tags:
+  - art-bible
+  - visual-identity
+  - faction-design
+  - asset-pipeline
+  - material-guidelines
+  - biome-aesthetics
+related_docs:
+  - "docs/Art/FACTION_VISUAL_LANGUAGE_BIBLE.md"
+  - "docs/Art/UI_STYLE_GUIDE.md"
+  - "docs/Art/PRODUCTION_STATUS.md"
+---
+
 # Terminal Grounds - Art Bible
 
 ## Visual Identity Framework
-*Chief Art Director System Implementation Complete - August 25, 2025*
+
+Chief Art Director System Implementation Complete - August 25, 2025
 
 ### Chief Art Director Achievement Status
+
 - ✅ **109+ Professional Assets Generated** - Enterprise-scale production pipeline operational
 - ✅ **Complete Bloom Game Branding** - 6 professional logo variations implemented
 - ✅ **Enhanced Faction Identity System** - 7 factions with signature visual hooks
@@ -14,10 +36,10 @@
 
 ### Core Art Pillars (Chief Art Director Framework)
 
-**PILLAR 1: GROUNDED MILITARISM** - Authentic tactical enhancement showing 6 months of post-cascade adaptation
-**PILLAR 2: ENVIRONMENTAL SCARRING** - Post-cascade world wounds with faction environmental marking systems
-**PILLAR 3: TECHNOLOGICAL STRATIFICATION** - Field→Splice→Monolith hierarchy with clear equipment risk progression
-**PILLAR 4: TRIBAL CORPORATE WARFARE** - Faction territorial control through environmental storytelling and branding warfare
+**PILLAR 1: GROUNDED MILITARISM** - Authentic tactical enhancement showing 6 months of post-cascade adaptation  
+**PILLAR 2: ENVIRONMENTAL SCARRING** - Post-cascade world wounds with faction environmental marking systems  
+**PILLAR 3: TECHNOLOGICAL STRATIFICATION** - Field→Splice→Monolith hierarchy with clear equipment risk progression  
+**PILLAR 4: TRIBAL CORPORATE WARFARE** - Faction territorial control through environmental storytelling and branding warfare  
 **PILLAR 5: EXTRACTION TENSION** - High-stakes escape architecture with countdown pressure elements
 
 ### Core Aesthetic
@@ -157,6 +179,7 @@
 ### Faction Visual Identity Standards
 
 #### Weathering Hierarchy
+
 - **Corporate Hegemony**: Pristine surfaces with smart-cleaning tech
 - **Directorate**: Professional maintenance, institutional wear patterns
 - **Free77**: Commercial-grade wear, professional replacement schedules
@@ -166,13 +189,15 @@
 - **Civic Wardens**: Community maintenance, makeshift but cared-for
 
 #### Silhouette Recognition Requirements
+
 - Each faction must be instantly identifiable at 100+ meters
 - Character silhouettes prioritize faction-specific equipment arrangements
 - Vehicle profiles emphasize faction modification patterns
 - Weapon silhouettes maintain faction aesthetic consistency
 
 ## Enhanced Asset Naming Convention
-*Updated for new faction identities*
+
+Updated for new faction identities
 
 ```text
 [FACTION]_[CATEGORY]_[TYPE]_[VARIANT]_[VERSION]
@@ -184,6 +209,7 @@ ARC_EMBLEM_DataVault_Ancient_v001.png
 ```
 
 ### Faction Code Reference
+
 - **DIR**: Directorate
 - **F77**: Free77 Contractors
 - **ISC**: Iron Scavengers *(was VLT/VulturesUnion)*
@@ -210,7 +236,6 @@ ARC_EMBLEM_DataVault_Ancient_v001.png
 
 ---
 
-*Last Updated: Chief Art Director Implementation Phase 1*
-*Asset Pipeline: ComfyUI FLUX1-dev-fp8 → UE5.6*
-*Visual Identity Framework: Quadruple-A Standards*
-*Faction Naming: Updated for consistency and generation compatibility*
+Last Updated: Chief Art Director Implementation Phase 1  
+Asset Pipeline: ComfyUI FLUX1-dev-fp8 → UE5.6  
+Visual Identity Framework: Quadruple-A Standards

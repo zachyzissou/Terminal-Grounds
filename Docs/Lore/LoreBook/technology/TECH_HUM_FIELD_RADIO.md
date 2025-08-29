@@ -1,14 +1,18 @@
 ---
-id: TECH_HUM_RADIO
-name: Shielded Field Radio Mk.III
-type: tech
-tier: field
-summary: Reliable comms with EMP-hardening kits; Directorate staple.
-tags: [comms, field, reliable]
-signatures:
-  visual: [rubberized casing, braided antenna, clean numeral stencils]
-  narrative: [encrypted brevity, fallback codewords]
+title: Shielded Field Radio Mk.III
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- comms
+- field
+- reliable
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

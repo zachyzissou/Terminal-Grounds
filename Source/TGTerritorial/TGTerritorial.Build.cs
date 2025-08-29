@@ -27,11 +27,12 @@ public class TGTerritorial : ModuleRules
                 "Json",
                 "JsonUtilities",
                 "HTTP",
-                "TGWorld",
                 "TGNet",
                 "TGAI"
             }
         );
+        
+        PublicIncludePathModuleNames.AddRange(new string[] { "TGWorld" });
 
         PrivateDependencyModuleNames.AddRange(
             new string[] {

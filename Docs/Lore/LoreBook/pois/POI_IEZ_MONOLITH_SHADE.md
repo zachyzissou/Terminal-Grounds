@@ -1,11 +1,15 @@
 ---
-id: POI_IEZ_MONOLITH
-name: Monolith Shade
-type: poi
-region: REG_IEZ
-hook: salvage under a shadow that moves wrong between EMP waves
-canon_refs: ["LORE_BIBLE#poi_iez_monolith"]
+title: Monolith Shade
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

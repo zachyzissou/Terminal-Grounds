@@ -1,6 +1,27 @@
+---
+title: "Bloom \u2014 Key Art Briefs"
+type: spec
+domain: art
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Art Team
+tags:
+- key-art
+- marketing
+- bloom
+- visual-design
+- briefs
+- creative-specification
+related_docs:
+- docs/Art/ART_BIBLE.md
+- docs/Art/FACTION_VISUAL_LANGUAGE_BIBLE.md
+- docs/Bloom_Naming_and_Style_Guide.md
+---
+
+
 # Bloom — Key Art Briefs
 
-Overview
+## Overview
 
 - Two hero images for marketing and in‑engine look targets.
 

@@ -1,3 +1,15 @@
+---
+title: Phase4 Docs Inventory
+type: reference
+domain: process
+status: draft
+last_reviewed: '2025-08-28'
+maintainer: Documentation Team
+tags: []
+related_docs: []
+---
+
+
 # Phase 4 — Docs Inventory (Present/Thin/Missing)
 
 Scope: High-level classification of key documentation artifacts for the Phase 4 delta pass. Only classification; no content removed. Use this as a checklist for append-only expansions.

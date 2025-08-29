@@ -1,0 +1,418 @@
+{
+  "timestamp": 1756452021.3145373,
+  "total_assets": 50,
+  "successful": 50,
+  "failed": 0,
+  "success_rate": 100.0,
+  "total_time": 25.124385833740234,
+  "perfect_params": {
+    "sampler_name": "heun",
+    "scheduler": "normal",
+    "cfg": 3.5,
+    "steps": 30,
+    "width": 1536,
+    "height": 864
+  },
+  "generation_log": [
+    {
+      "id": 1,
+      "type": "Weapon",
+      "faction": "directorate",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756451996.198156
+    },
+    {
+      "id": 2,
+      "type": "Weapon",
+      "faction": "directorate",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756451996.7059014
+    },
+    {
+      "id": 3,
+      "type": "Weapon",
+      "faction": "free77",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756451997.212772
+    },
+    {
+      "id": 4,
+      "type": "Weapon",
+      "faction": "free77",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756451997.718954
+    },
+    {
+      "id": 5,
+      "type": "Weapon",
+      "faction": "civicwardens",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756451998.2246366
+    },
+    {
+      "id": 6,
+      "type": "Weapon",
+      "faction": "civicwardens",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756451998.7302613
+    },
+    {
+      "id": 7,
+      "type": "Weapon",
+      "faction": "nomadclans",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756451999.2368665
+    },
+    {
+      "id": 8,
+      "type": "Weapon",
+      "faction": "nomadclans",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756451999.7437
+    },
+    {
+      "id": 9,
+      "type": "Weapon",
+      "faction": "ironscavengers",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756452000.2483716
+    },
+    {
+      "id": 10,
+      "type": "Weapon",
+      "faction": "ironscavengers",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756452000.7683463
+    },
+    {
+      "id": 11,
+      "type": "Weapon",
+      "faction": "corporatehegemony",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756452001.2715068
+    },
+    {
+      "id": 12,
+      "type": "Weapon",
+      "faction": "corporatehegemony",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756452001.914723
+    },
+    {
+      "id": 13,
+      "type": "Weapon",
+      "faction": "archivekeepers",
+      "details": "rifle",
+      "success": true,
+      "timestamp": 1756452002.419719
+    },
+    {
+      "id": 14,
+      "type": "Weapon",
+      "faction": "archivekeepers",
+      "details": "pistol",
+      "success": true,
+      "timestamp": 1756452002.9262588
+    },
+    {
+      "id": 15,
+      "type": "Vehicle",
+      "faction": "directorate",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452003.4328072
+    },
+    {
+      "id": 16,
+      "type": "Vehicle",
+      "faction": "directorate",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452003.9471164
+    },
+    {
+      "id": 17,
+      "type": "Vehicle",
+      "faction": "free77",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452004.4535866
+    },
+    {
+      "id": 18,
+      "type": "Vehicle",
+      "faction": "free77",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452004.9571848
+    },
+    {
+      "id": 19,
+      "type": "Vehicle",
+      "faction": "civicwardens",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452005.4624588
+    },
+    {
+      "id": 20,
+      "type": "Vehicle",
+      "faction": "civicwardens",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452005.975862
+    },
+    {
+      "id": 21,
+      "type": "Vehicle",
+      "faction": "nomadclans",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452006.4848027
+    },
+    {
+      "id": 22,
+      "type": "Vehicle",
+      "faction": "nomadclans",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452006.9908268
+    },
+    {
+      "id": 23,
+      "type": "Vehicle",
+      "faction": "ironscavengers",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452007.4959378
+    },
+    {
+      "id": 24,
+      "type": "Vehicle",
+      "faction": "ironscavengers",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452008.0044422
+    },
+    {
+      "id": 25,
+      "type": "Vehicle",
+      "faction": "corporatehegemony",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452008.5102348
+    },
+    {
+      "id": 26,
+      "type": "Vehicle",
+      "faction": "corporatehegemony",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452009.0156264
+    },
+    {
+      "id": 27,
+      "type": "Vehicle",
+      "faction": "archivekeepers",
+      "details": "transport",
+      "success": true,
+      "timestamp": 1756452009.518495
+    },
+    {
+      "id": 28,
+      "type": "Vehicle",
+      "faction": "archivekeepers",
+      "details": "patrol",
+      "success": true,
+      "timestamp": 1756452010.0257878
+    },
+    {
+      "id": 29,
+      "type": "UI Element",
+      "faction": "directorate",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452010.531716
+    },
+    {
+      "id": 30,
+      "type": "UI Element",
+      "faction": "directorate",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452011.038851
+    },
+    {
+      "id": 31,
+      "type": "UI Element",
+      "faction": "free77",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452011.5439293
+    },
+    {
+      "id": 32,
+      "type": "UI Element",
+      "faction": "free77",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452012.1943874
+    },
+    {
+      "id": 33,
+      "type": "UI Element",
+      "faction": "civicwardens",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452012.6994631
+    },
+    {
+      "id": 34,
+      "type": "UI Element",
+      "faction": "civicwardens",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452013.203398
+    },
+    {
+      "id": 35,
+      "type": "UI Element",
+      "faction": "nomadclans",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452013.7093077
+    },
+    {
+      "id": 36,
+      "type": "UI Element",
+      "faction": "nomadclans",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452014.2163415
+    },
+    {
+      "id": 37,
+      "type": "UI Element",
+      "faction": "ironscavengers",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452014.7323213
+    },
+    {
+      "id": 38,
+      "type": "UI Element",
+      "faction": "ironscavengers",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452015.236022
+    },
+    {
+      "id": 39,
+      "type": "UI Element",
+      "faction": "corporatehegemony",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452015.740029
+    },
+    {
+      "id": 40,
+      "type": "UI Element",
+      "faction": "corporatehegemony",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452016.243451
+    },
+    {
+      "id": 41,
+      "type": "UI Element",
+      "faction": "archivekeepers",
+      "details": "hud_overlay",
+      "success": true,
+      "timestamp": 1756452016.7507691
+    },
+    {
+      "id": 42,
+      "type": "UI Element",
+      "faction": "archivekeepers",
+      "details": "status_display",
+      "success": true,
+      "timestamp": 1756452017.2617383
+    },
+    {
+      "id": 43,
+      "type": "Emblem",
+      "faction": "directorate",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452017.768165
+    },
+    {
+      "id": 44,
+      "type": "Emblem",
+      "faction": "free77",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452018.2741368
+    },
+    {
+      "id": 45,
+      "type": "Emblem",
+      "faction": "civicwardens",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452018.7784278
+    },
+    {
+      "id": 46,
+      "type": "Emblem",
+      "faction": "nomadclans",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452019.2920036
+    },
+    {
+      "id": 47,
+      "type": "Emblem",
+      "faction": "ironscavengers",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452019.7988417
+    },
+    {
+      "id": 48,
+      "type": "Emblem",
+      "faction": "corporatehegemony",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452020.3028288
+    },
+    {
+      "id": 49,
+      "type": "Emblem",
+      "faction": "archivekeepers",
+      "details": "logo",
+      "success": true,
+      "timestamp": 1756452020.8086138
+    },
+    {
+      "id": 50,
+      "type": "Environment",
+      "faction": "showcase",
+      "details": "comprehensive",
+      "success": true,
+      "timestamp": 1756452021.3140292
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 ---
-id: REG_BLACK_VAULT
-name: Black Vault
-type: region
-desc: buried alien facility interface with human lockdowns
-motifs: sealed iris doors, harmonic beacons, null-field chambers
-materials: unknown alloys, obsidian composites, carbon lattice
-atmo: subaudible tones, EM shimmer, light that bends wrong
-canon_refs: ["LORE_BIBLE#region_black_vault"]
+title: Black Vault
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

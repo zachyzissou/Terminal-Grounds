@@ -1,15 +1,19 @@
 ---
-id: CHR_DIR_INEZ
-name: Sapper Inez Calder
-type: character
-relationships:
-  faction: FCT_DIR
-summary: Explosives expert who prefers bridges built to bridges blown—except when doctrine demands.
-tags: [sapper, engineer, cautious]
-signatures:
-  visual: [demolition satchel, stenciled timers]
-  narrative: [charge calculations, structural diagrams]
+title: Sapper Inez Calder
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- sapper
+- engineer
+- cautious
+- faction:FCT_DIR
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

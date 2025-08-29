@@ -1,3 +1,14 @@
+---
+title: "Bloom Lore Bible - Canonical Worldbuilding"
+type: "reference"
+domain: "lore"
+status: "approved"
+last_reviewed: "2025-08-28"
+maintainer: "Narrative Team"
+tags: ["lore", "canon", "worldbuilding", "factions", "characters", "technology", "timeline"]
+related_docs: ["Lore/LoreBook/Role_Brief_Master_Storyteller.md", "POIs_Flavor.md", "Factions_Flavor.md", "Weapons_Flavor.md"]
+---
+
 # Bloom Lore Bible (Canon)
 
 Version: 1.0.0
@@ -8,7 +19,7 @@ Last Updated: 2025-08-24
 
 Scope: Canonical worldbuilding for Bloom across all disciplines. Project codename: "Terminal Grounds" (internal tools and paths may still use TG names).
 
-Change Policy: Canon edits require “lore-change” PR label, narrative approval, and a changelog entry. Summaries must link here; duplication prohibited.
+Change Policy: Canon edits require "lore-change" PR label, narrative approval, and a changelog entry. Summaries must link here; duplication prohibited.
 
 Index
 
@@ -46,7 +57,7 @@ No-go list
 - What is canon: this Lore Bible and any section it explicitly links as canon.
 - What isn’t: summaries, art/style docs, marketing blurbs, and tool prompts (unless linked here).
 - IDs: Stable IDs across docs, tools, and UE assets. Prefixes:
-	- Factions FCT_*, Regions REG_*, POIs POI_*, Events EVT_*, Characters CHR_*, Tech TEC_*
+  - Factions FCT_*, Regions REG_*, POIs POI_*, Events EVT_*, Characters CHR_*, Tech TEC_*
 - Retcons: Must include a changelog entry and a migration note for affected IDs.
 
 ## Timeline {#timeline}
@@ -64,13 +75,13 @@ No-go list
 - The Harvesters: Automated extractors. Purpose unknown. Wreck typology suggests reconnaissance (Skimmer), combat/logistics (Harrower), and deep infrastructure (Monolith).
 - Linguistic artifacts: Emissions show prime harmonics and non-integer frequency lattices. The Archive's “Cant” borrows terms from these patterns.
 - Wreck Classification:
-	- TEC_SKIMMER: 50–100m; basic energy systems, survey arrays; reliable hybridization source.
-	- TEC_HARROWER: 200–500m; weaponized arrays, defensive drones; unstable but powerful yields.
-	- TEC_MONOLITH: 1–5km; field manipulators (gravity, time-phase); catastrophic side effects.
+  - TEC_SKIMMER: 50–100m; basic energy systems, survey arrays; reliable hybridization source.
+  - TEC_HARROWER: 200–500m; weaponized arrays, defensive drones; unstable but powerful yields.
+  - TEC_MONOLITH: 1–5km; field manipulators (gravity, time-phase); catastrophic side effects.
 - Field effects:
-	- EMP lattices (Harrower): Decay in minutes but leave sensor ghosts for days.
-	- Temporal jitter (Monolith): Misaligned oscillator drift, subjective time distortions in proximity.
-	- Psychotropic resonance: Long exposure correlates with derealization, intrusive patterning.
+  - EMP lattices (Harrower): Decay in minutes but leave sensor ghosts for days.
+  - Temporal jitter (Monolith): Misaligned oscillator drift, subjective time distortions in proximity.
+  - Psychotropic resonance: Long exposure correlates with derealization, intrusive patterning.
 
 ## World & Regions {#world}
 
@@ -78,62 +89,62 @@ No-go list
 	- The quarantined city‑zone reshaped by recurring Monolith phenomena called “blooms.” Factions extract tech, keep the truce, and try to breathe between surges. Use “Bloom” or “the Bloom” in prose; reserve “Monolith Bloom” for the specific harmonic event.
 
 - REG_IEZ — The Dead Sky (IEZ)
-	- The 200 km radius “dead-sky” where Monolith-caused cascade originated. Outer bands are salvageable; inner core remains jitter-locked. Terrain: tilted ferrocrete, melted rails, monolithic shadows.
-	- Hazards: rolling EMP microbursts, phase shears, drone reactivation events.
-	- Logistics: convoy cords and shielded relays, “breadcrumb” Faraday shelters.
+  - The 200 km radius "dead-sky" where Monolith-caused cascade originated. Outer bands are salvageable; inner core remains jitter-locked. Terrain: tilted ferrocrete, melted rails, monolithic shadows.
+  - Hazards: rolling EMP microbursts, phase shears, drone reactivation events.
+  - Logistics: convoy cords and shielded relays, "breadcrumb" Faraday shelters.
 - REG_TECH_WASTES — Machine Grave (de‑industrial belts)
-	- Semi-autonomous factories stutter to life with scavenged power. Trivector Combine and Obsidian Archive contest control.
+  - Semi-autonomous factories stutter to life with scavenged power. Trivector Combine and Obsidian Archive contest control.
 - REG_METRO_A — Sump Gardens (Metro A)
-	- Subterranean neutral ground enforced by Wardens’ tolls and truce rules.
+  - Subterranean neutral ground enforced by Wardens' tolls and truce rules.
 - REG_CRIMSON_DOCKS — Crimson Freeport (salvage port)
-	- Iron Vultures hub. The red-stained quays are both market and battleground.
+  - Iron Vultures hub. The red-stained quays are both market and battleground.
 - REG_SKY_BASTION — North Bastion (Directorate mountain stronghold)
-	- A high-altitude fortress with reinforced hangars and long-range comms arrays.
-- REG_BLACK_VAULT — The Deep Vault (subterranean complex of unknown origin)
-	- Claimed by the Obsidian Archive; rumored pre-Harvester. Emits intermittent prime harmonics.
+  - A high-altitude fortress with reinforced hangars and long-range comms arrays.
+- REG_BLACK_VAULT — The Black Vault (aka "Deep Vault") (subterranean complex of unknown origin)
+  - Claimed by the Obsidian Archive; rumored pre-Harvester. Emits intermittent prime harmonics.
 
 ## Factions {#factions}
 
 - FCT_DIR — Sky Bastion Directorate
-	- Philosophy: Order through discipline; legitimacy by continuity of command.
-	- Territory: North Bastion, IEZ northern districts.
-	- Tech Focus: Field-grade reliability; rigorously vetted splice systems.
-	- Structure: Field Legions, Logistics Corps, Signals Authority.
-	- Slogans: “Order from Chaos.”
-	- Signature: Standardized kit, clean stenciling, disciplined comms.
+  - Philosophy: Order through discipline; legitimacy by continuity of command.
+  - Territory: North Bastion, IEZ northern districts.
+  - Tech Focus: Field-grade reliability; rigorously vetted splice systems.
+  - Structure: Field Legions, Logistics Corps, Signals Authority.
+  - Slogans: "Order from Chaos."
+  - Signature: Standardized kit, clean stenciling, disciplined comms.
 - FCT_VUL — Iron Vultures
-	- Philosophy: Survival through salvage; markets as mediation.
-	- Territory: Crimson Freeport; roving scavenger flotillas.
-	- Tech Focus: Jury-rigged splice kits; drone tethering.
-	- Slogans: “From Scrap, Strength.”
-	- Signature: Panel-patched armor, visible welds, colored tarps.
+  - Philosophy: Survival through salvage; markets as mediation.
+  - Territory: Crimson Freeport; roving scavenger flotillas.
+  - Tech Focus: Jury-rigged splice kits; drone tethering.
+  - Slogans: "From Scrap, Strength."
+  - Signature: Panel-patched armor, visible welds, colored tarps.
 - FCT_F77 — The Seventy-Seven
-	- Philosophy: Contract pragmatism; competence as currency.
-	- Territory: Itinerant; agency offices in neutral nodes.
-	- Tech Focus: Balanced loadouts tailored to contracts.
-	- Slogans: “Contract Complete.”
-	- Signature: Mixed camo, modular kit, invoice tags on crates.
+  - Philosophy: Contract pragmatism; competence as currency.
+  - Territory: Itinerant; agency offices in neutral nodes.
+  - Tech Focus: Balanced loadouts tailored to contracts.
+  - Slogans: "Contract Complete."
+  - Signature: Mixed camo, modular kit, invoice tags on crates.
 - FCT_CCB — Trivector Combine
-	- Philosophy: Progress by supremacy of technology.
-	- Territory: Machine Grave, R&D pads, secured corridors.
-	- Tech Focus: Prototype splice systems, dangerous edge cases.
-	- Slogans: “Through Technology, Tomorrow.”
-	- Signature: Polished composites, neon diagnostics, NDA stamps.
+  - Philosophy: Progress by supremacy of technology.
+  - Territory: Machine Grave, R&D pads, secured corridors.
+  - Tech Focus: Prototype splice systems, dangerous edge cases.
+  - Slogans: "Through Technology, Tomorrow."
+  - Signature: Polished composites, neon diagnostics, NDA stamps.
 - FCT_NOM — Roadborn Clans
-	- Philosophy: Freedom through mobility; roads as lifelines.
-	- Territory: Convoy-cities; seasonal routes.
-	- Tech Focus: Vehicle mods; logistics systems; quick-deploy fortifications.
-	- Slogans: “The Road Endures.”
+  - Philosophy: Freedom through mobility; roads as lifelines.
+  - Territory: Convoy-cities; seasonal routes.
+  - Tech Focus: Vehicle mods; logistics systems; quick-deploy fortifications.
+  - Slogans: "The Road Endures."
 - FCT_VAR — Obsidian Archive
-	- Philosophy: Knowledge as salvation; reality is a system to be studied.
-	- Territory: The Deep Vault, hidden labs.
-	- Tech Focus: EMP, stealth, sensor manipulation; pure artifact studies.
-	- Slogans: “Knowledge Preserves.”
+  - Philosophy: Knowledge as salvation; reality is a system to be studied.
+  - Territory: The Deep Vault, hidden labs.
+  - Tech Focus: EMP, stealth, sensor manipulation; pure artifact studies.
+  - Slogans: "Knowledge Preserves."
 - FCT_CWD — Truce Wardens
-	- Philosophy: Mutual aid through defense of civilians.
-	- Territory: Metro Maintenance A; safe nodes; settlement belts.
-	- Tech Focus: Hardening, shields, counter-drone networks.
-	- Slogans: “We Stand Together.”
+  - Philosophy: Mutual aid through defense of civilians.
+  - Territory: Metro Maintenance A; safe nodes; settlement belts.
+  - Tech Focus: Hardening, shields, counter-drone networks.
+  - Slogans: "We Stand Together."
 
 ### Event-Only/Secret Aggressors
 
@@ -275,6 +286,14 @@ Conflict Patterns
 - Harvester: automated alien system; never “visitors” or “angels.”
 - Bloom (World): The quarantined city‑zone setting (proper noun). Synonym: “the Bloom.”
 - Monolith Bloom (Event): The harmonic‑surge event that opens Phase Pockets; do not confuse with the world name.
+
+New Terms (Season 1)
+
+- Quietus Mark: Persistent penalty tier for Truce Gate violations; Q0–Q4; public verdicts at Gates.
+- Ghost Bid: Auction counterplay tactic to mask provenance or snipe payments.
+- Provenance Forgery: Fabricated artifact lineage used to manipulate Black Auctions.
+- Mnemonic Debt: Penalty accrued when memory fails to persist (C1 or lower); affects handlers and economy.
+- Coherence Band: Indicator (C0–C3) of memory stability; gates certain codex and map unlocks.
 
 Style
 

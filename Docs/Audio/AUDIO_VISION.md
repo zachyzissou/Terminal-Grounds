@@ -1,8 +1,30 @@
+---
+title: "Terminal Grounds Audio Vision"
+type: spec
+domain: technical
+status: approved
+last_reviewed: "2025-08-25"
+maintainer: "Audio Team"
+tags:
+  - audio-design
+  - sound-system
+  - accessibility
+  - faction-audio
+  - mixing-standards
+  - weapon-audio
+  - environmental-audio
+related_docs:
+  - "docs/Art/ART_BIBLE.md"
+  - "docs/Art/FACTION_VISUAL_LANGUAGE_BIBLE.md"
+  - "docs/Technical/UE5_TERRITORIAL_INTEGRATION.md"
+---
+
 # Terminal Grounds Audio Vision
 
 ## Audio Philosophy
 
 Terminal Grounds audio creates an immersive battlefield soundscape that prioritizes:
+
 1. **Tactical Information**: Audio cues provide critical gameplay information
 2. **Immersive Realism**: Authentic military and sci-fi sound design
 3. **Performance Clarity**: Clean mix that maintains intelligibility in combat
@@ -12,6 +34,7 @@ Terminal Grounds audio creates an immersive battlefield soundscape that prioriti
 ### Weapon Audio Layers
 
 #### Shot Core Layers
+
 - **Ignition**: Primary gunshot impulse, weapon-specific frequency signature
 - **Chamber Pressure**: Explosive gas expansion, caliber-dependent intensity
 - **Barrel Resonance**: Acoustic properties based on barrel length and diameter
@@ -19,6 +42,7 @@ Terminal Grounds audio creates an immersive battlefield soundscape that prioriti
 - **Supersonic Crack**: Projectile sound barrier break for high-velocity rounds
 
 #### Mechanical Layers
+
 - **Action Cycling**: Bolt movement, extraction, ejection sounds
 - **Magazine Systems**: Loading, unloading, magazine insertion/removal
 - **Safety Systems**: Click patterns for safety engagement/disengagement
@@ -26,6 +50,7 @@ Terminal Grounds audio creates an immersive battlefield soundscape that prioriti
 - **Thermal Effects**: Metal expansion/contraction sounds during sustained fire
 
 #### Tail Layers
+
 - **Distance Reflection**: Environmental echo based on terrain and structures
 - **Atmospheric Absorption**: High-frequency rolloff over distance
 - **Wind Interaction**: Sound distortion based on weather conditions

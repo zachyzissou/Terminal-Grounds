@@ -1,3 +1,14 @@
+---
+title: "Trust System"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # Trust System — System Design (Bold)
 
 ## Core Loop

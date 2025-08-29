@@ -1,3 +1,14 @@
+---
+title: "Weapons Flavor"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # Weapon Flavor Pack — /Docs/Lore/Weapons_Flavor.md
 
 Use these descriptions for in-game item popups, marketing blurbs, and lore entries.

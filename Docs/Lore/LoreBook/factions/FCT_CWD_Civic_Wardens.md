@@ -1,26 +1,20 @@
 ---
-id: FCT_CWD
-name: Truce Wardens
-type: faction
-aliases: [Wardens]
-summary: >
-  Civil defense guardians who keep tunnels safe and the truce sacred. They trade predictability for legitimacy: toll codes, med priority, and mesh barriers that actually hold.
-tags: [defense, neutral, tolls, shields, counter-drone]
-signatures:
-  visual: [mesh barriers, sandbags, floodlight arrays, clean stenciling, numbered gates]
-  narrative: [toll codes, triage priorities, community liaison, gate de-escalation]
-palette:
-  primary: "#54708C"
-  secondary: "#CED7DE"
-  accent: "#F1C24B"
-hooks:
-  - Guard medical caravans during a blackout storm.
-  - De-escalate a toll standoff between Nomads and raiders.
-  - Counter-drone “Chimes” deployment under duress.
-relationships:
-  regions: [REG_METRO_A]
-canon_refs: ["LORE_BIBLE#factions"]
+title: Truce Wardens
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- defense
+- neutral
+- tolls
+- shields
+- counter-drone
+- lore
+related_docs: []
 ---
+
 
 # Doctrine
 Predictable protection. Publish the toll rules, enforce them fairly, and the tunnels remain neutral.

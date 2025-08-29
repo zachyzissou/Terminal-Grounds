@@ -1,11 +1,15 @@
 ---
-id: POI_CRIMSON_DOCKS
-name: Crimson Freeport Slipway 12
-type: poi
-region: REG_CRIMSON_DOCKS
-hook: rigged auction; drone hive under the slipway
-canon_refs: ["LORE_BIBLE#poi_crimson_docks_slip12"]
+title: Crimson Freeport Slipway 12
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

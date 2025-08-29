@@ -1,15 +1,19 @@
 ---
-id: CHR_VAR_MERIDIAN
-name: Lexicographer Meridian
-type: character
-relationships:
-  faction: FCT_VAR
-summary: Compiles alien nomenclature with ritual care; believes names change outcomes.
-tags: [scholar, mystic, recorder]
-signatures:
-  visual: [tag strips, soft light]
-  narrative: [coded prayers, catalog chants]
+title: Lexicographer Meridian
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- scholar
+- mystic
+- recorder
+- faction:FCT_VAR
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

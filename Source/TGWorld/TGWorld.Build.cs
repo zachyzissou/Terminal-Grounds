@@ -6,13 +6,18 @@ public class TGWorld : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
+        
+        PublicIncludePathModuleNames.AddRange(new string[] { "TGTerritorial" });
 
         PrivateDependencyModuleNames.AddRange(new string[] { 
             "Json",
             "JsonUtilities", 
             "HTTP",
             "Sockets",
-            "Networking"
+            "Networking",
+            "Landscape",
+            "Foliage",
+            "ProceduralMeshComponent"
         });
     }
 }

@@ -1,3 +1,15 @@
+---
+title: Bloom Trailer Outline 30S
+type: reference
+domain: process
+status: draft
+last_reviewed: '2025-08-28'
+maintainer: Documentation Team
+tags: []
+related_docs: []
+---
+
+
 # Bloom — 30s Trailer Outline
 
 Tone: grounded techno‑thriller, breath before the surge.

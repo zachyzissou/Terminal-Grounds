@@ -1,3 +1,14 @@
+---
+title: "Territorial Warfare System"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # Territorial Warfare System Documentation
 
 **Status:** OPERATIONAL - Phase 2 Complete  

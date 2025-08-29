@@ -1,3 +1,14 @@
+---
+title: "Phase 1 Prototype Specifications"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # Phase 1 Prototype Specifications
 ## Immediate Development Requirements for Territorial Control System
 

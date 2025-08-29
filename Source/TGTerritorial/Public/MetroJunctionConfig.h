@@ -8,6 +8,20 @@
 #include "MetroJunctionConfig.generated.h"
 
 /**
+ * Spawn points wrapper for faction spawn locations
+ */
+USTRUCT(BlueprintType)
+struct FFactionSpawnPoints
+{
+    GENERATED_BODY()
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawns")
+    TArray<FVector> SpawnLocations;
+
+    FFactionSpawnPoints() {}
+};
+
+/**
  * Metro Junction Map Territorial Configuration
  * Defines the territorial zones, control points, and faction dynamics for Metro Junction
  * Based on Map Designer specifications: 800m x 600m with Directorate vs Free77 conflict
@@ -61,7 +75,7 @@ public:
 
     // Spawn points for factions
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawns")
-    TMap<EFactionID, TArray<FVector>> FactionSpawnPoints;
+    TMap<EFactionID, FFactionSpawnPoints> FactionSpawnPoints;
 
     // Game balance configuration
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Balance")

@@ -1,3 +1,15 @@
+---
+title: Thirdpartyassets
+type: reference
+domain: process
+status: draft
+last_reviewed: '2025-08-28'
+maintainer: Documentation Team
+tags: []
+related_docs: []
+---
+
+
 # Third-Party Assets Index (auto/append)
 
 This file lists free assets staged for look-dev and blockouts.

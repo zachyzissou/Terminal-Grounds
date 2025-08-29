@@ -1,13 +1,18 @@
 ---
-id: EVT_TECH_VAULT_SIEGE
-name: Tech Vault Breach
-type: event
-summary: A sealed chamber groans open in The Deep Vault; all factions reposition.
-tags: [vault, siege, anomaly]
-signatures:
-  visual: [iris doors, harmonic shimmer, floodlights]
-  narrative: [no-radio zones, truce cracks, artifact bids]
+title: Tech Vault Breach
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- vault
+- siege
+- anomaly
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

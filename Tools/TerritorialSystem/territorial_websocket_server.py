@@ -42,12 +42,13 @@ class TerritorialWebSocketServer:
     Handles 100+ concurrent connections with efficient broadcasting
     """
     
-    def __init__(self):
+    def __init__(self, max_connections: int = 100):
         self.clients: Set[websockets.WebSocketServerProtocol] = set()
         self.db_path = Path("C:/Users/Zachg/Terminal-Grounds/Database/territorial_system.db")
         self.server = None
         self.running = False
         self.update_thread = None
+        self.max_connections = max_connections
         
         # Performance monitoring
         self.message_count = 0
@@ -59,14 +60,28 @@ class TerritorialWebSocketServer:
         
     async def register_client(self, websocket: websockets.WebSocketServerProtocol):
         """Register new client connection"""
+        # CRITICAL: Connection limiting to prevent server crash
+        if len(self.clients) >= self.max_connections:
+            client_info = f"{websocket.remote_address[0]}:{websocket.remote_address[1]}"
+            logger.warning(f"Connection limit reached ({self.max_connections}). Rejecting: {client_info}")
+            await websocket.send(json.dumps({
+                "type": "error",
+                "message": "Server at capacity. Try again later.",
+                "max_connections": self.max_connections,
+                "timestamp": datetime.now().isoformat()
+            }))
+            await websocket.close(code=1013, reason="Server overloaded")
+            return False
+            
         self.clients.add(websocket)
         self.client_count = len(self.clients)
         
         client_info = f"{websocket.remote_address[0]}:{websocket.remote_address[1]}"
-        logger.info(f"Client connected: {client_info} (Total: {self.client_count})")
+        logger.info(f"Client connected: {client_info} (Total: {self.client_count}/{self.max_connections})")
         
         # Send initial territorial state to new client
         await self.send_initial_state(websocket)
+        return True
         
     async def unregister_client(self, websocket: websockets.WebSocketServerProtocol):
         """Unregister client connection"""
@@ -275,7 +290,10 @@ class TerritorialWebSocketServer:
             
     async def client_handler(self, websocket):
         """Handle individual client connection"""
-        await self.register_client(websocket)
+        # Register client (includes connection limiting)
+        connection_accepted = await self.register_client(websocket)
+        if not connection_accepted:
+            return  # Connection was rejected due to limits
         
         try:
             async for message in websocket:

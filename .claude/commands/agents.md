@@ -71,6 +71,14 @@
 - `/comfyui-concept-designer` - General concept design activation
 - `/comfyui-concept-designer Generate faction-specific environmental concepts`
 
+### /website-prompt-specialist
+**Description**: Activate the Website Prompt Specialist for strategic web content creation and digital marketing
+**Usage**: `/website-prompt-specialist [website content challenge]`
+**Examples**:
+- `/website-prompt-specialist` - General website content activation
+- `/website-prompt-specialist Create hero section copy for bloom.slurpgg.net`
+- `/website-prompt-specialist Optimize faction showcase page content for conversions`
+
 ### /procedural-generation-expert
 **Description**: Activate the Procedural Generation Expert for algorithmic content creation
 **Usage**: `/procedural-generation-expert [generation challenge]`
@@ -107,3 +115,18 @@
 
 ### /procedural
 **Shortcut for**: `/procedural-generation-expert`
+
+### /document-control-specialist
+**Description**: Activate the Document Control Specialist for comprehensive documentation governance and quality management
+**Usage**: `/document-control-specialist [documentation challenge or area to manage]`
+**Examples**:
+- `/document-control-specialist` - General document control activation
+- `/document-control-specialist Consolidate conflicting asset generation guides`
+- `/document-control-specialist Audit all documentation for governance issues`
+- `/document-control-specialist Reorganize docs folder structure`
+
+### /docs
+**Shortcut for**: `/document-control-specialist`
+
+### /website
+**Shortcut for**: `/website-prompt-specialist`

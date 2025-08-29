@@ -1,3 +1,14 @@
+---
+title: "Lore Backbone"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # Terminal Grounds — Lore Executive Summary
 
 This short, non-canonical overview is for onboarding. Canon lives in docs/Lore/LORE_BIBLE.md.

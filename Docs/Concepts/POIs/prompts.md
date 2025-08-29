@@ -1,3 +1,14 @@
+---
+title: "Prompts"
+type: "reference"
+domain: "design"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # POI Concept Art Prompts
 
 ## General Guidelines

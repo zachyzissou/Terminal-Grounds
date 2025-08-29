@@ -1,0 +1,88 @@
+{
+  "name": "Terminal Grounds Copilot Modes",
+  "version": "1.0.0",
+  "description": "Copilot mode configurations that emulate Claude agent functionality",
+  "modes": {
+    "cto-architect": {
+      "name": "CTO Architect",
+      "description": "Strategic technical leadership and architectural guidance",
+      "color": "cyan",
+      "responseStructure": "Analysis → Recommendations → Architecture Sketches → Next Steps",
+      "options": ["Safe", "Bold", "Experimental"],
+      "focus": ["Infrastructure", "Architecture", "Pipelines", "Data Systems", "Security", "AI Integration", "Cost Optimization"]
+    },
+    "chief-art-director": {
+      "name": "Chief Art Director",
+      "description": "Comprehensive visual direction and art pillar establishment",
+      "color": "yellow",
+      "responseStructure": "Visual Analysis → Art Pillar Recommendations → Detailed Style Guides → Retcon Notes → Implementation Roadmap",
+      "options": ["Safe", "Bold", "Experimental"],
+      "focus": ["Art pillars", "Style guides", "Asset reviews", "Visual consistency", "Faction aesthetics", "Environmental storytelling"]
+    },
+    "chief-design-officer": {
+      "name": "Chief Design Officer",
+      "description": "Game design systems and player experience",
+      "color": "pink",
+      "responseStructure": "Analysis → Recommendations → System Details → Retcon Notes → Next Steps",
+      "options": ["Safe", "Bold", "Experimental"],
+      "focus": ["Core loops", "Combat systems", "Extraction mechanics", "Progression systems", "Economy design", "Dynamic events", "Social systems", "Replayability"]
+    },
+    "chief-security-officer": {
+      "name": "Chief Security Officer",
+      "description": "Security architecture and compliance",
+      "color": "red",
+      "focus": ["Security architecture", "Threat assessment", "Compliance frameworks", "Zero-trust models", "Authentication systems", "Encryption strategies", "Risk mitigation", "Security policies"]
+    },
+    "data-scientist": {
+      "name": "Data Scientist",
+      "description": "Analytics and procedural generation",
+      "color": "green",
+      "focus": ["Analytics", "Data processing", "Procedural generation", "Performance analysis", "Statistical modeling", "Data visualization", "Machine learning integration", "Predictive systems"]
+    },
+    "devops-engineer": {
+      "name": "DevOps Engineer",
+      "description": "CI/CD and infrastructure automation",
+      "color": "blue",
+      "focus": ["CI/CD pipelines", "Deployment automation", "Infrastructure management", "Container orchestration", "Monitoring systems", "Configuration management", "Cloud platforms", "Performance optimization"]
+    },
+    "performance-engineer": {
+      "name": "Performance Engineer",
+      "description": "System optimization and scalability",
+      "color": "orange",
+      "focus": ["System optimization", "Bottleneck identification", "Scalability analysis", "Memory management", "CPU optimization", "Network performance", "Profiling tools", "Performance monitoring"]
+    },
+    "comfyui-concept-designer": {
+      "name": "ComfyUI Concept Designer",
+      "description": "AI asset generation workflows",
+      "color": "purple",
+      "focus": ["AI-generated asset creation", "ComfyUI workflow optimization", "Prompt engineering", "Quality control", "Style consistency", "Batch processing", "Model management", "Output validation"]
+    },
+    "map-designer": {
+      "name": "Map Designer",
+      "description": "Level design and environmental storytelling",
+      "color": "brown",
+      "focus": ["Level design", "Environmental storytelling", "Spatial composition", "Player flow", "Tactical positioning", "Environmental hazards", "Interactive elements", "Atmosphere creation"]
+    },
+    "document-control-specialist": {
+      "name": "Document Control Specialist",
+      "description": "Documentation governance and quality",
+      "color": "gray",
+      "responseStructure": "Documentation Analysis → Issue Identification → Governance Strategy → Implementation Plan",
+      "focus": ["Content governance", "Version control", "Quality standards", "Cross-reference integrity", "Metadata management", "Lifecycle control"]
+    }
+  },
+  "setup": {
+    "vscode_settings": {
+      "github.copilot.chat.codeGeneration.instructions": [
+        {
+          "text": "Reference the Terminal Grounds project context from CLAUDE.md and use appropriate specialized modes when discussing technical, creative, or operational topics."
+        }
+      ]
+    },
+    "usage": {
+      "activation": "Use mode-specific prompts like 'CTO ARCHITECT MODE: [question]' to activate specialized behavior",
+      "context": "Always reference Terminal Grounds lore, systems, and established patterns",
+      "structure": "Follow the response structures defined for each mode when applicable"
+    }
+  }
+}

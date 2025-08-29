@@ -1,3 +1,14 @@
+---
+title: "Locations"
+type: "reference"
+domain: "design"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # POI Concept Documentation
 
 Note: Canon lore one-liners live in docs/Lore/POIs_Flavor.md. This file focuses on palettes, silhouettes, and layout. Use stable lore IDs.

@@ -66,7 +66,12 @@
       "Bash(start \"\" \"C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:\\Users\\Zachg\\Terminal-Grounds\\TerminalGrounds.uproject\")",
       "Bash(del \"C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\TG_UI_CivicWardens_HUD_00001_.png\")",
       "Bash(\"C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:\\Users\\Zachg\\Terminal-Grounds\\TerminalGrounds.uproject\" -run=ResavePackages -buildlighting -allowcommandletrendering)",
-      "Read(C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\DotNET\\UnrealBuildTool/**)"
+      "Read(C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\DotNET\\UnrealBuildTool/**)",
+      "Bash(ls:*)",
+      "Bash(start /B python:*)",
+      "Bash(RESTART_COMFYUI.bat)",
+      "Bash(\"C:\\Users\\Zachg\\Terminal-Grounds\\RESTART_COMFYUI.bat\")",
+      "Bash(START_COMFYUI_SAFE.bat)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits",

@@ -1,7 +1,19 @@
+---
+title: "Faction-Specific Extraction Mechanics"
+type: "spec"
+domain: "design"
+status: "approved"
+last_reviewed: "2025-08-28"
+maintainer: "Design Team"
+tags: ["extraction", "faction", "mechanics", "gameplay", "design"]
+related_docs: ["GAMEPLAY_DESIGN_DOCUMENT.md", "TERRITORY_CONTROL_SYSTEM.md", "TERMINAL_GROUNDS_MASTER_ROADMAP_2025.md"]
+---
+
 # Faction-Specific Extraction Mechanics
 ## CDO Design Specifications: Making Lore Playable
 
 ### Overview
+
 Each faction's extraction approach reflects their philosophical identity, territorial strategy, and resource priorities. This creates seven distinct gameplay experiences within the same operational framework.
 
 ---
@@ -9,12 +21,15 @@ Each faction's extraction approach reflects their philosophical identity, territ
 ## Directorate: Corporate Efficiency Doctrine
 
 ### Extraction Philosophy
-*"Maximum return on investment through calculated risk management and technological superiority."*
 
-### Primary Extraction Method: **Corporate Transit Network**
+Maximum return on investment through calculated risk management and technological superiority.
+
+### Primary Extraction Method: Corporate Transit Network
+
 **Player Fantasy**: High-tech corporate extraction using pre-positioned assets and advanced logistics
 
 **Mechanics**:
+
 - **Transit Beacons**: Deployable extraction points requiring 60 seconds to initialize
 - **Corporate Insurance**: Failed extractions refund 75% of equipment value
 - **Executive Overrides**: Spend faction credits to emergency extract instantly
@@ -23,16 +38,19 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: Medium risk, consistent rewards, high equipment retention
 
 **Unique Features**:
+
 - **Board Approval System**: High-value extractions require faction command authorization
 - **Profit Margins**: Extraction rewards scale based on operational efficiency metrics
 - **Corporate Rivalry**: Bonus rewards for operations that damage competitor factions
 
 **Visual Identity**: Clean blue extraction interfaces, corporate logos, professional VO
 
-### Secondary Extraction: **Hostile Acquisition**
+### Secondary Extraction: Hostile Acquisition
+
 **Activation**: Available when Directorate controls <30% territory in operational area
 
-**Mechanics**: 
+**Mechanics**:
+
 - Steal extraction resources from other factions
 - Higher risk but maximum territorial gain
 - Requires successful combat engagement with rival faction operatives
@@ -41,13 +59,16 @@ Each faction's extraction approach reflects their philosophical identity, territ
 
 ## Free77: Liberation Network
 
-### Extraction Philosophy  
-*"Freedom through mutual aid and decentralized resistance networks."*
+### Extraction Philosophy
 
-### Primary Extraction Method: **Underground Railroad**
+Freedom through mutual aid and decentralized resistance networks.
+
+### Primary Extraction Method: Underground Railroad
+
 **Player Fantasy**: Escaping corporate oppression through secret resistance networks
 
 **Mechanics**:
+
 - **Safe Houses**: Pre-established extraction points in civilian areas
 - **Network Intelligence**: Other Free77 operatives provide extraction intel
 - **Resistance Coordination**: Extraction success improves all Free77 operations in area
@@ -56,16 +77,19 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: Variable risk based on network strength, collective rewards
 
 **Unique Features**:
+
 - **Solidarity Bonuses**: Extraction rewards increase when helping other Free77 operatives
 - **Corporate Heat**: Extended operations trigger increased Directorate/Combine response
 - **People's Cache**: Hidden equipment stashes maintained by resistance network
 
 **Visual Identity**: Red resistance symbols, encrypted radio chatter, guerrilla aesthetics
 
-### Secondary Extraction: **Corporate Strike**
+### Secondary Extraction: Corporate Strike
+
 **Activation**: Available when corporate factions control >60% territory in operational area
 
 **Mechanics**:
+
 - Direct assault on corporate extraction assets
 - Very high risk but major territorial disruption
 - Unlocks special anti-corporate equipment
@@ -75,12 +99,15 @@ Each faction's extraction approach reflects their philosophical identity, territ
 ## Nomad Clans: Wasteland Wanderer Routes
 
 ### Extraction Philosophy
-*"Survival through environmental mastery and tribal knowledge."*
 
-### Primary Extraction Method: **Ancient Pathways**  
+Survival through environmental mastery and tribal knowledge.
+
+### Primary Extraction Method: Ancient Pathways
+
 **Player Fantasy**: Using pre-war knowledge and environmental expertise for safe passage
 
 **Mechanics**:
+
 - **Pathfinder Knowledge**: Extraction routes change based on environmental conditions
 - **Tribal Caches**: Nomad equipment stashes hidden throughout wasteland
 - **Weather Reading**: Environmental hazards provide extraction opportunities
@@ -89,16 +116,19 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: Low risk in familiar territory, environmental resource rewards
 
 **Unique Features**:
+
 - **Seasonal Routes**: Extraction options change with dynamic weather/environmental events
 - **Elder Wisdom**: High-reputation Nomads can guide other faction operatives for fees
 - **Scavenging Priority**: Extraction rewards focus on rare materials and survival resources
 
 **Visual Identity**: Earth tones, tribal markings, environmental integration, weather-aware UI
 
-### Secondary Extraction: **Storm Riding**
+### Secondary Extraction: Storm Riding
+
 **Activation**: Available during severe environmental events
 
 **Mechanics**:
+
 - Use dangerous environmental conditions as cover for extraction
 - Extreme risk but access to otherwise unreachable areas
 - Requires specialized Nomad environmental gear
@@ -108,12 +138,15 @@ Each faction's extraction approach reflects their philosophical identity, territ
 ## Civic Wardens: Emergency Response Protocol
 
 ### Extraction Philosophy
-*"Duty before self - ensure public safety and maintain civil order."*
 
-### Primary Extraction Method: **Emergency Services**
+Duty before self - ensure public safety and maintain civil order.
+
+### Primary Extraction Method: Emergency Services
+
 **Player Fantasy**: Professional emergency responder with official authority and backup
 
 **Mechanics**:
+
 - **Medical Evacuation**: Extraction shuttles can evacuate injured civilians/operatives
 - **Official Authority**: Civic Wardens can commandeer other faction resources for emergency extraction
 - **Backup Response**: Failed extractions trigger automated Warden rescue operations
@@ -122,16 +155,19 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: Medium risk with rescue insurance, civic improvement rewards
 
 **Unique Features**:
+
 - **Jurisdiction Authority**: Civic Wardens can extract from any territory during emergencies
 - **Interagency Cooperation**: All factions receive minor benefits when Wardens succeed
 - **Emergency Powers**: Crisis situations unlock special Warden extraction authorities
 
 **Visual Identity**: Blue and gold official colors, emergency service protocols, authoritative VO
 
-### Secondary Extraction: **Martial Law Declaration**
+### Secondary Extraction: Martial Law Declaration
+
 **Activation**: Available when civilian casualties exceed threshold in operational area
 
 **Mechanics**:
+
 - Impose emergency control over extraction routes
 - All other factions must cooperate or face penalties
 - Unlocks special emergency response equipment
@@ -140,13 +176,16 @@ Each faction's extraction approach reflects their philosophical identity, territ
 
 ## Vultures Union: Salvage Maximization
 
-### Extraction Philosophy  
-*"Waste nothing - every scrap has value to someone."*
+### Extraction Philosophy
 
-### Primary Extraction Method: **Scavenging Network**
+Waste nothing - every scrap has value to someone.
+
+### Primary Extraction Method: Scavenging Network
+
 **Player Fantasy**: Professional scavenger with deep knowledge of valuable salvage
 
 **Mechanics**:
+
 - **Salvage Assessment**: Advanced scanning shows hidden value in environmental objects
 - **Trader Networks**: Extraction rewards based on current market demand
 - **Scrap Transportation**: Can extract large quantities of low-value items efficiently
@@ -155,16 +194,19 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: Low risk, high volume rewards, market-dependent value
 
 **Unique Features**:
+
 - **Market Intelligence**: Real-time faction supply/demand affects extraction priorities
 - **Bulk Transport**: Specialized extraction for maximum salvage volume
 - **Finder's Rights**: Vultures can claim abandoned faction equipment legally
 
 **Visual Identity**: Brown and copper colors, industrial aesthetic, merchant trader VO
 
-### Secondary Extraction: **Hostile Salvage**  
+### Secondary Extraction: Hostile Salvage
+
 **Activation**: Available at sites of recent faction conflicts
 
 **Mechanics**:
+
 - Extract valuable materials from active combat zones
 - High risk but exclusive access to military-grade salvage
 - Can sell services to other factions during active operations
@@ -174,12 +216,15 @@ Each faction's extraction approach reflects their philosophical identity, territ
 ## Vaulted Archivists: Knowledge Preservation Protocol
 
 ### Extraction Philosophy
-*"Preserve human knowledge at all costs - information is humanity's greatest treasure."*
 
-### Primary Extraction Method: **Data Sanctuaries**
+Preserve human knowledge at all costs - information is humanity's greatest treasure.
+
+### Primary Extraction Method: Data Sanctuaries
+
 **Player Fantasy**: Scholar-protector safeguarding humanity's intellectual heritage
 
 **Mechanics**:
+
 - **Archive Priorities**: Extraction rewards focus on information, historical artifacts, technology
 - **Knowledge Network**: Shared faction database improves all Archivist operations
 - **Cultural Protection**: Bonus rewards for preserving pre-war artifacts and locations
@@ -188,31 +233,37 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: Variable risk based on information value, knowledge-based rewards
 
 **Unique Features**:
+
 - **Historical Recognition**: Discovery of significant pre-war sites provides permanent faction bonuses
 - **Information Trading**: Archivists can sell intelligence to other factions
 - **Cultural Immunity**: Some faction conflicts pause near significant historical sites
 
 **Visual Identity**: Purple and silver colors, academic aesthetics, scholarly VO with historical references
 
-### Secondary Extraction: **Emergency Archive**
+### Secondary Extraction: Emergency Archive
+
 **Activation**: Available when valuable knowledge/cultural sites are threatened
 
 **Mechanics**:
+
 - Rush extraction to save irreplaceable information
 - Extreme time pressure but massive knowledge preservation rewards
 - Other factions may assist due to cultural significance
 
 ---
 
-## Corporate Combine: Market Dominance Strategy
+## Trivector Combine: Market Dominance Strategy
 
 ### Extraction Philosophy
-*"Control the market through strategic resource acquisition and competitor elimination."*
 
-### Primary Extraction Method: **Asset Consolidation**
+Control the market through strategic resource acquisition and competitor elimination.
+
+### Primary Extraction Method: Asset Consolidation
+
 **Player Fantasy**: Corporate raider maximizing shareholder value through aggressive acquisition
 
 **Mechanics**:
+
 - **Market Analysis**: Extraction priorities determined by current economic conditions
 - **Hostile Takeover**: Can extract using other faction's infrastructure for fees
 - **Corporate Mergers**: Temporary alliances with other corporate factions for mutual benefit
@@ -221,80 +272,19 @@ Each faction's extraction approach reflects their philosophical identity, territ
 **Risk/Reward Profile**: High risk, maximum profit potential, market-dependent
 
 **Unique Features**:
+
 - **Economic Warfare**: Combine operations affect all faction resource markets
 - **Leveraged Extraction**: Can borrow faction resources for high-return operations
 - **Corporate Intelligence**: Access to economic data affecting all faction operations
 
 **Visual Identity**: Gold and black corporate colors, financial terminology, CEO-level authority VO
 
-### Secondary Extraction: **Market Crash Recovery**
+### Secondary Extraction: Market Crash Recovery
+
 **Activation**: Available when Combine operations have destabilized local economy
 
 **Mechanics**:
+
 - Extract maximum value from economic chaos
 - Very high risk but potential for market manipulation rewards
 - May trigger faction-wide economic consequences
-
----
-
-## Cross-Faction Interaction Systems
-
-### Extraction Interference Mechanics
-- **Territory Disputes**: Multiple factions extracting from same area creates conflict opportunities
-- **Resource Competition**: Limited extraction resources force faction prioritization decisions
-- **Emergency Cooperation**: Environmental threats require temporary faction cooperation
-- **Intelligence Trading**: Information exchange affects extraction success rates
-
-### Reputation Consequences
-- **Faction Standing**: Extraction method choice affects relationships with all factions
-- **Neutral Ground**: Some extraction sites require inter-faction negotiation
-- **Economic Impact**: Successful extractions affect faction resource availability
-- **Cultural Significance**: Some sites have meaning to multiple factions
-
-### Dynamic Event Integration
-- **Alien Incursions**: Force all factions to adapt extraction strategies
-- **Environmental Disasters**: Create new extraction opportunities and challenges
-- **Faction Conflicts**: Major faction wars affect extraction route availability
-- **Resource Discoveries**: New extraction sites trigger faction competition
-
----
-
-## Implementation Framework
-
-### Core Requirements
-1. **Faction Identity Recognition**: Each extraction method must feel distinctly different
-2. **Balanced Risk/Reward**: No faction extraction method should be objectively superior
-3. **Meaningful Choice**: Player faction selection significantly impacts extraction gameplay
-4. **Narrative Integration**: Extraction mechanics reinforce faction lore and identity
-
-### Technical Considerations
-- **Dynamic Extraction Points**: Extraction locations change based on faction control and events
-- **Cross-Faction Systems**: Extraction choices affect other faction operatives in same area
-- **Persistent Consequences**: Extraction patterns affect long-term territorial control
-- **Performance Scaling**: System supports multiple simultaneous faction extractions
-
-### Balancing Principles
-- **Asymmetric Balance**: Each faction excels in different extraction scenarios
-- **Situational Advantage**: Environmental and territorial conditions favor different factions
-- **Risk Compensation**: Higher-risk extraction methods provide proportionally better rewards
-- **Cooperative Benefits**: Cross-faction cooperation provides unique advantages
-
----
-
-## Quality Assurance Metrics
-
-### Player Experience Validation
-- **Faction Identity**: Players can immediately identify faction extraction methods visually/mechanically
-- **Strategic Depth**: Each faction has multiple viable extraction approaches
-- **Social Interaction**: Extraction mechanics create meaningful player-to-player choices
-- **Long-Term Engagement**: Faction extraction mastery provides meaningful progression
-
-### Balance Testing Framework  
-- **Success Rate Parity**: All factions achieve similar overall extraction success rates
-- **Risk/Reward Balance**: Extraction risk accurately reflects potential rewards
-- **Faction Preference**: Players develop clear faction preferences but respect other choices
-- **Emergent Gameplay**: Faction extraction differences create unplanned but positive interactions
-
-This faction extraction system transforms Terminal Grounds' rich lore into mechanically distinct gameplay experiences, ensuring faction choice significantly impacts every player's operational approach.
-
-**Status**: Ready for Technical Feasibility Assessment and Prototype Development

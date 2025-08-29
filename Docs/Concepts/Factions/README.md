@@ -1,4 +1,13 @@
-# Faction Concepts
+---
+title: "Faction Concepts Documentation"
+type: "guide"
+domain: "design"
+status: "approved"
+last_reviewed: "2025-08-28"
+maintainer: "Design Team"
+tags: ["factions", "concepts", "design", "visual-identity"]
+related_docs: ["../Design/FACTION_EXTRACTION_MECHANICS.md", "../Art/FACTION_VISUAL_LANGUAGE_BIBLE.md"]
+---
 
 This directory contains concept art, reference sheets, and design documentation for factions in Terminal Grounds.
 

@@ -1,3 +1,14 @@
+---
+title: "World Scale And Expansion"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # World Scale & Expansion Concept
 
 Lore Reference: See canonical region and IEZ details in docs/Lore/LORE_BIBLE.md#world and IDs in docs/Lore/lorebook.yml

@@ -1,14 +1,18 @@
 ---
-id: TECH_ALN_BEACON
-name: Harmonic Beacon Fragment
-type: tech
-tier: monolith
-summary: Emits subaudible patterns that alter local physics; poorly understood, dangerous.
-tags: [monolith, anomaly, beacon]
-signatures:
-  visual: [obsidian facets, internal glow, impossible reflections]
-  narrative: [navigation anomalies, time slippage]
+title: Harmonic Beacon Fragment
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- monolith
+- anomaly
+- beacon
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

@@ -1,3 +1,14 @@
+---
+title: "Bloom Website Notes"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # Bloom Website Notes - bloom.slurpgg.net
 
 ## Current Asset Status (August 25, 2025)

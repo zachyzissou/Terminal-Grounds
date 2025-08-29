@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-08-28T18:14:03.748842",
+    "total_docs": 110,
+    "valid_docs": 110,
+    "invalid_docs": 0,
+    "success_rate": 100.0,
+    "issues_by_type": {
+      "missing_frontmatter": 0,
+      "invalid_fields": 0,
+      "cross_ref_issues": 0,
+      "naming_issues": 0,
+      "other": 0
+    }
+  }
+]

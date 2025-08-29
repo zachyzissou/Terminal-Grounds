@@ -170,7 +170,9 @@ void UMetroJunctionConfig::SetupFactionSpawns()
         FVector(-20000.0f, -5000.0f, -50000.0f),
         FVector(-35000.0f, -15000.0f, -50000.0f)
     };
-    FactionSpawnPoints.Add(EFactionID::Directorate, DirectorateSpawns);
+    FFactionSpawnPoints DirectorateSpawnWrapper;
+    DirectorateSpawnWrapper.SpawnLocations = DirectorateSpawns;
+    FactionSpawnPoints.Add(EFactionID::Directorate, DirectorateSpawnWrapper);
 
     // Free77 spawn points (Resistance zone)
     TArray<FVector> Free77Spawns = {
@@ -179,7 +181,9 @@ void UMetroJunctionConfig::SetupFactionSpawns()
         FVector(20000.0f, -5000.0f, -50000.0f),
         FVector(35000.0f, -15000.0f, -50000.0f)
     };
-    FactionSpawnPoints.Add(EFactionID::Free77, Free77Spawns);
+    FFactionSpawnPoints Free77SpawnWrapper;
+    Free77SpawnWrapper.SpawnLocations = Free77Spawns;
+    FactionSpawnPoints.Add(EFactionID::Free77, Free77SpawnWrapper);
 
     // Neutral/CivicWardens spawns (Central area)
     TArray<FVector> NeutralSpawns = {
@@ -187,7 +191,9 @@ void UMetroJunctionConfig::SetupFactionSpawns()
         FVector(5000.0f, 15000.0f, -50000.0f),
         FVector(0.0f, 20000.0f, -50000.0f)
     };
-    FactionSpawnPoints.Add(EFactionID::CivicWardens, NeutralSpawns);
+    FFactionSpawnPoints NeutralSpawnWrapper;
+    NeutralSpawnWrapper.SpawnLocations = NeutralSpawns;
+    FactionSpawnPoints.Add(EFactionID::CivicWardens, NeutralSpawnWrapper);
 }
 
 void UMetroJunctionConfig::ValidateMapBounds()

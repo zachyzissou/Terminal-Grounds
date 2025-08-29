@@ -1,15 +1,19 @@
 ---
-id: CHR_VUL_MASE
-name: Rig Chief Mase Darlow
-type: character
-relationships:
-  faction: FCT_VUL
-summary: Union foreman who can strip a gantry in minutes; hates wasted motion.
-tags: [salvager, foreman, pragmatist]
-signatures:
-  visual: [rigging harness, weld visor, tarpaulin sash]
-  narrative: [bid arbitration, hazard pay chits]
+title: Rig Chief Mase Darlow
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- salvager
+- foreman
+- pragmatist
+- faction:FCT_VUL
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

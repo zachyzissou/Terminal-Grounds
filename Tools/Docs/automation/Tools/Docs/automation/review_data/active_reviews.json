@@ -1,0 +1,25 @@
+{
+  "9ee7725c-39ba-4d9e-9533-ced227f956c8": {
+    "id": "9ee7725c-39ba-4d9e-9533-ced227f956c8",
+    "document_path": "docs/test_lifecycle.md",
+    "version_id": "v1.0",
+    "initiator": "test_user",
+    "reviewers": [
+      "reviewer1",
+      "reviewer2"
+    ],
+    "status": "pending",
+    "priority": "high",
+    "created_at": "2025-08-28T19:24:02.329500",
+    "due_date": "2025-09-02T19:24:02.329500",
+    "completed_at": null,
+    "approval_gates": [
+      "peer_review",
+      "technical_review",
+      "final_approval"
+    ],
+    "current_gate": "peer_review",
+    "review_comments": [],
+    "metadata": {}
+  }
+}

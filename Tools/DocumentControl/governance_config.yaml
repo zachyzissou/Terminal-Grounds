@@ -1,0 +1,100 @@
+# Terminal Grounds - Documentation Governance Configuration
+
+document_categories:
+  technical:
+    - "docs/Tech/"
+    - "Tools/"
+    - "Source/"
+  design:
+    - "docs/Design/"
+    - "docs/Concepts/"
+  lore:
+    - "docs/Lore/"
+  art:
+    - "docs/Art/"
+    - "Content/TG/"
+  process:
+    - "*.md"  # Root-level process docs like README, CONTRIBUTING
+  reference:
+    - "Tools/ArtGen/"
+    - "docs/Assets/"
+  audit:
+    - "docs/Audits/"
+
+# Mandatory metadata fields for all documentation
+mandatory_metadata:
+  - title
+  - category
+  - owner
+  - status
+  - last_updated
+
+# Document lifecycle status values
+status_lifecycle:
+  - draft
+  - review
+  - approved
+  - deprecated
+  - archived
+
+# Content similarity threshold for duplicate detection
+max_duplicate_content_similarity: 0.8
+
+# Maintenance schedule based on document priority
+maintenance_schedule_days:
+  critical: 30   # CLAUDE.md, README.md, core system docs
+  high: 60       # Implementation guides, API docs
+  medium: 120    # Design documents, specifications
+  low: 365       # Reference materials, archived content
+
+# File patterns to exclude from governance
+excluded_patterns:
+  - ".git/**"
+  - "node_modules/**"
+  - "__pycache__/**"
+  - ".venv/**"
+  - "*.tmp"
+  - "*.bak"
+
+# Quality standards
+quality_standards:
+  min_word_count: 50        # Documents below this are flagged as stubs
+  max_word_count: 5000      # Documents above this should be split
+  max_heading_depth: 4      # Deeper nesting suggests restructuring needed
+  require_metadata_header: true
+  require_table_of_contents_over: 2000  # Word count threshold for TOC requirement
+
+# Owner assignment rules
+ownership_rules:
+  "docs/Design/": "Chief Design Officer"
+  "docs/Art/": "Chief Art Director" 
+  "docs/Lore/": "Master Storyteller"
+  "docs/Tech/": "CTO Architect"
+  "Tools/": "DevOps Engineer"
+  "Source/": "Performance Engineer"
+  "CLAUDE.md": "Document Control Specialist"
+
+# Cross-reference validation
+reference_validation:
+  check_internal_links: true
+  check_external_links: false  # Too time-consuming for large projects
+  auto_fix_relative_paths: true
+  warn_orphaned_documents: true
+
+# Archival policies
+archival_policies:
+  auto_archive_unused_days: 180
+  archive_directory: "docs/Archive/"
+  preserve_git_history: true
+  require_approval_for_critical: true
+
+# Integration settings
+integrations:
+  git:
+    track_file_moves: true
+    use_git_blame_for_ownership: false  # Explicit ownership preferred
+  
+  claude_md:
+    auto_update_quicklinks: true
+    maintain_agent_descriptions: true
+    validate_instruction_consistency: true

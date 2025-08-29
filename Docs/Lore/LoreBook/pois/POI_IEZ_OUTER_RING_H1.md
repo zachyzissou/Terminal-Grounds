@@ -1,11 +1,15 @@
 ---
-id: POI_IEZ_OUTER_RING
-name: IEZ Salvage Field H1
-type: poi
-region: REG_IEZ
-hook: meteor salvage scramble under rolling EMP
-canon_refs: ["LORE_BIBLE#poi_iez_outer_ring_h1"]
+title: IEZ Salvage Field H1
+type: reference
+domain: lore
+status: approved
+last_reviewed: '2025-08-28'
+maintainer: Narrative Team
+tags:
+- lore
+related_docs: []
 ---
+
 
 # Notes
 

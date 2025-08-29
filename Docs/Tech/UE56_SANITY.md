@@ -1,3 +1,14 @@
+---
+title: "Ue56 Sanity"
+type: "reference"
+domain: "process"
+status: "draft"
+last_reviewed: "2025-08-28"
+maintainer: "Documentation Team"
+tags: []
+related_docs: []
+---
+
 # UE 5.6 sanity checklist
 
 Quick checks to keep Terminal Grounds healthy on UE 5.6.
