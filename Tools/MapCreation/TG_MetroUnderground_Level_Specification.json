@@ -1,0 +1,1583 @@
+{
+  "level_info": {
+    "name": "TG_MetroUnderground_Phase1",
+    "description": "Metro Underground - Terminal Grounds Phase 1 Playable Level",
+    "setting": "Underground metro tunnel system with faction territorial control",
+    "gameplay_modes": [
+      "Extraction",
+      "Territorial Control",
+      "Combat"
+    ],
+    "player_count": "1-8 players",
+    "performance_target": "60+ FPS"
+  },
+  "spatial_design": {
+    "primary_corridors": [
+      {
+        "name": "Main Transit Tunnel",
+        "start": {
+          "x": -1800,
+          "y": 0,
+          "z": -200
+        },
+        "end": {
+          "x": 1800,
+          "y": 0,
+          "z": -200
+        },
+        "width": 400,
+        "height": 300,
+        "cover_elements": [
+          "Support columns",
+          "Abandoned metro cars",
+          "Maintenance equipment"
+        ]
+      },
+      {
+        "name": "North Service Tunnel",
+        "start": {
+          "x": -800,
+          "y": 800,
+          "z": -150
+        },
+        "end": {
+          "x": 800,
+          "y": 1200,
+          "z": -150
+        },
+        "width": 200,
+        "height": 250,
+        "cover_elements": [
+          "Pipe systems",
+          "Electrical panels",
+          "Storage crates"
+        ]
+      },
+      {
+        "name": "South Maintenance Level",
+        "start": {
+          "x": -600,
+          "y": -1000,
+          "z": -300
+        },
+        "end": {
+          "x": 600,
+          "y": -600,
+          "z": -300
+        },
+        "width": 300,
+        "height": 200,
+        "cover_elements": [
+          "Machinery",
+          "Ventilation systems",
+          "Tool storage"
+        ]
+      }
+    ],
+    "vertical_elements": [
+      {
+        "name": "Central Access Shaft",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -100
+        },
+        "height": 400,
+        "diameter": 150,
+        "function": "Primary vertical movement and sightline control"
+      },
+      {
+        "name": "Emergency Exit Stairs",
+        "position": {
+          "x": 800,
+          "y": 800,
+          "z": -200
+        },
+        "height": 300,
+        "width": 100,
+        "function": "Secondary extraction route"
+      }
+    ],
+    "cover_systems": [
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1600,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1600,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1400,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1400,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1200,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1200,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1000,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -1000,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -800,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -800,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -600,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -600,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -400,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -400,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -200,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": -200,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 0,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 0,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 200,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 200,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 400,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 400,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 600,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 600,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 800,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 800,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1000,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1000,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1200,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1200,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1400,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1400,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1600,
+          "y": -100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Support Column",
+        "position": {
+          "x": 1600,
+          "y": 100,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 50,
+          "depth": 50,
+          "height": 280
+        },
+        "cover_value": "Full"
+      },
+      {
+        "type": "Abandoned Metro Car",
+        "position": {
+          "x": -1000,
+          "y": 0,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 120,
+          "depth": 300,
+          "height": 180
+        },
+        "cover_value": "Full",
+        "interactive": true,
+        "faction_control": true
+      },
+      {
+        "type": "Abandoned Metro Car",
+        "position": {
+          "x": -200,
+          "y": 0,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 120,
+          "depth": 300,
+          "height": 180
+        },
+        "cover_value": "Full",
+        "interactive": true,
+        "faction_control": true
+      },
+      {
+        "type": "Abandoned Metro Car",
+        "position": {
+          "x": 600,
+          "y": 0,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 120,
+          "depth": 300,
+          "height": 180
+        },
+        "cover_value": "Full",
+        "interactive": true,
+        "faction_control": true
+      },
+      {
+        "type": "Abandoned Metro Car",
+        "position": {
+          "x": 1400,
+          "y": 0,
+          "z": -200
+        },
+        "dimensions": {
+          "width": 120,
+          "depth": 300,
+          "height": 180
+        },
+        "cover_value": "Full",
+        "interactive": true,
+        "faction_control": true
+      }
+    ],
+    "sightline_control": {
+      "long_range_engagements": [
+        {
+          "name": "Main Tunnel Vista",
+          "start": {
+            "x": -1800,
+            "y": 0,
+            "z": -150
+          },
+          "end": {
+            "x": 1800,
+            "y": 0,
+            "z": -150
+          },
+          "distance": 3600,
+          "cover_breaks": [
+            "Support columns",
+            "Metro cars"
+          ],
+          "tactical_value": "High - Primary engagement zone"
+        }
+      ],
+      "medium_range_zones": [
+        {
+          "name": "Service Tunnel Crossings",
+          "positions": [
+            {
+              "x": 0,
+              "y": 400,
+              "z": -150
+            },
+            {
+              "x": 0,
+              "y": -400,
+              "z": -200
+            }
+          ],
+          "engagement_distance": 800,
+          "cover_density": "Medium"
+        }
+      ],
+      "close_quarters_areas": [
+        {
+          "name": "Central Access Shaft",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -100
+          },
+          "radius": 200,
+          "vertical_complexity": true,
+          "tactical_value": "Critical control point"
+        }
+      ]
+    }
+  },
+  "lighting_specification": {
+    "primary_lighting": [
+      {
+        "type": "Directional Light",
+        "name": "Ambient Surface Light",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": -45,
+          "yaw": 0,
+          "roll": 0
+        },
+        "intensity": 0.3,
+        "color": {
+          "r": 0.8,
+          "g": 0.9,
+          "b": 1.0
+        },
+        "function": "Subtle ambient light suggesting surface access"
+      }
+    ],
+    "atmospheric_lighting": [
+      {
+        "type": "Point Light",
+        "name": "Emergency Lighting System",
+        "positions": [
+          {
+            "x": -1600,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": -1600,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": -1200,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": -1200,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": -800,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": -800,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": -400,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": -400,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": 0,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": 0,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": 400,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": 400,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": 800,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": 800,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": 1200,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": 1200,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": 1600,
+            "y": -150,
+            "z": 50
+          },
+          {
+            "x": 1600,
+            "y": 150,
+            "z": 50
+          },
+          {
+            "x": -600,
+            "y": 1000,
+            "z": 100
+          },
+          {
+            "x": -300,
+            "y": 1000,
+            "z": 100
+          },
+          {
+            "x": 0,
+            "y": 1000,
+            "z": 100
+          },
+          {
+            "x": 300,
+            "y": 1000,
+            "z": 100
+          },
+          {
+            "x": 600,
+            "y": 1000,
+            "z": 100
+          }
+        ],
+        "intensity": 800,
+        "color": {
+          "r": 1.0,
+          "g": 0.4,
+          "b": 0.2
+        },
+        "attenuation_radius": 300,
+        "flicker_effect": true
+      },
+      {
+        "type": "Spot Light",
+        "name": "Maintenance Work Lights",
+        "positions": [
+          {
+            "x": -800,
+            "y": 0,
+            "z": -50,
+            "direction": {
+              "pitch": -60,
+              "yaw": 45
+            }
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 200,
+            "direction": {
+              "pitch": -90,
+              "yaw": 0
+            }
+          },
+          {
+            "x": 800,
+            "y": 0,
+            "z": -50,
+            "direction": {
+              "pitch": -60,
+              "yaw": -45
+            }
+          },
+          {
+            "x": 0,
+            "y": 800,
+            "z": 50,
+            "direction": {
+              "pitch": -45,
+              "yaw": 180
+            }
+          },
+          {
+            "x": 0,
+            "y": -800,
+            "z": -150,
+            "direction": {
+              "pitch": -30,
+              "yaw": 0
+            }
+          }
+        ],
+        "intensity": 1200,
+        "color": {
+          "r": 0.9,
+          "g": 0.9,
+          "b": 0.8
+        },
+        "cone_angle": 45,
+        "attenuation_radius": 500
+      }
+    ],
+    "faction_lighting": [
+      {
+        "type": "Colored Territory Markers",
+        "positions": [
+          {
+            "x": -1200,
+            "y": -200,
+            "z": -100,
+            "faction": "Directorate"
+          },
+          {
+            "x": -400,
+            "y": 200,
+            "z": -100,
+            "faction": "Free77"
+          },
+          {
+            "x": 400,
+            "y": -200,
+            "z": -100,
+            "faction": "Iron_Scavengers"
+          },
+          {
+            "x": 1200,
+            "y": 200,
+            "z": -100,
+            "faction": "Nomad_Clans"
+          },
+          {
+            "x": 0,
+            "y": 800,
+            "z": -50,
+            "faction": "Neutral"
+          },
+          {
+            "x": 0,
+            "y": -800,
+            "z": -200,
+            "faction": "Contested"
+          }
+        ],
+        "intensity": 600,
+        "colors": {
+          "Directorate": {
+            "r": 0.0,
+            "g": 0.5,
+            "b": 1.0
+          },
+          "Free77": {
+            "r": 0.8,
+            "g": 0.8,
+            "b": 0.0
+          },
+          "Iron_Scavengers": {
+            "r": 1.0,
+            "g": 0.3,
+            "b": 0.0
+          },
+          "Nomad_Clans": {
+            "r": 0.5,
+            "g": 1.0,
+            "b": 0.3
+          }
+        }
+      }
+    ],
+    "mood_settings": {
+      "overall_tone": "Industrial Underground",
+      "color_temperature": "3200K (Warm White)",
+      "contrast_level": "High",
+      "shadow_quality": "Medium-High",
+      "volumetric_fog": true,
+      "atmospheric_particles": "Dust and steam"
+    }
+  },
+  "gameplay_elements": {
+    "spawn_points": {
+      "team_spawns": [
+        {
+          "team": "Alpha",
+          "positions": [
+            {
+              "x": -1600,
+              "y": -400,
+              "z": -180,
+              "facing": {
+                "yaw": 45
+              }
+            },
+            {
+              "x": -1600,
+              "y": 400,
+              "z": -180,
+              "facing": {
+                "yaw": -45
+              }
+            },
+            {
+              "x": -1400,
+              "y": 0,
+              "z": -180,
+              "facing": {
+                "yaw": 0
+              }
+            }
+          ]
+        },
+        {
+          "team": "Bravo",
+          "positions": [
+            {
+              "x": 1600,
+              "y": -400,
+              "z": -180,
+              "facing": {
+                "yaw": 135
+              }
+            },
+            {
+              "x": 1600,
+              "y": 400,
+              "z": -180,
+              "facing": {
+                "yaw": -135
+              }
+            },
+            {
+              "x": 1400,
+              "y": 0,
+              "z": -180,
+              "facing": {
+                "yaw": 180
+              }
+            }
+          ]
+        }
+      ],
+      "solo_spawns": [
+        {
+          "x": -800,
+          "y": 600,
+          "z": -130,
+          "facing": {
+            "yaw": -90
+          }
+        },
+        {
+          "x": 800,
+          "y": -600,
+          "z": -130,
+          "facing": {
+            "yaw": 90
+          }
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 150,
+          "facing": {
+            "yaw": 0
+          }
+        },
+        {
+          "x": -200,
+          "y": 800,
+          "z": -130,
+          "facing": {
+            "yaw": -135
+          }
+        },
+        {
+          "x": 200,
+          "y": -800,
+          "z": -280,
+          "facing": {
+            "yaw": 45
+          }
+        }
+      ]
+    },
+    "extraction_zones": [
+      {
+        "name": "Primary Extraction - Central Shaft",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 250
+        },
+        "radius": 100,
+        "extraction_time": 30,
+        "risk_level": "High",
+        "reward_multiplier": 1.5,
+        "visibility": "High - Central location"
+      },
+      {
+        "name": "Secondary Extraction - North Exit",
+        "position": {
+          "x": 800,
+          "y": 800,
+          "z": 100
+        },
+        "radius": 80,
+        "extraction_time": 45,
+        "risk_level": "Medium",
+        "reward_multiplier": 1.0,
+        "visibility": "Medium - Side location"
+      },
+      {
+        "name": "Emergency Extraction - South Service",
+        "position": {
+          "x": -400,
+          "y": -800,
+          "z": -250
+        },
+        "radius": 60,
+        "extraction_time": 60,
+        "risk_level": "Low",
+        "reward_multiplier": 0.8,
+        "visibility": "Low - Hidden location"
+      }
+    ],
+    "control_points": [
+      {
+        "name": "Metro Command Center",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "control_radius": 150,
+        "capture_time": 20,
+        "strategic_value": "Critical - Central map control",
+        "defensive_positions": 8
+      },
+      {
+        "name": "North Maintenance Hub",
+        "position": {
+          "x": 0,
+          "y": 800,
+          "z": -130
+        },
+        "control_radius": 100,
+        "capture_time": 15,
+        "strategic_value": "High - Controls north approach",
+        "defensive_positions": 4
+      },
+      {
+        "name": "South Power Station",
+        "position": {
+          "x": 0,
+          "y": -800,
+          "z": -280
+        },
+        "control_radius": 120,
+        "capture_time": 18,
+        "strategic_value": "High - Controls power and lighting",
+        "defensive_positions": 6
+      },
+      {
+        "name": "West Transit Platform",
+        "position": {
+          "x": -800,
+          "y": 0,
+          "z": -180
+        },
+        "control_radius": 80,
+        "capture_time": 12,
+        "strategic_value": "Medium - Flanking route control",
+        "defensive_positions": 3
+      },
+      {
+        "name": "East Transit Platform",
+        "position": {
+          "x": 800,
+          "y": 0,
+          "z": -180
+        },
+        "control_radius": 80,
+        "capture_time": 12,
+        "strategic_value": "Medium - Flanking route control",
+        "defensive_positions": 3
+      }
+    ],
+    "navigation_mesh": {
+      "walkable_areas": [
+        {
+          "name": "Main Platform Level",
+          "bounds": {
+            "min": {
+              "x": -1800,
+              "y": -200,
+              "z": -200
+            },
+            "max": {
+              "x": 1800,
+              "y": 200,
+              "z": -180
+            }
+          },
+          "slope_limit": 25,
+          "step_height": 30
+        },
+        {
+          "name": "Service Tunnel Network",
+          "bounds": {
+            "min": {
+              "x": -800,
+              "y": 600,
+              "z": -150
+            },
+            "max": {
+              "x": 800,
+              "y": 1200,
+              "z": -130
+            }
+          },
+          "slope_limit": 15,
+          "step_height": 20
+        },
+        {
+          "name": "Lower Maintenance Level",
+          "bounds": {
+            "min": {
+              "x": -600,
+              "y": -1000,
+              "z": -300
+            },
+            "max": {
+              "x": 600,
+              "y": -600,
+              "z": -280
+            }
+          },
+          "slope_limit": 20,
+          "step_height": 25
+        }
+      ],
+      "vertical_connections": [
+        {
+          "name": "Central Shaft Stairs",
+          "start": {
+            "x": 0,
+            "y": 0,
+            "z": -180
+          },
+          "end": {
+            "x": 0,
+            "y": 0,
+            "z": 250
+          },
+          "type": "Spiral Staircase",
+          "width": 120
+        },
+        {
+          "name": "North Service Ladder",
+          "start": {
+            "x": 0,
+            "y": 800,
+            "z": -130
+          },
+          "end": {
+            "x": 0,
+            "y": 800,
+            "z": 100
+          },
+          "type": "Maintenance Ladder",
+          "width": 60
+        },
+        {
+          "name": "South Utility Access",
+          "start": {
+            "x": 0,
+            "y": -800,
+            "z": -280
+          },
+          "end": {
+            "x": 0,
+            "y": -800,
+            "z": -180
+          },
+          "type": "Utility Stairs",
+          "width": 80
+        }
+      ],
+      "movement_modifiers": [
+        {
+          "area": "Water hazards",
+          "positions": [
+            {
+              "x": -1200,
+              "y": -100,
+              "z": -200
+            },
+            {
+              "x": 1200,
+              "y": 100,
+              "z": -200
+            }
+          ],
+          "speed_modifier": 0.7,
+          "effect": "Reduced movement speed"
+        },
+        {
+          "area": "Steam vents",
+          "positions": [
+            {
+              "x": 0,
+              "y": -600,
+              "z": -280
+            }
+          ],
+          "speed_modifier": 0.8,
+          "effect": "Reduced visibility and movement"
+        }
+      ]
+    },
+    "interactive_elements": [
+      {
+        "name": "Power Distribution Panel",
+        "position": {
+          "x": 0,
+          "y": -800,
+          "z": -250
+        },
+        "function": "Controls lighting zones",
+        "interaction_time": 5,
+        "cooldown": 60,
+        "effect": "Toggle lighting in controlled area"
+      },
+      {
+        "name": "Emergency Alarm System",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -150
+        },
+        "function": "Map-wide audio cue and visibility modifier",
+        "interaction_time": 3,
+        "cooldown": 120,
+        "effect": "Activates emergency lighting and audio alert"
+      },
+      {
+        "name": "Security Blast Doors",
+        "positions": [
+          {
+            "x": -400,
+            "y": 0,
+            "z": -190
+          },
+          {
+            "x": 400,
+            "y": 0,
+            "z": -190
+          }
+        ],
+        "function": "Temporary area denial",
+        "interaction_time": 8,
+        "duration": 45,
+        "effect": "Blocks primary tunnel for limited time"
+      }
+    ]
+  },
+  "faction_integration": {
+    "Directorate": {
+      "primary_territory": {
+        "x": -1200,
+        "y": -200,
+        "z": -100
+      },
+      "architectural_style": "Clean corporate signage, blue lighting, security terminals",
+      "defensive_advantages": [
+        "Advanced lighting control",
+        "Security camera network"
+      ],
+      "environmental_storytelling": [
+        "Corporate propaganda displays",
+        "Clean maintenance areas"
+      ]
+    },
+    "Free77": {
+      "primary_territory": {
+        "x": -400,
+        "y": 200,
+        "z": -100
+      },
+      "architectural_style": "Military tactical setup, yellow warning lights, comm equipment",
+      "defensive_advantages": [
+        "Tactical positioning",
+        "Communication relays"
+      ],
+      "environmental_storytelling": [
+        "Military supply caches",
+        "Tactical maps"
+      ]
+    },
+    "Iron_Scavengers": {
+      "primary_territory": {
+        "x": 400,
+        "y": -200,
+        "z": -100
+      },
+      "architectural_style": "Improvised barricades, orange warning lights, salvaged materials",
+      "defensive_advantages": [
+        "Improvised fortifications",
+        "Resource caches"
+      ],
+      "environmental_storytelling": [
+        "Scrap metal barriers",
+        "Tool workshops"
+      ]
+    },
+    "Nomad_Clans": {
+      "primary_territory": {
+        "x": 1200,
+        "y": 200,
+        "z": -100
+      },
+      "architectural_style": "Mobile structures, green natural lighting, survival equipment",
+      "defensive_advantages": [
+        "Adaptable positioning",
+        "Environmental knowledge"
+      ],
+      "environmental_storytelling": [
+        "Portable shelters",
+        "Survival supply caches"
+      ]
+    }
+  },
+  "performance_optimization": {
+    "level_of_detail": {
+      "high_detail_radius": 500,
+      "medium_detail_radius": 1000,
+      "low_detail_radius": 2000,
+      "culling_distance": 3000
+    },
+    "occlusion_culling": [
+      {
+        "name": "Main Tunnel Segments",
+        "positions": [
+          [
+            -1000,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1000,
+            0
+          ]
+        ]
+      },
+      {
+        "name": "Service Areas",
+        "positions": [
+          [
+            0,
+            800
+          ],
+          [
+            0,
+            -800
+          ]
+        ]
+      }
+    ],
+    "texture_streaming": {
+      "high_res_radius": 300,
+      "medium_res_radius": 800,
+      "low_res_radius": 1500
+    },
+    "lighting_optimization": {
+      "dynamic_lights": "Limited to 8 active",
+      "shadow_casting": "Primary lights only",
+      "reflection_probes": "Key locations only"
+    },
+    "target_performance": {
+      "fps_target": 60,
+      "frame_time_budget": 16.67,
+      "draw_calls_limit": 800,
+      "triangle_budget": 150000
+    }
+  },
+  "unreal_commands": [
+    {
+      "action": "create_level",
+      "name": "TG_MetroUnderground_Phase1",
+      "template": "Empty Level"
+    },
+    {
+      "action": "create_actor",
+      "type": "StaticMeshActor",
+      "mesh": "/Engine/BasicShapes/Cube",
+      "transform": {
+        "location": {
+          "x": -1800,
+          "y": 0,
+          "z": -200
+        },
+        "scale": {
+          "x": 36.0,
+          "y": 4.0,
+          "z": 3.0
+        }
+      },
+      "name": "Corridor_Main_Transit_Tunnel"
+    },
+    {
+      "action": "create_actor",
+      "type": "StaticMeshActor",
+      "mesh": "/Engine/BasicShapes/Cube",
+      "transform": {
+        "location": {
+          "x": -800,
+          "y": 800,
+          "z": -150
+        },
+        "scale": {
+          "x": 16.0,
+          "y": 2.0,
+          "z": 2.5
+        }
+      },
+      "name": "Corridor_North_Service_Tunnel"
+    },
+    {
+      "action": "create_actor",
+      "type": "StaticMeshActor",
+      "mesh": "/Engine/BasicShapes/Cube",
+      "transform": {
+        "location": {
+          "x": -600,
+          "y": -1000,
+          "z": -300
+        },
+        "scale": {
+          "x": 12.0,
+          "y": 3.0,
+          "z": 2.0
+        }
+      },
+      "name": "Corridor_South_Maintenance_Level"
+    },
+    {
+      "action": "create_actor",
+      "type": "DirectionalLight",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 0,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": -45,
+          "yaw": 0,
+          "roll": 0
+        }
+      },
+      "properties": {
+        "Intensity": 0.3,
+        "LightColor": {
+          "r": 0.8,
+          "g": 0.9,
+          "b": 1.0
+        }
+      },
+      "name": "Ambient Surface Light"
+    }
+  ]
+}
