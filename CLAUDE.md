@@ -717,15 +717,15 @@ Last Updated: August 28, 2025
 
 ### **Generation Success Guides**
 
-- `TERMINAL_GROUNDS_GENERATION_PLAYBOOK.md` - **MASTER REFERENCE** - Complete reproducible success guide
-- `AGENT_ERROR_PREVENTION.md` - Critical error prevention for future agents
+- `docs/technical/TERMINAL_GROUNDS_GENERATION_PLAYBOOK.md` - **MASTER REFERENCE** - Complete reproducible success guide
+- `docs/guides/AGENT_ERROR_PREVENTION.md` - Critical error prevention for future agents
 - `Tools/ArtGen/faction_emblem_fixes.py` - Fixed scripts for failed emblems
 - `Tools/ArtGen/simple_lore_batch.py` - Updated with Corporate Plaza fix
 
 ### **Technical References**
 
-- `COMFYUI_COMPLETE_REFERENCE.md` - Complete copy-paste reference
-- `COMFYUI_STARTUP_CHECKLIST.md` - Step-by-step startup checklist
+- `docs/technical/COMFYUI_COMPLETE_REFERENCE.md` - Complete copy-paste reference
+- `docs/technical/COMFYUI_STARTUP_CHECKLIST.md` - Step-by-step startup checklist
 - `Tools/COMFYUI_STARTUP_GUIDE.md` - Detailed technical guide
 - `Tools/ArtGen/SCRIPT_CLEANUP_ANALYSIS.md` - Script cleanup recommendations
 

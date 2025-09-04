@@ -90,7 +90,11 @@
       "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\Comfy\\ComfyUI-API\\output\\01_PRODUCTION_READY/**)",
       "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\Scripts/**)",
       "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\MapCreation/**)",
-      "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\MapCreation/**)"
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\Tools\\MapCreation/**)",
+      "Bash(git mv:*)",
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds/**)",
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds/**)",
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds/**)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits",
