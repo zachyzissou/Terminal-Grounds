@@ -76,3 +76,10 @@ Content/**/Developers/**
 
 # Windows reserved device filenames
 nul
+
+# Large external repositories (MCP servers, tools)
+Meshroom-2025/
+*UnrealMCP*/
+*unreal-mcp*/
+*mcp-integration/
+files_to_remove.txt
