@@ -71,7 +71,13 @@
       "Bash(start /B python:*)",
       "Bash(RESTART_COMFYUI.bat)",
       "Bash(\"C:\\Users\\Zachg\\Terminal-Grounds\\RESTART_COMFYUI.bat\")",
-      "Bash(START_COMFYUI_SAFE.bat)"
+      "Bash(START_COMFYUI_SAFE.bat)",
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\docs\\Design/**)",
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds\\docs\\Design/**)",
+      "Bash(git fetch:*)",
+      "Bash(git log:*)",
+      "Read(/C:\\Users\\Zachg\\Terminal-Grounds/**)",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits",
