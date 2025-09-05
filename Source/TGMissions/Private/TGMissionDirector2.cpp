@@ -1,4 +1,5 @@
 #include "TGMissionDirector2.h"
+#include "SiegeHelpers.h"
 #include "TimerManager.h"
 
 ATGMissionDirector2::ATGMissionDirector2() {
@@ -8,6 +9,7 @@ ATGMissionDirector2::ATGMissionDirector2() {
   CurrentThreatLevel = EThreatLevel::Low;
   StageStartTime = 0.0f;
   bMissionActive = false;
+  bSiegeMode = false;
 }
 
 void ATGMissionDirector2::BeginPlay() {
@@ -194,3 +196,41 @@ bool ATGMissionDirector2::EvaluateEventTrigger(
 }
 
 void ATGMissionDirector2::ApplyThreatScaling() {}
+
+// Siege Integration Methods
+void ATGMissionDirector2::StartSiege(const FSiegePlan& Plan) {
+  bSiegeMode = true;
+  
+  // Start with Probe phase stages
+  if (Plan.ProbeStages.Num() > 0) {
+    StartMission(Plan.ProbeStages);
+  }
+  
+  UE_LOG(LogTemp, Log, TEXT("Siege started in MissionDirector2 with %d Probe stages"), Plan.ProbeStages.Num());
+}
+
+EMissionStage ATGMissionDirector2::MapExtractionToSiege(EMissionStage OriginalStage) const {
+  if (!bSiegeMode) {
+    return OriginalStage;
+  }
+  
+  // Map Extraction stage to Dominate in siege mode
+  if (OriginalStage == EMissionStage::Extraction) {
+    return EMissionStage::Dynamic; // Use Dynamic as "Dominate" equivalent
+  }
+  
+  return OriginalStage;
+}
+
+void ATGMissionDirector2::ProcessSiegeStageCompletion(EMissionStage CompletedStage) {
+  if (!bSiegeMode) {
+    return;
+  }
+  
+  // Log siege stage completion
+  UE_LOG(LogTemp, Log, TEXT("Siege stage completed: %s"), 
+    *UEnum::GetValueAsString(CompletedStage));
+  
+  // Additional siege-specific processing can be added here
+  // This is called by the SiegeHelperComponent for integration
+}

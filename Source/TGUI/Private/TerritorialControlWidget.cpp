@@ -6,6 +6,9 @@
 #include "GameFramework/Pawn.h"
 #include "GameFramework/PlayerController.h"
 #include "TGTerritorial/Public/TerritorialManager.h"
+#include "TGTerritorial/Public/PhaseGateComponent.h"
+#include "TGTerritorial/Public/DominanceMeterComponent.h"
+#include "TGTerritorial/Public/TicketPoolComponent.h"
 
 void UTerritorialControlWidget::NativeConstruct()
 {
@@ -280,4 +283,159 @@ FTerritorialDisplayData UTerritorialControlWidget::ConvertTerritorialState(const
     }
 
     return DisplayData;
+}
+
+// Siege Implementation Methods
+void UTerritorialControlWidget::RefreshSiegeData()
+{
+    if (!ShouldShowSiegeUI())
+    {
+        return;
+    }
+
+    FSiegeDisplayData NewSiegeData;
+    NewSiegeData.bSiegeActive = true;
+
+    // Update Phase Data
+    if (BoundPhaseGate)
+    {
+        NewSiegeData.CurrentPhase = BoundPhaseGate->GetPhase();
+        NewSiegeData.PhaseName = GetPhaseDisplayName(NewSiegeData.CurrentPhase);
+        NewSiegeData.PhaseColor = GetPhaseColor(NewSiegeData.CurrentPhase);
+    }
+
+    // Update Dominance Data
+    if (BoundDominanceMeter)
+    {
+        NewSiegeData.DominanceValue = BoundDominanceMeter->GetDominance();
+        NewSiegeData.DominancePercentage = BoundDominanceMeter->GetDominancePercentage();
+    }
+
+    // Update Ticket Data
+    if (BoundTicketPool)
+    {
+        NewSiegeData.AttackerTickets = BoundTicketPool->GetAttackerTickets();
+        NewSiegeData.DefenderTickets = BoundTicketPool->GetDefenderTickets();
+        NewSiegeData.AttackerTicketPercentage = BoundTicketPool->GetAttackerTicketPercentage() * 100.0f;
+        NewSiegeData.DefenderTicketPercentage = BoundTicketPool->GetDefenderTicketPercentage() * 100.0f;
+    }
+
+    CurrentSiegeData = NewSiegeData;
+}
+
+void UTerritorialControlWidget::UpdateSiegeDisplay()
+{
+    RefreshSiegeData();
+    OnSiegeDataUpdated(CurrentSiegeData);
+    OnSiegeDisplayUpdate.Broadcast(CurrentSiegeData);
+}
+
+void UTerritorialControlWidget::BindToSiegeComponents(UPhaseGateComponent* PhaseGate, UDominanceMeterComponent* DominanceMeter, UTicketPoolComponent* TicketPool)
+{
+    // Unbind from previous components
+    if (BoundPhaseGate)
+    {
+        BoundPhaseGate->OnPhaseChanged.RemoveDynamic(this, &UTerritorialControlWidget::OnSiegePhaseAdvanced);
+    }
+    if (BoundDominanceMeter)
+    {
+        BoundDominanceMeter->OnDominanceChanged.RemoveDynamic(this, &UTerritorialControlWidget::OnDominanceChanged);
+    }
+    if (BoundTicketPool)
+    {
+        BoundTicketPool->OnTicketsConsumed.RemoveDynamic(this, &UTerritorialControlWidget::OnTicketsChanged);
+    }
+
+    // Bind to new components
+    BoundPhaseGate = PhaseGate;
+    BoundDominanceMeter = DominanceMeter;
+    BoundTicketPool = TicketPool;
+
+    if (BoundPhaseGate)
+    {
+        BoundPhaseGate->OnPhaseChanged.AddDynamic(this, &UTerritorialControlWidget::OnSiegePhaseAdvanced);
+    }
+    if (BoundDominanceMeter)
+    {
+        BoundDominanceMeter->OnDominanceChanged.AddDynamic(this, &UTerritorialControlWidget::OnDominanceChanged);
+    }
+    if (BoundTicketPool)
+    {
+        BoundTicketPool->OnTicketsConsumed.AddDynamic(this, &UTerritorialControlWidget::OnTicketsChanged);
+    }
+
+    // Initial data refresh
+    RefreshSiegeData();
+}
+
+FString UTerritorialControlWidget::GetPhaseDisplayName(ESiegePhase Phase) const
+{
+    switch (Phase)
+    {
+    case ESiegePhase::Probe:
+        return TEXT("PROBE");
+    case ESiegePhase::Interdict:
+        return TEXT("INTERDICT");
+    case ESiegePhase::Dominate:
+        return TEXT("DOMINATE");
+    case ESiegePhase::Locked:
+        return TEXT("LOCKED");
+    default:
+        return TEXT("UNKNOWN");
+    }
+}
+
+FLinearColor UTerritorialControlWidget::GetPhaseColor(ESiegePhase Phase) const
+{
+    switch (Phase)
+    {
+    case ESiegePhase::Probe:
+        return FLinearColor::Green;  // Starting phase - green
+    case ESiegePhase::Interdict:
+        return FLinearColor::Yellow; // Middle phase - yellow
+    case ESiegePhase::Dominate:
+        return FLinearColor(1.0f, 0.5f, 0.0f); // Final phase - orange
+    case ESiegePhase::Locked:
+        return FLinearColor::Red;    // Locked - red
+    default:
+        return FLinearColor::White;
+    }
+}
+
+FString UTerritorialControlWidget::GetDominanceStatusText(float DominanceValue) const
+{
+    if (DominanceValue >= 0.9f)
+    {
+        return TEXT("ATTACKER OVERWHELMING");
+    }
+    else if (DominanceValue >= 0.75f)
+    {
+        return TEXT("ATTACKER DOMINANT");
+    }
+    else if (DominanceValue >= 0.6f)
+    {
+        return TEXT("ATTACKER ADVANTAGE");
+    }
+    else if (DominanceValue >= 0.4f)
+    {
+        return TEXT("CONTESTED");
+    }
+    else if (DominanceValue >= 0.25f)
+    {
+        return TEXT("DEFENDER ADVANTAGE");
+    }
+    else if (DominanceValue >= 0.1f)
+    {
+        return TEXT("DEFENDER DOMINANT");
+    }
+    else
+    {
+        return TEXT("DEFENDER OVERWHELMING");
+    }
+}
+
+bool UTerritorialControlWidget::ShouldShowSiegeUI() const
+{
+    return (BoundPhaseGate != nullptr || BoundDominanceMeter != nullptr || BoundTicketPool != nullptr) &&
+           CurrentSiegeData.bSiegeActive;
 }

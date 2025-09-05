@@ -75,6 +75,19 @@ public:
     UFUNCTION(BlueprintPure, Category = "Charge")
     float GetDamageMultiplier() const;
 
+    // Siege Integration
+    UFUNCTION(BlueprintCallable, Category = "Charge|Siege")
+    void ApplySiegeChargeModifier(float ChargeRateMultiplier, float DamageMultiplier, float Duration);
+
+    UFUNCTION(BlueprintPure, Category = "Charge|Siege")
+    float GetSiegeChargeRateMultiplier() const { return SiegeChargeRateMultiplier; }
+
+    UFUNCTION(BlueprintPure, Category = "Charge|Siege")
+    float GetSiegeDamageMultiplier() const { return SiegeDamageMultiplier; }
+
+    UFUNCTION(BlueprintPure, Category = "Charge|Siege")
+    bool HasSiegeModifiers() const { return SiegeChargeRateMultiplier != 1.0f || SiegeDamageMultiplier != 1.0f; }
+
     // EMP and Disruption
     UFUNCTION(BlueprintCallable, Category = "Disruption")
     void ApplyEMPDisruption(float DisruptionStrength, float Duration);
@@ -143,6 +156,16 @@ protected:
 
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Configuration")
     float EMPVulnerability = 1.0f;
+
+    // Siege Modifiers
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Siege State")
+    float SiegeChargeRateMultiplier = 1.0f;
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Siege State")
+    float SiegeDamageMultiplier = 1.0f;
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Siege State")
+    float SiegeModifierEndTime = 0.0f;
 
 private:
     void UpdateChargeState();

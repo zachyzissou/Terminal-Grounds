@@ -180,6 +180,22 @@ public:
     UFUNCTION(BlueprintPure, Category = "Conditions")
     bool CheckConditions(const FGameplayTagContainer& RequiredTags) const;
 
+    // Siege Integration
+    UFUNCTION(BlueprintCallable, Category = "Siege")
+    void StartSiege(const struct FSiegePlan& Plan);
+
+    UFUNCTION(BlueprintCallable, Category = "Siege")
+    EMissionStage MapExtractionToSiege(EMissionStage OriginalStage) const;
+
+    UFUNCTION(BlueprintCallable, Category = "Siege")
+    void ProcessSiegeStageCompletion(EMissionStage CompletedStage);
+
+    UFUNCTION(BlueprintPure, Category = "Siege")
+    bool IsSiegeMode() const { return bSiegeMode; }
+
+    UFUNCTION(BlueprintCallable, Category = "Siege")
+    void SetSiegeMode(bool bEnabled) { bSiegeMode = bEnabled; }
+
     // Events
     UPROPERTY(BlueprintAssignable, Category = "Events")
     FOnMissionStageChanged OnMissionStageChanged;
@@ -215,6 +231,9 @@ protected:
 
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "State")
     bool bMissionActive;
+
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "State")
+    bool bSiegeMode;
 
     // Dynamic Events
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Events")

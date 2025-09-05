@@ -2,61 +2,161 @@
 
 #include "CoreMinimal.h"
 #include "Subsystems/WorldSubsystem.h"
+#include "Engine/DataTable.h"
+#include "GameplayTagContainer.h"
 #include "TGConvoyEconomySubsystem.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FTGOnIntegrityIndexChanged, float, NewIndex, float, Delta);
+UENUM(BlueprintType)
+enum class EJobType : uint8
+{
+    Supply          UMETA(DisplayName = "Supply Run"),
+    Extraction      UMETA(DisplayName = "Resource Extraction"),
+    Intelligence    UMETA(DisplayName = "Intelligence Gathering"),
+    Sabotage        UMETA(DisplayName = "Sabotage Operation"),
+    Escort          UMETA(DisplayName = "Convoy Escort"),
+    Raid            UMETA(DisplayName = "Supply Raid")
+};
+
+USTRUCT(BlueprintType)
+struct FConvoyRoute
+{
+    GENERATED_BODY()
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    FName RouteId;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    FString RouteName;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    TArray<FVector> Waypoints;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    float BaseIntegrityImpact = 0.1f;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    float DifficultyMultiplier = 1.0f;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    int32 FactionControllerID = 0;
+
+    FConvoyRoute()
+    {
+        BaseIntegrityImpact = 0.1f;
+        DifficultyMultiplier = 1.0f;
+        FactionControllerID = 0;
+    }
+};
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnIntegrityIndexChanged, float, OldValue, float, NewValue);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnConvoyOutcome, FName, RouteId, EJobType, JobType, bool, bSuccess);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnIntegrityThresholdReached, float, Threshold);
 
 /**
- * World-level convoy economy controller.
- * Tracks Integrity Index [0..1], applies mission outcomes, and exposes change events for UI/contracts.
+ * Convoy Economy Subsystem
+ * Manages supply route integrity and its impact on territorial control
+ * Tracks convoy operations, supply chain disruptions, and economic warfare
  */
-UCLASS(BlueprintType)
+UCLASS()
 class TGWORLD_API UTGConvoyEconomySubsystem : public UWorldSubsystem
 {
     GENERATED_BODY()
 
 public:
-    UTGConvoyEconomySubsystem();
-
+    // UWorldSubsystem interface
     virtual void Initialize(FSubsystemCollectionBase& Collection) override;
     virtual void Deinitialize() override;
+    virtual bool ShouldCreateSubsystem(UObject* Outer) const override;
 
-    /** Apply a convoy outcome. Positive Delta moves toward stability when success=true, away when false. Clamped to [0,1]. */
+    // Convoy Operations
     UFUNCTION(BlueprintCallable, Category = "Convoy Economy")
-    void ApplyConvoyOutcome(float Delta, FName RouteId, FName JobType, bool bSuccess);
+    void ApplyConvoyOutcome(float Delta, FName RouteId, EJobType JobType, bool bSuccess);
 
-    /** Force-set the Integrity Index. */
     UFUNCTION(BlueprintCallable, Category = "Convoy Economy")
-    void SetIntegrityIndex(float NewValue);
+    void RegisterConvoyRoute(const FConvoyRoute& Route);
 
-    /** Get the current Integrity Index. */
+    UFUNCTION(BlueprintCallable, Category = "Convoy Economy")
+    void RemoveConvoyRoute(FName RouteId);
+
+    // Integrity Management
     UFUNCTION(BlueprintPure, Category = "Convoy Economy")
     float GetIntegrityIndex() const { return IntegrityIndex; }
 
-    /** Decay toward equilibrium using exponential half-life in seconds. */
     UFUNCTION(BlueprintCallable, Category = "Convoy Economy")
-    void AdvanceDecay(float DeltaSeconds);
+    void SetIntegrityIndex(float NewValue);
 
-    /** Broadcast when Integrity Index changes. */
-    UPROPERTY(BlueprintAssignable, Category = "Convoy Economy")
-    FTGOnIntegrityIndexChanged OnIntegrityIndexChanged;
+    UFUNCTION(BlueprintCallable, Category = "Convoy Economy")
+    void ModifyIntegrityIndex(float Delta);
+
+    // Route Queries
+    UFUNCTION(BlueprintPure, Category = "Convoy Economy")
+    FConvoyRoute GetRoute(FName RouteId) const;
+
+    UFUNCTION(BlueprintPure, Category = "Convoy Economy")
+    TArray<FConvoyRoute> GetAllRoutes() const;
+
+    UFUNCTION(BlueprintPure, Category = "Convoy Economy")
+    TArray<FConvoyRoute> GetRoutesByFaction(int32 FactionID) const;
+
+    UFUNCTION(BlueprintPure, Category = "Convoy Economy")
+    float GetRouteIntegrityImpact(FName RouteId, EJobType JobType, bool bSuccess) const;
+
+    // Economic Impact
+    UFUNCTION(BlueprintCallable, Category = "Convoy Economy")
+    void TriggerEconomicEvent(const FString& EventName, float IntegrityDelta);
+
+    UFUNCTION(BlueprintPure, Category = "Convoy Economy")
+    float GetEconomicHealthScore() const;
+
+    UFUNCTION(BlueprintPure, Category = "Convoy Economy")
+    FString GetIntegrityStatusText() const;
+
+    // Events
+    UPROPERTY(BlueprintAssignable, Category = "Convoy Economy Events")
+    FOnIntegrityIndexChanged OnIntegrityIndexChanged;
+
+    UPROPERTY(BlueprintAssignable, Category = "Convoy Economy Events")
+    FOnConvoyOutcome OnConvoyOutcome;
+
+    UPROPERTY(BlueprintAssignable, Category = "Convoy Economy Events")
+    FOnIntegrityThresholdReached OnIntegrityThresholdReached;
+
+    // Configuration
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Economy Config")
+    float IntegrityDecayRate = 0.02f; // Per minute
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Economy Config")
+    float MaxIntegrityIndex = 1.0f;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Economy Config")
+    float MinIntegrityIndex = 0.0f;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Economy Config")
+    TArray<float> IntegrityThresholds = {0.25f, 0.5f, 0.75f, 0.9f};
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Economy Config")
+    bool bEnableIntegrityDecay = true;
+
+protected:
+    virtual void Tick(float DeltaTime) override;
+    virtual bool IsTickable() const override { return true; }
+    virtual TStatId GetStatID() const override { RETURN_QUICK_DECLARE_CYCLE_STAT(UTGConvoyEconomySubsystem, STATGROUP_Tickables); }
 
 private:
-    /** Shared state of the season's convoy stability. [0..1] */
-    UPROPERTY(EditAnywhere, Category = "Convoy Economy", meta = (ClampMin = "0.0", ClampMax = "1.0"))
-    float IntegrityIndex;
-
-    /** Target equilibrium to decay toward. */
-    UPROPERTY(EditAnywhere, Category = "Convoy Economy", meta = (ClampMin = "0.0", ClampMax = "1.0"))
-    float Equilibrium = 0.5f;
-
-    /** Half-life for decay in seconds. */
-    UPROPERTY(EditAnywhere, Category = "Convoy Economy", meta = (ClampMin = "1.0"))
-    float DecayHalfLifeSeconds = 3600.f;
-
-    /** Recently affected routes for lightweight UI reference. */
+    // Core state
     UPROPERTY()
-    TSet<FName> ActiveRoutes;
+    float IntegrityIndex = 0.5f;
 
-    void BroadcastChange(float OldIndex, float NewIndex);
+    UPROPERTY()
+    TMap<FName, FConvoyRoute> RegisteredRoutes;
+
+    // Threshold tracking
+    TSet<float> TriggeredThresholds;
+    float LastIntegrityValue = 0.5f;
+
+    // Internal systems
+    void ProcessIntegrityDecay(float DeltaTime);
+    void CheckIntegrityThresholds(float OldValue, float NewValue);
+    float CalculateJobTypeMultiplier(EJobType JobType) const;
+    void BroadcastIntegrityChange(float OldValue, float NewValue);
 };
