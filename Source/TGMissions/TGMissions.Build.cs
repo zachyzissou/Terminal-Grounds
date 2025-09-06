@@ -7,7 +7,7 @@ public class TGMissions : ModuleRules
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
     PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "GameplayTags" });
 
-    // Access Codex (TGCore) and Convoy Economy (TGWorld) subsystems from Splice implementation
+    // Access Codex (TGCore), Convoy Economy, and Territorial Manager (TGWorld) subsystems from Splice implementation
     PrivateDependencyModuleNames.AddRange(new string[] { "TGCore", "TGWorld" });
     }
 }

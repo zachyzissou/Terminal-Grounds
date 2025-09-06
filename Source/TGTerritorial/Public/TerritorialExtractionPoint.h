@@ -77,7 +77,7 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Extraction")
     int32 ControlleredTerritoryBonus = 15; // Extra influence if faction controls territory
 
-    // Risk/Reward mechanics
+    // Enhanced Territorial Risk/Reward mechanics
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
     float ExtractionSuccessRate = 0.85f; // 85% base success rate
 
@@ -88,7 +88,26 @@ public:
     float FactionControlledBonus = 0.10f; // +10% when faction controls territory
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
+    float EnemyTerritoryPenalty = 0.15f; // -15% success rate in enemy territory
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
+    float EnemyTerritoryTimeMultiplier = 1.5f; // 50% slower extraction in enemy territory
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
+    float VulnerabilityWindowTime = 15.0f; // Extra vulnerability window in contested zones
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
     int32 MaxSimultaneousExtractions = 2; // Maximum concurrent extractions
+
+    // Territorial Loot Bonuses
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
+    TMap<EFactionID, float> FactionLootMultipliers; // Faction-specific loot bonuses
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
+    float ControlledTerritoryLootBonus = 1.25f; // 25% more loot in controlled territory
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Risk Reward")
+    float EnemyTerritoryLootBonus = 1.75f; // 75% more loot in enemy territory (risk/reward)
 
     // Visual and audio feedback
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Feedback")
@@ -157,6 +176,18 @@ public:
     UFUNCTION(BlueprintPure, Category = "Extraction")
     EFactionID GetTerritoryControllingFaction() const;
 
+    UFUNCTION(BlueprintPure, Category = "Extraction")
+    float CalculateLootMultiplier(APawn* Player) const;
+
+    UFUNCTION(BlueprintPure, Category = "Extraction")
+    bool IsPlayerInEnemyTerritory(APawn* Player) const;
+
+    UFUNCTION(BlueprintPure, Category = "Extraction")
+    ETerritoryType GetTerritorialZoneType() const;
+
+    UFUNCTION(BlueprintCallable, Category = "Extraction")
+    void ApplyTerritorialExtractionBonuses(APawn* Player, TArray<class UItem*>& LootItems) const;
+
     // Visual updates
     UFUNCTION(BlueprintCallable, Category = "Visuals")
     void UpdateExtractionVisuals();
@@ -175,9 +206,13 @@ protected:
     bool IsPlayerInExtractionZone(APawn* Player) const;
     bool IsPlayerInContestationZone(APawn* Player) const;
 
-    // Territorial integration
+    // Enhanced Territorial integration
     void NotifyTerritorialInfluenceGain(APawn* Player, int32 InfluenceAmount);
     void UpdateTerritorialDisplay();
+    void QueryTerritorialManager();
+    void UpdateTerritorialBonuses();
+    bool ValidateTerritorialState();
+    void OnTerritorialControlChanged(int32 TerritoryID, EFactionID OldFaction, EFactionID NewFaction);
 
     // Overlap handlers
     UFUNCTION()
@@ -201,7 +236,19 @@ private:
     float ExtractionTimer = 0.0f;
     float LastStateUpdate = 0.0f;
     
-    // Performance optimization
+    // Enhanced Performance optimization
     float LastTerritorialCheck = 0.0f;
+    float LastBonusUpdate = 0.0f;
     static constexpr float TERRITORIAL_CHECK_INTERVAL = 2.0f; // Check territorial control every 2 seconds
+    static constexpr float BONUS_UPDATE_INTERVAL = 5.0f; // Update bonuses every 5 seconds
+    
+    // Cached territorial state for performance
+    UPROPERTY()
+    EFactionID CachedTerritorialController = EFactionID::None;
+    
+    UPROPERTY()
+    bool bTerritorialStateValid = false;
+    
+    UPROPERTY()
+    float CachedTerritorialInfluenceMultiplier = 1.0f;
 };

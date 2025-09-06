@@ -84,3 +84,90 @@ Meshroom-2025/
 *mcp-integration/
 flopperam-unreal-engine-mcp/
 files_to_remove.txt
+
+# Third-party tools and applications (EXCLUDE FROM GIT)
+3d-mcp/
+binary-reader-mcp/
+unreal-blender-mcp/
+Tools/Comfy/
+Tools/ComfyUI*/
+ComfyUI*/
+Houdini*/
+
+# Unreal Engine Content (binary files)
+Content/**/*.uasset
+Content/**/*.umap
+Content/**/*.ubulk
+Content/**/*.uexp
+Content/**/*.upk
+Content/**/*.udk
+
+# Marketplace content and purchased assets
+Content/3D-Scanned_Pack_Vol01/
+Content/Animated_Nebulas_Starter_Pack/
+Content/AssetNamingKeeper/
+Content/AutoTiler/
+Content/BlackAlder/
+Content/CT_Components/
+Content/CesiumSettings/
+Content/Chestnuts_Pack/
+Content/CommonHazel/
+Content/ConcreteFPPack/
+Content/Construction_VOL1/
+Content/Construction_VOL2/
+Content/Deko_MatrixDemo/
+Content/DeveloperTools/
+Content/EuropeanBeech/
+Content/EuropeanHornbeam/
+Content/Fantastic_Village_Pack/
+Content/Knife_FPS_Animations/
+Content/Light_Foliage/
+Content/Locodrome/
+Content/M5VFXVOL2/
+Content/MSPresets/
+Content/MetroMaintenanceStation/
+Content/PC3D_Kentucky_Bluegrass_v14/
+Content/PC3D_Stinging_Nettle_v13/
+Content/ProceduralBuildingGenerator/
+Content/Scene_OldMine/
+Content/Scene_QuarrySlate/
+Content/Scene_UnfinishedBuilding/
+Content/Survival_Character/
+Content/kb3d_missiontominerva/
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+
+# Keep custom Terminal Grounds content
+!Content/TG/
+
+# Disabled plugins
+Plugins_Disabled/
+
+# Image files (except documentation diagrams)
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.bmp
+*.psd
+*.gif
+*.hdr
+*.exr
+
+# Database files
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Python environments and cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+Scripts/lib/
+
+# Temporary and cache files
+*.backup
+*.tmp
+*.cache

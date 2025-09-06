@@ -1,3 +1,9 @@
+# Document Consolidated
+
+> **Note**: This roadmap has been consolidated into the [Master Roadmap](/Docs/MASTER_ROADMAP.md)
+
+---
+
 ---
 title: "Terminal Grounds: Implementation Roadmap"
 type: process

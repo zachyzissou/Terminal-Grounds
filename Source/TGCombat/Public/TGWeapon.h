@@ -34,11 +34,15 @@ public:
   UFUNCTION(BlueprintPure, Category = "Weapon|Siege")
   float GetSiegeDamageMultiplier() const { return SiegeDamageMultiplier; }
 
-  UFUNCTION(BlueprintPure, Category = "Weapon|Siege")  
+  UFUNCTION(BlueprintPure, Category = "Weapon|Siege")
   float GetSiegeRateOfFireMultiplier() const { return SiegeRateOfFireMultiplier; }
 
   UFUNCTION(BlueprintPure, Category = "Weapon|Siege")
   bool HasSiegeModifiers() const { return SiegeDamageMultiplier != 1.0f || SiegeRateOfFireMultiplier != 1.0f; }
+
+  // Weapon functionality
+  UFUNCTION(BlueprintCallable, Category = "Weapon")
+  void PerformWeaponTrace(const FTGShotParams& ShotParams);
 
 protected:
   UPROPERTY(ReplicatedUsing = OnRep_WeaponData)

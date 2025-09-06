@@ -7,7 +7,7 @@ public class TGWorld : ModuleRules
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
         
-        PublicIncludePathModuleNames.AddRange(new string[] { "TGTerritorial" });
+        PublicDependencyModuleNames.AddRange(new string[] { "TGCore" });
 
         PrivateDependencyModuleNames.AddRange(new string[] { 
             "Json",

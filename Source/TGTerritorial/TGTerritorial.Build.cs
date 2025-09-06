@@ -28,7 +28,8 @@ public class TGTerritorial : ModuleRules
                 "JsonUtilities",
                 "HTTP",
                 "TGNet",
-                "TGAI"
+                "TGAI",
+                "TGCore"
             }
         );
         

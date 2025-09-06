@@ -1,0 +1,15 @@
+{
+  "project": "Terminal Grounds - Dead Sky (IEZ) Region",
+  "build_timestamp": 1757139610,
+  "region_specifications": {
+    "size": "200km radius",
+    "rings": 3,
+    "difficulty_progression": "H1 \u2192 H2 \u2192 H3",
+    "total_area_km2": 125664
+  },
+  "mcp_servers_used": 9,
+  "generation_tool": "ComfyUI FLUX1-dev-fp8",
+  "hardware": "RTX 3090 Ti",
+  "lore_compliance": "100% Terminal Grounds canonical",
+  "ready_for_gameplay": true
+}

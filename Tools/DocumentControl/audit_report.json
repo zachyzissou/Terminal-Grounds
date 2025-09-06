@@ -1,0 +1,44 @@
+# Terminal Grounds - Documentation Governance Report
+Generated: 2025-09-05 11:00:54
+
+## Executive Summary
+- **Total Documents**: 2
+- **Total Issues**: 4
+- **Critical Issues**: 0
+- **High Priority Issues**: 1
+
+## Documentation Categories
+- **Uncategorized**: 2 documents
+
+## High Issues (1)
+### README.md
+**Type**: missing_metadata
+**Description**: High-priority document still in draft status
+**Recommendation**: Review and approve this critical document
+
+## Medium Issues (3)
+### AGENT_INTEGRATION_GUIDE.md
+**Type**: orphaned
+**Description**: Document has no incoming references
+**Recommendation**: Add references or consider archiving
+
+### AGENT_INTEGRATION_GUIDE.md
+**Type**: missing_metadata
+**Description**: Document lacks owner assignment
+**Recommendation**: Add owner metadata to document header
+
+### README.md
+**Type**: missing_metadata
+**Description**: Document lacks owner assignment
+**Recommendation**: Add owner metadata to document header
+
+## High Maintenance Priority Documents
+- **README.md** (Priority: 5)
+
+## Recommended Actions
+1. Address all critical issues immediately
+2. Assign owners to unassigned documents
+3. Consolidate duplicate content
+4. Update broken references
+5. Review and approve draft documents
+6. Archive truly orphaned documents

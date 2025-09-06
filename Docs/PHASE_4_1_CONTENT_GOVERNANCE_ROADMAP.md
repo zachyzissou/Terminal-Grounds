@@ -1,3 +1,9 @@
+# Document Consolidated
+
+> **Note**: This roadmap has been consolidated into the [Master Roadmap](/Docs/MASTER_ROADMAP.md)
+
+---
+
 ---
 title: "Phase 4.1 Content Governance Excellence Roadmap"
 type: "process"

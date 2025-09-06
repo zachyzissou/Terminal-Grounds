@@ -5,6 +5,35 @@
 #include "Codex/TGCodexSubsystem.h"
 #include "Trust/TGTrustSubsystem.h"
 #include "Economy/TGConvoyEconomySubsystem.h"
+#include "TGTerritorialManager.h"
+
+void UTGSpliceSubsystem::Initialize(FSubsystemCollectionBase& Collection)
+{
+    Super::Initialize(Collection);
+    
+    TerritorialManager = nullptr;
+    
+    UE_LOG(LogTemp, Log, TEXT("UTGSpliceSubsystem: Initialized"));
+    
+    // Initialize territorial integration (will be called automatically when TGTerritorialManager is ready)
+    InitializeTerritorialIntegration();
+}
+
+void UTGSpliceSubsystem::Deinitialize()
+{
+    // Unbind from territorial events
+    if (TerritorialManager)
+    {
+        TerritorialManager->OnTerritoryControlChanged.RemoveAll(this);
+        TerritorialManager->OnTerritoryContested.RemoveAll(this);
+        TerritorialManager->OnInfluenceChanged.RemoveAll(this);
+        TerritorialManager = nullptr;
+    }
+    
+    UE_LOG(LogTemp, Log, TEXT("UTGSpliceSubsystem: Deinitialized"));
+    
+    Super::Deinitialize();
+}
 
 void UTGSpliceSubsystem::RegisterDeck(UTGSpliceEventDeck* Deck)
 {
@@ -167,4 +196,204 @@ void UTGSpliceSubsystem::ApplyOutcome(const FTGSpliceOutcome& Outcome, const TMa
             }
         }
     }
+}
+
+// Territorial Event Context Implementation
+TMap<FName, FString> FTGTerritorialEventContext::ToContextMap() const
+{
+    TMap<FName, FString> ContextMap;
+    
+    ContextMap.Add("TerritoryId", FString::FromInt(TerritoryId));
+    ContextMap.Add("TerritoryName", TerritoryName);
+    ContextMap.Add("TerritoryType", TerritoryType);
+    ContextMap.Add("PreviousControllerFactionId", FString::FromInt(PreviousControllerFactionId));
+    ContextMap.Add("PreviousControllerFactionName", PreviousControllerFactionName);
+    ContextMap.Add("NewControllerFactionId", FString::FromInt(NewControllerFactionId));
+    ContextMap.Add("NewControllerFactionName", NewControllerFactionName);
+    ContextMap.Add("StrategicValue", FString::FromInt(StrategicValue));
+    ContextMap.Add("ResourceMultiplier", FString::SanitizeFloat(ResourceMultiplier));
+    ContextMap.Add("WasContested", bWasContested ? TEXT("true") : TEXT("false"));
+    ContextMap.Add("IsContested", bIsContested ? TEXT("true") : TEXT("false"));
+    
+    // Add connected territory information
+    FString ConnectedIdsList;
+    for (int32 i = 0; i < ConnectedTerritoryIds.Num(); ++i)
+    {
+        ConnectedIdsList += FString::FromInt(ConnectedTerritoryIds[i]);
+        if (i < ConnectedTerritoryIds.Num() - 1)
+        {
+            ConnectedIdsList += TEXT(",");
+        }
+    }
+    ContextMap.Add("ConnectedTerritoryIds", ConnectedIdsList);
+    
+    FString ConnectedNamesList;
+    for (int32 i = 0; i < ConnectedTerritoryNames.Num(); ++i)
+    {
+        ConnectedNamesList += ConnectedTerritoryNames[i];
+        if (i < ConnectedTerritoryNames.Num() - 1)
+        {
+            ConnectedNamesList += TEXT(",");
+        }
+    }
+    ContextMap.Add("ConnectedTerritoryNames", ConnectedNamesList);
+    
+    return ContextMap;
+}
+
+// Territorial Integration Methods
+void UTGSpliceSubsystem::InitializeTerritorialIntegration()
+{
+    if (UWorld* World = GetWorld())
+    {
+        TerritorialManager = World->GetSubsystem<UTGTerritorialManager>();
+        if (TerritorialManager)
+        {
+            // Bind to territorial events
+            TerritorialManager->OnTerritoryControlChanged.AddUObject(this, &UTGSpliceSubsystem::OnTerritorialControlChanged);
+            TerritorialManager->OnTerritoryContested.AddUObject(this, &UTGSpliceSubsystem::OnTerritorialContested);
+            TerritorialManager->OnInfluenceChanged.AddUObject(this, &UTGSpliceSubsystem::OnTerritorialInfluenceChanged);
+            
+            UE_LOG(LogTemp, Log, TEXT("UTGSpliceSubsystem: Territorial integration initialized"));
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("UTGSpliceSubsystem: Failed to find UTGTerritorialManager"));
+        }
+    }
+}
+
+bool UTGSpliceSubsystem::TriggerTerritorialEvents(ETGSpliceTrigger Trigger, const FTGTerritorialEventContext& TerritorialContext)
+{
+    // Convert territorial context to standard context map
+    TMap<FName, FString> Context = TerritorialContext.ToContextMap();
+    
+    // Use existing trigger system with enhanced context
+    return TriggerEligibleEvents(Trigger, Context);
+}
+
+void UTGSpliceSubsystem::OnTerritorialControlChanged(int32 TerritoryId, int32 OldControllerFactionId, int32 NewControllerFactionId)
+{
+    // Build territorial context
+    FTGTerritorialEventContext TerritorialContext = BuildTerritorialContext(TerritoryId, OldControllerFactionId, NewControllerFactionId);
+    
+    // Trigger territorial control change events
+    TriggerTerritorialEvents(ETGSpliceTrigger::OnTerritorialControlChange, TerritorialContext);
+    
+    // Check for faction dominance (if new controller controls multiple strategic territories)
+    TArray<int32> ConnectedTerritories = GetConnectedTerritories(TerritoryId);
+    if (CheckFactionDominance(NewControllerFactionId, ConnectedTerritories))
+    {
+        TriggerTerritorialEvents(ETGSpliceTrigger::OnFactionDominance, TerritorialContext);
+    }
+    
+    // Check for territorial loss (if old controller lost strategic territory)
+    if (OldControllerFactionId != 0 && TerritorialContext.StrategicValue >= 5)
+    {
+        TriggerTerritorialEvents(ETGSpliceTrigger::OnTerritorialLoss, TerritorialContext);
+    }
+}
+
+void UTGSpliceSubsystem::OnTerritorialContested(int32 TerritoryId, bool bContested)
+{
+    // Build territorial context for contested status change
+    FTGTerritorialEventContext TerritorialContext = BuildTerritorialContext(TerritoryId, 0, 0);
+    TerritorialContext.bIsContested = bContested;
+    TerritorialContext.bWasContested = !bContested;
+    
+    // Trigger contested events
+    TriggerTerritorialEvents(ETGSpliceTrigger::OnTerritorialContested, TerritorialContext);
+}
+
+void UTGSpliceSubsystem::OnTerritorialInfluenceChanged(int32 TerritoryId, int32 FactionId, int32 NewInfluenceLevel)
+{
+    // For now, we don't directly trigger events on influence changes
+    // but this could be extended for more granular narrative events
+    UE_LOG(LogTemp, VeryVerbose, TEXT("Territorial influence changed: Territory %d, Faction %d, Influence %d"), 
+           TerritoryId, FactionId, NewInfluenceLevel);
+}
+
+FTGTerritorialEventContext UTGSpliceSubsystem::BuildTerritorialContext(int32 TerritoryId, int32 OldFactionId, int32 NewFactionId)
+{
+    FTGTerritorialEventContext Context;
+    Context.TerritoryId = TerritoryId;
+    Context.PreviousControllerFactionId = OldFactionId;
+    Context.NewControllerFactionId = NewFactionId;
+    
+    if (TerritorialManager)
+    {
+        FTGTerritoryData TerritoryData = TerritorialManager->GetTerritoryData(TerritoryId);
+        Context.TerritoryName = TerritoryData.TerritoryName;
+        Context.TerritoryType = TerritoryData.TerritoryType;
+        Context.StrategicValue = TerritoryData.StrategicValue;
+        Context.ResourceMultiplier = TerritoryData.ResourceMultiplier;
+        Context.bIsContested = TerritorialManager->IsTerritoryContested(TerritoryId);
+        
+        // Get connected territories for context
+        Context.ConnectedTerritoryIds = GetConnectedTerritories(TerritoryId);
+        
+        // Fill in connected territory names
+        for (int32 ConnectedId : Context.ConnectedTerritoryIds)
+        {
+            FTGTerritoryData ConnectedData = TerritorialManager->GetTerritoryData(ConnectedId);
+            Context.ConnectedTerritoryNames.Add(ConnectedData.TerritoryName);
+        }
+    }
+    
+    return Context;
+}
+
+TArray<int32> UTGSpliceSubsystem::GetConnectedTerritories(int32 TerritoryId)
+{
+    TArray<int32> ConnectedTerritories;
+    
+    if (TerritorialManager)
+    {
+        // Get territory data to find parent/child relationships
+        FTGTerritoryData TerritoryData = TerritorialManager->GetTerritoryData(TerritoryId);
+        
+        // Get all territories and find connections based on spatial proximity or hierarchy
+        TArray<FTGTerritoryData> AllTerritories = TerritorialManager->GetAllTerritories();
+        
+        for (const FTGTerritoryData& Territory : AllTerritories)
+        {
+            if (Territory.TerritoryId == TerritoryId) continue;
+            
+            // Consider territories connected if they share a parent or are spatially close
+            if (Territory.ParentTerritoryId == TerritoryData.ParentTerritoryId ||
+                Territory.TerritoryId == TerritoryData.ParentTerritoryId ||
+                Territory.ParentTerritoryId == TerritoryId)
+            {
+                ConnectedTerritories.Add(Territory.TerritoryId);
+            }
+        }
+    }
+    
+    return ConnectedTerritories;
+}
+
+bool UTGSpliceSubsystem::CheckFactionDominance(int32 FactionId, const TArray<int32>& TerritoryIds)
+{
+    if (!TerritorialManager || TerritoryIds.Num() == 0) return false;
+    
+    int32 ControlledCount = 0;
+    int32 HighValueCount = 0;
+    
+    for (int32 TerritoryId : TerritoryIds)
+    {
+        int32 ControllingFaction = TerritorialManager->GetControllingFaction(TerritoryId);
+        if (ControllingFaction == FactionId)
+        {
+            ControlledCount++;
+            
+            FTGTerritoryData TerritoryData = TerritorialManager->GetTerritoryData(TerritoryId);
+            if (TerritoryData.StrategicValue >= 7)
+            {
+                HighValueCount++;
+            }
+        }
+    }
+    
+    // Consider dominance if faction controls >50% of connected territories OR 2+ high-value territories
+    return (ControlledCount > TerritoryIds.Num() / 2) || (HighValueCount >= 2);
 }

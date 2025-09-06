@@ -1,0 +1,47 @@
+{
+  "region_name": "Dead Sky (IEZ)",
+  "region_code": "REG_IEZ",
+  "total_radius_km": 200,
+  "rings": {
+    "H1_Outer": {
+      "difficulty": "Beginner",
+      "radius_km": 200,
+      "features": [
+        "salvage_fields",
+        "emp_microbursts",
+        "learn_by_doing"
+      ],
+      "terrain": "tilted_ferrocrete_light",
+      "color_scheme": "rust_orange_amber",
+      "threat_level": 1
+    },
+    "H2_Median": {
+      "difficulty": "Intermediate",
+      "radius_km": 100,
+      "features": [
+        "splice_pressure_zones",
+        "frequent_events",
+        "phase_distortion"
+      ],
+      "terrain": "melted_rails_moderate",
+      "color_scheme": "toxic_green_purple",
+      "threat_level": 2
+    },
+    "H3_Core": {
+      "difficulty": "Hardcore",
+      "radius_km": 50,
+      "features": [
+        "monolith_anomalies",
+        "phase_pockets",
+        "limited_extraction"
+      ],
+      "terrain": "monolithic_shadows_extreme",
+      "color_scheme": "void_black_crimson",
+      "threat_level": 3
+    }
+  },
+  "integration_timestamp": 1757139609,
+  "asset_count": 27,
+  "lore_compliance": "Terminal Grounds canonical",
+  "build_tools": "MCP servers + ComfyUI FLUX1-dev-fp8"
+}
