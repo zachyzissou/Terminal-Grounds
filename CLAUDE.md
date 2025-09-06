@@ -48,11 +48,14 @@ Terminal Grounds is a **territorial warfare extraction shooter** with real-time 
 - Convoy Economy: docs/Design/Convoy_Economy.md
 - Trust System: docs/Design/Trust_System.md
 
-## Phase 5 Planning (Next Phase) — Development Roadmap
+## Phase 5: Next-Gen Integration (September 2025) — Current Development
 
-- **Master Development Roadmap**: docs/TERMINAL_GROUNDS_MASTER_ROADMAP_2025.md
-- **Implementation Priority Matrix**: docs/IMPLEMENTATION_PRIORITY_MATRIX.md
-- **Procedural Generation Roadmap**: docs/Design/Procedural_Map_Generation_Roadmap.md
+**STATUS**: Entering Phase 5 with comprehensive automation ecosystem complete
+
+- **Master Development Roadmap**: Docs/MASTER_ROADMAP.md (consolidated from 7 documents)
+- **Automation System Summary**: AUTOMATION_SYSTEM_SUMMARY.md (full integration status)
+- **Documentation Governance**: Docs/reports/DOCUMENTATION_GOVERNANCE_AUDIT_2025_09_06.md
+- **GitHub Integration**: Repository cleaned, 189 files committed, third-party tools excluded
 
 Subsystems (UE5 C++)
 
@@ -68,157 +71,39 @@ Lore & Naming Policy
 
 ## Major Milestones Achieved
 
+**REFERENCE**: See `Docs/Technical/MILESTONES.md` for complete milestone history
+
 ## CRITICAL CTO FIXES (August 28, 2025) — 100% SUCCESS RATE ACHIEVED
 
-### Production-Blocking Issues RESOLVED
-
-**1. WebSocket Connection Limiting (FIXED)**
-- Added max_connections parameter with graceful rejection
-- Server no longer crashes at >100 concurrent connections
-- Location: `Tools/TerritorialSystem/territorial_websocket_server.py`
-
-**2. Asset Generation Failures ELIMINATED**
-- **Vehicle Text Corruption (100% failure rate → 100% success)**
-  - Root cause: FLUX model conflicted with text requests
-  - Solution: Complete text elimination from vehicle prompts
-  - Fixed script: `Tools/ArtGen/FIXED_faction_vehicle_concepts.py`
-  
-- **UI Copyright Violations (Legal risk → ELIMINATED)**
-  - Root cause: Generic "game HUD" prompts triggered copyrighted training data
-  - Solution: Comprehensive copyright blocking for major franchises
-  - Fixed script: `Tools/ArtGen/FIXED_faction_ui_hud_concepts.py`
-
-**3. Asset Success Rates - ACTUAL PERFORMANCE**
-- Previous "92%" was misleading - vehicles had 0% success, emblems 15%
-- NEW TARGET: 100% success rate across all categories
-- Broken scripts archived in `Tools/ArtGen/04_BROKEN_SCRIPTS/`
-
-### Production-Ready Scripts (USE THESE ONLY)
-
-**FIXED Scripts:**
-```bash
-# 100% success vehicle generation (no text corruption)
-python Tools/ArtGen/FIXED_faction_vehicle_concepts.py
-
-# Copyright-protected UI generation 
-python Tools/ArtGen/FIXED_faction_ui_hud_concepts.py
-
-# Proven environment generation (maintained 95% success)
-python Tools/ArtGen/terminal_grounds_generator.py
-```
+**Production-Ready Scripts (USE THESE ONLY):**
+- `Tools/ArtGen/FIXED_faction_vehicle_concepts.py` - 100% success vehicle generation
+- `Tools/ArtGen/FIXED_faction_ui_hud_concepts.py` - Copyright-protected UI generation
+- `Tools/ArtGen/terminal_grounds_generator.py` - Proven environment generation (95% success)
 
 **NEVER USE These Broken Scripts:**
-- `faction_vehicle_concepts.py` - Text corruption guaranteed
-- `faction_ui_hud_concepts.py` - Copyright violation risk
+- `Tools/ArtGen/faction_vehicle_concepts.py` - Text corruption guaranteed
+- `Tools/ArtGen/faction_ui_hud_concepts.py` - Copyright violation risk
 
-### Critical Documentation Updates
+**Quality Standards:** Target 100% success rate across all categories
 
-**Post-Mortem Analysis:** `Assets_PostMortem_Report_2025-08-28.md`
-- Detailed failure analysis of recent 50 assets
-- Root cause identification and technical fixes
-- Production validation procedures
+**Reference Documentation:**
+- Post-Mortem Analysis: `Tools/ArtGen/04_BROKEN_SCRIPTS/README_BROKEN_SCRIPTS.md`
+- Complete milestone history: `Docs/Technical/MILESTONES.md`
 
-**Quality Standards:** Target 100% success, not "92%"
+## Phase 4 Bold Implementation Summary
 
-## Phase 4 Bold Implementation Summary (August 25, 2025)
+**REFERENCE**: See `Docs/Technical/MILESTONES.md` for complete Phase 4 implementation details
 
-This section captures the systems and tooling implemented during the Bold pass and where to find them.
+**Core Systems Implemented:**
 
-### Gameplay Systems (UE5 C++)
+- **Splice Events**: `UTGSpliceSubsystem` - WorldSubsystem for game events
+- **Convoy Economy**: `UTGConvoyEconomySubsystem` - Economic integrity tracking  
+- **Trust System**: `UTGTrustSubsystem` - Player relationship management
+- **Codex**: `UTGCodexSubsystem` - Lore and information unlocking
 
-- Splice Events (WorldSubsystem)
-  - Class: `UTGSpliceSubsystem`
-  - Files: `Source/TGMissions/Public/Splice/TGSpliceEvent.h`, `Source/TGMissions/Private/Splice/TGSpliceEvent.cpp`
-  - Notes: Registers decks, checks eligibility, selects outcomes, and applies side-effects via ApplyOutcome.
-  - Side-effects fan-out:
-    - Convoy Economy: `UTGConvoyEconomySubsystem` (adjust Integrity Index)
-    - Trust: `UTGTrustSubsystem` (RecordPledge/Parley/Breach)
-    - Codex: `UTGCodexSubsystem` (Unlock entries)
-
-- Convoy Economy (WorldSubsystem)
-  - Class: `UTGConvoyEconomySubsystem`
-  - Files: `Source/TGWorld/Public/Economy/TGConvoyEconomySubsystem.h`, `Source/TGWorld/Private/Economy/TGConvoyEconomySubsystem.cpp`
-  - Notes: IntegrityIndex with half-life decay, OnIntegrityIndexChanged broadcast, ApplyConvoyOutcome helper.
-
-- Trust (GameInstanceSubsystem)
-  - Class: `UTGTrustSubsystem`
-  - Files: `Source/TGCore/Public/Trust/TGTrustSubsystem.h`, `Source/TGCore/Private/Trust/TGTrustSubsystem.cpp`
-  - Notes: Pledge/Parley/Breach operations, GetTrustIndex, enumeration via GetAllRecords, OnTrustChanged.
-
-- Codex (GameInstanceSubsystem)
-  - Class: `UTGCodexSubsystem`
-  - Files: `Source/TGCore/Public/Codex/TGCodexSubsystem.h`, `Source/TGCore/Private/Codex/TGCodexSubsystem.cpp`
-  - Notes: Unlock/IsUnlocked/GetUnlockedByCategory, enumeration via GetAllUnlockedIds, OnCodexUnlocked.
-
-### Persistence & Config
-
-- SaveGame: `UTGProfileSave`
-  - File: `Source/TGCore/Public/TGProfileSave.h`
-  - Fields added: TrustRecords, UnlockedCodexIds, ConvoyIntegrityIndex.
-
-- Game Instance: `UTGGameInstance`
-  - Files: `Source/TGCore/Public/TGGameInstance.h`, `Source/TGCore/Private/TGGameInstance.cpp`
-  - Notes: Load/save profile slot, sync Trust and Codex at startup/shutdown.
-
-- Config
-  - `Config/DefaultGame.ini`: `GameInstanceClass=/Script/TGCore.TGGameInstance` and map/mode defaults.
-
-### UI Widgets (TGUI)
-
-- Convoy Ticker: `UTGConvoyTickerWidget`
-  - Files: `Source/TGUI/Public/Widgets/TGConvoyTickerWidget.h`, `Source/TGUI/Private/Widgets/TGConvoyTickerWidget.cpp`
-  - Notes: Subscribes to OnIntegrityIndexChanged; Blueprint event `OnIntegrityIndexUpdated`.
-
-- Trust Meter: `UTGTrustMeterWidget`
-  - Files: `Source/TGUI/Public/Widgets/TGTrustMeterWidget.h`, `Source/TGUI/Private/Widgets/TGTrustMeterWidget.cpp`
-  - Notes: Filters dyad updates; Blueprint event `OnTrustUpdated`.
-
-- Codex Panel: `UTGCodexPanelWidget`
-  - Files: `Source/TGUI/Public/Widgets/TGCodexPanelWidget.h`, `Source/TGUI/Private/Widgets/TGCodexPanelWidget.cpp`
-  - Notes: Lists entries by category; Blueprint event `OnCodexListUpdated`.
-
-### Build.cs Dependencies
-
-- `TGMissions.Build.cs`: Public deps Core/Engine/GameplayTags; Private deps now include TGCore, TGWorld.
-- `TGWorld.Build.cs`: Core/CoreUObject/Engine.
-- `TGCore.Build.cs`: Includes DeveloperSettings, GameplayTags, EnhancedInput, and sibling TG modules as declared.
-- `TGUI.Build.cs`: Public deps include TGWorld and TGCore for widget bindings.
-
-### Tools/Comfy (Generation)
-
-- Quality presets: `Tools/Comfy/ComfyUI-API/quality_presets.json`
-  - Logo category overrides: sampler=euler, scheduler=karras, steps=28, CFG≈3.1, 1024x1024.
-  - Policy: Disable refine for logos to avoid blur.
-
-- Scripts
-  - `Tools/Comfy/ComfyUI-API/Test-Generate.ps1` (supports `-DisableRefine` and category auto-overrides)
-  - `Tools/Comfy/ComfyUI-API/Generate-FactionLogos-MultiSeed.ps1` (batch multi-seed per faction)
-  - `Tools/Comfy/ComfyUI-API/Recycle-ComfyUI-API.ps1` (deterministic model unload to free VRAM)
-  - `Tools/Comfy/ComfyUI-API/Build-LogoGallery.ps1` (simple HTML gallery for shortlisting)
-
-### Documentation Added/Updated
-
-- Design: `docs/Design/Season1_Arc.md`, `docs/Design/Splice_Events.md`, `docs/Design/Convoy_Economy.md`, `docs/Design/Trust_System.md`
-- Indexes and Logs: `docs/README.md` (Bold Systems section), `PROGRESS.md`, `DESIGN_OVERVIEW.md`
-- Agent Guidance: this `CLAUDE.md` updated with quicklinks, policies, and procedures
-
-### Branding, Canon, and Lore QA
-
-- Branding: World branding “Bloom”; display aliasing in UI while preserving canonical IDs/tokens.
-- Region Naming: `REG_BLACK_VAULT` displays as “Black Vault”; alias retains “Deep Vault”.
-- Retcon Policy: Display changes via alias only; do not alter IDs/tokens.
-- Lore QA: Sync `docs/Lore/LORE_BIBLE.md` → `Tools/Comfy/ComfyUI-API/lore_prompts.json`; rebuild prompts; smoke-test 1–2 per category per style; target ≥ 85 alignment; document in `RUNBOOK.md` and PR.
-
-### Quick Validation (Editor)
-
-1. Ensure `DefaultGame.ini` uses `TGCore.TGGameInstance`; PIE load should initialize subsystems.
-2. Spawn or blueprint-add widgets:
-   - `UTGConvoyTickerWidget`, `UTGTrustMeterWidget`, `UTGCodexPanelWidget`; bind to exposed Blueprint events.
-3. Trigger a Splice Event (via `UTGSpliceSubsystem::TriggerEligibleEvents` or a test card) and observe:
-   - Convoy IntegrityIndex change broadcast → Ticker updates.
-   - Trust Record operation → Trust Meter updates.
-   - Codex entry unlock → Codex Panel refresh.
-4. Save/quit → relaunch to verify persistence of Trust, Codex, and Convoy indices via `UTGProfileSave`.
+- **UI Widgets**: ConvoyTicker, TrustMeter, CodexPanel (TGUI)
+- **Persistence**: `UTGProfileSave` integration for all systems
+- **Validation**: `Config/DefaultGame.ini` uses `TGCore.TGGameInstance` - all subsystems operational
 
 
 ### Asset Generation Pipeline (August 2025)
@@ -314,24 +199,35 @@ Logo Generation (Category-specific) — ComfyUI API
 - `Tools/TerritorialSystem/territorial_visualization.py` - Advanced real-time territorial analysis dashboard
 - `Tools/TerritorialSystem/visualizations/` - Professional Terminal Grounds territorial visualizations (1920x1080)
 
-**Essential Territorial Commands:**
+**🤖 AGENT-FIRST TERRITORIAL COMMANDS:**
 
 ```bash
-# Real-time territorial server
+# INSTEAD OF: python Tools/TerritorialSystem/territorial_websocket_server.py
+# USE AGENT:  /devops-engineer territorial-websocket-deployment production-ready
+
+# INSTEAD OF: python Tools/ArtGen/production_territorial_pipeline.py --priority
+# USE AGENT:  /comfyui-concept-designer territorial-assets high-priority faction-integration
+
+# INSTEAD OF: python Tools/TerritorialSystem/ai_faction_behavior.py
+# USE AGENT:  /data-scientist ai-faction-behavior-analysis strategic-decisions
+
+# INSTEAD OF: python Tools/TerritorialSystem/territorial_visualization.py
+# USE AGENT:  /data-scientist territorial-visualization-dashboard professional-analysis
+
+# INSTEAD OF: python Database/cto_validation_minimal.py
+# USE AGENT:  /cto-architect database-health-validation territorial-systems
+```
+
+**Legacy Direct Commands** (USE AGENTS INSTEAD):
+
+```bash
+# DEPRECATED: Manual script execution
 python Tools/TerritorialSystem/territorial_websocket_server.py
-
-# Territorial asset production (100% success rate)
-python Tools/ArtGen/production_territorial_pipeline.py --priority  # High-priority assets only  
-python Tools/ArtGen/production_territorial_pipeline.py            # Complete territorial coverage
-
-# AI faction behavior simulation (Phase 3)
-python Tools/TerritorialSystem/ai_faction_behavior.py              # Strategic AI decision-making
-
-# Advanced territorial visualization (Phase 3)
-python Tools/TerritorialSystem/territorial_visualization.py       # Professional analysis dashboards
-
-# Database validation
-python Database/cto_validation_minimal.py                        # Quick database health check
+python Tools/ArtGen/production_territorial_pipeline.py --priority
+python Tools/ArtGen/production_territorial_pipeline.py
+python Tools/TerritorialSystem/ai_faction_behavior.py
+python Tools/TerritorialSystem/territorial_visualization.py
+python Database/cto_validation_minimal.py
 ```
 
 **Phase 3 Achievement Summary:**
@@ -348,33 +244,44 @@ python Database/cto_validation_minimal.py                        # Quick databas
 
 **Territorial Assets**: `Tools/ArtGen/production_territorial_pipeline.py` (Production-grade scaling)
 
-**Essential Asset Commands:**
+**🤖 AGENT-FIRST ASSET COMMANDS:**
 
 ```bash
-# Proven environmental assets
+# INSTEAD OF: python Tools/ArtGen/terminal_grounds_generator.py  
+# USE AGENT:  /comfyui-concept-designer environmental-assets terminal-grounds-style
+
+# INSTEAD OF: python Tools/ArtGen/terminal_grounds_pipeline.py generate weapon "Plasma Rifle"
+# USE AGENT:  /comfyui-concept-designer weapon-concepts --name "Plasma Rifle" --faction directorate
+
+# INSTEAD OF: python Tools/ArtGen/terminal_grounds_pipeline.py faction-assets directorate
+# USE AGENT:  /comfyui-concept-designer faction-asset-suite directorate --types weapon,vehicle --count 5
+
+# INSTEAD OF: python Tools/ArtGen/terminal_grounds_pipeline.py validate
+# USE AGENT:  /performance-engineer asset-pipeline-validation comprehensive
+
+# INSTEAD OF: manual asset quality assessment
+# USE AGENT:  /chief-art-director asset-quality-review batch-generated-assets
+```
+
+**Legacy Direct Commands** (USE AGENTS INSTEAD):
+
+```bash
+# DEPRECATED: Manual script execution
 python Tools/ArtGen/terminal_grounds_generator.py
-
-# Legacy pipeline system (when needed)
 python Tools/ArtGen/terminal_grounds_pipeline.py generate weapon "Plasma Rifle" --faction directorate
-
-# Faction asset sets
 python Tools/ArtGen/terminal_grounds_pipeline.py faction-assets directorate --types weapon,vehicle --count 5
-
-# System validation
 python Tools/ArtGen/terminal_grounds_pipeline.py validate
-
-# Interactive mode
 python Tools/ArtGen/terminal_grounds_pipeline.py interactive
 ```
 
 **Pipeline v2.0 Architecture:**
 
-- `pipeline/core/pipeline_controller.py` - Master orchestrator
-- `pipeline/core/asset_spec.py` - Type-safe specifications  
-- `pipeline/core/workflow_manager.py` - Intelligent workflow selection
-- `pipeline/core/quality_assurance.py` - Automated QA system
-- `pipeline/core/batch_processor.py` - Enterprise batch operations
-- `pipeline/integrations/ue5_connector.py` - UE5 integration
+- `Tools/ArtGen/pipeline/core/pipeline_controller.py` - Master orchestrator
+- `Tools/ArtGen/pipeline/core/asset_spec.py` - Type-safe specifications  
+- `Tools/ArtGen/pipeline/core/workflow_manager.py` - Intelligent workflow selection
+- `Tools/ArtGen/pipeline/core/quality_assurance.py` - Automated QA system
+- `Tools/ArtGen/pipeline/core/batch_processor.py` - Enterprise batch operations
+- `Tools/ArtGen/pipeline/integrations/ue5_connector.py` - UE5 integration
 
 ### LEGACY: Manual Workflow System (ONLY when Pipeline v2.0 insufficient)
 
@@ -382,9 +289,9 @@ python Tools/ArtGen/terminal_grounds_pipeline.py interactive
 
 **Ready-to-Use Workflows:**
 
-- `TG_Metro_Corridor_FINAL.json` - Underground maintenance areas
-- `TG_IEZ_Facility_FINAL.json` - Corporate facility interiors  
-- `TG_TechWastes_FINAL.json` - Industrial wasteland zones
+- `Tools/ArtGen/workflows/TG_Metro_Corridor_FINAL.json` - Underground maintenance areas
+- `Tools/ArtGen/workflows/TG_IEZ_Facility_FINAL.json` - Corporate facility interiors  
+- `Tools/ArtGen/workflows/TG_TechWastes_FINAL.json` - Industrial wasteland zones
 
 **Manual Usage Instructions:**
 
@@ -402,64 +309,26 @@ python Tools/ArtGen/terminal_grounds_pipeline.py interactive
 - Proper exposure and lighting
 - Terminal Grounds aesthetic consistency
 
-## **🚨 MANDATORY AGENT SYSTEM DISCOVERY PROTOCOL 🚨**
+## CRITICAL SYSTEM ARCHITECTURE
 
-### **⚠️ CRITICAL: READ THIS FIRST BEFORE ANY WORK ⚠️**
+**REFERENCE**: See `Docs/Technical/SPECIFICATIONS.md` for complete technical specifications
 
-**SYSTEM ARCHITECTURE EVOLUTION**: Terminal Grounds has THREE major asset generation systems that work together:
+**THREE MAJOR ASSET GENERATION SYSTEMS**:
+1. **Pipeline v2.0** - `Tools/ArtGen/terminal_grounds_pipeline.py` (PRIMARY SYSTEM)
+2. **Proven Templates** - `Tools/ArtGen/terminal_grounds_generator.py` (92% success rate)
+3. **Legacy Systems** - `Tools/ArtGen/archive/` (reference only)
 
-1. **Pipeline v2.0** - `Tools/ArtGen/terminal_grounds_pipeline.py` + `pipeline/` directory
-   - **PRIMARY SYSTEM**: Enterprise-grade unified pipeline
-   - CLI interface with batch processing, faction assets, validation
-   - Complete asset lifecycle management with UE5 integration
-   - **LOCATION**: `Tools/ArtGen/pipeline/` (full module structure)
+**CRITICAL OUTPUT DIRECTORY**: `C:/Users/Zachg/Terminal-Grounds/Tools/Comfy/ComfyUI-API/output/`
 
-2. **Proven Templates** - `Tools/ArtGen/terminal_grounds_generator.py`  
-   - 92% success rate foundational system
-   - Perfect parameters: heun/normal/CFG 3.2/25 steps
-   - Template for manual workflow creation
-
-3. **Legacy Systems** - `Tools/ArtGen/archive/` and individual scripts
-   - Historical development, mostly archived
-   - Reference for troubleshooting only
-
-**AGENT DISCOVERY CHECKLIST** - Execute BEFORE any asset generation work:
-
-```bash
-# 1. Check for Pipeline v2.0 (PRIMARY SYSTEM)
-ls Tools/ArtGen/pipeline/
-python Tools/ArtGen/terminal_grounds_pipeline.py --help
-
-# 2. Verify core generation templates
-ls Tools/ArtGen/terminal_grounds_*.py
-
-# 3. Check workflow directory
-ls Tools/ArtGen/workflows/
-
-# 4. Verify output directory (CRITICAL)
-ls Tools/Comfy/ComfyUI-API/output/
-```
-
-**GENERATION ANALYSIS PROTOCOL** - Execute AFTER any asset generation:
-
-```bash
-# 1. ALWAYS use Read tool to examine actual images (not just file lists)
-Read file_path="C:/Users/Zachg/Terminal-Grounds/Tools/Comfy/ComfyUI-API/output/[FILENAME.png]"
-
-# 2. Assess visual quality, lore accuracy, and Terminal Grounds aesthetic fit
-# 3. NEVER claim success based only on file counts - examine content!
-# 4. Reference: GENERATION_ANALYSIS_REFERENCE.md for detailed procedures
-```
-
-**IF YOU MISS PIPELINE V2.0, YOU'RE MISSING THE PRIMARY SYSTEM!**
+**Agent Discovery & Analysis Protocols**: See `Docs/Technical/SPECIFICATIONS.md`
 
 ## Lore QA Pass (Required)
 
-- Sync lore sources: docs/Lore/LORE_BIBLE.md → Tools/Comfy/ComfyUI-API/lore_prompts.json.
+- Sync lore sources: Docs/Lore/LORE_BIBLE.md → ComfyUI prompt systems.
 - Rebuild prompts: Build-LorePrompt.ps1; verify with -UseLorePrompt(s).
 - Smoke-test one image per category per style; target Lore Alignment ≥ 85.
 - Update overlay_meta/* labels if any display names/locations change.
-- Document in Tools/Comfy/ComfyUI-API/RUNBOOK.md and PR with “Lore QA pass completed”.
+- Document in project documentation and PR with "Lore QA pass completed".
 
 ## **🎯 REPRODUCIBLE SUCCESS PATTERNS**
 
@@ -555,14 +424,14 @@ Read file_path="C:/Users/Zachg/Terminal-Grounds/Tools/Comfy/ComfyUI-API/output/[
 
 **ComfyUI Stability Safeguards Plan** (August 25, 2025):
 
-- **Queue Health Monitor**: Extend `test_comfyui_api.py` with progression tracking, 15-minute no-progress alerts
+- **Queue Health Monitor**: Extend `Tools/test_comfyui_api.py` with progression tracking, 15-minute no-progress alerts
 - **Generation Timeout Detection**: Track individual jobs via `/history`, flag >8 minute generations  
 - **Resource Monitoring**: GPU/memory usage tracking, OOM prevention
 - **Graceful Restart Protocol**: Queue state preservation, controlled shutdown/restart sequence
 - **Queue Preservation**: JSON backup of pending items, duplicate prevention on restore
-- **Integration**: Enhance `chief_art_director_organizer.py` with monitoring hooks
+- **Integration**: Enhance `Tools/ArtGen/chief_art_director_organizer.py` with monitoring hooks
 
-**Implementation Approach**: Update existing files only (test_comfyui_api.py, organizer, CLAUDE.md)
+**Implementation Approach**: Update existing files only (Tools/test_comfyui_api.py, organizer, CLAUDE.md)
 **Benefits**: Prevents lost work, early warning system, automated recovery, production reliability
 **Risk**: Low (extends existing tools without replacement)
 **Timeline**: Implement when queue is clear to avoid disrupting current 77-asset generation
@@ -580,7 +449,7 @@ Read file_path="C:/Users/Zachg/Terminal-Grounds/Tools/Comfy/ComfyUI-API/output/[
 - `Tools/ArtGen/faction_vehicle_concepts.py` - CAUSES TEXT CORRUPTION
 - `Tools/ArtGen/faction_ui_hud_concepts.py` - COPYRIGHT VIOLATION RISK
 - `Tools/ArtGen/create_final_workflows.py` - Legacy workflow system
-- `Tools/ArtGen/aaa_quality_pipeline.py` - Superseded by post-mortem analysis
+- `Tools/ArtGen/04_BROKEN_SCRIPTS/` - Archived broken scripts with complete documentation
 
 ## Development Workflow
 
@@ -608,50 +477,42 @@ Tools/ArtGen/
 └── API_INVESTIGATION_REPORT.md  # Detailed technical documentation
 ```
 
-## Quick Start Commands (Copy-Paste Ready) - UPDATED AUGUST 25, 2025
+## 🤖 AGENT-FIRST QUICK START (UPDATED SEPTEMBER 2025)
 
-### 1. Start ComfyUI (CRASH-PROOF METHOD)
+### **PRIMARY: Use Agents for All Operations**
 
 ```bash
-# Use the SAFE launcher (prevents all known crashes)
-START_COMFYUI_SAFE.bat
+# 1. SYSTEM STARTUP - Use DevOps Agent
+/devops-engineer comfyui-startup crash-proof-configuration
+
+# 2. ASSET GENERATION - Use ComfyUI Concept Designer
+/comfyui-concept-designer faction-emblems terminal-grounds-style
+
+# 3. SYSTEM VALIDATION - Use Performance Engineer  
+/performance-engineer comfyui-health-check connection-validation
+
+# 4. TERRITORIAL SYSTEMS - Use CTO Architect
+/cto-architect territorial-system-status production-ready
+
+# 5. DOCUMENTATION - Use Document Control Specialist
+/document-control-specialist project-status-report comprehensive
 ```
 
-**OR Manual method:**
+### **Legacy Direct Commands** (USE AGENTS INSTEAD)
 
 ```bash
+# DEPRECATED: Manual system startup
+START_COMFYUI_SAFE.bat
 cd "C:\Users\Zachg\Terminal-Grounds\Tools\Comfy\ComfyUI-API"
 python main.py --listen 127.0.0.1 --port 8188
-```
 
-**Wait for**: "Starting server" message (~90 seconds)
-
-### 2. Test Connection (New Terminal)
-
-```bash
-# Test API is responding
-python "C:\Users\Zachg\Terminal-Grounds\Tools\test_comfyui_api.py"
-```
-
-**Expected**: "OK: ComfyUI reachable at [http://127.0.0.1:8188](http://127.0.0.1:8188)"
-
-### 3. Verify System Ready
-
-```bash
-# Check system stats
+# DEPRECATED: Manual testing
+python "Tools/test_comfyui_api.py"
 curl http://127.0.0.1:8188/system_stats
-```
 
-**Expected**: JSON response with GPU info
-
-### 4. Generate Assets
-
-```bash
-# Generate faction emblems (proven workflow)
-python "C:\Users\Zachg\Terminal-Grounds\Tools\ArtGen\comfyui_api_client.py" --type emblems
-
-# Or use production workflow directly
-python "C:\Users\Zachg\Terminal-Grounds\Tools\ArtGen\working_flux_generator.py"
+# DEPRECATED: Manual asset generation
+python "Tools/ArtGen/comfyui_api_client.py" --type emblems
+python "Tools/ArtGen/working_flux_generator.py"
 ```
 
 ### Linting and Testing
@@ -682,7 +543,7 @@ python main.py --listen 127.0.0.1 --port 8188
 
 ### API Not Responding
 
-**Symptom**: test_comfyui_api.py shows timeout
+**Symptom**: Tools/test_comfyui_api.py shows timeout
 **Solution**: Wait longer - ComfyUI takes 90+ seconds to fully load all nodes
 
 ### Generation Fails
@@ -711,10 +572,10 @@ python main.py --listen 127.0.0.1 --port 8188
 
 ### Technical Guidelines (When Manual Work Required):
 1. **Startup Time**: ComfyUI takes 90+ seconds to load - be patient
-2. **Working Scripts**: `comfyui_api_client.py` and `working_flux_generator.py` are proven
+2. **Working Scripts**: `Tools/ArtGen/comfyui_api_client.py` and `Tools/ArtGen/working_flux_generator.py` are proven
 3. **Proven Parameters**: heun/normal/CFG 3.2 = 85%+ success rate
 4. **Output Location**: Always check `C:/Users/Zachg/Terminal-Grounds/Tools/Comfy/ComfyUI-API/output/`
-5. **Test First**: Always run `test_comfyui_api.py` before generating assets
+5. **Test First**: Always run `Tools/test_comfyui_api.py` before generating assets
 
 ### Agent Selection Examples:
 - **Level Design Issues** → Use `map-designer` agent
@@ -727,12 +588,12 @@ python main.py --listen 127.0.0.1 --port 8188
 
 Whenever lore is added or edited, run a mandatory lore-accuracy pass across generation pipelines and prompts before merging:
 
-- Refresh lore sources: update `docs/Lore/LORE_BIBLE.md` excerpts, `Tools/Comfy/ComfyUI-API/lore_prompts.json`, and any faction/region/POI tables.
+- Refresh lore sources: update `Docs/Lore/LORE_BIBLE.md` excerpts, ComfyUI prompt systems, and any faction/region/POI tables.
 - Rebuild automatic prompts: validate `Build-LorePrompt.ps1` outputs and any batch mappings that use `-UseLorePrompt(s)`.
 - Verify ComfyUI workflows: ensure positive/negative prompts and cue tokens reflect the new canon; remove obsolete tags; keep seeds deterministic for comparisons.
 - Smoke-test batches: 1–2 images per category per style fork; confirm Lore Alignment ≥ 85 in audits and note any drift.
 - Update overlays/UI: revise `overlay_meta/*` labels when names/locations change.
-- Documentation: record changes in `Tools/Comfy/ComfyUI-API/RUNBOOK.md` and this agent file; add a PR checklist item “Lore QA pass completed”.
+- Documentation: record changes in project documentation and this agent file; add a PR checklist item "Lore QA pass completed".
 
 Enforcement: Do not merge lore-affecting PRs without an attached Lore QA summary (what changed, tests run, results, and follow-ups).
 
@@ -756,8 +617,8 @@ Enforcement: Do not merge lore-affecting PRs without an attached Lore QA summary
 - Blurry and unusable quality issues
 
 **Scripts Fixed:**
-- `faction_vehicle_concepts.py` - Text corruption resolved through text elimination
-- `faction_ui_hud_concepts.py` - Copyright-safe with comprehensive blocking
+- `Tools/ArtGen/faction_vehicle_concepts.py` - Text corruption resolved through text elimination
+- `Tools/ArtGen/faction_ui_hud_concepts.py` - Copyright-safe with comprehensive blocking
 - Broken scripts archived in `Tools/ArtGen/04_BROKEN_SCRIPTS/` with documentation
 
 **Quality Standards Restored:**
@@ -771,11 +632,32 @@ Last Updated: August 28, 2025
 
 **STATUS**: Complete procedural generation and AI-controlled creation ecosystem operational
 
-### **Unified Command Center**
+### **🤖 AGENT-FIRST AUTOMATION COMMANDS**
+
+**CRITICAL**: Use specialized agents instead of direct script execution
+
 ```bash
-# Single entry point for all automation
+# INSTEAD OF: python tg_automation_command_center.py status --detailed
+# USE AGENT:  /performance-engineer system-status comprehensive
+
+# INSTEAD OF: python tg_automation_command_center.py generate-level --seed 42
+# USE AGENT:  /map-designer procedural-level --seed 42 --territorial-integration
+
+# INSTEAD OF: python tg_automation_command_center.py create-assets --type faction_emblem
+# USE AGENT:  /comfyui-concept-designer faction-emblems --count 5 --style terminal-grounds
+
+# INSTEAD OF: python territorial_websocket_server.py
+# USE AGENT:  /devops-engineer territorial-server-deployment production-ready
+
+# INSTEAD OF: manual performance optimization
+# USE AGENT:  /performance-engineer optimize-territorial-systems real-time-100-players
+```
+
+### **Legacy Direct Commands** (USE AGENTS INSTEAD)
+```bash
+# DEPRECATED: Manual script execution
 python tg_automation_command_center.py status --detailed
-python tg_automation_command_center.py start-services
+python tg_automation_command_center.py start-services  
 python tg_automation_command_center.py generate-level --seed 42 --faction-balance --territorial
 python tg_automation_command_center.py create-assets --type faction_emblem --count 5
 python tg_automation_command_center.py territorial-sim --duration 300
@@ -812,17 +694,17 @@ Performance Monitoring (TGPerformanceMonitoringSystem) → Quality Assurance
 
 ### **Generation Success Guides**
 
-- `docs/technical/TERMINAL_GROUNDS_GENERATION_PLAYBOOK.md` - **MASTER REFERENCE** - Complete reproducible success guide
-- `docs/guides/AGENT_ERROR_PREVENTION.md` - Critical error prevention for future agents
-- `Tools/ArtGen/faction_emblem_fixes.py` - Fixed scripts for failed emblems
-- `Tools/ArtGen/simple_lore_batch.py` - Updated with Corporate Plaza fix
+- `Docs/Technical/TERMINAL_GROUNDS_GENERATION_PLAYBOOK.md` - **MASTER REFERENCE** - Complete reproducible success guide
+- `Docs/guides/AGENT_ERROR_PREVENTION.md` - Critical error prevention for future agents
+- `Tools/ArtGen/fix_failed_emblems.py` - Fixed scripts for failed emblems
+- `Tools/ArtGen/lore_test_simple.py` - Updated with Corporate Plaza fix
 
 ### **Technical References**
 
-- `docs/technical/COMFYUI_COMPLETE_REFERENCE.md` - Complete copy-paste reference
-- `docs/technical/COMFYUI_STARTUP_CHECKLIST.md` - Step-by-step startup checklist
-- `Tools/COMFYUI_STARTUP_GUIDE.md` - Detailed technical guide
-- `Tools/ArtGen/SCRIPT_CLEANUP_ANALYSIS.md` - Script cleanup recommendations
+- `Docs/Technical/COMFYUI_COMPLETE_REFERENCE.md` - Complete copy-paste reference
+- `Docs/Technical/COMFYUI_STARTUP_CHECKLIST.md` - Step-by-step startup checklist
+- `Tools/ArtGen/API_INVESTIGATION_REPORT.md` - Detailed technical guide
+- `Tools/ArtGen/04_BROKEN_SCRIPTS/README_BROKEN_SCRIPTS.md` - Script cleanup analysis
 
 ### **SUCCESS VALIDATION**
 

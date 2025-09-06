@@ -22,7 +22,9 @@
       "Bash(start TerminalGrounds.uproject)",
       "Bash(sqlite3:*)",
       "Bash(git reset:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",

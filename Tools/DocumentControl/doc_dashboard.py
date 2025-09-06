@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Terminal Grounds Documentation Dashboard
+Terminal Grounds Documentation Health Dashboard
+Phase 5.2 Bold Strategy - Advanced Automation Framework
+
+Agent-First Approach: This dashboard should be accessed via:
+/document-control-specialist health-dashboard real-time
+
+For legacy usage: python Tools/DocumentControl/doc_dashboard.py
 Real-time monitoring and visualization of documentation health
 """
 
