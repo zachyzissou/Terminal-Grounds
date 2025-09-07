@@ -9,6 +9,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "TerritorialExtractionPoint.generated.h"
 
+// Forward declarations
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnExtractionStarted, APawn*, Player, EFactionID, PlayerFaction, int32, TerritorialInfluenceGain, float, ExtractionTime);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnExtractionCompleted, APawn*, Player, EFactionID, PlayerFaction, int32, TerritorialInfluenceGain);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnExtractionCanceled, APawn*, Player, EFactionID, PlayerFaction, FString, CancellationReason);
@@ -186,7 +188,7 @@ public:
     ETerritoryType GetTerritorialZoneType() const;
 
     UFUNCTION(BlueprintCallable, Category = "Extraction")
-    void ApplyTerritorialExtractionBonuses(APawn* Player, TArray<class UItem*>& LootItems) const;
+    void ApplyTerritorialExtractionBonuses(APawn* Player, TArray<UObject*>& LootItems) const;
 
     // Visual updates
     UFUNCTION(BlueprintCallable, Category = "Visuals")

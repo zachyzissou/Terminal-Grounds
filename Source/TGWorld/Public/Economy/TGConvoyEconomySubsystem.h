@@ -93,7 +93,7 @@ struct FConvoyRoute
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
     FDateTime LastValidated;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Route")
+    UPROPERTY()
     uint32 RouteHash; // For cache invalidation
 
     FConvoyRoute()

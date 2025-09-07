@@ -6,7 +6,7 @@
 
 class UTGWeaponInstance;
 
-USTRUCT()
+USTRUCT(BlueprintType)
 struct FTGShotParams {
   GENERATED_BODY()
   UPROPERTY() FVector_NetQuantize10 Origin = FVector::ZeroVector;

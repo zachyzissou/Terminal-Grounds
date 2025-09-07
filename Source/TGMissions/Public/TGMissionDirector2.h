@@ -6,6 +6,8 @@
 #include "GameplayTagContainer.h"
 #include "TGMissionDirector2.generated.h"
 
+// Forward declarations
+
 UENUM(BlueprintType)
 enum class EMissionStage : uint8
 {
@@ -60,6 +62,33 @@ struct FMissionStageData
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rewards")
     float RewardMultiplier = 1.0f;
+};
+
+USTRUCT(BlueprintType)
+struct FSiegePlan
+{
+    GENERATED_BODY()
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
+    TArray<FMissionStageData> ProbeStages;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
+    TArray<FMissionStageData> InterdictStages;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
+    TArray<FMissionStageData> DominateStages;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
+    float DominanceRewardPerStage = 0.1f;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
+    int32 TicketCostPerFailure = 5;
+
+    FSiegePlan()
+    {
+        DominanceRewardPerStage = 0.1f;
+        TicketCostPerFailure = 5;
+    }
 };
 
 USTRUCT(BlueprintType)

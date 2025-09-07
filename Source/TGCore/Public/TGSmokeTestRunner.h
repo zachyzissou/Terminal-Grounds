@@ -130,7 +130,7 @@ protected:
 
 public:
 	// Test Control
-	UFUNCTION(BlueprintCallable, Category = "Test", CallInEditor = true)
+	UFUNCTION(BlueprintCallable, Category = "Test", CallInEditor)
 	void RunSmokeTests();
 
 	UFUNCTION(BlueprintCallable, Category = "Test")

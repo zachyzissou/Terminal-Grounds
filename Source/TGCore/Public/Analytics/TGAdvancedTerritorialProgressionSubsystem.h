@@ -6,6 +6,7 @@
 #include "TimerManager.h"
 #include "TerritorialProgressionSubsystem.h"
 #include "Analytics/TGTerritorialResourceAnalytics.h"
+#include "TGTerritorial/Public/TerritorialTypes.h"
 #include "TGAdvancedTerritorialProgressionSubsystem.generated.h"
 
 // Forward declarations
@@ -190,6 +191,49 @@ struct TGCORE_API FTGFactionTerritorialPerformance
     }
 };
 
+// Wrapper structs for complex TMap values (UE5 reflection system requirement)
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGResourceBonusMap
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TMap<ETerritoryResourceType, FTGAdvancedResourceBonus> ResourceBonuses;
+
+    FTGResourceBonusMap()
+    {
+        ResourceBonuses.Empty();
+    }
+};
+
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGTestMetricArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<float> Values;
+
+    FTGTestMetricArray()
+    {
+        Values.Empty();
+    }
+};
+
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGTestMetricMap
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TMap<FString, FTGTestMetricArray> MetricData;
+
+    FTGTestMetricMap()
+    {
+        MetricData.Empty();
+    }
+};
+
 // Enhanced events for advanced analytics
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnAdvancedResourceBonusUpdated, int32, FactionId, ETerritoryResourceType, ResourceType, float, NewValue, float, AnalyticalConfidence);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnTerritorialPerformanceAnalyzed, int32, FactionId, FTGFactionTerritorialPerformance, Performance, TArray<FString>, Recommendations);
@@ -356,7 +400,7 @@ public:
 protected:
     // Advanced Resource Bonus Data
     UPROPERTY()
-    TMap<int32, TMap<ETerritoryResourceType, FTGAdvancedResourceBonus>> FactionResourceBonuses;
+    TMap<int32, FTGResourceBonusMap> FactionResourceBonuses;
 
     // Market metrics tracking
     UPROPERTY()
@@ -371,7 +415,7 @@ protected:
     TMap<FString, FName> PlayerTestAssignments; // PlayerId -> TestName
 
     UPROPERTY()
-    TMap<FName, TMap<FString, TArray<float>>> TestMetrics; // TestName -> MetricName -> Values
+    TMap<FName, FTGTestMetricMap> TestMetrics; // TestName -> MetricName -> Values
 
     // Timer handles for advanced processing
     FTimerHandle AdvancedAnalyticsTimer;

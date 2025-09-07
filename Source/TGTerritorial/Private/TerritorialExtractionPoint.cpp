@@ -952,7 +952,7 @@ ETerritoryType ATerritorialExtractionPoint::GetTerritorialZoneType() const
     }
 }
 
-void ATerritorialExtractionPoint::ApplyTerritorialExtractionBonuses(APawn* Player, TArray<class UItem*>& LootItems) const
+void ATerritorialExtractionPoint::ApplyTerritorialExtractionBonuses(APawn* Player, TArray<UObject*>& LootItems) const
 {
     if (!Player || LootItems.Num() == 0)
     {

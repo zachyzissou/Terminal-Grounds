@@ -114,6 +114,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Combat")
 	void TakeDamage(float DamageAmount);
 
+	// Override standard UE5 damage system
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
+
 	UFUNCTION(BlueprintPure, Category = "AI")
 	EEnemyState GetCurrentState() const { return CurrentState; }
 

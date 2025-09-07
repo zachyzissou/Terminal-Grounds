@@ -23,15 +23,16 @@ public class TGTerritorial : ModuleRules
                 "Core",
                 "CoreUObject",
                 "Engine",
-                "UnrealEd",
                 "Json",
                 "JsonUtilities",
                 "HTTP",
                 "TGNet",
-                "TGAI",
                 "TGCore"
             }
         );
+        
+        // Forward declarations for other TG modules (avoid circular dependencies)
+        PublicIncludePathModuleNames.AddRange(new string[] { "TGAI" });
         
         PublicIncludePathModuleNames.AddRange(new string[] { "TGWorld" });
 
@@ -39,15 +40,24 @@ public class TGTerritorial : ModuleRules
             new string[] {
                 "Slate",
                 "SlateCore",
-                "EditorStyle",
-                "EditorWidgets",
-                "UnrealEd",
-                "ToolMenus",
-                "PropertyEditor",
                 "RenderCore",
                 "RHI"
             }
         );
+        
+        // Editor-only dependencies
+        if (Target.bBuildEditor)
+        {
+            PrivateDependencyModuleNames.AddRange(
+                new string[] {
+                    "UnrealEd",
+                    "EditorStyle",
+                    "EditorWidgets",
+                    "ToolMenus",
+                    "PropertyEditor"
+                }
+            );
+        }
 
         DynamicallyLoadedModuleNames.AddRange(
             new string[] {

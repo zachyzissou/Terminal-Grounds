@@ -201,6 +201,21 @@ struct TGCORE_API FTGResourceBonusAnalytics
     }
 };
 
+// Wrapper for TArray in TMap (UE5 reflection system requirement)
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGFactionSynergyArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<int32> SynergyFactionIds;
+
+    FTGFactionSynergyArray()
+    {
+        SynergyFactionIds.Empty();
+    }
+};
+
 // Event declarations for analytics integration
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnResourceBonusAnalyticsUpdated, ETerritoryResourceType, ResourceType, float, NewValue, float, ConfidenceInterval);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnTerritorialPredictionGenerated, int32, TerritoryId, FTGTerritorialControlPrediction, Prediction);
@@ -311,7 +326,7 @@ public:
 
     // Faction Synergy Analysis
     UFUNCTION(BlueprintCallable, Category = "Faction Synergy")
-    TMap<int32, TArray<int32>> AnalyzeFactionSynergies(); // Returns faction -> compatible factions
+    TMap<int32, FTGFactionSynergyArray> AnalyzeFactionSynergies(); // Returns faction -> compatible factions
 
     UFUNCTION(BlueprintCallable, Category = "Faction Synergy")
     float CalculateFactionPairSynergyScore(int32 FactionId1, int32 FactionId2);

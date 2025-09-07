@@ -8,6 +8,7 @@
 #include "TGPerformanceOptimizer.generated.h"
 
 class UTGPerformanceProfiler;
+class ATGProceduralArena;
 class UTGProceduralArena;
 class UTGTerritorialManager;
 class UGameViewportClient;
@@ -248,7 +249,7 @@ private:
     UTGPerformanceProfiler* BoundProfiler;
 
     UPROPERTY()
-    UTGProceduralArena* ProceduralArena;
+    ATGProceduralArena* ProceduralArena;
 
     UPROPERTY()
     UTGTerritorialManager* TerritorialManager;

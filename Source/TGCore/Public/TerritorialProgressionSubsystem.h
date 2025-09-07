@@ -23,7 +23,7 @@ enum class EFactionProgressionTier : uint8
 };
 
 UENUM(BlueprintType)
-enum class ETerritoryResourceType : uint8
+enum class EProgressionResourceType : uint8
 {
     Industrial      UMETA(DisplayName = "Industrial"),
     Military        UMETA(DisplayName = "Military"),
@@ -68,7 +68,7 @@ struct TGCORE_API FTGFactionProgressionData
     int32 TotalTerritoryHours = 0; // Performance metric for territorial dominance
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Progression")
-    TMap<ETerritoryResourceType, int32> ResourceBonuses;
+    TMap<EProgressionResourceType, int32> ResourceBonuses;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Progression")
     TSet<FName> UnlockedAbilities;
@@ -111,7 +111,7 @@ struct TGCORE_API FTGCachedTerritorialState
     int32 StrategicValue;
 
     UPROPERTY()
-    ETerritoryResourceType ResourceType;
+    EProgressionResourceType ResourceType;
 
     UPROPERTY()
     float ControlDuration; // Seconds controlled
@@ -124,7 +124,7 @@ struct TGCORE_API FTGCachedTerritorialState
         TerritoryId = 0;
         ControllingFactionId = 0;
         StrategicValue = 1;
-        ResourceType = ETerritoryResourceType::Economic;
+        ResourceType = EProgressionResourceType::Economic;
         ControlDuration = 0.0f;
         bContested = false;
     }
@@ -152,7 +152,7 @@ struct TGCORE_API FTGTerritorialObjective
     int32 RequiredTerritories = 1;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objective")
-    ETerritoryResourceType RequiredResourceType;
+    EProgressionResourceType RequiredResourceType;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Objective")
     float ReputationReward = 100.0f;
@@ -169,10 +169,25 @@ struct TGCORE_API FTGTerritorialObjective
     FTGTerritorialObjective()
     {
         RequiredTerritories = 1;
-        ResourceType = ETerritoryResourceType::Economic;
+        RequiredResourceType = EProgressionResourceType::Economic;
         ReputationReward = 100.0f;
         bCompleted = false;
         CompletionTime = FDateTime::Now();
+    }
+};
+
+// Wrapper for TArray in TMap (UE5 reflection system requirement)
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGFactionUnlockArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<FName> UnlockNames;
+
+    FTGFactionUnlockArray()
+    {
+        UnlockNames.Empty();
     }
 };
 
@@ -189,7 +204,7 @@ struct TGCORE_API FTGProgressionBatchResult
     TMap<int32, float> ReputationDeltas;
 
     UPROPERTY()
-    TMap<int32, TArray<FName>> NewUnlocks;
+    TMap<int32, FTGFactionUnlockArray> NewUnlocks;
 
     UPROPERTY()
     int32 ProcessedTerritories;
@@ -207,7 +222,7 @@ struct TGCORE_API FTGProgressionBatchResult
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnFactionProgressionChanged, int32, FactionId, EFactionProgressionTier, NewTier, float, NewReputation);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnFactionAbilityUnlocked, int32, FactionId, FName, AbilityId, EFactionAbilityType, AbilityType);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnTerritorialObjectiveCompleted, int32, FactionId, FName, ObjectiveId);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnResourceBonusChanged, int32, FactionId, ETerritoryResourceType, ResourceType);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnResourceBonusChanged, int32, FactionId, EProgressionResourceType, ResourceType);
 
 /**
  * Territorial Progression Subsystem
@@ -264,7 +279,7 @@ public:
     float GetInfluenceRateMultiplier(int32 FactionId) const;
 
     UFUNCTION(BlueprintPure, Category = "Territorial Progression")
-    int32 GetResourceBonus(int32 FactionId, ETerritoryResourceType ResourceType) const;
+    int32 GetResourceBonus(int32 FactionId, EProgressionResourceType ResourceType) const;
 
     UFUNCTION(BlueprintPure, Category = "Territorial Progression")
     TArray<FName> GetAvailableSupplyRoutes(int32 FactionId) const;
@@ -328,12 +343,12 @@ public:
     };
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Progression Config")
-    TMap<ETerritoryResourceType, float> ResourceTypeMultipliers = {
-        {ETerritoryResourceType::Strategic, 2.0f},
-        {ETerritoryResourceType::Military, 1.5f},
-        {ETerritoryResourceType::Research, 1.5f},
-        {ETerritoryResourceType::Industrial, 1.2f},
-        {ETerritoryResourceType::Economic, 1.0f}
+    TMap<EProgressionResourceType, float> ResourceTypeMultipliers = {
+        {EProgressionResourceType::Strategic, 2.0f},
+        {EProgressionResourceType::Military, 1.5f},
+        {EProgressionResourceType::Research, 1.5f},
+        {EProgressionResourceType::Industrial, 1.2f},
+        {EProgressionResourceType::Economic, 1.0f}
     };
 
 protected:

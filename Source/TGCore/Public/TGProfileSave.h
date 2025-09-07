@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/SaveGame.h"
 #include "Trust/TGTrustSubsystem.h"
-#include "../TGTerritorial/Public/PhaseGateComponent.h"
+#include "PhaseGateComponent.h"
 #include "TGProfileSave.generated.h"
 
 // Territory state for persistence
@@ -97,6 +97,21 @@ struct FTGSiegePerformanceRecord
     }
 };
 
+// Wrapper for TArray in TMap (UE5 reflection system requirement)
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGFactionAbilityArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<FName> AbilityNames;
+
+    FTGFactionAbilityArray()
+    {
+        AbilityNames.Empty();
+    }
+};
+
 UCLASS()
 class TGCORE_API UTGProfileSave : public USaveGame
 {
@@ -150,7 +165,7 @@ public:
 	TMap<int32, int32> FactionProgressionTiers; // FactionId -> EFactionProgressionTier as int32
 	
 	UPROPERTY()
-	TMap<int32, TArray<FName>> FactionUnlockedAbilities; // FactionId -> Array of unlocked ability names
+	TMap<int32, FTGFactionAbilityArray> FactionUnlockedAbilities; // FactionId -> Array of unlocked ability names
 	
 	UPROPERTY()
 	TMap<int32, int32> FactionTerritoryHours; // FactionId -> Total territory control hours
@@ -181,7 +196,7 @@ public:
 			FactionTerritoryHours.Add(FactionId, 0);
 			FactionExtractionBonuses.Add(FactionId, 1.0f);
 			FactionInfluenceRates.Add(FactionId, 1.0f);
-			FactionUnlockedAbilities.Add(FactionId, TArray<FName>());
+			FactionUnlockedAbilities.Add(FactionId, FTGFactionAbilityArray());
 		}
 	}
 };

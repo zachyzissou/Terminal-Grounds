@@ -8,6 +8,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/PlayerController.h"
+#include "GameFramework/PlayerStart.h"
 
 UTGPlaytestMenu::UTGPlaytestMenu(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)

@@ -1,36 +1,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "TGMissionDirector2.h"
 #include "../TGTerritorial/Public/PhaseGateComponent.h"
 #include "SiegeHelpers.generated.h"
 
-USTRUCT(BlueprintType)
-struct FSiegePlan
-{
-    GENERATED_BODY()
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
-    TArray<FMissionStageData> ProbeStages;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
-    TArray<FMissionStageData> InterdictStages;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
-    TArray<FMissionStageData> DominateStages;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
-    float DominanceRewardPerStage = 0.1f;
-
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Siege Plan")
-    int32 TicketCostPerFailure = 5;
-
-    FSiegePlan()
-    {
-        DominanceRewardPerStage = 0.1f;
-        TicketCostPerFailure = 5;
-    }
-};
+// Forward declarations - FSiegePlan moved to TGMissionDirector2.h to avoid circular dependency
 
 USTRUCT(BlueprintType)
 struct FSiegeDynamicEventOutcome

@@ -1,7 +1,7 @@
 #include "TGDemoManager.h"
 #include "Engine/World.h"
 #include "Kismet/GameplayStatics.h"
-#include "TGEnemyGrunt.h"
+#include "TGAI/Public/TGEnemyGrunt.h"
 #include "TGWeapon.h"
 #include "TGCore/Public/TGPlayPawn.h"
 #include "Engine/StaticMeshActor.h"

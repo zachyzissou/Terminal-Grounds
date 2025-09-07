@@ -24,7 +24,18 @@
       "Bash(git reset:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(find:*)",
+      "Bash(git mv:*)",
+      "Read(//c/Users/Zachg/Desktop/**)",
+      "Bash(\"C:/Program Files/Epic Games/UE_5.4/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe\" -projectfiles -project=\"TerminalGrounds.uproject\" -game -rocket -progress)",
+      "Read(//c/Program Files/Epic Games//**)",
+      "Bash(\"/c/Program Files/Epic Games/UE_5.6/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe\" -projectfiles -project=\"TerminalGrounds.uproject\" -game -rocket -progress)",
+      "Bash(\"/c/Program Files/Epic Games/UE_5.6/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe\" -projectfiles -project=\"/c/Users/Zachg/Terminal-Grounds/TerminalGrounds.uproject\" -game -rocket -progress)",
+      "Bash(\"/c/Program Files/Epic Games/UE_5.6/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe\" TerminalGrounds DebugGame Win64 -project=\"/c/Users/Zachg/Terminal-Grounds/TerminalGrounds.uproject\" -rocket -notools -buildscw)",
+      "Bash(dir:*)",
+      "Bash(\"/c/Program Files/Epic Games/UE_5.6/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe\" TerminalGrounds DebugGame Win64 -project=\"C:/Users/Zachg/Terminal-Grounds/TerminalGrounds.uproject\" -rocket -notools -buildscw)",
+      "Bash(\"/c/Program Files/Epic Games/UE_5.6/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe\" -projectfiles -project=\"C:/Users/Zachg/Terminal-Grounds/TerminalGrounds.uproject\" -game -rocket -progress)"
     ],
     "deny": [
       "Bash(rm -rf:*)",

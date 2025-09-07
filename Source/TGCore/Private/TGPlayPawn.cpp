@@ -9,6 +9,8 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "TGCombat/Public/TGWeapon.h"
+#include "TGPlaytestGameMode.h"
+#include "Kismet/GameplayStatics.h"
 
 ATGPlayPawn::ATGPlayPawn()
 {
@@ -105,6 +107,12 @@ void ATGPlayPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 			EnhancedInputComponent->BindAction(AimAction, ETriggerEvent::Started, this, &ATGPlayPawn::StartAim);
 			EnhancedInputComponent->BindAction(AimAction, ETriggerEvent::Completed, this, &ATGPlayPawn::StopAim);
 		}
+
+		// Restart
+		if (RestartAction)
+		{
+			EnhancedInputComponent->BindAction(RestartAction, ETriggerEvent::Triggered, this, &ATGPlayPawn::RestartMission);
+		}
 	}
 }
 
@@ -196,10 +204,48 @@ void ATGPlayPawn::TakeDamage(float DamageAmount)
 {
 	Health = FMath::Clamp(Health - DamageAmount, 0.0f, MaxHealth);
 	OnHealthChanged(Health, MaxHealth);
+
+	// Check if player died
+	if (Health <= 0.0f)
+	{
+		// Notify the playtest game mode
+		if (UWorld* World = GetWorld())
+		{
+			if (ATGPlaytestGameMode* PlaytestGameMode = Cast<ATGPlaytestGameMode>(World->GetAuthGameMode()))
+			{
+				PlaytestGameMode->OnPlayerDied();
+			}
+		}
+
+		UE_LOG(LogTemp, Log, TEXT("Player %s has died"), *GetName());
+	}
 }
 
 void ATGPlayPawn::Heal(float HealAmount)
 {
 	Health = FMath::Clamp(Health + HealAmount, 0.0f, MaxHealth);
 	OnHealthChanged(Health, MaxHealth);
+}
+
+float ATGPlayPawn::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+	// Call our custom damage function
+	TakeDamage(DamageAmount);
+	
+	// Return the amount of damage actually taken
+	return FMath::Min(DamageAmount, Health + DamageAmount - FMath::Max(Health, 0.0f));
+}
+
+void ATGPlayPawn::RestartMission()
+{
+	// Notify the playtest game mode to restart
+	if (UWorld* World = GetWorld())
+	{
+		if (ATGPlaytestGameMode* PlaytestGameMode = Cast<ATGPlaytestGameMode>(World->GetAuthGameMode()))
+		{
+			PlaytestGameMode->RestartMission();
+		}
+	}
+	
+	UE_LOG(LogTemp, Log, TEXT("Player requested mission restart"));
 }

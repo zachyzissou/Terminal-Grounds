@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "GameplayTagContainer.h"
+#include "Sound/SoundCue.h"
 #include "TGAugmentData.generated.h"
 
 UENUM(BlueprintType)

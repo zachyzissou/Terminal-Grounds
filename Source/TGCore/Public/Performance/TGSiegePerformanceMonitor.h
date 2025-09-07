@@ -4,7 +4,7 @@
 #include "Components/ActorComponent.h"
 #include "Net/UnrealNetwork.h"
 #include "TGPerformanceProfiler.h"
-#include "../TGTerritorial/Public/PhaseGateComponent.h"
+#include "PhaseGateComponent.h"
 #include "TGSiegePerformanceMonitor.generated.h"
 
 // Siege-specific performance metrics

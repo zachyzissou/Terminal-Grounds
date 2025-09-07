@@ -189,6 +189,35 @@ struct FFactionEconomicSpecialization
     }
 };
 
+// Wrappers for TArray in TMap (UE5 reflection system requirement)
+USTRUCT(BlueprintType)
+struct TGWORLD_API FTGRouteDisruptionArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<FRouteDisruption> Disruptions;
+
+    FTGRouteDisruptionArray()
+    {
+        Disruptions.Empty();
+    }
+};
+
+USTRUCT(BlueprintType)
+struct TGWORLD_API FTGEconomicAllianceArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<int32> AlliedFactionIds;
+
+    FTGEconomicAllianceArray()
+    {
+        AlliedFactionIds.Empty();
+    }
+};
+
 // Event Delegates
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams(FOnRouteDisrupted, FName, RouteId, ERouteDisruptionType, DisruptionType, int32, ResponsibleFactionID, float, Duration);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnTerritorialBlockadeEstablished, int32, TerritoryID, int32, BlockadingFactionID, float, TaxRate);
@@ -362,7 +391,7 @@ protected:
 private:
     // Core state management
     UPROPERTY()
-    TMap<FName, TArray<FRouteDisruption>> RouteDisruptions;
+    TMap<FName, FTGRouteDisruptionArray> RouteDisruptions;
 
     UPROPERTY()
     TMap<int32, FTerritorialBlockade> TerritorialBlockades; // TerritoryID -> Blockade
@@ -374,7 +403,7 @@ private:
     TMap<int32, float> FactionEconomicPower; // FactionID -> Economic Power Score
 
     UPROPERTY()
-    TMap<int32, TArray<int32>> EconomicAlliances; // FactionID -> Allied Faction IDs
+    TMap<int32, FTGEconomicAllianceArray> EconomicAlliances; // FactionID -> Allied Faction IDs
 
     UPROPERTY()
     TMap<int32, float> FactionEconomicDamageDealt; // FactionID -> Total Damage Dealt

@@ -5,7 +5,8 @@
 #include "Components/SceneComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "Sound/SoundCue.h"
-#include "TGWeapon.generated.h"
+#include "TGWeapon.h"
+#include "TGDemoWeapon.generated.h"
 
 UCLASS()
 class TGCOMBAT_API ATGDemoWeapon : public ATGWeapon
@@ -65,10 +66,9 @@ public:
 
     // Weapon Functions
     UFUNCTION(BlueprintCallable, Category = "Weapon")
-    virtual void Fire() override;
+    virtual void Fire();
 
-    UFUNCTION(BlueprintCallable, Category = "Weapon")
-    virtual void Reload() override;
+    virtual void Reload();
 
     UFUNCTION(BlueprintCallable, Category = "Weapon")
     void StopFiring();

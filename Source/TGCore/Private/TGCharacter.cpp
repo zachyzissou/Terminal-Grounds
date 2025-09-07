@@ -2,6 +2,7 @@
 
 ATGCharacter::ATGCharacter()
 {
+	PrimaryActorTick.bCanEverTick = false;
 }
 
 void ATGCharacter::BeginPlay()

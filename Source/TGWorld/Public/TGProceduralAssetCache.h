@@ -182,7 +182,7 @@ public:
     UObject* GetCachedAsset(const FString& CacheKey);
 
     UFUNCTION(BlueprintCallable, Category = "Asset Cache")
-    bool CacheAsset(const FString& CacheKey, UObject* Asset, EProceduralAssetType AssetType, const TMap<FString, FString>& Metadata = TMap<FString, FString>());
+    bool CacheAsset(const FString& CacheKey, UObject* Asset, EProceduralAssetType AssetType);
 
     UFUNCTION(BlueprintCallable, Category = "Asset Cache")
     void InvalidateCache(const FString& CacheKey);

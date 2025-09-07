@@ -8,8 +8,6 @@
 UTGPlaytestHUD::UTGPlaytestHUD(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
-	// Enable ticking for real-time updates
-	bCanEverTick = true;
 }
 
 void UTGPlaytestHUD::NativeConstruct()

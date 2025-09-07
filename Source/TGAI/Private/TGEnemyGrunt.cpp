@@ -6,7 +6,9 @@
 #include "Engine/Engine.h"
 #include "TimerManager.h"
 #include "TGCore/Public/TGPlayPawn.h"
+#include "TGCore/Public/TGPlaytestGameMode.h"
 #include "Components/CapsuleComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 ATGEnemyGrunt::ATGEnemyGrunt()
 {
@@ -278,6 +280,15 @@ void ATGEnemyGrunt::TakeDamage(float DamageAmount)
 		SetEnemyState(EEnemyState::Dead);
 		OnDeath();
 
+		// Notify the playtest game mode
+		if (UWorld* World = GetWorld())
+		{
+			if (ATGPlaytestGameMode* PlaytestGameMode = Cast<ATGPlaytestGameMode>(World->GetAuthGameMode()))
+			{
+				PlaytestGameMode->OnEnemyDied(this);
+			}
+		}
+
 		// Clear all timers
 		GetWorld()->GetTimerManager().ClearTimer(AttackTimerHandle);
 		GetWorld()->GetTimerManager().ClearTimer(PatrolTimerHandle);
@@ -288,4 +299,14 @@ void ATGEnemyGrunt::TakeDamage(float DamageAmount)
 
 		UE_LOG(LogTemp, Log, TEXT("Enemy %s has died"), *GetName());
 	}
+}
+
+float ATGEnemyGrunt::TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser)
+{
+	// Call our custom damage function
+	float OldHealth = Health;
+	TakeDamage(DamageAmount);
+	
+	// Return the amount of damage actually taken
+	return OldHealth - Health;
 }

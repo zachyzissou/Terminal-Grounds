@@ -242,6 +242,21 @@ struct TGCORE_API FTGBusinessIntelligence
     }
 };
 
+// Wrapper for TArray in TMap (UE5 reflection system requirement)
+USTRUCT(BlueprintType)
+struct TGCORE_API FTGPerformanceMetricsArray
+{
+    GENERATED_BODY()
+
+    UPROPERTY()
+    TArray<float> ProcessingTimes;
+
+    FTGPerformanceMetricsArray()
+    {
+        ProcessingTimes.Empty();
+    }
+};
+
 // Dashboard events
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAnalyticsAlert, FTGAnalyticsAlert, Alert);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnAnalyticsReportGenerated, EAnalyticsReportType, ReportType, FTGAnalyticsReport, Report);
@@ -311,7 +326,10 @@ public:
 
     // Alert Management
     UFUNCTION(BlueprintCallable, Category = "Alerts")
-    void CreateAlert(EAnalyticsAlertLevel Level, const FString& Title, const FString& Description, const FString& RecommendedAction, const TArray<int32>& AffectedFactions = TArray<int32>());
+    void CreateAlert(EAnalyticsAlertLevel Level, const FString& Title, const FString& Description, const FString& RecommendedAction, const TArray<int32>& AffectedFactions);
+
+    UFUNCTION(BlueprintCallable, Category = "Alerts", CallInEditor)
+    void CreateAlertSimple(EAnalyticsAlertLevel Level, const FString& Title, const FString& Description, const FString& RecommendedAction) { CreateAlert(Level, Title, Description, RecommendedAction, TArray<int32>()); }
 
     UFUNCTION(BlueprintPure, Category = "Alerts")
     TArray<FTGAnalyticsAlert> GetActiveAlerts() const;
@@ -442,7 +460,7 @@ protected:
     FTGBusinessIntelligence CurrentBusinessIntel;
 
     UPROPERTY()
-    TMap<FString, TArray<float>> PerformanceMetrics; // SystemName -> ProcessingTimes
+    TMap<FString, FTGPerformanceMetricsArray> PerformanceMetrics; // SystemName -> ProcessingTimes
 
     UPROPERTY()
     TArray<FString> ActiveABTests;

@@ -12,22 +12,37 @@ public class TGCore : ModuleRules
             "DeveloperSettings", 
             "GameplayTags", 
             "EnhancedInput", 
-            "TGTerritorial",
-            "TGWorld",
+            "UMG",
+            "AIModule",
+            "NavigationSystem",
             "RenderCore",
             "RHI"
         });
+        
+        // Forward declarations for other TG modules (avoid circular dependencies)
+        PublicIncludePathModuleNames.AddRange(new string[] { 
+            "TGTerritorial",
+            "TGWorld",
+            "TGCombat",
+            "TGAI"
+        });
         PrivateDependencyModuleNames.AddRange(new string[] { 
             "Slate",
-            "SlateCore",
-            "UnrealEd",
-            "ToolMenus",
-            "EditorStyle",
-            "EditorWidgets",
-            "PropertyEditor",
-            "BlueprintGraph",
-            "KismetCompiler",
-            "NavigationSystem"
+            "SlateCore"
         });
+        
+        // Editor-only dependencies
+        if (Target.bBuildEditor)
+        {
+            PrivateDependencyModuleNames.AddRange(new string[] { 
+                "UnrealEd",
+                "ToolMenus",
+                "EditorStyle",
+                "EditorWidgets",
+                "PropertyEditor",
+                "BlueprintGraph",
+                "KismetCompiler"
+            });
+        }
     }
 }

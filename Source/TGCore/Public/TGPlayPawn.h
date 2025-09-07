@@ -56,6 +56,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* AimAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* RestartAction;
+
 	// Movement Properties
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement")
 	float WalkSpeed = 600.0f;
@@ -89,19 +92,24 @@ protected:
 	void StopFire();
 	void StartAim();
 	void StopAim();
+	void RestartMission();
 
 	// Combat Functions
 	UFUNCTION(BlueprintCallable, Category = "Combat")
 	void TakeDamage(float DamageAmount);
 
-	UFUNCTION(BlueprintCallable, Category = "Combat")
-	void Heal(float HealAmount);
+	// Override standard UE5 damage system
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Combat")
 	void OnHealthChanged(float NewHealth, float MaxHealthValue);
 
 	UFUNCTION(BlueprintImplementableEvent, Category = "Combat")
 	void OnAmmoChanged(float NewAmmo, float MaxAmmoValue);
+
+public:
+	UFUNCTION(BlueprintCallable, Category = "Combat")
+	void Heal(float HealAmount);
 
 private:
 	bool bIsSprinting = false;

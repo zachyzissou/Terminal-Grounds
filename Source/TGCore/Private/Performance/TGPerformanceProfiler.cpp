@@ -10,8 +10,8 @@
 #include "Engine/GameViewportClient.h"
 #include "GameFramework/GameNetworkManager.h"
 #include "Net/UnrealNetwork.h"
-#include "../TGTerritorial/Public/PhaseGateComponent.h"
-#include "../TGTerritorial/Public/DominanceMeterComponent.h"
+#include "PhaseGateComponent.h"
+#include "DominanceMeterComponent.h"
 #include "Persistence/TGTerritorialPersistenceSubsystem.h"
 
 UTGPerformanceProfiler::UTGPerformanceProfiler()

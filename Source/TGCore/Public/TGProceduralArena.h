@@ -141,13 +141,13 @@ protected:
 
 public:
 	// Generation Functions
-	UFUNCTION(BlueprintCallable, Category = "Generation", CallInEditor = true)
+	UFUNCTION(BlueprintCallable, Category = "Generation", CallInEditor)
 	void GenerateArena();
 
-	UFUNCTION(BlueprintCallable, Category = "Generation", CallInEditor = true)
+	UFUNCTION(BlueprintCallable, Category = "Generation", CallInEditor)
 	void ClearArena();
 
-	UFUNCTION(BlueprintCallable, Category = "Generation", CallInEditor = true)
+	UFUNCTION(BlueprintCallable, Category = "Generation", CallInEditor)
 	void ValidateArena();
 
 	UFUNCTION(BlueprintCallable, Category = "Generation")
